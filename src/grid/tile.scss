@@ -1,0 +1,17 @@
+.tile {
+  &--wall {
+    fill: red;
+  }
+
+  &--floor {
+    fill: yellow;
+  }
+
+  &--empty {
+    fill: black;
+  }
+
+  &--dropzone {
+    fill: pink;
+  }
+}

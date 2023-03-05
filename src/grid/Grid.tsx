@@ -1,15 +1,24 @@
 import { useSelector } from 'react-redux'
+import { TileType } from '../store/reducers/tiles'
 import { RootState } from '../store/store'
+import Tile from './Tile'
+
 import './grid.scss'
 
 const Grid = () => {
-  const columns = useSelector<RootState>(state => state.tiles.columns)
-  console.log(`columns`, columns)
+  const columns = useSelector<RootState, number>(state => state.tiles.columns)
+  const staticTiles = useSelector<RootState, TileType[]>(state => state.tiles.static)
+  const tileSize = 100 / columns
+  // const svgHeight = props.columns ? 100 * props.rows / props.columns : 100
+  const viewBoxHeight = Math.floor(staticTiles.length / columns) * tileSize
+
+  // console.log(`columns`, columns)
   return (
     <div className="grid">
-      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="0" width="7.6923076923076925" height="7.6923076923076925" className="grid-cell__rectangle"></rect>
-        <rect x="7.6923076923076925" y="0" width="7.6923076923076925" height="7.6923076923076925" className="grid-cell__rectangle"></rect>
+      <svg viewBox={`0 0 100 ${viewBoxHeight}`} xmlns="http://www.w3.org/2000/svg">
+        {staticTiles.map((tt, i) => (
+          <Tile type={tt} index={i} tileSize={tileSize} key={i}/>
+        ))}
       </svg>
     </div>
   )

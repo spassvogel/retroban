@@ -22,7 +22,7 @@ export type TilesStoreState = {
 }
 
 const initial: TilesStoreState = {
-  columns: 7,
+  columns: 8,
   static: [
     _, _, W, W, W, W, W, _,
     W, W, W, F, F, F, W, _,
