@@ -4,12 +4,12 @@ import { RootState } from '../store/store'
 import Tile from './Tile'
 
 import './grid.scss'
+import ObjectsLayer from './objects/ObjectsLayer'
 
 const Grid = () => {
   const columns = useSelector<RootState, number>(state => state.tiles.columns)
   const staticTiles = useSelector<RootState, TileType[]>(state => state.tiles.static)
   const tileSize = 100 / columns
-  // const svgHeight = props.columns ? 100 * props.rows / props.columns : 100
   const viewBoxHeight = Math.floor(staticTiles.length / columns) * tileSize
 
   // console.log(`columns`, columns)
@@ -19,6 +19,7 @@ const Grid = () => {
         {staticTiles.map((tt, i) => (
           <Tile type={tt} index={i} tileSize={tileSize} key={i}/>
         ))}
+        <ObjectsLayer tileSize={tileSize}/>
       </svg>
     </div>
   )
