@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux"
 import { TileType } from "../store/reducers/tiles"
 import { RootState } from "../store/store"
-import { getPosition } from "./gridUtilities"
+import { getPosition } from "./utils/grid"
 
 import './tile.scss'
 

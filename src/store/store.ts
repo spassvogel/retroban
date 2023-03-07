@@ -5,6 +5,7 @@ const store = configureStore({
   reducer: {
     tiles
   },
+  devTools: true
 })
 
 export default store

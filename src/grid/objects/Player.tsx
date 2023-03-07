@@ -1,6 +1,8 @@
 import { useSelector } from "react-redux"
 import { RootState } from "../../store/store"
-import { getPosition } from "../gridUtilities"
+import { getPosition } from "../utils/grid"
+
+import './player.scss'
 
 type Props = {
   index: number
@@ -13,10 +15,9 @@ const Tile = ({ index, tileSize }: Props) => {
   return (
     <circle
       data-index={index}
-      x={x * tileSize}
-      y={y * tileSize}
-      width={tileSize}
-      height={tileSize}
+      cx={x * tileSize - tileSize / 2}
+      cy={y * tileSize - tileSize / 2}
+      r={tileSize / 2}
       className={`player`}
     >
     </circle>
