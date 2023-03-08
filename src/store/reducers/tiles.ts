@@ -42,7 +42,7 @@ const initial: TilesStoreState = {
     // TileType.wall,     TileType.wall,     TileType.wall,     TileType.floor,    TileType.floor,    TileType.dropzone, TileType.wall,     TileType.empty,
   ],
   objects: [{
-    tileIndex: 0,
+    tileIndex: 19,
     objectType: ObjectType.player
   }]
 }
@@ -68,7 +68,11 @@ const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) =
       if (destination === undefined) {
         return state
       }
-      console.log(`(wouter) new Neighbor`, destination);
+      console.log(`(wouter) new Neighbor`, destination)
+      if (state.static[destination] === TileType.wall) {
+        console.log('boink')
+        return state
+      }
       return {
         ...state,
         objects: state.objects.map((o) => {
