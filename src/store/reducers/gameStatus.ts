@@ -24,7 +24,10 @@ const initialGameData: GameStatusState = {
 const gameStatusReducer: Reducer<GameStatusState> = (state = initialGameData, action: SokobanAction) => {
   switch (action.type) {
     case SET_GAME_STATUS: {
-      return state
+      return {
+        ...state,
+        status: action.payload.status
+      }
     }
     // case gameActionTypes.RESET_PUZZLE:
     //   return {

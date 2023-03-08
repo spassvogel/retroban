@@ -1,4 +1,5 @@
-.box {
-  fill: blue;
-  // transform: scale(0.8)
+.object {
+  &--type-box {
+    fill: blue;
+  }
 }

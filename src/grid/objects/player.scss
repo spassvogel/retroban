@@ -1,3 +1,7 @@
-.player {
-  fill: darkslateblue;
+.object {
+  transition: all 0.25s ease;
+
+  &--type-player {
+    fill: darkslateblue;
+  }
 }
