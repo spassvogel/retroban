@@ -42,8 +42,29 @@ const initial: TilesStoreState = {
     // TileType.wall,     TileType.wall,     TileType.wall,     TileType.floor,    TileType.floor,    TileType.dropzone, TileType.wall,     TileType.empty,
   ],
   objects: [{
-    tileIndex: 19,
+    tileIndex: 18,
     objectType: ObjectType.player
+   }, {
+    tileIndex: 19,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 28,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 36,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 49,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 51,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 52,
+    objectType: ObjectType.box
+   }, {
+    tileIndex: 53,
+    objectType: ObjectType.box
   }]
 }
 

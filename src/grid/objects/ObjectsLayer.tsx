@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux"
 import { TileObject, ObjectType } from "../../store/reducers/tiles"
 import { RootState } from "../../store/store"
+import Box from "./Box"
 import Player from "./Player"
 
 type Props = {
@@ -13,10 +14,13 @@ const ObjectsLayer = ({ tileSize }: Props) => {
 
   return (
     <>
-      {objects.map((o) => {
+      {objects.map((o, i) => {
         switch(o.objectType) {
           case ObjectType.player: {
-            return <Player index={o.tileIndex} tileSize={tileSize} />
+            return <Player index={o.tileIndex} tileSize={tileSize} key="player"/>
+          }
+          case ObjectType.box: {
+            return <Box index={o.tileIndex} tileSize={tileSize} key={`box${i}`}/>
           }
         }
       })}
