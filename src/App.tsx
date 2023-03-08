@@ -11,19 +11,15 @@ const App = () => {
 
   useKeyPress('ArrowUp', () => {
     dispatch(goUp())
-    console.log('going up')
   })
   useKeyPress('ArrowRight', () => {
     dispatch(goRight())
-    console.log('going right')
   })
   useKeyPress('ArrowDown', () => {
     dispatch(goDown())
-    console.log('going down')
   })
   useKeyPress('ArrowLeft', () => {
     dispatch(goLeft())
-    console.log('going left')
   })
   return (
     <div className="App">
