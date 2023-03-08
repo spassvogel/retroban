@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import { Object, ObjectType } from "../../store/reducers/tiles"
+import { TileObject, ObjectType } from "../../store/reducers/tiles"
 import { RootState } from "../../store/store"
 import Player from "./Player"
 
@@ -8,8 +8,7 @@ type Props = {
 }
 
 const ObjectsLayer = ({ tileSize }: Props) => {
-  const columns = useSelector<RootState, number>(state => state.tiles.columns)
-  const objects = useSelector<RootState, Object[]>(state => state.tiles.objects)
+  const objects = useSelector<RootState, TileObject[]>(state => state.tiles.objects)
 
 
   return (

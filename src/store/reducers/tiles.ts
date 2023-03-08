@@ -42,77 +42,33 @@ const initial: TilesStoreState = {
     // TileType.wall,     TileType.wall,     TileType.wall,     TileType.floor,    TileType.floor,    TileType.dropzone, TileType.wall,     TileType.empty,
   ],
   objects: [{
-    tileIndex: 26,
+    tileIndex: 0,
     objectType: ObjectType.player
   }]
 }
 
+const DIRECTION = {
+  [GO_UP]: { x: 0, y: -1},
+  [GO_RIGHT]: { x: 1, y: 0},
+  [GO_DOWN]: { x: 0, y: 1},
+  [GO_LEFT]: { x: -1, y: 0},
+}
+
 const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) => {
   switch (action.type) {
-    case GO_UP: {
-      const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
-      if (!playerObject) return state
-      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, 0, -1)
-      if (destination === undefined) return state
-      console.log(`(wouter) upNeighbor`, destination);
-      return {
-        ...state,
-        objects: state.objects.map((o) => {
-          if (o === playerObject) {
-            return {
-              ...o,
-              tileIndex: destination
-            }
-          }
-          return o
-        })
-      }
-    }
-    case GO_RIGHT: {
-      const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
-      if (!playerObject) return state
-      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, 1, 0)
-      if (destination === undefined) return state
-      console.log(`(wouter) rightNeighbor`, destination);
-      return {
-        ...state,
-        objects: state.objects.map((o) => {
-          if (o === playerObject) {
-            return {
-              ...o,
-              tileIndex: destination
-            }
-          }
-          return o
-        })
-      }
-    }
-    case GO_DOWN: {
-      const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
-      if (!playerObject) return state
-      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, 0, 1)
-      if (destination === undefined) return state
-      console.log(`(wouter) downNeighbor`, destination);
-      return {
-        ...state,
-        objects: state.objects.map((o) => {
-          if (o === playerObject) {
-            return {
-              ...o,
-              tileIndex: destination
-            }
-          }
-          return o
-        })
-      }
-    }
+    case GO_UP:
+    case GO_RIGHT:
+    case GO_DOWN:
     case GO_LEFT: {
       const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
       if (!playerObject) return state
-      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, -1, 0)
-      console.log(`(wouter) leftNeighbor`, destination);
-      if (destination === undefined) return state
-      console.log(`(wouter) downNeighbor`, destination);
+
+      const { x, y } = DIRECTION[action.type]
+      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, x, y)
+      if (destination === undefined) {
+        return state
+      }
+      console.log(`(wouter) new Neighbor`, destination);
       return {
         ...state,
         objects: state.objects.map((o) => {
@@ -126,6 +82,64 @@ const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) =
         })
       }
     }
+    // case GO_RIGHT: {
+    //   const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
+    //   if (!playerObject) return state
+    //   const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, 1, 0)
+    //   if (destination === undefined) return state
+    //   console.log(`(wouter) rightNeighbor`, destination);
+    //   return {
+    //     ...state,
+    //     objects: state.objects.map((o) => {
+    //       if (o === playerObject) {
+    //         return {
+    //           ...o,
+    //           tileIndex: destination
+    //         }
+    //       }
+    //       return o
+    //     })
+    //   }
+    // }
+    // case GO_DOWN: {
+    //   const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
+    //   if (!playerObject) return state
+    //   const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, 0, 1)
+    //   if (destination === undefined) return state
+    //   console.log(`(wouter) downNeighbor`, destination);
+    //   return {
+    //     ...state,
+    //     objects: state.objects.map((o) => {
+    //       if (o === playerObject) {
+    //         return {
+    //           ...o,
+    //           tileIndex: destination
+    //         }
+    //       }
+    //       return o
+    //     })
+    //   }
+    // }
+    // case GO_LEFT: {
+    //   const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
+    //   if (!playerObject) return state
+    //   const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, -1, 0)
+    //   console.log(`(wouter) leftNeighbor`, destination);
+    //   if (destination === undefined) return state
+    //   console.log(`(wouter) downNeighbor`, destination);
+    //   return {
+    //     ...state,
+    //     objects: state.objects.map((o) => {
+    //       if (o === playerObject) {
+    //         return {
+    //           ...o,
+    //           tileIndex: destination
+    //         }
+    //       }
+    //       return o
+    //     })
+    //   }
+    // }
   }
   return state
 }
