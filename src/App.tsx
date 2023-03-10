@@ -5,6 +5,8 @@ import { AppDispatch, SokobanStoreState } from './store/store'
 import { goDown, goLeft, goRight, goUp } from './store/actions/tiles'
 import { GameStatus, GameStatusType } from './store/reducers/gameStatus'
 import { undo } from './store/actions/undo'
+import ButtonRow from './ui/ButtonRow'
+
 import './App.css'
 
 const App = () => {
@@ -40,6 +42,7 @@ const App = () => {
   return (
     <div className="App">
       <Grid />
+      <ButtonRow />
     </div>
   )
 }
