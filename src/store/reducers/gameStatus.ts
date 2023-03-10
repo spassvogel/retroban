@@ -29,26 +29,6 @@ const gameStatusReducer: Reducer<GameStatusState> = (state = initialGameData, ac
         status: action.payload.status
       }
     }
-    // case gameActionTypes.RESET_PUZZLE:
-    //   return {
-    //     ...state,
-    //     status: gameStatus.IS_PLAYING,
-    //   }
-    // case gameActionTypes.SAVE_REVEALED_CELLS:
-    //   return {
-    //     ...state,
-    //     revealedCells: state.revealedCells + action.payload,
-    //   }
-    // case gameActionTypes.SAVE_COMPLETED_SETS:
-    //   return {
-    //     ...state,
-    //     completedSets: action.payload,
-    //   }
-    // case timerActionTypes.RESUME_TIMER:
-    //   return {
-    //     ...state,
-    //     status: gameStatus.IS_PLAYING,
-    //   }
     default: {
       return state
     }

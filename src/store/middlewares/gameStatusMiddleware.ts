@@ -1,11 +1,11 @@
 import { Middleware, MiddlewareAPI } from "@reduxjs/toolkit"
 import { SokobanAction } from "../actions/types"
 import { GameStatus } from "../reducers/gameStatus"
-import { AppDispatch, RootState } from "../store"
+import { AppDispatch, SokobanStoreState } from "../store"
 import { ObjectType, TileType } from "../reducers/tiles"
 import { setGameStatus } from "../actions/gameStatus"
 
-const gameStatusMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, RootState>) => (next: AppDispatch) => (action: SokobanAction) => {
+const gameStatusMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
 
   const result = next(action)
   const state = storeApi.getState()

@@ -1,15 +1,15 @@
-import { useState } from 'react'
 import Grid from './grid/Grid'
 import useKeyPress from './hooks/useKeyPress'
-import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
-import { AppDispatch, RootState } from './store/store'
+import { AppDispatch, SokobanStoreState } from './store/store'
 import { goDown, goLeft, goRight, goUp } from './store/actions/tiles'
 import { GameStatus, GameStatusType } from './store/reducers/gameStatus'
+import { undo } from './store/actions/undo'
+import './App.css'
 
 const App = () => {
   const dispatch = useDispatch<AppDispatch>()
-  const status = useSelector<RootState, GameStatusType>(state => state.gameStatus.status)
+  const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
 
   useKeyPress('ArrowUp', () => {
     if (status === GameStatus.IS_PLAYING) {
@@ -31,6 +31,12 @@ const App = () => {
       dispatch(goLeft())
     }
   }, [status])
+  useKeyPress('z', () => {
+    if (status === GameStatus.IS_PLAYING) {
+      dispatch(undo())
+    }
+  }, [status])
+
   return (
     <div className="App">
       <Grid />

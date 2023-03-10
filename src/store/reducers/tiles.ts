@@ -1,7 +1,7 @@
 import { Reducer } from "@reduxjs/toolkit";
-import { peekNeighor } from "../../grid/utils/grid";
 import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP } from "../actions/tiles";
 import { TilesAction } from "../actions/types";
+import { calculateMove } from "../utils/moves";
 
 export enum TileType { empty, wall,  floor,  dropzone }
 
@@ -68,12 +68,6 @@ const initial: TilesStoreState = {
   }]
 }
 
-const DIRECTION = {
-  [GO_UP]: { x: 0, y: -1},
-  [GO_RIGHT]: { x: 1, y: 0},
-  [GO_DOWN]: { x: 0, y: 1},
-  [GO_LEFT]: { x: -1, y: 0},
-}
 
 const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) => {
   switch (action.type) {
@@ -81,48 +75,25 @@ const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) =
     case GO_RIGHT:
     case GO_DOWN:
     case GO_LEFT: {
-      const playerObject = state.objects.find((o) => o.objectType === ObjectType.player)
-      if (!playerObject) return state
 
-      const { x, y } = DIRECTION[action.type]
-      const destination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, x, y)
-      if (destination === undefined) {
+      const move = calculateMove(state, action.type)
+      if (!move.player) {
         return state
       }
-      if (state.static[destination] === TileType.wall) {
-        // Hit the wall, can't continue
-        return state
-      }
-      const boxObject = state.objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)
-      let boxDestination: number | undefined
-      if (boxObject) {
-        // We're trying to push a box
-        boxDestination = peekNeighor(playerObject.tileIndex, state.columns, state.static.length / state.columns, x * 2, y * 2)
-        if (!boxDestination) {
-          return state
-        }
-        if (state.static[boxDestination] === TileType.wall) {
-          // The box would hit a wall, can't continue
-          return state
-        }
-        if (state.objects.find((o) => o.tileIndex === boxDestination && o.objectType === ObjectType.box)){
-          // Moving the box would hit another box, can't continue
-          return state
-        }
-      }
+
       return {
         ...state,
         objects: state.objects.map((o) => {
-          if (o === playerObject) {
+          if (move.player && o === move.player.object) {
             return {
               ...o,
-              tileIndex: destination
+              tileIndex: move.player?.destination
             }
           }
-          if (o === boxObject && boxDestination !== undefined) {
+          if (move.box && move.box.object === o) {
             return {
               ...o,
-              tileIndex: boxDestination
+              tileIndex: move.box.destination
             }
           }
           return o

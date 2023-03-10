@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 import { TileObject, ObjectType } from "../../store/reducers/tiles"
-import { RootState } from "../../store/store"
+import { SokobanStoreState } from "../../store/store"
 import Box from "./Box"
 import Player from "./Player"
 
@@ -9,7 +9,7 @@ type Props = {
 }
 
 const ObjectsLayer = ({ tileSize }: Props) => {
-  const objects = useSelector<RootState, TileObject[]>(state => state.tiles.objects)
+  const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
 
 
   return (

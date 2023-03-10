@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 import { TileType } from "../store/reducers/tiles"
-import { RootState } from "../store/store"
+import { SokobanStoreState } from "../store/store"
 import { getPosition } from "./utils/grid"
 
 import './tile.scss'
@@ -13,7 +13,7 @@ type Props = {
 }
 
 const Tile = ({ type, index, tileSize }: Props) => {
-  const columns = useSelector<RootState, number>(state => state.tiles.columns)
+  const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
   const { x, y } = getPosition(index, columns)
 
   return (
