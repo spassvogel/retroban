@@ -28,7 +28,30 @@ export const calculateMove = (state: TilesStoreState, direction: Direction): Mov
   }
 
   if (result.player) {
-    result.box = calculateMoxMove(state, direction, result.player.object, result.player.destination)
+    const box = state.objects.find((o) => result.player && o.tileIndex === result.player.destination && o.objectType === ObjectType.box)
+    if (!box) {
+      return result
+    }
+    const { x, y } = DIRECTION[direction]
+
+    // We're trying to push a box
+    const destination = peekNeighor(result.player.object.tileIndex, state.columns, state.static.length / state.columns, x * 2, y * 2)
+    if (!destination) {
+      return result
+    }
+    if (state.static[destination] === TileType.wall) {
+      // The box would hit a wall, can't continue the move
+      return {}
+    }
+    if (state.objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)){
+      // Moving the box would hit another box, can't continue the move
+      return {}
+    }
+
+    result.box = {
+      object: box,
+      destination
+    }
   }
 
   return result
@@ -50,34 +73,6 @@ const calculatePlayerMove = (state: TilesStoreState, direction: Direction): Move
 
   return {
     object: player,
-    destination
-  }
-}
-
-
-const calculateMoxMove = (state: TilesStoreState, direction: Direction, player: TileObject, playerDestination: number): MoveObjectResult | undefined => {
-  const box = state.objects.find((o) => o.tileIndex === playerDestination && o.objectType === ObjectType.box)
-  if (!box) {
-    return
-  }
-  const { x, y } = DIRECTION[direction]
-
-  // We're trying to push a box
-  const destination = peekNeighor(player.tileIndex, state.columns, state.static.length / state.columns, x * 2, y * 2)
-  if (!destination) {
-    return
-  }
-  if (state.static[destination] === TileType.wall) {
-    // The box would hit a wall, can't continue
-    return
-  }
-  if (state.objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)){
-    // Moving the box would hit another box, can't continue
-    return
-  }
-
-  return {
-    object: box,
     destination
   }
 }
