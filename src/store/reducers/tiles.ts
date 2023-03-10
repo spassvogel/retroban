@@ -1,5 +1,5 @@
 import { Reducer } from "@reduxjs/toolkit";
-import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP } from "../actions/tiles";
+import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from "../actions/tiles";
 import { TilesAction } from "../actions/types";
 import { calculateMove } from "../utils/moves";
 
@@ -94,6 +94,21 @@ const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) =
             return {
               ...o,
               tileIndex: move.box.destination
+            }
+          }
+          return o
+        })
+      }
+    }
+    case MOVE_BOX: {
+      // Only used for undo
+      return {
+        ...state,
+        objects: state.objects.map((o) => {
+          if (o.objectType === ObjectType.box && o.tileIndex === action.payload.from) {
+            return {
+              ...o,
+              tileIndex: action.payload.to
             }
           }
           return o
