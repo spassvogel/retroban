@@ -1,5 +1,4 @@
 import { AnyAction } from "@reduxjs/toolkit"
-import { Dispatch } from "react"
 import { SokobanAction, UndoAction } from "./types"
 
 export const ADD_UNDO = 'ADD_UNDO'

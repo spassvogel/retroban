@@ -1,5 +1,5 @@
 import { GameStatusType } from "../reducers/gameStatus"
-import { SET_GAME_STATUS } from "./gameStatus"
+import { RESET_PUZZLE, SET_GAME_STATUS } from "./game"
 import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT, MOVE_BOX } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
 
@@ -22,11 +22,13 @@ export type TilesAction = {
   payload: MoveBoxPayload
 }
 
-export type GameStatusAction = {
+export type GameAction = {
   type: typeof SET_GAME_STATUS
   payload: {
     status: GameStatusType,
-  },
+  }
+} | {
+  type: typeof RESET_PUZZLE
 }
 
 export type UndoAction<TPuzzleAction> = {
@@ -37,12 +39,10 @@ export type UndoAction<TPuzzleAction> = {
   payload: TPuzzleAction[]
 } | {
   type: typeof UNDO
-// } | {
-//   type: typeof RESET_PUZZLE
 }
 
 export type UndoableAction = {
   skipUndo?: boolean
 }
 
-export type SokobanAction = TilesAction | GameStatusAction | UndoAction<TilesAction>
+export type SokobanAction = TilesAction | GameAction | UndoAction<TilesAction>

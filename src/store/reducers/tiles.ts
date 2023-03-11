@@ -1,6 +1,7 @@
 import { Reducer } from "@reduxjs/toolkit";
+import { RESET_PUZZLE } from "../actions/game";
 import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from "../actions/tiles";
-import { TilesAction } from "../actions/types";
+import { GameAction, TilesAction } from "../actions/types";
 import { calculateMove } from "../utils/moves";
 
 export enum TileType { empty, wall,  floor,  dropzone }
@@ -10,6 +11,7 @@ export enum ObjectType { player, box }
 export type TileObject = {
   tileIndex: number
   objectType: ObjectType
+  initialTileIndex: number
 }
 
 const _ = TileType.empty
@@ -43,33 +45,41 @@ const initial: TilesStoreState = {
   ],
   objects: [{
     tileIndex: 18,
-    objectType: ObjectType.player
+    objectType: ObjectType.player,
+    initialTileIndex: 18
    }, {
     tileIndex: 19,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 19
    }, {
     tileIndex: 28,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 28
    }, {
     tileIndex: 36,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 36
    }, {
     tileIndex: 49,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 49
    }, {
     tileIndex: 51,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 51
    }, {
     tileIndex: 52,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 52
    }, {
     tileIndex: 53,
-    objectType: ObjectType.box
+    objectType: ObjectType.box,
+    initialTileIndex: 53
   }]
 }
 
 
-const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) => {
+const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initial, action) => {
   switch (action.type) {
     case GO_UP:
     case GO_RIGHT:
@@ -112,6 +122,18 @@ const tiles: Reducer<TilesStoreState, TilesAction> = (state = initial, action) =
             }
           }
           return o
+        })
+      }
+    }
+    case RESET_PUZZLE: {
+      // Puts everything back into its original location
+      return {
+        ...state,
+        objects: state.objects.map((o) => {
+          return {
+            ...o,
+            tileIndex: o.initialTileIndex
+          }
         })
       }
     }

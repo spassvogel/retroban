@@ -3,7 +3,7 @@ import { SokobanAction } from "../actions/types"
 import { GameStatus } from "../reducers/gameStatus"
 import { AppDispatch, SokobanStoreState } from "../store"
 import { ObjectType, TileType } from "../reducers/tiles"
-import { setGameStatus } from "../actions/gameStatus"
+import { setGameStatus } from "../actions/game"
 
 const gameStatusMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
 

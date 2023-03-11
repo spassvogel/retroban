@@ -1,5 +1,5 @@
 import { Reducer } from 'redux'
-import { SET_GAME_STATUS } from '../actions/gameStatus'
+import { SET_GAME_STATUS } from '../actions/game'
 import { SokobanAction } from '../actions/types'
 
 export enum GameStatus {
