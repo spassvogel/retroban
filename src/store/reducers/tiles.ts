@@ -1,5 +1,5 @@
 import { Reducer } from "@reduxjs/toolkit";
-import { RESET_PUZZLE } from "../actions/game";
+import { INIT_GAME_DATA, RESET_PUZZLE } from "../actions/game";
 import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from "../actions/tiles";
 import { GameAction, TilesAction } from "../actions/types";
 import { calculateMove } from "../utils/moves";
@@ -81,6 +81,10 @@ const initial: TilesStoreState = {
 
 const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initial, action) => {
   switch (action.type) {
+    case INIT_GAME_DATA: {
+      return action.payload.tiles
+    }
+
     case GO_UP:
     case GO_RIGHT:
     case GO_DOWN:

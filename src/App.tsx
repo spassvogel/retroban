@@ -8,6 +8,8 @@ import { undo } from './store/actions/undo'
 import ButtonRow from './ui/ButtonRow'
 
 import './App.css'
+import { useEffect } from 'react'
+import { loadGame } from './api/gameData'
 
 const App = () => {
   const dispatch = useDispatch<AppDispatch>()
@@ -38,6 +40,10 @@ const App = () => {
       dispatch(undo())
     }
   }, [status])
+
+  useEffect(() => {
+    loadGame('level1', dispatch)
+  }, [])
 
   return (
     <div className="App">

@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import tiles from './reducers/tiles'
 import gameStatus from './reducers/gameStatus'
 import undo from './reducers/undo'
-import gamestatusMiddleware from './middlewares/gamestatusMiddleware'
+import gamestatusMiddleware from './middlewares/gameStatusMiddleware'
 import undoMiddleware from './middlewares/undoMiddleware'
 
 const store = configureStore({

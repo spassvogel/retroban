@@ -2,7 +2,7 @@ import { Reducer } from 'redux'
 
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from '../actions/undo'
 import { SokobanAction } from '../actions/types'
-import { RESET_PUZZLE } from '../actions/game'
+import { INIT_GAME_DATA, RESET_PUZZLE } from '../actions/game'
 
 const MAX_UNDO = 22
 
@@ -36,6 +36,7 @@ const undoReducer: Reducer<SokobanAction[][], SokobanAction> = (state = [], acti
       return state.filter((_, i) => i > 0) ?? []
     }
 
+    case INIT_GAME_DATA:
     case RESET_PUZZLE: {
       return []
     }

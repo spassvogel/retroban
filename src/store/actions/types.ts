@@ -1,5 +1,6 @@
+import { GameDataSokoban } from "../../api/transform/transformXML"
 import { GameStatusType } from "../reducers/gameStatus"
-import { RESET_PUZZLE, SET_GAME_STATUS } from "./game"
+import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from "./game"
 import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT, MOVE_BOX } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
 
@@ -23,6 +24,9 @@ export type TilesAction = {
 }
 
 export type GameAction = {
+  type: typeof INIT_GAME_DATA
+  payload: GameDataSokoban,
+} | {
   type: typeof SET_GAME_STATUS
   payload: {
     status: GameStatusType,
