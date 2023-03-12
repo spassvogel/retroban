@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
+import { useSwipeable } from "react-swipeable"
 import { goUp, goRight, goDown, goLeft } from "../store/actions/tiles"
 import { undo } from "../store/actions/undo"
 import { GameStatusType, GameStatus } from "../store/reducers/gameStatus"
@@ -9,35 +10,47 @@ const useGameActions = () => {
   const dispatch = useDispatch<AppDispatch>()
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
 
-  useKeyPress('ArrowUp', () => {
+  const goUpAction = () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goUp())
     }
-  }, [status])
-
-  useKeyPress('ArrowRight', () => {
+  }
+  const goRightAction = () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goRight())
     }
-  }, [status])
-
-  useKeyPress('ArrowDown', () => {
+  }
+  const goDownAction = () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goDown())
     }
-  }, [status])
+  }
 
-  useKeyPress('ArrowLeft', () => {
+  const goLeftAction = () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goLeft())
     }
-  }, [status])
+  }
+
+  const swipeableHandlers = useSwipeable({
+    onSwipedUp: goUpAction,
+    onSwipedRight: goRightAction,
+    onSwipedDown: goDownAction,
+    onSwipedLeft: goLeftAction,
+  })
+
+  useKeyPress('ArrowUp', goUpAction, [status])
+  useKeyPress('ArrowRight', goRightAction, [status])
+  useKeyPress('ArrowDown', goDownAction, [status])
+  useKeyPress('ArrowLeft', goLeftAction, [status])
 
   useKeyPress('z', () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(undo())
     }
   }, [status])
+
+  return swipeableHandlers
 }
 
 export default useGameActions

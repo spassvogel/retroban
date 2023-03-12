@@ -1,8 +1,10 @@
 .grid {
-  width: 23rem;
+  max-width: 23rem;
+  width: 100vw;
   background: white;
 
   svg {
     display: block;
+    max-width: 100vw;
   }
 }

@@ -15,14 +15,14 @@ import useGameActions from './hooks/useGameActions'
 const App = () => {
   const dispatch = useDispatch<AppDispatch>()
 
-  useGameActions()
+  const handlers = useGameActions()
 
   useEffect(() => {
     loadGame('level1', dispatch)
   }, [])
 
   return (
-    <div className="App">
+    <div className="App" {...handlers}>
       <Grid />
       <ButtonRow />
     </div>
