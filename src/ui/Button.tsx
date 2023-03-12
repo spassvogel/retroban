@@ -2,9 +2,9 @@ import { ComponentProps } from "react"
 
 type Props = ComponentProps<'button'>
 
-const Button = ({ children, ...restProps }: Props) => {
+const Button = ({ children, className, ...restProps }: Props) => {
   return (
-    <button { ...restProps} className="button">
+    <button { ...restProps} className={`button ${className ?? ""}`}>
       {children}
     </button>
   )

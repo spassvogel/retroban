@@ -1,21 +1,17 @@
 import Grid from './grid/Grid'
-import useKeyPress from './hooks/useKeyPress'
-import { useDispatch, useSelector } from 'react-redux'
-import { AppDispatch, SokobanStoreState } from './store/store'
-import { goDown, goLeft, goRight, goUp } from './store/actions/tiles'
-import { GameStatus, GameStatusType } from './store/reducers/gameStatus'
-import { undo } from './store/actions/undo'
-import ButtonRow from './ui/ButtonRow'
+import { useDispatch } from 'react-redux'
+import { AppDispatch } from './store/store'
+import ButtonRow from './ui/ButtonBar'
 
 import './App.css'
 import { useEffect } from 'react'
 import { loadGame } from './api/gameData'
-import useGameActions from './hooks/useGameActions'
+import useSwipeableActions from './hooks/useSwipeableActions'
 
 const App = () => {
   const dispatch = useDispatch<AppDispatch>()
 
-  const handlers = useGameActions()
+  const handlers = useSwipeableActions()
 
   useEffect(() => {
     loadGame('level1', dispatch)
