@@ -10,36 +10,12 @@ import ButtonRow from './ui/ButtonRow'
 import './App.css'
 import { useEffect } from 'react'
 import { loadGame } from './api/gameData'
+import useGameActions from './hooks/useGameActions'
 
 const App = () => {
   const dispatch = useDispatch<AppDispatch>()
-  const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
 
-  useKeyPress('ArrowUp', () => {
-    if (status === GameStatus.IS_PLAYING) {
-      dispatch(goUp())
-    }
-  }, [status])
-  useKeyPress('ArrowRight', () => {
-    if (status === GameStatus.IS_PLAYING) {
-      dispatch(goRight())
-    }
-  }, [status])
-  useKeyPress('ArrowDown', () => {
-    if (status === GameStatus.IS_PLAYING) {
-      dispatch(goDown())
-    }
-  }, [status])
-  useKeyPress('ArrowLeft', () => {
-    if (status === GameStatus.IS_PLAYING) {
-      dispatch(goLeft())
-    }
-  }, [status])
-  useKeyPress('z', () => {
-    if (status === GameStatus.IS_PLAYING) {
-      dispatch(undo())
-    }
-  }, [status])
+  useGameActions()
 
   useEffect(() => {
     loadGame('level1', dispatch)

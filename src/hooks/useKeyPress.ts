@@ -11,8 +11,8 @@ const useKeyPress = (key: string, action: (e: KeyboardEvent) => void, deps?: Dep
         action(e)
       }
     }
-    window.addEventListener('keyup', handleKeyup)
-    return () => window.removeEventListener('keyup', handleKeyup)
+    window.addEventListener('keydown', handleKeyup)
+    return () => window.removeEventListener('keydown', handleKeyup)
   }, deps)
 }
 
