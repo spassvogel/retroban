@@ -14,11 +14,6 @@ export type TileObject = {
   initialTileIndex: number
 }
 
-const _ = TileType.empty
-const W = TileType.wall
-const F = TileType.floor
-const D = TileType.dropzone
-
 export type TilesStoreState = {
   columns: number
   static: TileType[]
@@ -26,56 +21,9 @@ export type TilesStoreState = {
 }
 
 const initial: TilesStoreState = {
-  columns: 8,
-  static: [
-    _, _, W, W, W, W, W, _,
-    W, W, W, F, F, F, W, _,
-    W, D, F, F, F, F, W, _,
-    W, W, W, F, F, D, W, _,
-    W, D, W, W, F, F, W, _,
-    W, F, W, F, D, F, W, W,
-    W, F, F, D, F, F, D, W,
-    W, F, F, F, D, F, F, W,
-    W, W, W, W, W, W, W, W,
-
-      // TileType.empty,    TileType.empty,    TileType.wall,     TileType.wall,     TileType.wall,     TileType.wall,     TileType.wall,     TileType.empty,
-    // TileType.wall,     TileType.wall,     TileType.wall,     TileType.floor,    TileType.floor,    TileType.floor,    TileType.wall,     TileType.empty,
-    // TileType.wall,     TileType.dropzone, TileType.floor,    TileType.floor,    TileType.floor,    TileType.floor,    TileType.wall,     TileType.empty,
-    // TileType.wall,     TileType.wall,     TileType.wall,     TileType.floor,    TileType.floor,    TileType.dropzone, TileType.wall,     TileType.empty,
-  ],
-  objects: [{
-    tileIndex: 18,
-    objectType: ObjectType.player,
-    initialTileIndex: 18
-   }, {
-    tileIndex: 19,
-    objectType: ObjectType.box,
-    initialTileIndex: 19
-   }, {
-    tileIndex: 28,
-    objectType: ObjectType.box,
-    initialTileIndex: 28
-   }, {
-    tileIndex: 36,
-    objectType: ObjectType.box,
-    initialTileIndex: 36
-   }, {
-    tileIndex: 49,
-    objectType: ObjectType.box,
-    initialTileIndex: 49
-   }, {
-    tileIndex: 51,
-    objectType: ObjectType.box,
-    initialTileIndex: 51
-   }, {
-    tileIndex: 52,
-    objectType: ObjectType.box,
-    initialTileIndex: 52
-   }, {
-    tileIndex: 53,
-    objectType: ObjectType.box,
-    initialTileIndex: 53
-  }]
+  columns: 0,
+  static: [],
+  objects: []
 }
 
 
