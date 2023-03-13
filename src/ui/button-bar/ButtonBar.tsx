@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux"
-import useGameActions from "../hooks/useGameActions"
-import useKeyPress from "../hooks/useKeyPress"
-import { GameStatusType } from "../store/reducers/gameStatus"
-import { SokobanStoreState } from "../store/store"
+import useGameActions from "../../hooks/useGameActions"
+import useKeyPress from "../../hooks/useKeyPress"
+import { GameStatusType } from "../../store/reducers/gameStatus"
+import { SokobanStoreState } from "../../store/store"
 import Button from "./Button"
 
 import "./buttonBar.scss"
