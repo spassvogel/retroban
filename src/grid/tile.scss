@@ -4,7 +4,11 @@
   }
 
   &--floor {
-    fill: yellow;
+    fill: black;
+  }
+
+  &--floor--image {
+    opacity: 0.5;
   }
 
   &--empty {
@@ -12,6 +16,6 @@
   }
 
   &--dropzone {
-    fill: pink;
+    fill: #7a2c7b;
   }
 }

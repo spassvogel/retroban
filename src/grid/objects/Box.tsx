@@ -15,15 +15,21 @@ const Box = ({ index, tileSize }: Props) => {
   const { x, y } = getPosition(index, columns)
 
   return (
-    <rect
-      data-index={index}
-      x={x * tileSize + (tileSize * MARGIN)}
-      y={y * tileSize + (tileSize * MARGIN)}
-      width={tileSize  * (1 - MARGIN * 2)}
-      height={tileSize * (1 - MARGIN * 2)}
+    // <rect
+    //   data-index={index}
+    //   x={x * tileSize + (tileSize * MARGIN)}
+    //   y={y * tileSize + (tileSize * MARGIN)}
+    //   width={tileSize  * (1 - MARGIN * 2)}
+    //   height={tileSize * (1 - MARGIN * 2)}
+    //   >
+    <image href="/img/box.svg"
       className={`object object--type-box`}
-      >
-    </rect>
+          x={x * tileSize}
+          y={y * tileSize}
+          width={tileSize}
+          height={tileSize}
+        ></image>
+    // </rect>
   )
 }
 

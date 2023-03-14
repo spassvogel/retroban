@@ -16,6 +16,28 @@ const Tile = ({ type, index, tileSize }: Props) => {
   const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
   const { x, y } = getPosition(index, columns)
 
+  if (type === TileType.floor) {
+    return (
+      <>
+        <rect
+          data-index={index}
+          x={x * tileSize}
+          y={y * tileSize}
+          width={tileSize}
+          height={tileSize}
+          className={`tile tile--${TileType[type]}`}
+          >
+        </rect>
+        <image href="/img/floor.svg"
+          className={`tile tile--${TileType[type]}--image`}
+          x={x * tileSize}
+          y={y * tileSize}
+          width={tileSize}
+          height={tileSize}
+        />
+      </>
+    )
+  }
   return (
     <rect
       data-index={index}

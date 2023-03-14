@@ -22,10 +22,10 @@ const Tile = ({ index, tileSize }: Props) => {
       className={`object object--type-player`}
       >
     </circle>
-      <text x={x * tileSize + tileSize / 2} y={y * tileSize + tileSize / 1.5}       textAnchor="middle" fill="white" fontSize="0.5rem">
+      {/* <text x={x * tileSize + tileSize / 2} y={y * tileSize + tileSize / 1.5}       textAnchor="middle" fill="white" fontSize="0.5rem">
         {index}
-      </text>
-      </>
+      </text> */}
+    </>
   )
 }
 

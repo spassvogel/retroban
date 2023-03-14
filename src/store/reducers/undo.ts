@@ -1,10 +1,10 @@
 import { Reducer } from 'redux'
 
-import { ADD_UNDO, REMOVE_UNDO, UNDO } from '../actions/undo'
+import { ADD_UNDO, UNDO } from '../actions/undo'
 import { SokobanAction } from '../actions/types'
 import { INIT_GAME_DATA, RESET_PUZZLE } from '../actions/game'
 
-const MAX_UNDO = 22
+const MAX_UNDO = 3200
 
 // the undo reducer for sudoku puzzles
 const undoReducer: Reducer<SokobanAction[][], SokobanAction> = (state = [], action) => {
