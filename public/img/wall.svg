@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#sofGlow);}
+	.st1{fill:none;stroke:#00AEEF;stroke-width:12.2768;stroke-miterlimit:10;}
+</style>
+<filter  height="300%" id="sofGlow" width="300%" x="-75%" y="-75%">
+	<!--  Thicken out the original shape  -->
+	<feMorphology  in="SourceAlpha" operator="dilate" radius="4" result="thicken"></feMorphology>
+	<!--  Use a gaussian blur to create the soft blurriness of the glow  -->
+	<feGaussianBlur  in="thicken" result="blurred" stdDeviation="10"></feGaussianBlur>
+	<!--  Change the colour  -->
+	<feFlood  flood-color="rgb(0,186,255)" result="glowColor"></feFlood>
+	<!--  Color in the glows  -->
+	<feComposite  in="glowColor" in2="blurred" operator="in" result="softGlow_colored"></feComposite>
+	<!-- 	Layer the effects together  -->
+	<feMerge>
+		<feMergeNode  in="softGlow_colored"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<g class="st0">
+	<rect x="9.1" y="9.1" class="st1" width="493.9" height="493.9"/>
+</g>
+</svg>

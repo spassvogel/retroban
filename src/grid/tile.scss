@@ -1,21 +1,21 @@
 .tile {
   &--wall {
-    fill: red;
   }
 
   &--floor {
-    fill: black;
+    // fill: black;
   }
 
-  &--floor--image {
-    opacity: 0.5;
+  &--floor--image,
+  &--dropzone--image {
+    opacity: 0.8;
   }
 
   &--empty {
-    fill: black;
+    // fill: black;
   }
 
   &--dropzone {
-    fill: #7a2c7b;
+    // fill: #7a2c7b;
   }
 }

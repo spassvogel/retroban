@@ -1,7 +1,25 @@
 .object {
-  transition: all 0.25s ease;
+  transition:
+    x 0.25s ease,
+    y 0.25s ease,
+    transform 0.1s ease;
 
   &--type-player {
     fill: darkslateblue;
+    transform-box: fill-box;
+    transform-origin: center;
   }
+
+  &--direction {
+    &-south {
+      transform: rotate(90deg);
+    }
+    &-west {
+      transform: rotate(180deg);
+    }
+    &-north {
+      transform: rotate(-90deg);
+    }
+  }
+
 }
