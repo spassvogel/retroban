@@ -23,7 +23,7 @@ const Box = ({ index, tileSize }: Props) => {
     //   width={tileSize  * (1 - MARGIN * 2)}
     //   height={tileSize * (1 - MARGIN * 2)}
     //   >
-    <image href="/img/box.svg"
+    <image href="img/box.svg"
       className={`object object--type-box`}
       style={({
         '--x': `${x * tileSize}px`,

@@ -40,7 +40,7 @@ const Tile = ({ type, index, tileSize }: Props) => {
           className={`tile tile--${TileType[type]}`}
           >
         </rect>
-        <image href={`/img/${TileType[type]}.svg`}
+        <image href={`img/${TileType[type]}.svg`}
           className={`tile tile--${TileType[type]}--image`}
           x={x * tileSize}
           y={y * tileSize}
