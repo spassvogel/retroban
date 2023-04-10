@@ -16,19 +16,19 @@ const Tile = ({ type, index, tileSize }: Props) => {
   const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
   const { x, y } = getPosition(index, columns)
 
-  // if (type === TileType.wall) {
-  //   return (
-  //     <rect
-  //       data-index={index}
-  //       x={x * tileSize}
-  //       y={y * tileSize}
-  //       width={tileSize}
-  //       height={tileSize}
-  //       className={`tile tile--${TileType[type]}`}
-  //     >
-  //     </rect>
-  //   )
-  // }
+  if (type === TileType.empty) {
+    return (
+      <rect
+        data-index={index}
+        x={x * tileSize}
+        y={y * tileSize}
+        width={tileSize}
+        height={tileSize}
+        className={`tile tile--${TileType[type]}`}
+      >
+      </rect>
+    )
+  }
     return (
       <>
         <rect

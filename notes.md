@@ -1,0 +1,4 @@
+- [x] GH pages: https://vitejs.dev/guide/static-deploy.html
+- [ ] PWA 
+      - https://github.com/vite-pwa/vite-plugin-pwa
+      - https://wildermuth.com/2023/02/09/vite-plugin-for-progressive-web-apps/
