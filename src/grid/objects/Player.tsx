@@ -4,7 +4,7 @@ import { getPosition, peekNeighor } from "../utils/grid"
 import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT } from "../../store/actions/tiles"
 
 import './player.scss'
-import { useMemo } from "react"
+import { CSSProperties, useMemo } from "react"
 import usePrevious from "../../hooks/usePrevious"
 import { ReactComponent as PlayerImage } from './player.svg'
 import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
@@ -14,12 +14,6 @@ type Props = {
   index: number
   tileSize: number
 }
-
-// enum State {
-//   idle,
-//   pushing,
-// }
-
 
 const DIRECTIONMAP = {
   [GO_RIGHT]: 'east',
@@ -76,7 +70,7 @@ const Player = ({ index, tileSize }: Props) => {
       style={{
         '--x': `${x * tileSize}px`,
         '--y': `${y * tileSize}px`,
-      }}
+      } as CSSProperties}
       // x={x * tileSize}
       // y={y * tileSize}
       className={className}

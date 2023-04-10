@@ -110,12 +110,12 @@ XXXXX XXXX X@XXXX  ..X
     <div className="converter">
       <div>
         input
-        <textarea name="" id="" rows="10" value={input} onChange={(e) => setInput(e.target.value)}></textarea>
+        <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
         <button onClick={handleConvert}>CONVERT</button>
       </div>
       <div>
         output
-        <textarea name="" id="" rows="10" value={`012
+        <textarea name="" id="" rows={10} value={`012
 345
 678`}>
 
