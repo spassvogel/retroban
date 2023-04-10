@@ -11,11 +11,7 @@ export default defineConfig({
     }
   },
   plugins: [
+    svgr(),
     react(),
-    svgr({
-      svgrOptions: {
-        // svgr options
-      },
-    }),
   ],
 })
