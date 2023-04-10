@@ -6,7 +6,7 @@ import transformSokobanXML from './transform/transformXML'
 
 const fetchGameData = async (puzzleId: string) => {
   try {
-    const response = await axios.get(`/xml/${puzzleId}.xml`, {
+    const response = await axios.get(`xml/${puzzleId}.xml`, {
       headers: { 'Access-Control-Allow-Origin': '*' }
     })
     return response
