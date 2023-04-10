@@ -1,24 +1,55 @@
 .object {
-  transition:
-    x 0.25s ease,
-    y 0.25s ease,
-    transform 0.1s ease;
+  transition: transform 0.25s ease;
+  transform: translate(var(--x), var(--y));
 
   &--type-player {
     fill: darkslateblue;
-    transform-box: fill-box;
-    transform-origin: center;
+
+    #guy {
+      transition: transform 0.1s ease; // rotating goes faster than moving
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    #arms {
+      transition-delay: 0.2s;
+    }
+
+    #arms-pushing {
+      opacity: 0;
+      transition-delay: 0.2s;
+    }
+
+    &.object--at-box {
+      #arms {
+        opacity: 0;
+      }
+
+      #arms-pushing {
+        opacity: 1;
+        transition-delay: 0;
+      }
+    }
+
+    &:not(.object--at-box) {
+    }
   }
 
   &--direction {
     &-south {
-      transform: rotate(90deg);
+      #guy {
+        transform: rotate(90deg);
+      }
     }
     &-west {
-      transform: rotate(180deg);
+      #guy {
+        transform: rotate(180deg);
+      }
     }
     &-north {
-      transform: rotate(-90deg);
+      #guy {
+        transform: rotate(-90deg);
+      }
     }
   }
 

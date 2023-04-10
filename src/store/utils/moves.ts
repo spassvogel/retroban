@@ -3,14 +3,14 @@ import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT } from "../actions/tiles"
 import { ObjectType, TileObject, TilesStoreState, TileType } from "../reducers/tiles"
 
 
-const DIRECTION = {
+export const DIRECTION = {
   [GO_UP]: { x: 0, y: -1},
   [GO_RIGHT]: { x: 1, y: 0},
   [GO_DOWN]: { x: 0, y: 1},
   [GO_LEFT]: { x: -1, y: 0},
 }
 
-type Direction = typeof GO_UP | typeof GO_RIGHT | typeof GO_DOWN | typeof GO_LEFT
+export type Direction = typeof GO_UP | typeof GO_RIGHT | typeof GO_DOWN | typeof GO_LEFT
 type MoveObjectResult = {
   object: TileObject
   destination: number

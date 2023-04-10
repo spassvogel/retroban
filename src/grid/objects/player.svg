@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="player" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FF24E5;stroke-width:15;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#FF24E5;stroke-width:15;stroke-miterlimit:10;}
+</style>
+<g id="guy">
+	<g id="torso">
+		<path class="st0" d="M316.5,140l0.5-92C199.1,48,99.5,143.6,99.5,261.5S199.1,475,317,475v-93.7l0,0"/>
+		<g id="arms">
+			<g id="arm-right">
+				<path id="arm_4_" class="st0" d="M319,382.7V475c0,0,35.9,0.3,77.6-18.8"/>
+				<path id="arm_5_" class="st0" d="M389,379.11L331,375"/>
+				<path id="hand-right" class="st0" d="M466.5,415.76c0,26.78-21.71,48.5-48.5,48.5s-29-13.08-35.31-43.49
+					c-5.43-26.23,4.3-53.5,35.31-53.5c10.04,0-8.81,16.7-1.07,21.93c5.61,3.79,38.57-4.93,42.17,0.82
+					C463.79,397.48,466.5,406.3,466.5,415.76z"/>
+			</g>
+			<g id="arms-left">
+				<path id="arm_6_" class="st0" d="M394.6,66.8C352.9,47.7,317,48,317,48v92.3"/>
+				<path id="arm_1_" class="st0" d="M329,148l58-4.11"/>
+				<path id="hand-left_1_" class="st0" d="M464.5,107.24c0-26.78-21.71-48.5-48.5-48.5s-29,13.08-35.31,43.49
+					c-5.43,26.23,4.3,53.5,35.31,53.5c10.04,0-8.81-16.7-1.07-21.93c5.61-3.79,38.57,4.93,42.17-0.82
+					C461.79,125.52,464.5,116.7,464.5,107.24z"/>
+			</g>
+		</g>
+		<g id="arms-pushing">
+			<path id="arm_3_" class="st0" d="M325.7,374.8l126.2,8.9l42-23.8H505v18.6l-11.9,11l11.9,1V441l-38.5-8.1l-23,1
+				c-8.4,0.4-32.4,14.7-48.9,22.3C352.9,475.3,317,475,317,475"/>
+			<path id="arm_2_" class="st0" d="M329,148l122.9-8.7l42,23.8H505v-18.6l-12.1-7.4l12.1-4.6v-53l-43.5,10.4l-18-0.8
+				c-8.4-0.4-32.4-14.7-48.9-22.3C352.9,47.7,317,48,317,48v92.3"/>
+		</g>
+	</g>
+	<g id="feet">
+		<path id="foot_1_" class="st0" d="M448.6,328.3c0,23.2-41.8,31.6-93.5,31.6c-93.5,0-93.5-8.4-93.5-31.6s0-34.1,93.5-34.1
+			C406.8,294.2,448.6,305.1,448.6,328.3z"/>
+		<path id="foot_2_" class="st0" d="M446.1,202.9c0,23.2-41.8,31.6-93.5,31.6c-93.5,0-93.5-8.4-93.5-31.6s0-34.1,93.5-34.1
+			C404.2,168.7,446.1,179.6,446.1,202.9z"/>
+	</g>
+	<g id="head">
+		<circle id="head_outline" class="st1" cx="248.8" cy="260.5" r="138.2"/>
+		<circle id="eye_1_" class="st0" cx="316.5" cy="325.5" r="16.2"/>
+		<circle id="eye" class="st0" cx="316.5" cy="201.6" r="16.2"/>
+	</g>
+</g>
+</svg>

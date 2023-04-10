@@ -3,6 +3,7 @@ import { SokobanStoreState } from "../../store/store"
 import { getPosition } from "../utils/grid"
 
 import './box.scss'
+import { CSSProperties } from "react"
 
 type Props = {
   index: number
@@ -24,8 +25,10 @@ const Box = ({ index, tileSize }: Props) => {
     //   >
     <image href="/img/box.svg"
       className={`object object--type-box`}
-          x={x * tileSize}
-          y={y * tileSize}
+      style={({
+        '--x': `${x * tileSize}px`,
+        '--y': `${y * tileSize}px`,
+      }) as CSSProperties}
           width={tileSize}
           height={tileSize}
         ></image>

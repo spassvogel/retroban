@@ -1,57 +1,92 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../../store/store"
-import { getPosition } from "../utils/grid"
+import { getPosition, peekNeighor } from "../utils/grid"
+import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT } from "../../store/actions/tiles"
 
 import './player.scss'
-import { useMemo, useRef } from "react"
+import { useMemo } from "react"
 import usePrevious from "../../hooks/usePrevious"
+import { ReactComponent as PlayerImage } from './player.svg'
+import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
+import { DIRECTION } from "../../store/utils/moves"
 
 type Props = {
   index: number
   tileSize: number
 }
 
-enum Direction {
-  east,
-  south,
-  west,
-  north
+// enum State {
+//   idle,
+//   pushing,
+// }
+
+
+const DIRECTIONMAP = {
+  [GO_RIGHT]: 'east',
+  [GO_DOWN]: 'south',
+  [GO_LEFT]: 'west',
+  [GO_UP]: 'north'
 }
 
 const Player = ({ index, tileSize }: Props) => {
-  const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
+  const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
+  const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
   const lastX = usePrevious(x)
   const lastY = usePrevious(y)
-
   const direction = useMemo(() => {
     if (lastX == undefined || lastY === undefined) {
-      return Direction.south
+      return GO_DOWN
     }
     if (lastX < x) {
-      return Direction.east
+      return GO_RIGHT
     }
     if (lastX > x) {
-      return Direction.west
+      return GO_LEFT
     }
     if (lastY < y) {
-      return Direction.south
+      return GO_DOWN
     }
     if (lastY > y) {
-      return Direction.north
+      return GO_UP
     }
-    return Direction.west
+    return GO_LEFT
   }, [x, y, lastX, lastY])
+
+  const isAtBox = useMemo(() => {
+    const rows = staticTiles.length / columns
+    const { x, y } = DIRECTION[direction]
+    const destination = peekNeighor(index, columns, rows, x, y)
+
+    return !!objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)
+  }, [index])
+
+  const className = [
+    `object`,
+    `object--type-player`,
+    `object--direction-${DIRECTIONMAP[direction]}`,
+    ...(isAtBox ? [`object--at-box`] : [])
+  ].join(' ')
 
   return (
     <>
-     <image href={`/img/player.svg`}
-          className={`object object--type-player object--direction-${Direction[direction]}`}
+    <PlayerImage
+      width={tileSize}
+      height={tileSize}
+      style={{
+        '--x': `${x * tileSize}px`,
+        '--y': `${y * tileSize}px`,
+      }}
+      // x={x * tileSize}
+      // y={y * tileSize}
+      className={className}
+    />
+     {/* <image href={`/img/player.svg`}
           x={x * tileSize}
           y={y * tileSize}
           width={tileSize}
           height={tileSize}
-        />
+        /> */}
     {/* <circle
       data-index={index}
       cx={x * tileSize + tileSize / 2}
