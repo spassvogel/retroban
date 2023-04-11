@@ -5,6 +5,7 @@ import Tile from './Tile'
 
 import './grid.scss'
 import ObjectsLayer from './objects/ObjectsLayer'
+import ShadowLayer from './shadows/ShadowLayer'
 
 const Grid = () => {
   const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
@@ -20,6 +21,7 @@ const Grid = () => {
           <Tile type={tt} index={i} tileSize={tileSize} key={i}/>
         ))}
         <ObjectsLayer tileSize={tileSize}/>
+        <ShadowLayer tileSize={tileSize}/>
       </svg>
     </div>
   )

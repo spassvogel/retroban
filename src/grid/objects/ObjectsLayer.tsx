@@ -11,7 +11,6 @@ type Props = {
 const ObjectsLayer = ({ tileSize }: Props) => {
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
 
-
   return (
     <>
       {objects.map((o, i) => {
