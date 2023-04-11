@@ -29,6 +29,32 @@ const Tile = ({ type, index, tileSize }: Props) => {
       </rect>
     )
   }
+  if (type === TileType.floor) {
+    return (
+      <image href={`img/concrete.png`}
+        data-index={index}
+        x={x * tileSize}
+        y={y * tileSize}
+        width={tileSize}
+        height={tileSize}
+        className={`tile tile--${TileType[type]}`}
+      >
+      </image>
+    )
+  }
+  if (type === TileType.dropzone) {
+    return (
+      <image href={`img/dropzone.png`}
+        data-index={index}
+        x={x * tileSize}
+        y={y * tileSize}
+        width={tileSize}
+        height={tileSize}
+        className={`tile tile--${TileType[type]}`}
+      >
+      </image>
+    )
+  }
     return (
       <>
         <rect

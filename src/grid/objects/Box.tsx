@@ -9,7 +9,7 @@ type Props = {
   index: number
   tileSize: number
 }
-const MARGIN = 0.1
+const MARGIN = 0.05
 
 const Box = ({ index, tileSize }: Props) => {
   const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
@@ -23,14 +23,14 @@ const Box = ({ index, tileSize }: Props) => {
     //   width={tileSize  * (1 - MARGIN * 2)}
     //   height={tileSize * (1 - MARGIN * 2)}
     //   >
-    <image href="img/box.svg"
+    <image href="img/crate.png"
       className={`object object--type-box`}
       style={({
-        '--x': `${x * tileSize}px`,
-        '--y': `${y * tileSize}px`,
+        '--x': `${x * tileSize + (tileSize * MARGIN)}px`,
+        '--y': `${y * tileSize + (tileSize * MARGIN)}px`,
       }) as CSSProperties}
-          width={tileSize}
-          height={tileSize}
+        width={tileSize  * (1 - MARGIN * 2)}
+        height={tileSize * (1 - MARGIN * 2)}
         ></image>
     // </rect>
   )
