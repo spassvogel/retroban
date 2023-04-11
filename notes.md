@@ -2,3 +2,4 @@
 - [ ] PWA 
       - https://github.com/vite-pwa/vite-plugin-pwa
       - https://wildermuth.com/2023/02/09/vite-plugin-for-progressive-web-apps/
+- [ ] sound: https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/

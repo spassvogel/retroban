@@ -55,6 +55,20 @@ const Tile = ({ type, index, tileSize }: Props) => {
       </image>
     )
   }
+  if (type === TileType.wall) {
+    const variation = index % 5
+    return (
+      <image href={`img/wall-${variation}.png`}
+        data-index={index}
+        x={x * tileSize}
+        y={y * tileSize}
+        width={tileSize}
+        height={tileSize}
+        className={`tile tile--${TileType[type]}`}
+      >
+      </image>
+    )
+  }
     return (
       <>
         <rect

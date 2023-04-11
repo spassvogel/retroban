@@ -11,10 +11,12 @@ export const DIRECTION = {
 }
 
 export type Direction = typeof GO_UP | typeof GO_RIGHT | typeof GO_DOWN | typeof GO_LEFT
+
 type MoveObjectResult = {
   object: TileObject
   destination: number
 }
+
 type MoveResult = {
   player?: MoveObjectResult
   box?: MoveObjectResult
