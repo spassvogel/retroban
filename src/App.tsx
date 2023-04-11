@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     loadGame('level1', dispatch)
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="App" {...handlers}>

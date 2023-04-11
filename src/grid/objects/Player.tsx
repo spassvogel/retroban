@@ -53,7 +53,7 @@ const Player = ({ index, tileSize }: Props) => {
     const destination = peekNeighor(index, columns, rows, x, y)
 
     return !!objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)
-  }, [index])
+  }, [columns, direction, index, objects, staticTiles.length])
 
   const className = [
     `object`,

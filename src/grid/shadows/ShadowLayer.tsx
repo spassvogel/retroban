@@ -50,6 +50,9 @@ const ShadowLayer = ({ tileSize }: Props) => {
   }, [columns, staticTiles])
 
   return (
+
+
+
     <g className="shadow-layer">
       {shadowTiles.map((cfg, i) => {
           const {

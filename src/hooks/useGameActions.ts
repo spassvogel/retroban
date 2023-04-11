@@ -14,35 +14,35 @@ const useGameActions = () => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goUp())
     }
-  }, [status])
+  }, [dispatch, status])
 
   const goRightAction = useCallback(() => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goRight())
     }
-  }, [status])
+  }, [dispatch, status])
 
   const goDownAction = useCallback(() => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goDown())
     }
-  }, [status])
+  }, [dispatch, status])
 
   const goLeftAction  = useCallback(() => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(goLeft())
     }
-  }, [status])
+  }, [dispatch, status])
 
   const undoAction = useCallback(() => {
     if (status === GameStatus.IS_PLAYING) {
       dispatch(undo())
     }
-  }, [status])
+  }, [dispatch, status])
 
    const resetAction = useCallback(() => {
     dispatch(resetPuzzle())
-  }, [])
+  }, [dispatch])
 
   return {
     goUpAction,
