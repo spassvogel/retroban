@@ -8,7 +8,8 @@ import { CSSProperties, useMemo } from "react"
 import usePrevious from "../../hooks/usePrevious"
 import { ReactComponent as PlayerImage } from './player.svg'
 import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
-import { DIRECTION } from "../../store/utils/moves"
+import { DIRECTION, Direction } from "../../store/utils/moves"
+import { UserActionState } from "../../store/reducers/userAction"
 
 type Props = {
   index: number
@@ -26,26 +27,7 @@ const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
-  const lastX = usePrevious(x)
-  const lastY = usePrevious(y)
-  const direction = useMemo(() => {
-    if (lastX == undefined || lastY === undefined) {
-      return GO_DOWN
-    }
-    if (lastX < x) {
-      return GO_RIGHT
-    }
-    if (lastX > x) {
-      return GO_LEFT
-    }
-    if (lastY < y) {
-      return GO_DOWN
-    }
-    if (lastY > y) {
-      return GO_UP
-    }
-    return GO_LEFT
-  }, [x, y, lastX, lastY])
+  const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? GO_RIGHT)
 
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns

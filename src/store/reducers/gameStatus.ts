@@ -21,7 +21,7 @@ const initialGameData: GameStatusState = {
 }
 
 // eslint-disable-next-line default-param-last
-const gameStatusReducer: Reducer<GameStatusState> = (state = initialGameData, action: SokobanAction) => {
+const gameStatusReducer: Reducer<GameStatusState, SokobanAction> = (state = initialGameData, action) => {
   switch (action.type) {
     case RESET_PUZZLE:
     case INIT_GAME_DATA: {

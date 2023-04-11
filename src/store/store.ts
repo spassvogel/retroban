@@ -4,10 +4,12 @@ import gameStatus from './reducers/gameStatus'
 import undo from './reducers/undo'
 import gamestatusMiddleware from './middlewares/gameStatusMiddleware'
 import undoMiddleware from './middlewares/undoMiddleware'
+import userAction from './reducers/userAction'
 
 const store = configureStore({
   reducer: {
     tiles,
+    userAction,
     gameStatus,
     undo
   },

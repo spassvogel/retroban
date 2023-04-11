@@ -26,7 +26,6 @@ const initial: TilesStoreState = {
   objects: []
 }
 
-
 const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initial, action) => {
   switch (action.type) {
     case INIT_GAME_DATA: {
