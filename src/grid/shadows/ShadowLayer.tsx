@@ -47,7 +47,8 @@ const ShadowLayer = ({ tileSize }: Props) => {
         hasWallSouth
       }
     })
-  }, [])
+  }, [columns, staticTiles])
+
   return (
     <g className="shadow-layer">
       {shadowTiles.map((cfg, i) => {
@@ -79,3 +80,7 @@ const ShadowLayer = ({ tileSize }: Props) => {
 }
 
 export default ShadowLayer
+
+
+
+
