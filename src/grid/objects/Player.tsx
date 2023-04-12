@@ -40,6 +40,7 @@ const Player = ({ index, tileSize }: Props) => {
   const className = [
     `object`,
     `object--type-player`,
+    `object--anim-walk`,
     `object--direction-${DIRECTIONMAP[direction]}`,
     ...(isAtBox ? [`object--at-box`] : [])
   ].join(' ')

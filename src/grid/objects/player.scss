@@ -35,6 +35,33 @@
     }
   }
 
+  &--anim-walk {
+    #foot_1_ {
+      animation: 0.5s linear 0s infinite alternate feet-walk;   
+    }
+    #foot_2_ {
+      animation: 0.5s linear 0.5s infinite alternate feet-walk;   
+    }
+
+    #arms {
+      #arm-right {
+        animation: 0.5s linear 0.5s infinite alternate feet-walk;   
+      }
+      #arms-left {
+        animation: 0.5s linear 0s infinite alternate feet-walk;   
+      }
+    }
+    @keyframes feet-walk {
+      from {
+        transform: translateX(-20px);
+      }
+    
+      to {
+        transform: translateX(10px);
+      }
+    }
+  }
+
   &--direction {
     &-south {
       #guy {
