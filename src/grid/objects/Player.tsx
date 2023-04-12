@@ -46,17 +46,17 @@ const Player = ({ index, tileSize }: Props) => {
   ].join(' ')
 
   return (
-    <>
-    <PlayerImage
-      width={tileSize}
-      height={tileSize}
-      style={{
+    <g
+     style={{
         '--x': `${x * tileSize}px`,
         '--y': `${y * tileSize}px`,
       } as CSSProperties}
-      // x={x * tileSize}
-      // y={y * tileSize}
       className={className}
+      >
+    <PlayerImage
+      width={tileSize}
+      height={tileSize}
+     
     />
      {/* <image href={`/img/player.svg`}
           x={x * tileSize}
@@ -75,7 +75,7 @@ const Player = ({ index, tileSize }: Props) => {
       {/* <text x={x * tileSize + tileSize / 2} y={y * tileSize + tileSize / 1.5}       textAnchor="middle" fill="white" fontSize="0.5rem">
         {index}
       </text> */}
-    </>
+    </g>
   )
 }
 
