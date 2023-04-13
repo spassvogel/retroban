@@ -6,6 +6,7 @@ import { ChangeEvent, useEffect } from 'react'
 import { loadGameData as loadGameData, parseXML, startGame } from './api/gameData'
 import useSwipeableActions from './hooks/useSwipeableActions'
 import LevelSelector from './ui/level-selector/LevelSelector'
+import levelJSON from '../levels.json'
 
 import './game.scss'
 
@@ -27,7 +28,7 @@ const Game = ({ gameData }: Props) => {
       const asXML = parseXML(gameData)
       startGame(asXML, dispatch)
     } else {
-      loadGameData('level1', dispatch)
+      loadGameData(levelJSON.levels[0].path, dispatch)
     }
   }, [dispatch, gameData])
 

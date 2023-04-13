@@ -1,5 +1,6 @@
 import { ChangeEventHandler } from 'react'
 import './levelSelector.scss'
+import levelJSON from '../../../levels.json'
 
 type Props = {
   onLevelChange: ChangeEventHandler<HTMLSelectElement>
@@ -10,8 +11,7 @@ const LevelSelector = ({ onLevelChange }: Props) => {
   return (
     <div className="top-bar">
       <select className="level-selector" onChange={onLevelChange}>
-        <option value="level1">Level 1</option>
-        <option value="level2">Level 2</option>
+        {levelJSON.levels.map((l) => <option key={`${l}`} value={`${l.path}`}>{`${l.name}`}</option>)}
       </select>
     </div>
   )

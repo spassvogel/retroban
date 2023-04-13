@@ -4,9 +4,9 @@ import { initGameData } from '../store/actions/game'
 import { AppDispatch } from '../store/store'
 import transformSokobanXML from './transform/transformXML'
 
-const fetchGameData = async (puzzleId: string) => {
+const fetchGameData = async (path: string) => {
   try {
-    const response = await axios.get(`xml/${puzzleId}.xml`, {
+    const response = await axios.get(`${path}`, {
       headers: { 'Access-Control-Allow-Origin': '*' }
     })
     return response
@@ -30,8 +30,8 @@ export const parseXML = (input: string) => {
   return xmlJs.xml2js(input, { compact: true })
 }
 
-export const loadGameData = async (puzzleId: string, dispatch: AppDispatch) => {
-  const xmlData = await getXmlData(puzzleId)
+export const loadGameData = async (path: string, dispatch: AppDispatch) => {
+  const xmlData = await getXmlData(path)
   startGame(xmlData, dispatch)
 }
 

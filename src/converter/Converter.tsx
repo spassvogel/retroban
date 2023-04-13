@@ -10,11 +10,6 @@ const getTileType = (input: string) => {
     case '#':
     case 'X':
       return TileType.wall
-    // case ' ':
-    // case '$':
-    // case '@': {
-    //   return TileType.floor
-    // }
     case '+':
     case '*':
     case '.':
@@ -85,7 +80,6 @@ const [output, setOutput] = useState("")
         searchSpace.push(neighborIndex)
       }
     }
-    console.log("tile lenght", tiles)
 
     while(searchSpace.length) {
       console.log(searchSpace.length)
@@ -111,7 +105,6 @@ const [output, setOutput] = useState("")
     result.push(`   </objects>`)
     result.push(` </tiles>`)
     result.push(`</puzzle>`)
-console.log(result.join(' \n'))
 
     setOutput(result.join(' \n'))
   }
