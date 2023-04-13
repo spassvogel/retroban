@@ -19,15 +19,23 @@ const fetchGameData = async (puzzleId: string) => {
 const getXmlData = async (puzzleId: string) => {
   const response = await fetchGameData(puzzleId)
   if (response?.status === 200 && response.data.includes('puzzle')) {
-    return xmlJs.xml2js(response.data, { compact: true })
+    return parseXML(response.data)
   }
   console.error(`${response?.request.responseURL || 'The response url'} had an invalid data format.`)
 
   throw new Error()
 }
 
-export const loadGame = async (puzzleId: string, dispatch: AppDispatch) => {
+export const parseXML = (input: string) => {
+  return xmlJs.xml2js(input, { compact: true })
+}
+
+export const loadGameData = async (puzzleId: string, dispatch: AppDispatch) => {
   const xmlData = await getXmlData(puzzleId)
+  startGame(xmlData, dispatch)
+}
+
+export const startGame = (xmlData: xmlJs.Element | xmlJs.ElementCompact, dispatch: AppDispatch) => {
   const initialGameData = transformSokobanXML(xmlData)
   dispatch(initGameData(initialGameData))
 }

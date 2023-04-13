@@ -1,9 +1,11 @@
 import { useState } from "react"
 import { TileType } from "../store/reducers/tiles"
+import { peekNeighor } from "../grid/utils/grid"
+import App from "../App"
+
 import "./converter.scss"
 
 const getTileType = (input: string) => {
-  console.log(`input`, input)
   switch (input) {
     case '#':
     case 'X':
@@ -22,28 +24,19 @@ const getTileType = (input: string) => {
   }
 }
 const Converter = () => {
-  const [input, setInput] = useState(`
-  XXXXX
-  X   X
-  X*  X
-XXX  *XXX
-X  *  * X
-XXX X XXX X     XXXXXX
-X   X XXX XXXXXXX  ..X
-X *  *             ..X
-XXXXX XXXX X@XXXX  ..X
-  X      XXX  XXXXXX
-  XXXXXXXX`)
+const [input, setInput] = useState("")
+const [output, setOutput] = useState("")
 
   const handleConvert = () => {
     console.log(`input`, input)
-    const split = input.split('\n')
+    const split = input.trimEnd().split('\n')
     const columns = split.reduce((acc, value) => {
       if (value.length > acc) {
         acc = value.length
       }
       return acc
     }, 0)
+
     const result = [
       `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}">`,
       ` <tiles>`,
@@ -51,6 +44,7 @@ XXXXX XXXX X@XXXX  ..X
     ]
 
     let playerIndex = -1
+    const boxIndices: number[] = []
     const tiles: TileType[] = []
     // Make the tile list, we regard 'floor' as 'empty' as this point
     split.forEach((line, lineIndex) => {
@@ -63,65 +57,80 @@ XXXXX XXXX X@XXXX  ..X
           // Found the player
           playerIndex = lineIndex * columns + i
         }
+
+        if (['$', '*'].includes(trimmed[i])) {
+          // Found a box
+          boxIndices.push(lineIndex * columns + i)
+        }
       }
     })
     if (playerIndex === -1) {
       throw new Error('No player found!')
     }
+    const rows = tiles.length / columns
 
     // Starting at the players position, 'flood' fill the empty tiles to be 'floor'
     const floor = new Set()
+    const searchSpace = [playerIndex]
 
-    const neighborOffsets = [
-      -columns, // north
-      // -columns + 1, // northeast
-      1, // east
-      // columns + 1, // southeast
-      columns, // south
-      // columns - 1, // southwest
-      -1, // west
-      // -columns - 1 // northwest
-    ]
-
-    // https://codeguppy.com/blog/flood-fill/index.html
-    // https://learnersbucket.com/examples/algorithms/flood-fill-algorithm-in-javascript
-
-    const addNeighboringFloorTiles = (index: number) => {
-      if (tiles[index] === TileType.empty) {
-        floor.add(index)
+    const checkNeighbor = (tileIndex: number, xDistance: number, yDistance: number) => {
+      const neighborIndex = peekNeighor(tileIndex, columns, rows, xDistance, yDistance)
+      if (neighborIndex === undefined) {
+        return
       }
-
-      const neighborIndices = neighborOffsets.map((o) => o + index)
-      console.log(`neighborIndices`, neighborIndices)
-
-      const neighboringFloorTiles = neighborIndices.filter((i) => tiles[i] === TileType.empty && !tiles.includes(i))
-      console.log(`neighboringFloorTiles`, neighboringFloorTiles)
-      neighboringFloorTiles.forEach((nI) => addNeighboringFloorTiles(nI))
-      // const neighbourTypes = neighborIndices.map((i) => tiles[i])
-      // console.log(`neighbourTypes`, neighbourTypes)
+      if (floor.has(neighborIndex)){
+        return
+      }
+      if (tiles[neighborIndex] === TileType.empty || tiles[neighborIndex] === TileType.dropzone) {
+        searchSpace.push(neighborIndex)
+      }
     }
-    addNeighboringFloorTiles(playerIndex)
-    console.log(`floor`, floor)
+    console.log("tile lenght", tiles)
 
-    // result.push(`   <tile type="${type}" />`)
-    console.log(`result`, result.join(' \n'))
+    while(searchSpace.length) {
+      console.log(searchSpace.length)
+      const tileIndex = searchSpace.shift()
+      if (!tileIndex) return
+      floor.add(tileIndex)
+     
+      checkNeighbor(tileIndex, 0, -1) // check north
+      checkNeighbor(tileIndex, 1, 0)  // check east
+      checkNeighbor(tileIndex, 0, 1)  // check south
+      checkNeighbor(tileIndex, -1, 0) // check west
+    }
+    result.push(...tiles.map((tT, index) => {
+      if (tT == TileType.empty && floor.has(index)) {
+        return `     <tile type="floor" />`
+      }
+      return `     <tile type="${TileType[tT]}" />`
+    }))
+    result.push(`   </static>`)
+    result.push(`   <objects>`)
+    result.push(`     <object tileIndex="${playerIndex}" type="player" />`)
+    result.push(...boxIndices.map((i) => `     <object tileIndex="${i}" type="box" />`))
+    result.push(`   </objects>`)
+    result.push(` </tiles>`)
+    result.push(`</puzzle>`)
+console.log(result.join(' \n'))
+
+    setOutput(result.join(' \n'))
   }
   return (
     <div className="converter">
       <div>
-        input
+        <label>Input (in <a href="http://www.sokobano.de/wiki/index.php?title=Level_format">Sokoban standard notation</a>).
+        <br/>Make sure the area where the player is is fully walled in.</label>
         <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
         <button onClick={handleConvert}>CONVERT</button>
       </div>
       <div>
         output
-        <textarea name="" id="" rows={10} value={`012
-345
-678`}>
+        <textarea name="" id="" rows={10} value={output}>
 
         </textarea>
 
       </div>
+      { output && <App gameData={output} />}
     </div>
   )
 }

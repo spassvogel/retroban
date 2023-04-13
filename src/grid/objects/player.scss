@@ -1,5 +1,5 @@
 .object {
-  transition: transform 0.25s ease;
+  transition: transform 0.25s ease; // movement speed
   transform: translate(var(--x), var(--y));
 
   &--type-player {
@@ -37,18 +37,18 @@
 
   &--anim-walk {
     #foot_1_ {
-      animation: 0.5s linear 0s infinite alternate feet-walk;   
+      animation: 0.25s linear 0s infinite alternate feet-walk;   
     }
     #foot_2_ {
-      animation: 0.5s linear 0.5s infinite alternate feet-walk;   
+      animation: 0.25s linear 0.25s infinite alternate feet-walk;   
     }
 
     #arms {
       #arm-right {
-        animation: 0.5s linear 0.5s infinite alternate feet-walk;   
+        animation: 0.25s linear 0.25s infinite alternate feet-walk;   
       }
       #arms-left {
-        animation: 0.5s linear 0s infinite alternate feet-walk;   
+        animation: 0.25s linear 0s infinite alternate feet-walk;   
       }
     }
     @keyframes feet-walk {
