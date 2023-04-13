@@ -1,5 +1,4 @@
 <puzzle type="Sokoban" width="14" created="2023-04-13T20:02:07.286Z" source="https://github.com/begoon/sokoban-maps maze 2" verified="false"> 
-<puzzle type="Sokoban" width="14" created="2023-04-13T20:02:07.286Z"> 
  <tiles> 
    <static> 
      <tile type="wall" /> 
