@@ -10,12 +10,13 @@ import levelJSON from '../levels.json'
 import ConfettiExplosion from 'react-confetti-explosion';
 
 import './game.scss'
+import { LEVEL_PREVIEW } from './App'
 
 type Props = {
   path: string
   gameData?: string
 }
-const Game = ({ path }: Props) => {
+const Game = ({ gameData, path }: Props) => {
   const dispatch = useDispatch<AppDispatch>()
   const isInitialized = useSelector<SokobanStoreState, boolean>((store) => store.puzzleInfo.isInitialized)
   const rehydrated = useSelector<SokobanStoreState, boolean>((store) => store._persist.rehydrated)
@@ -33,20 +34,16 @@ const Game = ({ path }: Props) => {
   useEffect(() => {
     // If the store was rehydrated but not initialized,
     // load the xml data and populate the store
-    if (rehydrated && !isInitialized) {
-      loadGameData(path, dispatch)
+    if (path === LEVEL_PREVIEW && gameData) {
+      // received gameData as prop, use this
+      const asXML = parseXML(gameData)
+      startGame(asXML, dispatch)
+    } else {
+      if (rehydrated && !isInitialized) {
+        loadGameData(path, dispatch)
+      }
     }
-  }, [dispatch, isInitialized, path, rehydrated])
-
-  // useEffect(() => {
-  //   if (gameData) {
-  //     // received gameData as prop, use this
-  //     const asXML = parseXML(gameData)
-  //     startGame(asXML, dispatch)
-  //   } else {
-  //     // loadGameData(levelJSON.levels[0].path, dispatch)
-  //   }
-  // }, [dispatch, gameData])
+  }, [dispatch, gameData, isInitialized, path, rehydrated])
 
   if (!isInitialized) {
     return (

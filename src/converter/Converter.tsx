@@ -84,7 +84,6 @@ const [output, setOutput] = useState("")
     }
 
     while(searchSpace.length) {
-      console.log(searchSpace.length)
       const tileIndex = searchSpace.shift()
       if (!tileIndex) return
       floor.add(tileIndex)

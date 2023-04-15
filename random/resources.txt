@@ -3,3 +3,5 @@ https://github.com/healeycodes/sokoban
 https://alliballibaba.github.io/Sokoban-Level-Generator/
 
 http://borgar.net/programs/sokoban/
+
+https://www.youtube.com/watch?v=ljj6rAaM4A8 -  Procedural Generation of Sokoban Levels

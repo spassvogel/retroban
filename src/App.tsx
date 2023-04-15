@@ -11,9 +11,12 @@ import levelJSON from '../levels.json'
 type Props = {
   gameData?: string
 }
-const App = ({ gameData }: Props) => {
 
-  const [selectedLevel, setSelectedLevel] = useState<string>(levelJSON.levels[0].path)
+export const LEVEL_PREVIEW = 'preview'
+
+const App = ({ gameData }: Props) => {
+  const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : levelJSON.levels[0].path
+  const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
   const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLevel(e.target.value)
   }
@@ -29,7 +32,7 @@ const App = ({ gameData }: Props) => {
 
     if (previousPersistor) {
       // we already have a persistor, flush the current one
-      // previousPersistor.flush()
+      previousPersistor.flush()
     }
     return configureStoreAndPersistor(selectedLevel)
   }, [previousPersistor, selectedLevel])
@@ -38,7 +41,7 @@ const App = ({ gameData }: Props) => {
 
   return (
     <>
-      <LevelSelector onLevelChange={handleLevelChange} />
+      {!gameData && <LevelSelector onLevelChange={handleLevelChange} /> }
       {selectedLevel && store && persistor && (
         <Provider store={store}>
           <PersistGate loading={<div>loading</div>} persistor={persistor}>
