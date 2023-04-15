@@ -1,8 +1,10 @@
+import { REHYDRATE } from "redux-persist"
 import { GameDataSokoban } from "../../api/transform/transformXML"
 import { GameStatusType } from "../reducers/gameStatus"
 import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from "./game"
 import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT, MOVE_BOX } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
+import { PuzzleInfoState } from "../reducers/puzzleInfo"
 
 
 export type MoveBoxPayload = {

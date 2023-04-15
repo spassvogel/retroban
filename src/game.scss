@@ -3,3 +3,15 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.game {
+  position: relative;
+  max-width: 33rem;
+  width: 100vw;
+}
+
+.confetti {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}

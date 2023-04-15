@@ -1,42 +1,66 @@
 import Grid from './grid/Grid'
-import { useDispatch } from 'react-redux'
-import { AppDispatch } from './store/store'
+import { useDispatch, useSelector } from 'react-redux'
+import { AppDispatch, SokobanStoreState } from './store/store'
 import ButtonRow from './ui/button-bar/ButtonBar'
-import { ChangeEvent, useEffect } from 'react'
+import { ChangeEvent, useEffect, useState } from 'react'
 import { loadGameData as loadGameData, parseXML, startGame } from './api/gameData'
 import useSwipeableActions from './hooks/useSwipeableActions'
 import LevelSelector from './ui/level-selector/LevelSelector'
 import levelJSON from '../levels.json'
+import ConfettiExplosion from 'react-confetti-explosion';
 
 import './game.scss'
 
 type Props = {
+  path: string
   gameData?: string
 }
-const Game = ({ gameData }: Props) => {
+const Game = ({ path }: Props) => {
   const dispatch = useDispatch<AppDispatch>()
-
+  const isInitialized = useSelector<SokobanStoreState, boolean>((store) => store.puzzleInfo.isInitialized)
+  const rehydrated = useSelector<SokobanStoreState, boolean>((store) => store._persist.rehydrated)
   const handlers = useSwipeableActions()
 
-  const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    loadGameData(e.target.value, dispatch)
-  }
+  const [c, setC] = useState(false)
+  useEffect(() => {
+    // if (c) {
+      setTimeout(() => {
+        setC(!c)
+      }, 3000)
+    // }
+  }, [c])
 
   useEffect(() => {
-    if (gameData) {
-      // received gameData as prop, use this
-      const asXML = parseXML(gameData)
-      startGame(asXML, dispatch)
-    } else {
-      loadGameData(levelJSON.levels[0].path, dispatch)
+    // If the store was rehydrated but not initialized,
+    // load the xml data and populate the store
+    if (rehydrated && !isInitialized) {
+      loadGameData(path, dispatch)
     }
-  }, [dispatch, gameData])
+  }, [dispatch, isInitialized, path, rehydrated])
+
+  // useEffect(() => {
+  //   if (gameData) {
+  //     // received gameData as prop, use this
+  //     const asXML = parseXML(gameData)
+  //     startGame(asXML, dispatch)
+  //   } else {
+  //     // loadGameData(levelJSON.levels[0].path, dispatch)
+  //   }
+  // }, [dispatch, gameData])
+
+  if (!isInitialized) {
+    return (
+      <div className="game">
+        loading level data...
+      </div>
+    )
+  }
 
   return (
-    <div className="App" {...handlers}>
-      <LevelSelector onLevelChange={handleLevelChange} />
+    <div className="game" {...handlers} onClick={() => {setC(true)}}>
       <Grid />
       <ButtonRow />
+      {/* {c && <ConfettiExplosion className="confetti" />} */}
     </div>
   )
 }
