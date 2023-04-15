@@ -20,6 +20,8 @@ const getTileType = (input: string) => {
 }
 const Converter = () => {
 const [input, setInput] = useState("")
+const [name, setName] = useState("")
+const [source, setSource] = useState("")
 const [output, setOutput] = useState("")
 
   const handleConvert = () => {
@@ -33,7 +35,7 @@ const [output, setOutput] = useState("")
     }, 0)
 
     const result = [
-      `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}">`,
+      `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}" name="${name}" source="${source}">`,
       ` <tiles>`,
       `   <static>`
     ]
@@ -86,7 +88,7 @@ const [output, setOutput] = useState("")
       const tileIndex = searchSpace.shift()
       if (!tileIndex) return
       floor.add(tileIndex)
-     
+
       checkNeighbor(tileIndex, 0, -1) // check north
       checkNeighbor(tileIndex, 1, 0)  // check east
       checkNeighbor(tileIndex, 0, 1)  // check south
@@ -114,7 +116,12 @@ const [output, setOutput] = useState("")
         <label>Input (in <a href="http://www.sokobano.de/wiki/index.php?title=Level_format">Sokoban standard notation</a>).
         <br/>Make sure the area where the player is is fully walled in.</label>
         <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
-        <button onClick={handleConvert}>CONVERT</button>
+        <label>name</label>
+        <input type="text" value={name} onChange={e => setName(e.target.value)}></input>
+        <input type="source" value={source} onChange={e => setSource(e.target.value)}></input>
+        <div>
+          <button onClick={handleConvert}>CONVERT</button>
+        </div>
       </div>
       <div>
         output

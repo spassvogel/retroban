@@ -1,25 +1,62 @@
-<puzzle type="Sokoban" width="8" difficulty="2" created="2023-03-03T04:11:01" exported="2023-03-03T05:03:02" languagecode="nl" languagename="Dutch" xmlns="">
-	<tiles>
-		<static>
-      <tile type="empty" /> <tile type="empty" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="empty" />
-      <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="floor" /> <tile type="floor" /> <tile type="floor" /> <tile type="wall" /> <tile type="empty" />
-      <tile type="wall" /> <tile type="dropzone" /> <tile type="floor" /> <tile type="floor" /> <tile type="floor" /> <tile type="floor" /> <tile type="wall" /> <tile type="empty" />
-      <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="floor" /> <tile type="floor" /> <tile type="dropzone" /><tile type="wall" /> <tile type="empty" />
-      <tile type="wall" /> <tile type="dropzone" /><tile type="wall" /> <tile type="wall" /> <tile type="floor" /> <tile type="floor" /> <tile type="wall" /> <tile type="empty" />
-      <tile type="wall" /> <tile type="floor" /> <tile type="wall" /> <tile type="floor" /> <tile type="dropzone" /><tile type="floor" /> <tile type="wall" /> <tile type="wall" />
-      <tile type="wall" /> <tile type="floor" /> <tile type="floor" /> <tile type="dropzone" /><tile type="floor" /> <tile type="floor" /> <tile type="dropzone" /><tile type="wall" />
-      <tile type="wall" /> <tile type="floor" /> <tile type="floor" /> <tile type="floor" /> <tile type="dropzone" /><tile type="floor" /> <tile type="floor" /> <tile type="wall" />
-      <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" />
-		</static>
-    <objects>
-      <object tileIndex="18" type="player" />
-      <object tileIndex="19" type="box" />
-      <object tileIndex="28" type="box" />
-      <object tileIndex="36" type="box" />
-      <object tileIndex="49" type="box" />
-      <object tileIndex="51" type="box" />
-      <object tileIndex="52" type="box" />
-      <object tileIndex="53" type="box" />
-    </objects>
-	</tiles>
+<puzzle type="Sokoban" width="7" created="2023-04-15T14:56:25.574Z" name="Push down (01)" source="Jacques Duthen" description="'Dimitri and Yorick' levels were made by Jacques Duthen, who also made the Sokoban font. He suggests that the levels are best for kids ages 4-9." >
+ <tiles>
+   <static>
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+   </static>
+   <objects>
+     <object tileIndex="26" type="player" />
+     <object tileIndex="17" type="box" />
+     <object tileIndex="18" type="box" />
+     <object tileIndex="23" type="box" />
+     <object tileIndex="25" type="box" />
+   </objects>
+ </tiles>
 </puzzle>
