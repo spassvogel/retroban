@@ -1,5 +1,5 @@
 import { SokobanAction } from '../actions/types'
-import { Middleware, MiddlewareAPI } from '@reduxjs/toolkit'
+import { Dispatch, Middleware, MiddlewareAPI } from '@reduxjs/toolkit'
 import { AppDispatch, SokobanStoreState } from '../store'
 import { addUndo, UNDO } from '../actions/undo'
 import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX, goLeft } from '../actions/tiles'
@@ -12,7 +12,7 @@ const INVERSE: { [key: string]: typeof GO_DOWN | typeof GO_LEFT | typeof GO_UP |
   [GO_LEFT]: GO_RIGHT
 }
 
-const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
+const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
   switch (action.type) {
     case GO_UP:
     case GO_RIGHT:
