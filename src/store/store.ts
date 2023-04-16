@@ -1,22 +1,17 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import tiles, { TilesStoreState } from './reducers/tiles'
-import gameStatus, { GameStatusState } from './reducers/gameStatus'
+import tiles from './reducers/tiles'
+import gameStatus from './reducers/gameStatus'
 import undo from './reducers/undo'
 import gamestatusMiddleware from './middlewares/gameStatusMiddleware'
 import undoMiddleware from './middlewares/undoMiddleware'
-import userAction, { UserActionState } from './reducers/userAction'
+import userAction from './reducers/userAction'
 import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE, persistReducer, persistStore } from 'redux-persist'
 
-import createIdbStorage from '@piotr-cz/redux-persist-idb-storage'
 import puzzleInfo from './reducers/puzzleInfo'
+import { getPersistConfig } from './indexedDB'
 
 const configureStoreAndPersistor = (path: string) => {
-  const persistConfig = {
-    key: 'root',
-    storage: createIdbStorage({name: `sokoban:${path}`, storeName: 'levels'}),
-    serialize: false,
-    deserialize: false,
-  }
+  const persistConfig = getPersistConfig(path)
   const reducer = persistReducer(persistConfig, combineReducers({
     puzzleInfo,
     tiles,

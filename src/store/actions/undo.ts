@@ -6,7 +6,7 @@ export const REMOVE_UNDO = 'REMOVE_UNDO'
 export const UNDO = 'UNDO'
 
 
-export const undo= (): UndoAction<SokobanAction> => ({
+export const undo = (): UndoAction<SokobanAction> => ({
   type: UNDO,
 })
 

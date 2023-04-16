@@ -18,6 +18,7 @@ const puzzleInfoReducer: Reducer<PuzzleInfoState, SokobanAction> = (state = init
     case INIT_GAME_DATA: {
       return {
         ...state,
+        name: action.payload.name,
         isInitialized: true
       }
     }

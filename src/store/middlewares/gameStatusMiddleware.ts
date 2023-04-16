@@ -10,7 +10,7 @@ const gameStatusMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, S
   const result = next(action)
   const state = storeApi.getState()
   if (state.gameStatus.status === GameStatus.IS_PLAYING) {
-    if (state.tiles.objects.every((o) => o.objectType !== ObjectType.box || state.tiles.static[o.tileIndex] === TileType.dropzone )) {
+    if (state.tiles.objects.length && state.tiles.objects.every((o) => o.objectType !== ObjectType.box || state.tiles.static[o.tileIndex] === TileType.dropzone )) {
       storeApi.dispatch(setGameStatus(GameStatus.IS_SOLVED))
     }
   }

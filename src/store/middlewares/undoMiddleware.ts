@@ -2,7 +2,7 @@ import { SokobanAction } from '../actions/types'
 import { Middleware, MiddlewareAPI } from '@reduxjs/toolkit'
 import { AppDispatch, SokobanStoreState } from '../store'
 import { addUndo, UNDO } from '../actions/undo'
-import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from '../actions/tiles'
+import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX, goLeft } from '../actions/tiles'
 import { calculateMove } from '../utils/moves'
 
 const INVERSE: { [key: string]: typeof GO_DOWN | typeof GO_LEFT | typeof GO_UP | typeof GO_RIGHT} = {
@@ -39,7 +39,8 @@ const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<AppDispatch, Sokoban
         }
       }
       if (undoActions.length) {
-        storeApi.dispatch(addUndo<SokobanAction>(undoActions))
+        const test = [goLeft()]
+        storeApi.dispatch(addUndo<SokobanAction>(test))
       }
       break
     }
