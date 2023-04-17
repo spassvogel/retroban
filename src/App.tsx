@@ -7,6 +7,7 @@ import Game from './Game'
 import LevelSelector from './ui/level-selector/LevelSelector'
 import configureStoreAndPersistor, { SokobanStoreState } from './store/store'
 import levelJSON from '../levels.json'
+import useLevels from './hooks/useLevels'
 
 type Props = {
   gameData?: string
@@ -18,6 +19,9 @@ export const LEVEL_PREVIEW = 'preview'
 const App = ({ gameData }: Props) => {
   const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
+
+  const levels = useLevels(selectedLevel)
+
   const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLevel(e.target.value)
   }
@@ -42,7 +46,7 @@ const App = ({ gameData }: Props) => {
 
   return (
     <>
-      {!gameData && <LevelSelector onLevelChange={handleLevelChange} currentLevel={selectedLevel} /> }
+      {!gameData && <LevelSelector onLevelChange={handleLevelChange} levels={levels} /> }
       {selectedLevel && store && persistor && (
         <Provider store={store}>
           <PersistGate loading={<div>loading</div>} persistor={persistor}>
