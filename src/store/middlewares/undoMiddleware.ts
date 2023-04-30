@@ -39,8 +39,7 @@ const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanSto
         }
       }
       if (undoActions.length) {
-        const test = [goLeft()]
-        storeApi.dispatch(addUndo<SokobanAction>(test))
+        storeApi.dispatch(addUndo<SokobanAction>(undoActions))
       }
       break
     }
