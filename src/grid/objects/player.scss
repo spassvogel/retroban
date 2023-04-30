@@ -5,10 +5,10 @@
   &--type-player {
     fill: darkslateblue;
 
-    #guy {
+    #body {
       transition: transform 0.1s ease; // rotating goes faster than moving
       transform-box: fill-box;
-      transform-origin: center;
+      transform-origin: 157px 213px;
     }
 
     #arms {
@@ -37,25 +37,25 @@
 
   &--anim-walk {
     #foot_1_ {
-      animation: 0.25s linear 0s infinite alternate feet-walk;   
+      animation: 0.25s linear 0s infinite alternate feet-walk;
     }
     #foot_2_ {
-      animation: 0.25s linear 0.25s infinite alternate feet-walk;   
+      animation: 0.25s linear 0.25s infinite alternate feet-walk;
     }
 
     #arms {
       #arm-right {
-        animation: 0.25s linear 0.25s infinite alternate feet-walk;   
+        animation: 0.25s linear 0.25s infinite alternate feet-walk;
       }
       #arms-left {
-        animation: 0.25s linear 0s infinite alternate feet-walk;   
+        animation: 0.25s linear 0s infinite alternate feet-walk;
       }
     }
     @keyframes feet-walk {
       from {
         transform: translateX(-20px);
       }
-    
+
       to {
         transform: translateX(10px);
       }
@@ -64,17 +64,17 @@
 
   &--direction {
     &-south {
-      #guy {
+      #body {
         transform: rotate(90deg);
       }
     }
     &-west {
-      #guy {
+      #body {
         transform: rotate(180deg);
       }
     }
     &-north {
-      #guy {
+      #body {
         transform: rotate(-90deg);
       }
     }
