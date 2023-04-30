@@ -4,11 +4,12 @@ import { getPosition, peekNeighor } from "../utils/grid"
 import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT } from "../../store/actions/tiles"
 
 import './player.scss'
-import { CSSProperties, useMemo } from "react"
+import { CSSProperties, useEffect, useMemo, useRef } from "react"
 import usePrevious from "../../hooks/usePrevious"
 import { ReactComponent as PlayerImage } from './player.svg'
 import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
 import { DIRECTION, Direction } from "../../store/utils/moves"
+
 import { UserActionState } from "../../store/reducers/userAction"
 
 type Props = {
@@ -28,6 +29,7 @@ const Player = ({ index, tileSize }: Props) => {
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
   const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? GO_RIGHT)
+  const ref = useRef<SVGGElement>(null)
 
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns
@@ -45,9 +47,26 @@ const Player = ({ index, tileSize }: Props) => {
     ...(isAtBox ? [`object--at-box`] : [])
   ].join(' ')
 
+  useEffect(() => {
+    const keydown = () => {
+      ref.current?.classList.add('object--keydown')
+    }
+    const keyup = () => {
+      ref.current?.classList.remove('object--keydown')
+    }
+
+    document.addEventListener('keydown', keydown, false)
+    document.addEventListener('keyup', keyup, false)
+    return () => {
+      document.removeEventListener('keydown', keydown, false)
+      document.removeEventListener('keyup', keyup, false)
+    }
+  }, [])
+
   return (
     <g
-     style={{
+      ref={ref}
+      style={{
         '--x': `${x * tileSize}px`,
         '--y': `${y * tileSize}px`,
       } as CSSProperties}
@@ -56,7 +75,7 @@ const Player = ({ index, tileSize }: Props) => {
     <PlayerImage
       width={tileSize}
       height={tileSize}
-     
+
     />
      {/* <image href={`/img/player.svg`}
           x={x * tileSize}

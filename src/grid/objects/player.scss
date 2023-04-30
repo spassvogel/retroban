@@ -2,9 +2,8 @@
   transition: transform 0.25s ease; // movement speed
   transform: translate(var(--x), var(--y));
 
-  &--type-player {
-    fill: darkslateblue;
 
+  &--type-player {
     #body {
       transition: transform 0.1s ease; // rotating goes faster than moving
       transform-box: fill-box;
@@ -34,6 +33,13 @@
     &:not(.object--at-box) {
     }
   }
+
+  &--keydown {
+    #body {
+      transition-timing-function: linear;
+    }
+  }
+
 
   &--anim-walk {
     #foot_1_ {

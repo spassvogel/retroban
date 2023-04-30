@@ -13,7 +13,6 @@ const Grid = () => {
   const tileSize = 100 / columns
   const viewBoxHeight = Math.floor(staticTiles.length / columns) * tileSize
 
-  // console.log(`columns`, columns)
   return (
     <div className="grid">
       <svg viewBox={`0 0 100 ${isNaN(viewBoxHeight) ? 100 : viewBoxHeight}`} xmlns="http://www.w3.org/2000/svg">

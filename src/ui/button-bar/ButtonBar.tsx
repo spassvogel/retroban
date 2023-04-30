@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useSelector } from "react-redux"
 import useGameActions from "../../hooks/useGameActions"
 import useKeyPress from "../../hooks/useKeyPress"
@@ -20,10 +21,33 @@ const ButtonBar = () => {
     resetAction
   } = useGameActions()
 
-  useKeyPress('ArrowUp', goUpAction, [status])
-  useKeyPress('ArrowRight', goRightAction, [status])
-  useKeyPress('ArrowDown', goDownAction, [status])
-  useKeyPress('ArrowLeft', goLeftAction, [status])
+  // useEffect(() => {
+  //   const handle = (e: KeyboardEvent) => {
+  //     switch (e.key) {
+  //       case 'ArrowUp':
+  //         goUpAction()
+  //         break
+  //       case 'ArrowRight':
+  //         goRightAction()
+  //         break
+  //       case 'ArrowDown':
+  //         goDownAction()
+  //         break
+  //       case 'ArrowLeft':
+  //         goLeftAction()
+  //         break
+  //     }
+  //   }
+  //   window.addEventListener('keyup', handle)
+  //   return () => {
+  //     window.removeEventListener('keyup', handle)
+  //   }
+  // }, [goDownAction, goLeftAction, goRightAction, goUpAction])
+
+  useKeyPress('ArrowUp', goUpAction, [status, 'ArrowUp', goUpAction])
+  useKeyPress('ArrowRight', goRightAction, [status, 'ArrowRight', goRightAction])
+  useKeyPress('ArrowDown', goDownAction, [status, 'ArrowDown', goDownAction])
+  useKeyPress('ArrowLeft', goLeftAction, [status, 'ArrowLeft', goLeftAction])
   useKeyPress('z', undoAction);
 
   return (

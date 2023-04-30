@@ -7,13 +7,14 @@ import { DependencyList, useEffect } from 'react';
 const useKeyPress = (key: string, action: (e: KeyboardEvent) => void, deps?: DependencyList) => {
   useEffect(() => {
     const handleKeyup = (e: KeyboardEvent) => {
+
       if (e.key === key) {
         action(e)
       }
     }
     window.addEventListener('keydown', handleKeyup)
     return () => window.removeEventListener('keydown', handleKeyup)
-  }, deps)
+  }, [action, key])
 }
 
 export default useKeyPress
