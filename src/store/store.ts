@@ -43,5 +43,6 @@ const configureStoreAndPersistor = (path: string) => {
 }
 export default configureStoreAndPersistor
 
-export type SokobanStoreState = ReturnType<ReturnType<typeof configureStoreAndPersistor>['store']['getState']>
-export type AppDispatch = ReturnType<typeof configureStoreAndPersistor>['store']['dispatch']
+type Store = ReturnType<typeof configureStoreAndPersistor>['store']
+export type SokobanStoreState = ReturnType<Store['getState']>
+export type AppDispatch = Store['dispatch']

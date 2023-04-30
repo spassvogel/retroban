@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
-import { ChangeEvent, useEffect, useMemo, useState } from 'react'
+import { ChangeEvent, useCallback, useEffect, useMemo, useState } from 'react'
 import usePrevious from './hooks/usePrevious'
 import { Persistor } from 'redux-persist'
 import Game from './Game'
@@ -25,6 +25,13 @@ const App = ({ gameData }: Props) => {
   const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLevel(e.target.value)
   }
+
+  const gotoNextLevel = useCallback(() => {
+    const nextLevel = levels.find((l) => !l.completed)
+    if (nextLevel) {
+      setSelectedLevel(nextLevel.path)
+    }
+  }, [levels])
 
   let previousPersistor: Persistor | undefined = undefined
   const { store, persistor } = useMemo(() => {

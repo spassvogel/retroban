@@ -7,11 +7,11 @@ import { loadGameData as loadGameData, parseXML, startGame } from './api/gameDat
 import useSwipeableActions from './hooks/useSwipeableActions'
 import LevelSelector from './ui/level-selector/LevelSelector'
 import levelJSON from '../levels.json'
-import ConfettiExplosion from 'react-confetti-explosion';
 
 import './game.scss'
 import { LEVEL_PREVIEW } from './App'
 import Modal from './ui/modal/Modal'
+import CompledState from './ui/completed/CompletedState'
 
 type Props = {
   path: string
@@ -58,10 +58,10 @@ const Game = ({ gameData, path }: Props) => {
     <div className="game" {...handlers} onClick={() => {setC(true)}}>
       <Grid />
       <ButtonRow />
+      <CompledState />
       {/* <Modal>
         done
       </Modal> */}
-      {/* {c && <ConfettiExplosion className="confetti" />} */}
     </div>
   )
 }
