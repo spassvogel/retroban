@@ -9,7 +9,6 @@ export type GameDataSokoban = Pick<SokobanStoreState, 'tiles'> & Metadata
 
 const transformSokobanXML = (xmlData: xmlJs.ElementCompact): GameDataSokoban => {
   const tiles = transformTiles(xmlData)
-  console.log(`(wouter left this in) xmlData._attributes.name`, xmlData.puzzle._attributes?.name);
   const name = `${xmlData.puzzle._attributes?.name ?? "unnamed"}`
 
   return {

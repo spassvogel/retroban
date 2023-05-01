@@ -31,7 +31,8 @@ export const parseXML = (input: string) => {
 }
 
 export const loadGameData = async (path: string, dispatch: AppDispatch) => {
-  const xmlData = await getXmlData(path)
+  const basePath = document.getElementById('root')?.dataset.xmlBasePath ?? ''
+  const xmlData = await getXmlData(`${basePath}${path}`)
   startGame(xmlData, dispatch)
 }
 

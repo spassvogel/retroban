@@ -1,6 +1,4 @@
-import { ChangeEventHandler, useEffect, useMemo, useState } from 'react'
-import levelJSON from '../../../levels.json'
-import { CheckLevelResult, checkLevels } from '../../store/indexedDB'
+import { ChangeEventHandler } from 'react'
 import { LevelDefinition } from '../../hooks/useLevels'
 
 import './levelSelector.scss'
