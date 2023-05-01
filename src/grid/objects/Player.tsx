@@ -30,7 +30,6 @@ const Player = ({ index, tileSize }: Props) => {
   const { x, y } = getPosition(index, columns)
   const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? GO_RIGHT)
   const ref = useRef<SVGGElement>(null)
-
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns
     const { x, y } = DIRECTION[direction]

@@ -4,11 +4,12 @@ import { resetPuzzle } from "../store/actions/game"
 import { goUp, goRight, goDown, goLeft } from "../store/actions/tiles"
 import { undo } from "../store/actions/undo"
 import { GameStatusType, GameStatus } from "../store/reducers/gameStatus"
-import { AppDispatch, SokobanStoreState } from "../store/store"
+import { SokobanStoreState } from "../store/store"
+import { Dispatch } from "@reduxjs/toolkit"
 
-const COOLDOWN_TIME = 200
+const COOLDOWN_TIME = 100
 const useGameActions = () => {
-  const dispatch = useDispatch<AppDispatch>()
+  const dispatch = useDispatch<Dispatch>()
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const lastAttemptedActionTime = useSelector<SokobanStoreState, number>(state => state.userAction.lastAttemptedActionTime ?? 0)
 
