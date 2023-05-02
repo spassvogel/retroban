@@ -129,7 +129,9 @@ const [output, setOutput] = useState("")
         </textarea>
 
       </div>
-      { output && <App gameData={output} />}
+      <div className="preview">
+        { output && <App gameData={output} />}
+      </div>
     </div>
   )
 }
