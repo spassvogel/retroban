@@ -1,27 +1,42 @@
 import { Reducer } from "redux"
 import { SokobanAction } from "../actions/types"
 import { MOVE } from "../actions/tiles"
+import { UNDO } from "../actions/undo"
+import { RESET_PUZZLE } from "../actions/game"
 
 export type UserActionState = {
-  // lastAttemptedAction?: Direction
-  lastAttemptedActionTime?: number
+  actions: string,
+  time?: number,
 }
 
 const initial: UserActionState = {
-  // lastAttemptedAction: MOVE
+  actions: ''
 }
 
-// This reducer keeps track of the last attempted user action
 
 // eslint-disable-next-line default-param-last
 const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = initial, action) => {
   switch (action.type) {
-    case MOVE:
+    case MOVE: {
+      if (action.skipUndo) return state
+
+      // uppercase means a box was moved!
+      const direction = action.boxMove ? action.direction.toUpperCase() : action.direction
       return {
-        // lastAttemptedAction: action.type,
-        lastAttemptedActionTime: new Date().getTime()
+        actions: state.actions + direction,
+        time: new Date().getTime()
       }
-    // }
+    }
+    case UNDO: {
+      return {
+        actions: state.actions.substring(0, state.actions.length - 1),
+      }
+    }
+    case RESET_PUZZLE: {
+      return {
+        actions: '',
+      }
+    }
   }
   return state
 }

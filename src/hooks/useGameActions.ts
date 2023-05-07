@@ -6,7 +6,7 @@ import { undo } from "../store/actions/undo"
 import { GameStatusType, GameStatus } from "../store/reducers/gameStatus"
 import { SokobanStoreState } from "../store/store"
 import { Dispatch } from "@reduxjs/toolkit"
-import { calculateMove } from "../store/utils/moves"
+import { DOWN, LEFT, RIGHT, UP } from "../store/utils/moves"
 import { TilesStoreState } from "../store/reducers/tiles"
 
 const COOLDOWN_TIME = 100
@@ -14,43 +14,43 @@ const useGameActions = () => {
   const dispatch = useDispatch<Dispatch>()
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const tiles = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
-  const lastAttemptedActionTime = useSelector<SokobanStoreState, number>(state => state.userAction.lastAttemptedActionTime ?? 0)
+  const lastActionTime = useSelector<SokobanStoreState, number>(state => state.userAction.time ?? 0)
 
   const goUpAction = useCallback(() => {
-    if (Date.now() - lastAttemptedActionTime < COOLDOWN_TIME) {
+    if (Date.now() - lastActionTime < COOLDOWN_TIME) {
       return
     }
     if (status === GameStatus.IS_PLAYING) {
-      attemptAction(dispatch, tiles, 'UP')
+      attemptAction(dispatch, tiles, UP)
     }
-  }, [dispatch, lastAttemptedActionTime, status, tiles])
+  }, [dispatch, lastActionTime, status, tiles])
 
   const goRightAction = useCallback(() => {
-    if (Date.now() - lastAttemptedActionTime < COOLDOWN_TIME) {
+    if (Date.now() - lastActionTime < COOLDOWN_TIME) {
       return
     }
     if (status === GameStatus.IS_PLAYING) {
-      attemptAction(dispatch, tiles, 'RIGHT')
+      attemptAction(dispatch, tiles, RIGHT)
     }
-  }, [dispatch, lastAttemptedActionTime, status, tiles])
+  }, [dispatch, lastActionTime, status, tiles])
 
   const goDownAction = useCallback(() => {
-    if (Date.now() - lastAttemptedActionTime < COOLDOWN_TIME) {
+    if (Date.now() - lastActionTime < COOLDOWN_TIME) {
       return
     }
     if (status === GameStatus.IS_PLAYING) {
-      attemptAction(dispatch, tiles, 'DOWN')
+      attemptAction(dispatch, tiles, DOWN)
     }
-  }, [dispatch, lastAttemptedActionTime, status, tiles])
+  }, [dispatch, lastActionTime, status, tiles])
 
   const goLeftAction  = useCallback(() => {
-    if (Date.now() - lastAttemptedActionTime < COOLDOWN_TIME) {
+    if (Date.now() - lastActionTime < COOLDOWN_TIME) {
       return
     }
     if (status === GameStatus.IS_PLAYING) {
-      attemptAction(dispatch, tiles, 'LEFT')
+      attemptAction(dispatch, tiles, LEFT)
     }
-  }, [dispatch, lastAttemptedActionTime, status, tiles])
+  }, [dispatch, lastActionTime, status, tiles])
 
   const undoAction = useCallback(() => {
     if (status === GameStatus.IS_PLAYING) {

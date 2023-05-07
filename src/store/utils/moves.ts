@@ -1,10 +1,10 @@
 import { peekNeighor } from "../../grid/utils/grid"
 import { ObjectType, TileObject, TilesStoreState, TileType } from "../reducers/tiles"
 
-export const UP = 'UP'
-export const RIGHT = 'RIGHT'
-export const DOWN = 'DOWN'
-export const LEFT = 'LEFT'
+export const UP = 'u'
+export const RIGHT = 'r'
+export const DOWN = 'd'
+export const LEFT = 'l'
 
 
 export const DIRECTION = {

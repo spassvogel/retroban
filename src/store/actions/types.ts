@@ -1,5 +1,6 @@
 import { GameDataSokoban } from "../../api/transform/transformXML"
 import { GameStatusType } from "../reducers/gameStatus"
+import { Direction } from "../utils/moves"
 import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from "./game"
 import { MOVE } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
@@ -11,6 +12,7 @@ export type MoveBoxPayload = {
 
 export type TilesAction = {
   type: typeof MOVE
+  direction: Direction
   destination: number
   boxMove?: MoveBoxPayload
 } & UndoableAction

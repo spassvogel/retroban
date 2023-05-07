@@ -1,7 +1,6 @@
 import { TilesStoreState } from "../reducers/tiles"
 import { AppDispatch } from "../store"
 import { Direction, calculateMove } from "../utils/moves"
-import { TilesAction } from "./types"
 
 export const MOVE = 'MOVE' // moves the player and possibly a box
 
@@ -17,12 +16,14 @@ export const attemptAction = (dispatch: AppDispatch, tiles: TilesStoreState, dir
     // Did not move a box, just the player
     dispatch({
       type: MOVE,
+      direction,
       destination
     })
     return
   }
   dispatch({
     type: MOVE,
+    direction,
     destination,
     boxMove: {
       from: move.box.object.tileIndex,

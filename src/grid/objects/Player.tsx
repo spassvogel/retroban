@@ -10,24 +10,18 @@ import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/ti
 import { DIRECTION, DOWN, Direction, LEFT, RIGHT, UP } from "../../store/utils/moves"
 
 import { UserActionState } from "../../store/reducers/userAction"
+import { usePlayerOrientation } from "../../hooks/usePlayerOrientation"
 
 type Props = {
   index: number
   tileSize: number
 }
 
-const DIRECTIONMAP = {
-  [RIGHT]: 'east',
-  [DOWN]: 'south',
-  [LEFT]: 'west',
-  [UP]: 'north'
-}
-
 const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
-  // const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? RIGHT)
+  const orientation = usePlayerOrientation()
   const direction = RIGHT
   const ref = useRef<SVGGElement>(null)
   const isAtBox = useMemo(() => {
@@ -42,7 +36,7 @@ const Player = ({ index, tileSize }: Props) => {
     `object`,
     `object--type-player`,
     `object--anim-walk`,
-    `object--direction-${DIRECTIONMAP[direction]}`,
+    `object--direction-${orientation}`,
     ...(isAtBox ? [`object--at-box`] : [])
   ].join(' ')
 
