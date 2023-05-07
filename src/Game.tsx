@@ -2,35 +2,25 @@ import Grid from './grid/Grid'
 import { useDispatch, useSelector } from 'react-redux'
 import { AppDispatch, SokobanStoreState } from './store/store'
 import ButtonRow from './ui/button-bar/ButtonBar'
-import { ChangeEvent, useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { loadGameData as loadGameData, parseXML, startGame } from './api/gameData'
 import useSwipeableActions from './hooks/useSwipeableActions'
-import LevelSelector from './ui/level-selector/LevelSelector'
-import levelJSON from '../levels.json'
+import { LEVEL_PREVIEW } from './App'
+import CompledState from './ui/completed/CompletedState'
 
 import './game.scss'
-import { LEVEL_PREVIEW } from './App'
-import Modal from './ui/modal/Modal'
-import CompledState from './ui/completed/CompletedState'
 
 type Props = {
   path: string
   gameData?: string
+  gotoNextLevel: () => void
 }
-const Game = ({ gameData, path }: Props) => {
+
+const Game = ({ gameData, path, gotoNextLevel }: Props) => {
   const dispatch = useDispatch<AppDispatch>()
   const isInitialized = useSelector<SokobanStoreState, boolean>((store) => store.puzzleInfo.isInitialized)
   const rehydrated = useSelector<SokobanStoreState, boolean>((store) => store._persist.rehydrated)
   const handlers = useSwipeableActions()
-
-  const [c, setC] = useState(false)
-  useEffect(() => {
-    // if (c) {
-      setTimeout(() => {
-        setC(!c)
-      }, 3000)
-    // }
-  }, [c])
 
   useEffect(() => {
     // If the store was rehydrated but not initialized,
@@ -55,13 +45,10 @@ const Game = ({ gameData, path }: Props) => {
   }
 
   return (
-    <div className="game" {...handlers} onClick={() => {setC(true)}}>
+    <div className="game" {...handlers}>
       <Grid />
       <ButtonRow />
-      <CompledState />
-      {/* <Modal>
-        done
-      </Modal> */}
+      <CompledState gotoNextLevel={gotoNextLevel} />
     </div>
   )
 }

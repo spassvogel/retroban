@@ -5,15 +5,16 @@ import './levelSelector.scss'
 
 type Props = {
   levels: LevelDefinition[]
+  selectedLevel?: string
   onLevelChange: ChangeEventHandler<HTMLSelectElement>
 }
 // todo: settings
 // todo: help
-const LevelSelector = ({ levels, onLevelChange }: Props) => {
+const LevelSelector = ({ levels, selectedLevel, onLevelChange }: Props) => {
 
   return (
     <div className="top-bar">
-      <select className="level-selector" onChange={onLevelChange}>
+      <select className="level-selector" value={selectedLevel} onChange={onLevelChange}>
         {levels.map((l) => <option key={`${l.path}`} value={`${l.path}`} >{`${formatName(l)}`}</option>)}
       </select>
     </div>

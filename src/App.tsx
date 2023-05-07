@@ -1,11 +1,11 @@
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
-import { ChangeEvent, useCallback, useEffect, useMemo, useState } from 'react'
+import { ChangeEvent, useCallback, useMemo, useState } from 'react'
 import usePrevious from './hooks/usePrevious'
 import { Persistor } from 'redux-persist'
 import Game from './Game'
 import LevelSelector from './ui/level-selector/LevelSelector'
-import configureStoreAndPersistor, { SokobanStoreState } from './store/store'
+import configureStoreAndPersistor from './store/store'
 import levelJSON from '../levels.json'
 import useLevels from './hooks/useLevels'
 
@@ -27,11 +27,11 @@ const App = ({ gameData }: Props) => {
   }
 
   const gotoNextLevel = useCallback(() => {
-    const nextLevel = levels.find((l) => !l.completed)
+    const nextLevel = levels.find((l) => !l.completed && l.path !== selectedLevel)
     if (nextLevel) {
       setSelectedLevel(nextLevel.path)
     }
-  }, [levels])
+  }, [levels, selectedLevel])
 
   let previousPersistor: Persistor | undefined = undefined
   const { store, persistor } = useMemo(() => {
@@ -43,7 +43,7 @@ const App = ({ gameData }: Props) => {
     }
 
     if (previousPersistor) {
-      // we already have a persistor, flush the current one
+      // we already have a persistor, flush it!
       previousPersistor.flush()
     }
     return configureStoreAndPersistor(selectedLevel)
@@ -53,11 +53,15 @@ const App = ({ gameData }: Props) => {
 
   return (
     <>
-      {!gameData && <LevelSelector onLevelChange={handleLevelChange} levels={levels} /> }
+      {!gameData && <LevelSelector selectedLevel={selectedLevel} onLevelChange={handleLevelChange} levels={levels} /> }
       {selectedLevel && store && persistor && (
         <Provider store={store}>
           <PersistGate loading={<div>loading</div>} persistor={persistor}>
-            <Game gameData={gameData} path={selectedLevel} />
+            <Game
+              gameData={gameData}
+              path={selectedLevel}
+              gotoNextLevel={gotoNextLevel}
+            />
           </PersistGate>
         </Provider>
         )}
