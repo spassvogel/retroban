@@ -2,6 +2,7 @@ import { GameDataSokoban } from "../../api/transform/transformXML"
 import { GameStatusType } from "../reducers/gameStatus"
 import { Direction } from "../utils/moves"
 import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from "./game"
+import { SET_PLAYHEAD } from "./replay"
 import { MOVE } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
 
@@ -29,6 +30,11 @@ export type GameAction = {
   type: typeof RESET_PUZZLE
 }
 
+export type ReplayAction = {
+  type: typeof SET_PLAYHEAD
+  payload: number
+}
+
 export type UndoAction<TPuzzleAction> = {
   type: typeof ADD_UNDO
   payload: TPuzzleAction[]
@@ -43,4 +49,4 @@ export type UndoableAction = {
   skipUndo?: boolean
 }
 
-export type SokobanAction = TilesAction | GameAction | UndoAction<TilesAction>
+export type SokobanAction = TilesAction | GameAction | UndoAction<TilesAction> | ReplayAction

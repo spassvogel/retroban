@@ -3,14 +3,17 @@ import { SokobanAction } from "../actions/types"
 import { MOVE } from "../actions/tiles"
 import { UNDO } from "../actions/undo"
 import { RESET_PUZZLE } from "../actions/game"
+import { SET_PLAYHEAD } from "../actions/replay"
 
 export type UserActionState = {
   actions: string,
   time?: number,
+  playhead: number,
 }
 
 const initial: UserActionState = {
-  actions: ''
+  actions: '',
+  playhead: 0
 }
 
 
@@ -24,17 +27,29 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
       const direction = action.boxMove ? action.direction.toUpperCase() : action.direction
       return {
         actions: state.actions + direction,
-        time: new Date().getTime()
+        time: new Date().getTime(),
+        playhead: state.actions.length
       }
     }
+
     case UNDO: {
       return {
         actions: state.actions.substring(0, state.actions.length - 1),
+        playhead: state.playhead - 1
       }
     }
+
+    case SET_PLAYHEAD: {
+      return {
+        ...state,
+        playhead: action.payload
+      }
+    }
+
     case RESET_PUZZLE: {
       return {
         actions: '',
+        playhead: 0,
       }
     }
   }

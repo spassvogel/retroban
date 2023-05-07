@@ -4,6 +4,9 @@ import { useSelector } from 'react-redux'
 import { GameStatus, GameStatusType } from '../../store/reducers/gameStatus'
 import { SokobanStoreState } from '../../store/store'
 import Modal from '../modal/Modal'
+import ProgressSlider from './ProgressSlider'
+
+import './completed-state.scss'
 
 type Props = {
   gotoNextLevel: () => void
@@ -37,25 +40,23 @@ const CompledState = ({ gotoNextLevel }: Props) => {
     return () => clearTimeout(timeout)
   }, [status])
 
-  if (dismissed) {
-    return null
-  }
-
   return (
-    <div>
-      <Modal
-        before={<ConfettiExplosion className="confetti" force={0.8} duration={3000} particleCount={250} width={1600} /> }
-        footer={(
-          <>
-            <button onClick={handleNextLevel}>Next level</button>
-            <button onClick={handleClose}>View puzzle</button>
-          </>
-        )}
-        onClose={handleClose}
-      >
-        Well done!
-      </Modal>
-
+    <div className='completed-state'>
+      { !dismissed && (
+        <Modal
+          before={<ConfettiExplosion className="confetti" force={0.8} duration={3000} particleCount={250} width={1600} /> }
+          footer={(
+            <>
+              <button onClick={handleNextLevel}>Next level</button>
+              <button onClick={handleClose}>View puzzle</button>
+            </>
+          )}
+          onClose={handleClose}
+        >
+          Well done!
+        </Modal>
+      )}
+      <ProgressSlider />
     </div>
   )
 }
