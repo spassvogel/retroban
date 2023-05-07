@@ -2,47 +2,33 @@ import { SokobanAction } from '../actions/types'
 import { Dispatch, Middleware, MiddlewareAPI } from '@reduxjs/toolkit'
 import { AppDispatch, SokobanStoreState } from '../store'
 import { addUndo, UNDO } from '../actions/undo'
-import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from '../actions/tiles'
-import { calculateMove } from '../utils/moves'
-
-const INVERSE: { [key: string]: typeof GO_DOWN | typeof GO_LEFT | typeof GO_UP | typeof GO_RIGHT} = {
-  [GO_UP]: GO_DOWN,
-  [GO_RIGHT]: GO_LEFT,
-  [GO_DOWN]: GO_UP,
-  [GO_LEFT]: GO_RIGHT
-}
+import { MOVE } from '../actions/tiles'
+import { ObjectType } from '../reducers/tiles'
 
 const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
   switch (action.type) {
-    case GO_UP:
-    case GO_RIGHT:
-    case GO_DOWN:
-    case GO_LEFT: {
+    case MOVE: {
       if (action.skipUndo) break
-      const tileState = storeApi.getState().tiles
-      const move = calculateMove(tileState, action.type)
+      const player = storeApi.getState().tiles.objects.find(o => o.objectType === ObjectType.player)
       const undoActions: SokobanAction[] = []
 
-      if (move.player) {
-        undoActions.push({
-          type: INVERSE[action.type]
-        })
+      if (!player) break
 
-        if (move.box) {
-          undoActions.push({
-            type: MOVE_BOX,
-            payload: {
-              from: move.box.destination,
-              to: move.box.object.tileIndex
-            }
-          })
+      undoActions.push({
+        type: MOVE,
+        destination: player.tileIndex,
+        boxMove: action.boxMove && {
+          from: action.boxMove.to,
+          to: action.boxMove.from
         }
-      }
+      })
+
       if (undoActions.length) {
         storeApi.dispatch(addUndo<SokobanAction>(undoActions))
       }
       break
     }
+
 
     case UNDO: {
       const state = storeApi.getState()

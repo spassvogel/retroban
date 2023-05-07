@@ -1,14 +1,13 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../../store/store"
 import { getPosition, peekNeighor } from "../utils/grid"
-import { GO_UP, GO_RIGHT, GO_DOWN, GO_LEFT } from "../../store/actions/tiles"
 
 import './player.scss'
 import { CSSProperties, useEffect, useMemo, useRef } from "react"
 import usePrevious from "../../hooks/usePrevious"
 import { ReactComponent as PlayerImage } from './player.svg'
 import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
-import { DIRECTION, Direction } from "../../store/utils/moves"
+import { DIRECTION, DOWN, Direction, LEFT, RIGHT, UP } from "../../store/utils/moves"
 
 import { UserActionState } from "../../store/reducers/userAction"
 
@@ -18,17 +17,18 @@ type Props = {
 }
 
 const DIRECTIONMAP = {
-  [GO_RIGHT]: 'east',
-  [GO_DOWN]: 'south',
-  [GO_LEFT]: 'west',
-  [GO_UP]: 'north'
+  [RIGHT]: 'east',
+  [DOWN]: 'south',
+  [LEFT]: 'west',
+  [UP]: 'north'
 }
 
 const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
-  const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? GO_RIGHT)
+  // const direction = useSelector<SokobanStoreState, Direction>(state => state.userAction.lastAttemptedAction ?? RIGHT)
+  const direction = RIGHT
   const ref = useRef<SVGGElement>(null)
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns

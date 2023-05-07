@@ -1,8 +1,7 @@
 import { Reducer } from "@reduxjs/toolkit";
 import { INIT_GAME_DATA, RESET_PUZZLE } from "../actions/game";
-import { GO_DOWN, GO_LEFT, GO_RIGHT, GO_UP, MOVE_BOX } from "../actions/tiles";
+import { MOVE } from "../actions/tiles";
 import { GameAction, TilesAction } from "../actions/types";
-import { calculateMove } from "../utils/moves";
 
 export enum TileType { empty, wall,  floor,  dropzone }
 
@@ -32,50 +31,28 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initi
       return action.payload.tiles
     }
 
-    case GO_UP:
-    case GO_RIGHT:
-    case GO_DOWN:
-    case GO_LEFT: {
-
-      const move = calculateMove(state, action.type)
-      if (!move.player) {
-        return state
-      }
-
+    case MOVE: {
       return {
         ...state,
         objects: state.objects.map((o) => {
-          if (move.player && o === move.player.object) {
+          if (o.objectType === ObjectType.player) {
             return {
               ...o,
-              tileIndex: move.player?.destination
+              tileIndex: action.destination
             }
           }
-          if (move.box && move.box.object === o) {
+          if (action.boxMove?.from === o.tileIndex) {
             return {
               ...o,
-              tileIndex: move.box.destination
+              tileIndex: action.boxMove.to
             }
           }
           return o
         })
       }
+
     }
-    case MOVE_BOX: {
-      // Only used for undo
-      return {
-        ...state,
-        objects: state.objects.map((o) => {
-          if (o.objectType === ObjectType.box && o.tileIndex === action.payload.from) {
-            return {
-              ...o,
-              tileIndex: action.payload.to
-            }
-          }
-          return o
-        })
-      }
-    }
+
     case RESET_PUZZLE: {
       // Puts everything back into its original location
       return {

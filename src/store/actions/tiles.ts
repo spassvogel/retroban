@@ -1,32 +1,32 @@
+import { TilesStoreState } from "../reducers/tiles"
+import { AppDispatch } from "../store"
+import { Direction, calculateMove } from "../utils/moves"
 import { TilesAction } from "./types"
 
-export const GO_UP = 'GO_UP'
-export const GO_RIGHT = 'GO_RIGHT'
-export const GO_DOWN = 'GO_DOWN'
-export const GO_LEFT = 'GO_LEFT'
-export const MOVE_BOX = 'MOVE_BOX'
+export const MOVE = 'MOVE' // moves the player and possibly a box
 
-export const goUp = (): TilesAction => ({
-  type: GO_UP
-})
-
-export const goRight = (): TilesAction => ({
-  type: GO_RIGHT
-})
-
-export const goDown = (): TilesAction => ({
-  type: GO_DOWN
-})
-
-export const goLeft = (): TilesAction => ({
-  type: GO_LEFT
-})
-
-// Only used for undo. Moves a box back to previous position
-export const moveBox = (from: number, to: number): TilesAction => ({
-  type: MOVE_BOX,
-  payload: {
-    from,
-    to
+// todo: refactor using thunk!
+export const attemptAction = (dispatch: AppDispatch, tiles: TilesStoreState, direction: Direction) => {
+  const move = calculateMove(tiles, direction)
+  if (!move.player) {
+    // Illegal move, don't do anything
+    return
   }
-})
+  const destination = move.player.destination
+  if (!move.box) {
+    // Did not move a box, just the player
+    dispatch({
+      type: MOVE,
+      destination
+    })
+    return
+  }
+  dispatch({
+    type: MOVE,
+    destination,
+    boxMove: {
+      from: move.box.object.tileIndex,
+      to: move.box.destination
+    }
+  })
+}
