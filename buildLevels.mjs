@@ -14,7 +14,7 @@ const levels = files.map((f, i) => {
   const level = xml.puzzle._attributes.level
 
   return {
-    name: `${name ? `(${name})` : ''}${f} (${level})`,
+    name: `${name ? `(${name})` : ''}${f}`,
     level: parseInt(level, 10),
     path: `xml/${f}`
   }

@@ -12,9 +12,15 @@ type Props = {
 // todo: help
 
 const levelNames: { [key: number]: string } = {
-  1: "Storage Unit (easy)",
-  2: "Warehouse (medium)",
-  3: "Logistic complex (hard)"
+  1: "Storage Unit",
+  2: "Warehouse",
+  3: "Logistic complex"
+}
+
+const levelDescription: { [key: number]: string } = {
+  1: "easy",
+  2: "medium",
+  3: "hard"
 }
 
 const LevelSelector = ({ levels, selectedLevel, onLevelChange }: Props) => {
@@ -32,7 +38,7 @@ const LevelSelector = ({ levels, selectedLevel, onLevelChange }: Props) => {
     <div className="top-bar">
       <select className="level-selector" value={selectedLevel} onChange={onLevelChange}>
         {[...groupedLevels.keys()].map((level) => (
-          <optgroup label={levelNames[level]} key={level}>
+          <optgroup label={`${levelNames[level]} (${levelDescription[level]})`} key={level}>
             {groupedLevels.get(level)?.map((l) => <option key={`${l.path}`} value={`${l.path}`} >{`${formatName(l)}`}</option>)}
           </optgroup>
         ))}
@@ -44,11 +50,12 @@ const LevelSelector = ({ levels, selectedLevel, onLevelChange }: Props) => {
 export default LevelSelector
 
 const formatName = (level: LevelDefinition) => {
+  const name = `${levelNames[level.level]} ${level.name}`
   if (level.cached) {
     if (level.completed) {
-      return `[✓] ${level.name}`
+      return `[✓] ${name}`
     }
-    return `[-] ${level.name}`
+    return `[-] ${name}`
   }
-  return `[ ] ${level.name}`
+  return `[ ] ${name}`
 }
