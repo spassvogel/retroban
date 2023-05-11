@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="22" created="2023-05-02T13:54:32.109Z" name="" source="https://github.com/begoon/sokoban-maps maze 4">
+<puzzle type="Sokoban" width="22" created="2023-05-02T13:54:32.109Z" name="" level="2" source="Begoon Maze 4" sourceURL="https://github.com/begoon/sokoban-maps">
  <tiles>
    <static>
      <tile type="empty" />

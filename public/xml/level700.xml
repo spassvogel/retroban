@@ -1,6 +1,34 @@
-<puzzle type="Sokoban" width="28" created="2023-05-11T16:44:33.175Z" name="" source="">
+<puzzle type="Sokoban" width="28" created="2023-05-11T16:53:07.747Z" name="" level="3" source="Begoon Maze 19" sourceURL="https://github.com/begoon/sokoban-maps">
  <tiles>
    <static>
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
@@ -563,27 +591,27 @@
      <tile type="empty" />
    </static>
    <objects>
-     <object tileIndex="40" type="player" />
-     <object tileIndex="68" type="box" />
-     <object tileIndex="120" type="box" />
-     <object tileIndex="177" type="box" />
-     <object tileIndex="178" type="box" />
-     <object tileIndex="180" type="box" />
+     <object tileIndex="68" type="player" />
+     <object tileIndex="96" type="box" />
+     <object tileIndex="148" type="box" />
      <object tileIndex="205" type="box" />
-     <object tileIndex="207" type="box" />
-     <object tileIndex="236" type="box" />
+     <object tileIndex="206" type="box" />
+     <object tileIndex="208" type="box" />
+     <object tileIndex="233" type="box" />
+     <object tileIndex="235" type="box" />
      <object tileIndex="264" type="box" />
-     <object tileIndex="316" type="box" />
-     <object tileIndex="346" type="box" />
-     <object tileIndex="352" type="box" />
-     <object tileIndex="375" type="box" />
-     <object tileIndex="377" type="box" />
+     <object tileIndex="292" type="box" />
+     <object tileIndex="344" type="box" />
+     <object tileIndex="374" type="box" />
      <object tileIndex="380" type="box" />
-     <object tileIndex="422" type="box" />
-     <object tileIndex="423" type="box" />
-     <object tileIndex="424" type="box" />
-     <object tileIndex="425" type="box" />
-     <object tileIndex="436" type="box" />
+     <object tileIndex="403" type="box" />
+     <object tileIndex="405" type="box" />
+     <object tileIndex="408" type="box" />
+     <object tileIndex="450" type="box" />
+     <object tileIndex="451" type="box" />
+     <object tileIndex="452" type="box" />
+     <object tileIndex="453" type="box" />
+     <object tileIndex="464" type="box" />
    </objects>
  </tiles>
 </puzzle>
