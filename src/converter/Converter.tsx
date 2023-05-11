@@ -22,6 +22,8 @@ const Converter = () => {
 const [input, setInput] = useState("")
 const [name, setName] = useState("")
 const [source, setSource] = useState("")
+const [sourceURL, setSourceURL] = useState("")
+const [level, setLevel] = useState("1")
 const [output, setOutput] = useState("")
 
   const handleConvert = () => {
@@ -35,7 +37,7 @@ const [output, setOutput] = useState("")
     }, 0)
 
     const result = [
-      `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}" name="${name}" source="${source}">`,
+      `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}" name="${name}" level="${level}" source="${source}" sourceURL="${sourceURL}">`,
       ` <tiles>`,
       `   <static>`
     ]
@@ -115,9 +117,26 @@ const [output, setOutput] = useState("")
         <label>Input (in <a href="http://www.sokobano.de/wiki/index.php?title=Level_format">Sokoban standard notation</a>).
         <br/>Make sure the area where the player is is fully walled in.</label>
         <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
-        <label>name</label>
-        <input type="text" value={name} onChange={e => setName(e.target.value)}></input>
-        <input type="source" value={source} onChange={e => setSource(e.target.value)}></input>
+        <div>
+          <label>Name</label>
+          <input type="text" value={name} onChange={e => setName(e.target.value)}></input>
+        </div>
+        <div>
+          <label>Source</label>
+          <input type="source" value={source} onChange={e => setSource(e.target.value)}></input>
+        </div>
+        <div>
+          <label>Source URL</label>
+          <input type="source-URL" value={sourceURL} onChange={e => setSourceURL(e.target.value)}></input>
+        </div>
+        <div>
+          <label>level</label>
+          <select value={level} onChange={(e) => setLevel(e.currentTarget.value)}>
+            <option value="1">Storage Unit</option>
+            <option value="2">Warehouse</option>
+            <option value="3">Logistics center</option>
+          </select>
+        </div>
         <div>
           <button onClick={handleConvert}>CONVERT</button>
         </div>
