@@ -1,0 +1,79 @@
+<puzzle type="Sokoban" width="7" created="2023-05-11T22:05:07.898Z" name="" level="3" source="Revenge Collection 08: Level 21 - The eighth part of the Revenge-Collection. All levels are handmade and solvable.  Level 45 and 46 were inspired by Microban-levels from David W. Skinner. Enjoy, have fun and keep thinking like a sokoban." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Marcus Hof" authorEmail="mhof1@freenet.de" >
+ <tiles>
+   <static>
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+   </static>
+   <objects>
+     <object tileIndex="54" type="player" />
+     <object tileIndex="11" type="box" />
+     <object tileIndex="17" type="box" />
+     <object tileIndex="31" type="box" />
+     <object tileIndex="44" type="box" />
+     <object tileIndex="45" type="box" />
+     <object tileIndex="46" type="box" />
+     <object tileIndex="47" type="box" />
+   </objects>
+ </tiles>
+</puzzle>

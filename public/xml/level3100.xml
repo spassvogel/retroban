@@ -1,0 +1,136 @@
+<puzzle type="Sokoban" width="11" created="2023-05-11T22:00:22.277Z" name="" level="3" source="Revenge Collection 08: Level 13 - The eighth part of the Revenge-Collection. All levels are handmade and solvable.  Level 45 and 46 were inspired by Microban-levels from David W. Skinner. Enjoy, have fun and keep thinking like a sokoban." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Marcus Hof" authorEmail="mhof1@freenet.de" >
+ <tiles>
+   <static>
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+   </static>
+   <objects>
+     <object tileIndex="53" type="player" />
+     <object tileIndex="70" type="box" />
+     <object tileIndex="72" type="box" />
+     <object tileIndex="73" type="box" />
+     <object tileIndex="80" type="box" />
+     <object tileIndex="82" type="box" />
+     <object tileIndex="93" type="box" />
+   </objects>
+ </tiles>
+</puzzle>

@@ -1,0 +1,107 @@
+<puzzle type="Sokoban" width="10" created="2023-05-11T22:06:36.932Z" name="" level="3" source="Revenge Collection 08: Level 42 - The eighth part of the Revenge-Collection. All levels are handmade and solvable.  Level 45 and 46 were inspired by Microban-levels from David W. Skinner. Enjoy, have fun and keep thinking like a sokoban." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Marcus Hof" authorEmail="mhof1@freenet.de" >
+ <tiles>
+   <static>
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+   </static>
+   <objects>
+     <object tileIndex="11" type="player" />
+     <object tileIndex="12" type="box" />
+     <object tileIndex="22" type="box" />
+     <object tileIndex="24" type="box" />
+     <object tileIndex="25" type="box" />
+     <object tileIndex="26" type="box" />
+     <object tileIndex="34" type="box" />
+     <object tileIndex="46" type="box" />
+     <object tileIndex="54" type="box" />
+   </objects>
+ </tiles>
+</puzzle>

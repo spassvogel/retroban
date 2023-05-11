@@ -23,6 +23,8 @@ const [input, setInput] = useState("")
 const [name, setName] = useState("")
 const [source, setSource] = useState("")
 const [sourceURL, setSourceURL] = useState("")
+const [author, setAuthor] = useState("")
+const [authorEmail, setAuthorEmail] = useState("")
 const [level, setLevel] = useState("1")
 const [output, setOutput] = useState("")
 
@@ -36,8 +38,19 @@ const [output, setOutput] = useState("")
       return acc
     }, 0)
 
+    const attributes = [
+      `width="${columns}"`,
+      `created="${new Date().toISOString()}"`,
+      `name="${name}"`,
+      `level="${level}"`,
+      ...(source ? [`source="${source}"`] : []),
+      ...(sourceURL ? [`sourceURL="${sourceURL}"`] : []),
+      ...(author ? [`author="${author}"`] : []),
+      ...(authorEmail ? [`authorEmail="${authorEmail}"`] : []),
+    ]
+
     const result = [
-      `<puzzle type="Sokoban" width="${columns}" created="${new Date().toISOString()}" name="${name}" level="${level}" source="${source}" sourceURL="${sourceURL}">`,
+      `<puzzle type="Sokoban" ${attributes.join(' ')} >`,
       ` <tiles>`,
       `   <static>`
     ]
@@ -119,15 +132,23 @@ const [output, setOutput] = useState("")
         <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
         <div>
           <label>Name</label>
-          <input type="text" value={name} onChange={e => setName(e.target.value)}></input>
+          <input type="text" name="name" value={name} onChange={e => setName(e.target.value)}></input>
         </div>
         <div>
           <label>Source</label>
-          <input type="source" value={source} onChange={e => setSource(e.target.value)}></input>
+          <input type="text" name="source" value={source} onChange={e => setSource(e.target.value)}></input>
         </div>
         <div>
           <label>Source URL</label>
-          <input type="source-URL" value={sourceURL} onChange={e => setSourceURL(e.target.value)}></input>
+          <input type="text" name="sourceURL" value={sourceURL} onChange={e => setSourceURL(e.target.value)}></input>
+        </div>
+        <div>
+          <label>Author</label>
+          <input type="text" name="author" value={author} onChange={e => setAuthor(e.target.value)}></input>
+        </div>
+        <div>
+          <label>Author Email</label>
+          <input type="text" name="source-URL" value={authorEmail} onChange={e => setAuthorEmail(e.target.value)}></input>
         </div>
         <div>
           <label>level</label>
