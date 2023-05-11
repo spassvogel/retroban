@@ -99,4 +99,7 @@
      <object tileIndex="62" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution path="llldldlddrUrUrUdldlluRuRuRRRluurrdrddlUlllldlddrUrUdlluRuRRdLulDrdLulDrruruuurrDrddlULLulDrdLruuurrDrdLLruulldlddrUdldlluR" />
+ </solutions>
 </puzzle>
