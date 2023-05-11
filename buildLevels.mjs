@@ -14,7 +14,8 @@ const levels = files.map((f, i) => {
   const level = xml.puzzle._attributes.level
 
   return {
-    name: `${name ? `(${name})` : ''} ${f} (${level})`,
+    name: `${name ? `(${name})` : ''}${f} (${level})`,
+    level: parseInt(level, 10),
     path: `xml/${f}`
   }
 })
@@ -22,7 +23,7 @@ const json = JSON.stringify({
   "_NOTE": "Dont write to this file. It will be overwritten when the app is compiled!",
   levels
 }, null, 2)
-
+console.log(levels)
 try {
   fs.writeFileSync(`${__dirname}/levels.json`, json);
   // file written successfully

@@ -5,6 +5,7 @@ import levelJSON from '../../levels.json'
 export type LevelDefinition = {
   name: string
   path: string
+  level: number
   cached?: boolean
   completed?: boolean
 }
