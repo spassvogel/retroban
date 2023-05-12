@@ -1,75 +1,76 @@
-<puzzle type="Sokoban" width="8" created="2023-04-15T15:28:42.159Z" name="" level="2" source="MINICOSMOS 02 - Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr"  sourceURL="http://sneezingtiger.com/sokoban/levels.html">
+<puzzle type="Sokoban" width="8" created="2023-05-12T08:21:51.368Z" name="" level="3" source="MINICOSMOS 10 - Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr" >
  <tiles>
    <static>
      <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="empty" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
+     <tile type="empty" />
      <tile type="empty" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="floor" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="dropzone" />
      <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
+     <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="floor" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
      <tile type="dropzone" />
+     <tile type="dropzone" />
      <tile type="floor" />
      <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
      <tile type="wall" />
      <tile type="empty" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="empty" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
      <tile type="empty" />
      <tile type="empty" />
    </static>
    <objects>
-     <object tileIndex="50" type="player" />
+     <object tileIndex="29" type="player" />
      <object tileIndex="18" type="box" />
-     <object tileIndex="42" type="box" />
+     <object tileIndex="28" type="box" />
+     <object tileIndex="45" type="box" />
    </objects>
  </tiles>
 </puzzle>

@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="8" difficulty="2" created="2023-03-03T04:11:01" name="" level="1">
+<puzzle type="Sokoban" width="8" difficulty="2" created="2023-03-03T04:11:01" name="" source="Wikipedia" sourceURL="https://en.wikipedia.org/wiki/File:Sokoban_ani.gif" author="Carlos Montiers Aguilera" level="1">
 	<tiles>
 		<static>
       <tile type="empty" /> <tile type="empty" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="wall" /> <tile type="empty" />
