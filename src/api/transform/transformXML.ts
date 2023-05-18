@@ -22,7 +22,7 @@ export default transformSokobanXML
 
 const transformTiles = (xmlData: xmlJs.ElementCompact): TilesStoreState => {
   const result: TilesStoreState = {
-    columns: parseInt(xmlData.puzzle._attributes.width, 10),
+    columns: +xmlData.puzzle._attributes.width,
     static: [],
     objects: []
   }
@@ -45,9 +45,9 @@ const transformTiles = (xmlData: xmlJs.ElementCompact): TilesStoreState => {
     result.objects = xmlData.puzzle.tiles.objects.object
       .map((xml: xmlJs.ElementCompact) => {
         return {
-          tileIndex: parseInt(String(xml._attributes?.tileIndex || "0"), 10),
+          tileIndex: +String(xml._attributes?.tileIndex || "0"),
           objectType: xml._attributes?.type === "player" ? ObjectType.player : ObjectType.box,
-          initialTileIndex: parseInt(String(xml._attributes?.tileIndex || "0"), 10),
+          initialTileIndex: +String(xml._attributes?.tileIndex || "0"),
         }
       })
   }

@@ -32,7 +32,11 @@ export type GameAction = {
 
 export type ReplayAction = {
   type: typeof SET_PLAYHEAD
-  payload: number
+  payload: {
+    value: number,
+    previousPlayhead: number,
+    actions: string
+  }
 }
 
 export type UndoAction<TPuzzleAction> = {

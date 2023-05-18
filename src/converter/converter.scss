@@ -3,6 +3,29 @@
     width: 100%;
   }
 
+  .properties {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-control {
+    display: flex;
+    margin-top: 0.25rem;
+
+    label {
+      display: block;
+      flex: 1;
+      text-align: right;
+      padding-right: 0.5rem;
+    }
+
+    input, select {
+      flex: 3;
+    }
+
+  }
+
   .preview {
     display: flex;
     justify-content: center;

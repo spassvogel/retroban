@@ -15,7 +15,7 @@ const levels = files.map((f, i) => {
 
   return {
     name: `${name ? `(${name})` : ''}${f}`,
-    level: parseInt(level, 10),
+    level: +level,
     path: `xml/${f}`
   }
 })

@@ -1,7 +1,8 @@
 import { Reducer } from "@reduxjs/toolkit";
 import { INIT_GAME_DATA, RESET_PUZZLE } from "../actions/game";
 import { MOVE } from "../actions/tiles";
-import { GameAction, TilesAction } from "../actions/types";
+import { GameAction, ReplayAction, TilesAction } from "../actions/types";
+import { SET_PLAYHEAD } from "../actions/replay";
 
 export enum TileType { empty, wall,  floor,  dropzone }
 
@@ -25,7 +26,7 @@ const initial: TilesStoreState = {
   objects: []
 }
 
-const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initial, action) => {
+const tiles: Reducer<TilesStoreState, TilesAction | GameAction | ReplayAction> = (state = initial, action) => {
   switch (action.type) {
     case INIT_GAME_DATA: {
       return action.payload.tiles
@@ -50,7 +51,6 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initi
           return o
         })
       }
-
     }
 
     case RESET_PUZZLE: {
@@ -64,6 +64,16 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction> = (state = initi
           }
         })
       }
+    }
+
+    case SET_PLAYHEAD: {
+      if (action.payload.previousPlayhead > action.payload.value) {
+        console.log('going back in time')
+      }
+      if (action.payload.previousPlayhead < action.payload.value) {
+        console.log('going forward in time')
+      }
+      return state
     }
   }
   return state

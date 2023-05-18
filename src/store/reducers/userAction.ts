@@ -42,7 +42,7 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
     case SET_PLAYHEAD: {
       return {
         ...state,
-        playhead: action.payload
+        playhead: action.payload.value
       }
     }
 
