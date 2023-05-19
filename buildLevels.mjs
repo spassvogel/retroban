@@ -2,19 +2,20 @@ import fs from 'fs'
 import xmlJs from 'xml-js'
 import path from 'path'
 import {fileURLToPath} from 'url'
-
+import cities from './src/cities.json' assert {
+  type: 'json'
+}
 
 const __dirname = path.dirname( fileURLToPath(import.meta.url))
-
 const files = fs.readdirSync(`${__dirname}/public/xml`)
 const levels = files.map((f, i) => {
   const contents = fs.readFileSync(`${__dirname}/public/xml/${f}`)
   const xml = xmlJs.xml2js(contents.toString(), { compact: true })
-  const name = xml.puzzle._attributes.name
   const level = xml.puzzle._attributes.level
 
   return {
-    name: `${name ? `(${name})` : ''}${f}`,
+    // name: `${name ? `(${name})` : ''}${f}`,
+    name: `${cities[i]}`,
     level: +level,
     path: `xml/${f}`
   }
