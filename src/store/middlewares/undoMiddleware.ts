@@ -14,14 +14,14 @@ const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanSto
 
       if (!player) break
 
-      undoActions.push({
-        type: MOVE,
-        destination: player.tileIndex,
-        boxMove: action.boxMove && {
-          from: action.boxMove.to,
-          to: action.boxMove.from
-        }
-      })
+      // undoActions.push( {
+      //   type: MOVE,
+      //   destination: player.tileIndex,
+      //   boxMove: action.boxMove && {
+      //     from: action.boxMove.to,
+      //     to: action.boxMove.from
+      //   }
+      // })
 
       if (undoActions.length) {
         storeApi.dispatch(addUndo<SokobanAction>(undoActions))
