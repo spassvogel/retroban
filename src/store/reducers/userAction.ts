@@ -28,7 +28,7 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
       return {
         actions: state.actions + direction,
         time: new Date().getTime(),
-        playhead: state.actions.length
+        playhead: state.actions.length + 1
       }
     }
 

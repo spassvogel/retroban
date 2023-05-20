@@ -1,0 +1,28 @@
+<puzzle type="Sokoban" width="6" created="2023-05-20T18:00:19.699Z" name="" level="1" >
+ <tiles>
+   <static>
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+   </static>
+   <objects>
+     <object tileIndex="7" type="player" />
+     <object tileIndex="8" type="box" />
+   </objects>
+ </tiles>
+</puzzle>

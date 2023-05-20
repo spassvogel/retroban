@@ -24,11 +24,10 @@ const json = JSON.stringify({
   "_NOTE": "Dont write to this file. It will be overwritten when the app is compiled!",
   levels
 }, null, 2)
-console.log(levels)
 try {
   fs.writeFileSync(`${__dirname}/levels.json`, json);
   // file written successfully
-  console.log("Succesfully written levels.json file!")
+  console.log(`Succesfully written ${levels.length} levels to levels.json file!`)
 } catch (err) {
-  console.error(err);
+  console.error(err)
 }

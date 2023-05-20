@@ -29,7 +29,6 @@ const [level, setLevel] = useState("1")
 const [output, setOutput] = useState("")
 
   const handleConvert = () => {
-    console.log(`input`, input)
     const split = input.trimEnd().split('\n')
     const columns = split.reduce((acc, value) => {
       if (value.length > acc) {
