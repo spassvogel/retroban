@@ -4,7 +4,6 @@ import { Direction, calculateMove } from "../utils/moves"
 
 export const MOVE = 'MOVE' // moves the player and possibly a box
 
-// todo: refactor using thunk!
 export const attemptAction = (dispatch: AppDispatch, tiles: TilesStoreState, direction: Direction) => {
   const move = calculateMove(tiles, direction)
   if (!move.player) {

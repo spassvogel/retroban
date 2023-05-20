@@ -12,10 +12,11 @@ const levels = files.map((f, i) => {
   const contents = fs.readFileSync(`${__dirname}/public/xml/${f}`)
   const xml = xmlJs.xml2js(contents.toString(), { compact: true })
   const level = xml.puzzle._attributes.level
+  const index = ++f.match(/(level)(\d\d\d\d).xml/)[2]
 
   return {
     // name: `${name ? `(${name})` : ''}${f}`,
-    name: `${cities[i]}`,
+    name: `${cities[index - 1000]}`,
     level: +level,
     path: `xml/${f}`
   }
