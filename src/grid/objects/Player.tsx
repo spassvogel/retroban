@@ -16,27 +16,35 @@ type Props = {
   index: number
   tileSize: number
 }
+const DIRECTIONMAP = {
+  [RIGHT]: 'east',
+  [DOWN]: 'south',
+  [LEFT]: 'west',
+  [UP]: 'north'
+}
 
 const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const { x, y } = getPosition(index, columns)
   const orientation = usePlayerOrientation()
-  const direction = RIGHT
+  const direction = DIRECTIONMAP[orientation]
+
   const ref = useRef<SVGGElement>(null)
+
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns
-    const { x, y } = DIRECTION[direction]
+    const { x, y } = DIRECTION[orientation]
     const destination = peekNeighor(index, columns, rows, x, y)
 
     return !!objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)
-  }, [columns, direction, index, objects, staticTiles.length])
+  }, [columns, orientation, index, objects, staticTiles.length])
 
   const className = [
     `object`,
     `object--type-player`,
     `object--anim-walk`,
-    `object--direction-${orientation}`,
+    `object--direction-${direction}`,
     ...(isAtBox ? [`object--at-box`] : [])
   ].join(' ')
 

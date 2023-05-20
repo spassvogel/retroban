@@ -1,21 +1,17 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../store/store"
-import { DOWN, Direction, LEFT, RIGHT, UP } from "../store/utils/moves"
-
-const DIRECTIONMAP = {
-  [RIGHT]: 'east',
-  [DOWN]: 'south',
-  [LEFT]: 'west',
-  [UP]: 'north'
-}
+import { Direction, RIGHT } from "../store/utils/moves"
+import { UserActionState } from "../store/reducers/userAction"
 
 // Returns the orientation the player is supposed to have
-export const usePlayerOrientation = () => {
-  const actions = useSelector<SokobanStoreState, string>(state => state.userAction.actions)
+export const usePlayerOrientation = (): Direction => {
+  const { actions, playhead} = useSelector<SokobanStoreState, UserActionState>(state => state.userAction)
   if (!actions.length) {
-    return DIRECTIONMAP[RIGHT]
+    return RIGHT
   }
 
-  const directionLastMove: Direction = actions[actions.length - 1].toLowerCase() as Direction
-  return DIRECTIONMAP[directionLastMove]
+  if (actions.length === playhead) {
+    return actions[playhead - 1].toLowerCase() as Direction
+  }
+  return actions[playhead].toLowerCase() as Direction
 }

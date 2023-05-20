@@ -11,7 +11,7 @@ const ProgressSlider = () => {
   const actions = useSelector<SokobanStoreState, string>(state => state.userAction.actions)
   const playhead = useSelector<SokobanStoreState, number>(state => state.userAction.playhead)
   const dispatch = useDispatch()
-  console.log(actions)
+
   const handleSliderChange = (e: ChangeEvent<HTMLInputElement>) => {
     dispatch(setPlayhead(+e.target.value, playhead, actions))
   }
