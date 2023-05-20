@@ -4,6 +4,14 @@ import { AppDispatch, SokobanStoreState } from '../store'
 import { addUndo, UNDO } from '../actions/undo'
 import { MOVE } from '../actions/tiles'
 import { ObjectType } from '../reducers/tiles'
+import { DOWN, LEFT, RIGHT, UP } from '../utils/moves'
+
+const INVERSE: { [key: string]: typeof DOWN | typeof LEFT | typeof UP | typeof RIGHT} = {
+  [UP]: DOWN,
+  [RIGHT]: LEFT,
+  [DOWN]: UP,
+  [LEFT]: RIGHT
+}
 
 const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanStoreState>) => (next: AppDispatch) => (action: SokobanAction) => {
   switch (action.type) {
@@ -13,15 +21,16 @@ const undoMiddleware: Middleware = (storeApi: MiddlewareAPI<Dispatch, SokobanSto
       const undoActions: SokobanAction[] = []
 
       if (!player) break
-
-      // undoActions.push( {
-      //   type: MOVE,
-      //   destination: player.tileIndex,
-      //   boxMove: action.boxMove && {
-      //     from: action.boxMove.to,
-      //     to: action.boxMove.from
-      //   }
-      // })
+      const direction = INVERSE[action.direction]
+      undoActions.push( {
+        type: MOVE,
+        destination: player.tileIndex,
+        direction,
+        boxMove: action.boxMove && {
+          from: action.boxMove.to,
+          to: action.boxMove.from
+        }
+      })
 
       if (undoActions.length) {
         storeApi.dispatch(addUndo<SokobanAction>(undoActions))
