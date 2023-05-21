@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="13" created="2023-05-10T17:01:40.902Z" name="" level="1" source="Cave Sokoban Level 3" source-url="https://lagged.com.br/pt/g/cave-sokoban">
+<puzzle type="Sokoban" width="10" created="2023-05-10T17:01:40.902Z" name="" level="1" source="Cave Sokoban Level 3" source-url="https://lagged.com.br/pt/g/cave-sokoban">
  <tiles>
    <static>
      <tile type="wall" />
@@ -11,9 +11,6 @@
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="dropzone" />
      <tile type="dropzone" />
@@ -24,9 +21,6 @@
      <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
@@ -40,9 +34,6 @@
      <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
@@ -50,9 +41,6 @@
      <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
@@ -63,9 +51,6 @@
      <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
@@ -76,9 +61,6 @@
      <tile type="wall" />
      <tile type="floor" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
@@ -89,9 +71,6 @@
      <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
@@ -102,27 +81,21 @@
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
      <tile type="empty" />
    </static>
    <objects>
-     <object tileIndex="80" type="player" />
-     <object tileIndex="68" type="box" />
-     <object tileIndex="82" type="box" />
+     <object tileIndex="62" type="player" />
+     <object tileIndex="53" type="box" />
+     <object tileIndex="64" type="box" />
    </objects>
  </tiles>
 </puzzle>
