@@ -4,7 +4,7 @@ import { DependencyList, useEffect } from 'react';
  * @param {string} key - the name of the key to respond to, compared against event.key
  * @param {function} action - the action to perform on key press
  */
-const useKeyPress = (key: string, action: (e: KeyboardEvent) => void, deps?: DependencyList) => {
+const useKeyPress = (key: string, action: (e: KeyboardEvent) => void) => {
   useEffect(() => {
     const handleKeyup = (e: KeyboardEvent) => {
 

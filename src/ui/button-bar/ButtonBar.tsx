@@ -21,10 +21,10 @@ const ButtonBar = () => {
     resetAction
   } = useGameActions()
 
-  useKeyPress('ArrowUp', goUpAction, [status, 'ArrowUp', goUpAction])
-  useKeyPress('ArrowRight', goRightAction, [status, 'ArrowRight', goRightAction])
-  useKeyPress('ArrowDown', goDownAction, [status, 'ArrowDown', goDownAction])
-  useKeyPress('ArrowLeft', goLeftAction, [status, 'ArrowLeft', goLeftAction])
+  useKeyPress('ArrowUp', goUpAction)
+  useKeyPress('ArrowRight', goRightAction)
+  useKeyPress('ArrowDown', goDownAction)
+  useKeyPress('ArrowLeft', goLeftAction)
   useKeyPress('z', undoAction);
 
   if (status !== GameStatus.IS_PLAYING) {

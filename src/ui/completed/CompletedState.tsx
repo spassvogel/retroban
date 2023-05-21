@@ -17,6 +17,7 @@ const SHOW_DELAY = 500
 const CompledState = ({ gotoNextLevel }: Props) => {
   const [dismissed, setDismissed] = useState(true)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
+  const moves = useSelector<SokobanStoreState, number>(state => state.userAction.actions.length)
 
   const handleClose = () => {
     setDismissed(true)
@@ -58,6 +59,9 @@ const CompledState = ({ gotoNextLevel }: Props) => {
           onClose={handleClose}
         >
           <h2>Well done!</h2>
+          <section>
+            {`You completed this level in ${moves} moves`}
+          </section>
         </Modal>
       )}
       <ProgressSlider />
