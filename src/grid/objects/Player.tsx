@@ -22,10 +22,12 @@ const DIRECTIONMAP = {
   [LEFT]: 'west',
   [UP]: 'north'
 }
+const ANIMATION_TIME = 500
 
 const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
+  const time = useSelector<SokobanStoreState, number>(state => state.userAction.time ?? Date.now())
   const { x, y } = getPosition(index, columns)
   const orientation = usePlayerOrientation()
   const direction = DIRECTIONMAP[orientation]
@@ -40,10 +42,22 @@ const Player = ({ index, tileSize }: Props) => {
     return !!objects.find((o) => o.tileIndex === destination && o.objectType === ObjectType.box)
   }, [columns, orientation, index, objects, staticTiles.length])
 
+  useEffect(() => {
+    if (Date.now() - time < ANIMATION_TIME) {
+      ref.current?.classList.add(`object--anim-walk`)
+    }
+    const removeAnim = () => {
+      ref.current?.classList.remove(`object--anim-walk`)
+    }
+    const timeout = setTimeout(removeAnim, ANIMATION_TIME)
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, [time])
+
   const className = [
     `object`,
     `object--type-player`,
-    `object--anim-walk`,
     `object--direction-${direction}`,
     ...(isAtBox ? [`object--at-box`] : [])
   ].join(' ')

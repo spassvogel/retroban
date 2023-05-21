@@ -57,7 +57,7 @@ const CompledState = ({ gotoNextLevel }: Props) => {
           )}
           onClose={handleClose}
         >
-          Well done!
+          <h2>Well done!</h2>
         </Modal>
       )}
       <ProgressSlider />
