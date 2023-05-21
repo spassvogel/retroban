@@ -17,10 +17,6 @@ const ProgressSlider = () => {
     dispatch(setPlayhead(+e.target.value, playhead, actions))
   }
 
-  useEffect(() => {
-    ref.current?.focus()
-  }, [])
-
   return (
     <div className="progress-slider">
       {`Move ${playhead}`}

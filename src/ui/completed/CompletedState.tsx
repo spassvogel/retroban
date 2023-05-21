@@ -60,7 +60,12 @@ const CompledState = ({ gotoNextLevel }: Props) => {
         >
           <h2>Well done!</h2>
           <section>
-            {`You completed this level in ${moves} moves`}
+            <div>
+              {`You completed this level in ${moves} moves.`}
+            </div>
+            <div className="completed-state__modal-subtext">
+              Play the next level or replay your solution.
+            </div>
           </section>
         </Modal>
       )}
