@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import { useSelector } from "react-redux"
 import useGameActions from "../../hooks/useGameActions"
 import useKeyPress from "../../hooks/useKeyPress"
@@ -40,7 +39,7 @@ const ButtonBar = () => {
           disabled={!canUndo}
           onClick={undoAction}
         >
-          ↻ <span>Undo</span>
+          ⎌ <span>Undo</span>
         </Button>
 
         <Button onClick={goUpAction}>↑</Button>
@@ -49,7 +48,7 @@ const ButtonBar = () => {
           className="button-bar__bigger-button"
           onClick={resetAction}
         >
-          ♽ <span>Reset</span>
+          ↻ <span>Reset</span>
         </Button>
       </div>
       <div className="button-bar__row">
