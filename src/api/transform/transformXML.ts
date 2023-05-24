@@ -5,15 +5,22 @@ import { SokobanStoreState } from '../../store/store'
 type Metadata = {
   name: string
 }
-export type GameDataSokoban = Pick<SokobanStoreState, 'tiles'> & Metadata
+
+type Solutions = {
+  solutions: string[]
+}
+
+export type GameDataSokoban = Pick<SokobanStoreState, 'tiles'> & Metadata & Solutions
 
 const transformSokobanXML = (xmlData: xmlJs.ElementCompact): GameDataSokoban => {
   const tiles = transformTiles(xmlData)
   const name = `${xmlData.puzzle._attributes?.name ?? "unnamed"}`
-
+  const solutions = transformSolutions(xmlData)
+console.log(solutions)
   return {
     name,
-    tiles
+    tiles,
+    solutions
   }
 }
 
@@ -52,4 +59,11 @@ const transformTiles = (xmlData: xmlJs.ElementCompact): TilesStoreState => {
       })
   }
   return result
+}
+
+const transformSolutions = (xmlData: xmlJs.ElementCompact): string[] => {
+  if (xmlData.puzzle.solutions?.solution?._text) {
+    return [xmlData.puzzle.solutions?.solution?._text]
+  }
+  return []
 }

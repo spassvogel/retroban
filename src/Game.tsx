@@ -35,6 +35,7 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
       }
     }
   }, [dispatch, gameData, isInitialized, path, rehydrated])
+  const canSolve = useSelector<SokobanStoreState, boolean>((store) => !!store.userAction.solutions.length)
 
   if (!isInitialized) {
     return (
@@ -45,11 +46,15 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
   }
 
   return (
-    <div className="game" {...handlers}>
-      <Grid />
-      <ButtonRow />
-      <CompledState gotoNextLevel={gotoNextLevel} />
-    </div>
+    <>
+    { canSolve && <button>solve</button> }
+
+      <div className="game" {...handlers}>
+        <Grid />
+        <ButtonRow />
+        <CompledState gotoNextLevel={gotoNextLevel} />
+      </div>
+    </>
   )
 }
 
