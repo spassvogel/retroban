@@ -1,0 +1,113 @@
+<puzzle type="Sokoban" width="10" created="2023-05-24T15:28:07.407Z" name="" level="1" source="AC easy Warming Up - AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
+ <tiles>
+   <static>
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+   </static>
+   <objects>
+     <object tileIndex="84" type="player" />
+     <object tileIndex="26" type="box" />
+     <object tileIndex="43" type="box" />
+     <object tileIndex="47" type="box" />
+     <object tileIndex="65" type="box" />
+   </objects>
+ </tiles>
+</puzzle>

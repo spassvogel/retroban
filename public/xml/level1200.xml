@@ -1,0 +1,140 @@
+<puzzle type="Sokoban" width="14" created="2023-05-24T15:29:41.989Z" name="" level="1" source="AC easy AC_Easy_020 - AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
+ <tiles>
+   <static>
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="floor" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+     <tile type="empty" />
+   </static>
+   <objects>
+     <object tileIndex="75" type="player" />
+     <object tileIndex="36" type="box" />
+     <object tileIndex="66" type="box" />
+     <object tileIndex="72" type="box" />
+     <object tileIndex="77" type="box" />
+     <object tileIndex="86" type="box" />
+   </objects>
+ </tiles>
+</puzzle>
