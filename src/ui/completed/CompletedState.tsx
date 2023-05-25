@@ -41,9 +41,9 @@ const CompledState = ({ gotoNextLevel }: Props) => {
     return () => clearTimeout(timeout)
   }, [status])
 
-  if (status !== GameStatus.IS_SOLVED) {
-    return null
-  }
+  // if (status !== GameStatus.IS_SOLVED) {
+  //   return null
+  // }
 
   return (
     <div className='completed-state'>

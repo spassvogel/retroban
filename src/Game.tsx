@@ -9,6 +9,7 @@ import { LEVEL_PREVIEW } from './App'
 import CompledState from './ui/completed/CompletedState'
 
 import './game.scss'
+import { solvePuzzle } from './store/actions/game'
 
 type Props = {
   path: string
@@ -35,7 +36,12 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
       }
     }
   }, [dispatch, gameData, isInitialized, path, rehydrated])
-  const canSolve = useSelector<SokobanStoreState, boolean>((store) => !!store.userAction.solutions.length)
+  const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
+  const canSolve = solutions.length > 0
+
+  const handleSolve = () => {
+    dispatch(solvePuzzle(solutions[0]))
+  }
 
   if (!isInitialized) {
     return (
@@ -47,7 +53,7 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
 
   return (
     <>
-    { canSolve && <button>solve</button> }
+    { canSolve && <button onClick={handleSolve}>solve</button> }
 
       <div className="game" {...handlers}>
         <Grid />

@@ -1,7 +1,7 @@
 import { GameDataSokoban } from "../../api/transform/transformXML"
 import { GameStatusType } from "../reducers/gameStatus"
 import { Direction } from "../utils/moves"
-import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from "./game"
+import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS, SOLVE_PUZZLE } from "./game"
 import { SET_PLAYHEAD } from "./replay"
 import { MOVE } from "./tiles"
 import { ADD_UNDO, REMOVE_UNDO, UNDO } from "./undo"
@@ -25,6 +25,11 @@ export type GameAction = {
   type: typeof SET_GAME_STATUS
   payload: {
     status: GameStatusType,
+  }
+} | {
+  type: typeof SOLVE_PUZZLE
+  payload: {
+    solution: string,
   }
 } | {
   type: typeof RESET_PUZZLE

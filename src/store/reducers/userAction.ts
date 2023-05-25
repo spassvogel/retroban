@@ -2,7 +2,7 @@ import { Reducer } from "redux"
 import { SokobanAction } from "../actions/types"
 import { MOVE } from "../actions/tiles"
 import { UNDO } from "../actions/undo"
-import { INIT_GAME_DATA, RESET_PUZZLE } from "../actions/game"
+import { INIT_GAME_DATA, RESET_PUZZLE, SOLVE_PUZZLE } from "../actions/game"
 import { SET_PLAYHEAD } from "../actions/replay"
 
 export type UserActionState = {
@@ -56,6 +56,16 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
         playhead: action.payload.value
       }
     }
+
+
+    case SOLVE_PUZZLE: {
+      return {
+        ...state,
+        playhead: 0,
+        actions: action.payload.solution
+      }
+    }
+
 
     case RESET_PUZZLE: {
       return {

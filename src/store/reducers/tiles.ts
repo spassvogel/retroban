@@ -1,5 +1,5 @@
 import { Reducer } from "@reduxjs/toolkit";
-import { INIT_GAME_DATA, RESET_PUZZLE } from "../actions/game";
+import { INIT_GAME_DATA, RESET_PUZZLE, SOLVE_PUZZLE } from "../actions/game";
 import { MOVE } from "../actions/tiles";
 import { GameAction, ReplayAction, TilesAction } from "../actions/types";
 import { SET_PLAYHEAD } from "../actions/replay";
@@ -66,6 +66,20 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction | ReplayAction> =
           }
         })
       }
+    }
+
+    case SOLVE_PUZZLE: {
+      // Puts everything back into its original location
+      // return {
+      //   ...state,
+      //   objects: state.objects.map((o) => {
+      //     return {
+      //       ...o,
+      //       tileIndex: o.initialTileIndex
+      //     }
+      //   })
+      // }
+      return state
     }
 
     case SET_PLAYHEAD: {

@@ -5,6 +5,7 @@ import { GameAction } from "./types"
 export const INIT_GAME_DATA = 'INIT_GAME_DATA'
 export const SET_GAME_STATUS = 'SET_GAME_STATUS'
 export const RESET_PUZZLE = 'RESET_PUZZLE'
+export const SOLVE_PUZZLE = 'SOLVE_PUZZLE'
 
 export const initGameData = (data: GameDataSokoban): GameAction => ({
   type: INIT_GAME_DATA,
@@ -20,5 +21,12 @@ export const setGameStatus = (status: GameStatusType): GameAction => ({
 
 export const resetPuzzle = (): GameAction => ({
   type: RESET_PUZZLE,
+})
+
+export const solvePuzzle = (solution: string): GameAction => ({
+  type: SOLVE_PUZZLE,
+  payload: {
+    solution
+  }
 })
 
