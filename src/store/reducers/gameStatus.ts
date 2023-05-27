@@ -1,5 +1,5 @@
 import { Reducer } from 'redux'
-import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS } from '../actions/game'
+import { INIT_GAME_DATA, RESET_PUZZLE, SET_GAME_STATUS, SOLVE_PUZZLE } from '../actions/game'
 import { SokobanAction } from '../actions/types'
 
 export enum GameStatus {
@@ -34,6 +34,14 @@ const gameStatusReducer: Reducer<GameStatusState, SokobanAction> = (state = init
         status: action.payload.status
       }
     }
+
+    case SOLVE_PUZZLE: {
+      return {
+        ...state,
+        status: GameStatus.IS_SOLVED,
+      }
+    }
+
     default: {
       return state
     }

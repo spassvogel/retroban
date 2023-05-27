@@ -37,7 +37,7 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
     }
   }, [dispatch, gameData, isInitialized, path, rehydrated])
   const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
-  const canSolve = solutions.length > 0
+  const canSolve = solutions?.length > 0
 
   const handleSolve = () => {
     dispatch(solvePuzzle(solutions[0]))

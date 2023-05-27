@@ -68,5 +68,8 @@
      <object tileIndex="35" type="box" />
      <object tileIndex="36" type="box" />
    </objects>
- </tiles>
+  </tiles>
+  <solutions>
+    <solution>drrrrrddlULulldRRRdrruulLLdllulldRRRRuLLdlUdrrrurrrddlUruLLLLrrrddlUruLL</solution>
+  </solutions>
 </puzzle>

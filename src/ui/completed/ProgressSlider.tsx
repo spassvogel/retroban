@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { SokobanStoreState } from '../../store/store'
-import { ChangeEvent, useEffect, useRef } from 'react'
+import { ChangeEvent, useRef } from 'react'
 import { setPlayhead } from '../../store/actions/replay'
 
 import './progress-slider.scss'
@@ -16,7 +16,7 @@ const ProgressSlider = () => {
   const handleSliderChange = (e: ChangeEvent<HTMLInputElement>) => {
     dispatch(setPlayhead(+e.target.value, playhead, actions))
   }
-
+console.log(actions)
   return (
     <div className="progress-slider">
       {`Move ${playhead}`}

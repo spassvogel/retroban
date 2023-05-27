@@ -9,16 +9,20 @@ import cities from './src/cities.json' assert {
 const __dirname = path.dirname( fileURLToPath(import.meta.url))
 const files = fs.readdirSync(`${__dirname}/public/xml`)
 const levels = files.map((f, i) => {
-  const contents = fs.readFileSync(`${__dirname}/public/xml/${f}`)
-  const xml = xmlJs.xml2js(contents.toString(), { compact: true })
-  const level = xml.puzzle._attributes.level
-  const index = ++f.match(/(level)(\d\d\d\d).xml/)[2]
+  try {
+    const contents = fs.readFileSync(`${__dirname}/public/xml/${f}`)
+    const xml = xmlJs.xml2js(contents.toString(), { compact: true })
+    const level = xml.puzzle._attributes.level
+    const index = ++f.match(/(level)(\d\d\d\d).xml/)[2]
 
-  return {
-    // name: `${name ? `(${name})` : ''}${f}`,
-    name: `${cities[index - 1000]}`,
-    level: +level,
-    path: `xml/${f}`
+    return {
+      // name: `${name ? `(${name})` : ''}${f}`,
+      name: `${cities[index - 1000]}`,
+      level: +level,
+      path: `xml/${f}`
+    }
+  } catch(e) {
+    console.log(`Error reading ${__dirname}/public/xml/${f}. \n${e}`,)
   }
 })
 const json = JSON.stringify({

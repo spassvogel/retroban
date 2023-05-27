@@ -34,4 +34,7 @@
      <object tileIndex="17" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>UdRU</solution>
+ </solutions>
 </puzzle>

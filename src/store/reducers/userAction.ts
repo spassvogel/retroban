@@ -61,7 +61,7 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
     case SOLVE_PUZZLE: {
       return {
         ...state,
-        playhead: 0,
+        playhead: action.payload.solution.length,
         actions: action.payload.solution
       }
     }

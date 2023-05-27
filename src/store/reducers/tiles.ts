@@ -69,66 +69,20 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction | ReplayAction> =
     }
 
     case SOLVE_PUZZLE: {
-      // Puts everything back into its original location
-      // return {
-      //   ...state,
-      //   objects: state.objects.map((o) => {
-      //     return {
-      //       ...o,
-      //       tileIndex: o.initialTileIndex
-      //     }
-      //   })
-      // }
-      return state
+      const from = 0
+      const to = action.payload.solution.length
+      const objects = playSequence(state, action.payload.solution, from, to, true)
+      return {
+        ...state,
+        objects
+      }
     }
 
     case SET_PLAYHEAD: {
-      let from = action.payload.previousPlayhead
-      let objects = [...state.objects]
-      if (action.payload.previousPlayhead > action.payload.value) {
-        // reset the puzzle and build up from there
-        from = 0
-        objects = objects.map((o) => {
-          return {
-            ...o,
-            tileIndex: o.initialTileIndex
-          }
-        })
-      }
-      // Step through the actions and replay them
-      while (from < action.payload.value) {
-        const currentMove = action.payload.actions[from]
-        const boxMoved = currentMove === currentMove.toUpperCase()
-
-        const { x, y } = DIRECTION[currentMove.toLowerCase() as Direction]
-        const player = objects.find((o) => o.objectType === ObjectType.player)
-
-        if (player) {
-          const destination = peekNeighor(player.tileIndex, state.columns, state.static.length / state.columns, x, y)
-          let boxDestination: number | undefined
-          if (boxMoved) {
-            boxDestination = peekNeighor(player.tileIndex, state.columns, state.static.length / state.columns, x * 2, y * 2)
-          }
-
-          objects = objects.map((o) => {
-            if (o === player && destination != undefined) {
-              return {
-                ...o,
-                tileIndex: destination
-              }
-            }
-            if (o.objectType === ObjectType.box && o.tileIndex === destination && boxDestination !== undefined) {
-              return {
-                ...o,
-                tileIndex: boxDestination
-              }
-            }
-            return o
-          })
-        }
-
-        from++
-      }
+      const from = action.payload.previousPlayhead
+      const to = action.payload.value
+      const reset = from > to
+      const objects = playSequence(state, action.payload.actions, from, to, reset)
       return {
         ...state,
         objects
@@ -139,3 +93,52 @@ const tiles: Reducer<TilesStoreState, TilesAction | GameAction | ReplayAction> =
 }
 
 export default tiles
+
+const playSequence = (state: TilesStoreState, actions: string, from: number, to: number, reset: boolean) => {
+  let objects = [...state.objects]
+  if (reset) {
+    // reset the puzzle and build up from there
+    from = 0
+    objects = objects.map((o) => {
+      return {
+        ...o,
+        tileIndex: o.initialTileIndex
+      }
+    })
+  }
+  // Step through the actions and replay them
+  while (from < to) {
+    const currentMove = actions[from]
+    const boxMoved = currentMove === currentMove.toUpperCase()
+
+    const { x, y } = DIRECTION[currentMove.toLowerCase() as Direction]
+    const player = objects.find((o) => o.objectType === ObjectType.player)
+
+    if (player) {
+      const destination = peekNeighor(player.tileIndex, state.columns, state.static.length / state.columns, x, y)
+      let boxDestination: number | undefined
+      if (boxMoved) {
+        boxDestination = peekNeighor(player.tileIndex, state.columns, state.static.length / state.columns, x * 2, y * 2)
+      }
+
+      objects = objects.map((o) => {
+        if (o === player && destination != undefined) {
+          return {
+            ...o,
+            tileIndex: destination
+          }
+        }
+        if (o.objectType === ObjectType.box && o.tileIndex === destination && boxDestination !== undefined) {
+          return {
+            ...o,
+            tileIndex: boxDestination
+          }
+        }
+        return o
+      })
+    }
+
+    from++
+  }
+  return objects
+}
