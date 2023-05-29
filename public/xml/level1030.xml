@@ -71,5 +71,8 @@
      <object tileIndex="37" type="box" />
      <object tileIndex="45" type="box" />
    </objects>
- </tiles>
+  </tiles>
+  <solutions>
+    <solution>RuuurrdDDrddlUUUlldRurDrddllUUruLdlUUUduluRdrrlldddrrrdLdlUUruLdlUUUrrDDlddrruLdlUruLdlUUdrruulLdlU</solution>
+  </solutions>
 </puzzle>
