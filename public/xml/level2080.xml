@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="6" created="2023-05-24T15:58:46.289Z" name="" level="1" source="Four Boxes 11 - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
+<puzzle type="Sokoban" width="7" created="2023-05-24T15:49:32.678Z" name="" level="2" source="Four Boxes 4 - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
  <tiles>
    <static>
      <tile type="wall" />
@@ -8,18 +8,22 @@
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
+     <tile type="wall" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="floor" />
+     <tile type="dropzone" />
+     <tile type="wall" />
+     <tile type="wall" />
+     <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
      <tile type="floor" />
-     <tile type="floor" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="floor" />
      <tile type="wall" />
      <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="floor" />
@@ -27,29 +31,13 @@
      <tile type="wall" />
      <tile type="wall" />
      <tile type="dropzone" />
-     <tile type="dropzone" />
      <tile type="floor" />
      <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="dropzone" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="dropzone" />
      <tile type="floor" />
      <tile type="floor" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="empty" />
      <tile type="wall" />
      <tile type="wall" />
      <tile type="wall" />
@@ -57,11 +45,14 @@
      <tile type="wall" />
    </static>
    <objects>
-     <object tileIndex="7" type="player" />
-     <object tileIndex="13" type="box" />
-     <object tileIndex="20" type="box" />
-     <object tileIndex="26" type="box" />
+     <object tileIndex="33" type="player" />
+     <object tileIndex="16" type="box" />
+     <object tileIndex="24" type="box" />
+     <object tileIndex="25" type="box" />
      <object tileIndex="32" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>udLULLdlruUluRdddlUrrrdLuluuRRDullddrdrruLuullddldRulrdRluuulDurrrddLdlUUluRdddlUUdrrrrdLLL</solution>
+ </solutions>
 </puzzle>
