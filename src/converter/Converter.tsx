@@ -26,6 +26,7 @@ const [sourceURL, setSourceURL] = useState("")
 const [author, setAuthor] = useState("")
 const [authorEmail, setAuthorEmail] = useState("")
 const [level, setLevel] = useState("1")
+const [solution, setSolution] = useState("")
 const [output, setOutput] = useState("")
 
   const handleConvert = () => {
@@ -50,8 +51,8 @@ const [output, setOutput] = useState("")
 
     const result = [
       `<puzzle type="Sokoban" ${attributes.join(' ')} >`,
-      ` <tiles>`,
-      `   <static>`
+      `  <tiles>`,
+      `    <static>`
     ]
 
     let playerIndex = -1
@@ -109,16 +110,21 @@ const [output, setOutput] = useState("")
     }
     result.push(...tiles.map((tT, index) => {
       if (tT == TileType.empty && floor.has(index)) {
-        return `     <tile type="floor" />`
+        return `    <tile type="floor" />`
       }
-      return `     <tile type="${TileType[tT]}" />`
+      return `    <tile type="${TileType[tT]}" />`
     }))
-    result.push(`   </static>`)
-    result.push(`   <objects>`)
-    result.push(`     <object tileIndex="${playerIndex}" type="player" />`)
+    result.push(`  </static>`)
+    result.push(`  <objects>`)
+    result.push(`    <object tileIndex="${playerIndex}" type="player" />`)
     result.push(...boxIndices.map((i) => `     <object tileIndex="${i}" type="box" />`))
-    result.push(`   </objects>`)
-    result.push(` </tiles>`)
+    result.push(`  </objects>`)
+    result.push(`</tiles>`)
+    if (solution) {
+      result.push(`<solutions>`)
+      result.push(`<solution>${solution}</solution>`)
+      result.push(`</solutions>`)
+    }
     result.push(`</puzzle>`)
 
     setOutput(result.join(' \n'))
@@ -149,6 +155,10 @@ const [output, setOutput] = useState("")
           <div className="form-control">
             <label>Author Email</label>
             <input type="text" name="source-URL" value={authorEmail} onChange={e => setAuthorEmail(e.target.value)}></input>
+          </div>
+          <div className="form-control">
+            <label>Solution</label>
+            <input type="text" name="solution" value={solution} onChange={e => setSolution(e.target.value)}></input>
           </div>
           <div className="form-control">
             <label>level</label>
