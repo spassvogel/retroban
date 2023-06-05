@@ -16,7 +16,6 @@ const ProgressSlider = () => {
   const handleSliderChange = (e: ChangeEvent<HTMLInputElement>) => {
     dispatch(setPlayhead(+e.target.value, playhead, actions))
   }
-console.log(actions)
   return (
     <div className="progress-slider">
       {`Move ${playhead}`}

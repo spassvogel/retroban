@@ -1,0 +1,315 @@
+Title: Smaller, thinner, easier, better
+Description: This compilation includes the tiniest, easy, thin levels, and entertaining of
+             resolving. Enjoy them!  Ed: Removed many duplicates.
+Author: Martí Homs Caussa
+Email: homz70@gmail.com
+Website: http://sapiens.ya.com/sokobanhomz
+
+####
+#  #####
+# .  $ #
+# $  .@#
+###  ###
+  ####
+Title: 1
+(level2490.xml)
+uLdllulldRurRdrruLLLrddlUlluurDldRRRuL
+
+  ####
+  #  #
+###  ###
+# $*.@ #
+#      #
+########
+Title: 2
+(level2475.xml)
+ldlUdlluRRRuulDrddrruL
+
+  ####
+###  #
+#  *@#
+#  $.##
+###   #
+  #   #
+  #####
+Title: 3
+(level2885.xml)
+LDlluRRdrddlUruLulldRururDDulldRddrruLdlUU
+
+ #######
+## @   #
+# $.   #
+# .$####
+##  #
+ #  #
+ ####
+Title: 4
+(level3203.xml)
+dDlddrUluluRRRllddrUluurrdLulDrrurrdLL
+
+  ####
+  #  #
+###  #
+#   @##
+# *$. #
+###   #
+  #####
+Title: 5
+(level2502.xml)
+ddlUUlldRRuruulDrdLdlluRRddrruLLuurD
+
+  ####
+  #  #
+  #  #
+### @##
+# *$. #
+#     #
+##  ###
+ ####
+Title: 6
+(level2380.xml)
+ddlUdlluRRUruulDDDlddrUrUUdLuuurDD
+
+  ######
+  #    #
+###    #
+#   @###
+# *$.#
+###  #
+  ####
+Title: 7
+(level2512.xml)
+ddlUUlldRRuruulDrdLddrUUluRlddlluRdrruulDrdLruuurrdLulDD
+
+ ######
+ #    #
+##$ . #
+#  @  #
+# $#. #
+#  ####
+####
+Title: 8
+(level2556.xml)
+llddrUluRRurrddlUruLullDDlddrUluRRluurrdDlluR
+
+####
+#  #
+# @#
+#.$###
+#    #
+#.$# #
+##   #
+ #####
+Title: 9
+(level2551.xml)
+lddrrrddllUdrruulLUluurDDDrrddllUlUUddrdrruulLulDruuulD
+
+  ####
+###  #
+#  $@#
+#  $ ##
+###   #
+  # ..#
+  #####
+Title: 10
+(level2518.xml)
+LDlluRRdrddlUruLulldRururDDDldRuuulldRurDD
+
+########
+# .$@  #
+#  $ . #
+###  ###
+  #  #
+  ####
+Title: 11
+(level2651.xml)
+LDlluRRRdddlUruulldRurDrruLLLdddrUluR
+
+  ####
+  #  #
+###  ###
+# $$ @ #
+#    ..#
+########
+Title: 12
+(level2655.xml)
+ldlUdlluRRRuulDrdLrdrruLdlluurDldRRlllluRRurDldR
+
+  #####
+###   #
+#  .@ #
+# $$  #
+##. ###
+ #  #
+ ####
+Title: 13
+(level2840.xml)
+llDRddlUUluRRurrddLLulDrrruL
+
+ ####
+ #  #
+ # .#
+##$@#
+# $ ####
+#  .   #
+####   #
+   #####
+Title: 14
+(level2825.xml)
+ddlluRUruulDDDldRRRdrruLLLUUldldRRRdrruLL
+
+ #####
+ #   #
+##   #
+# $$##
+#..@#
+#  ##
+#  #
+####
+Title: 15
+(level2835.xml)
+UdlluRuurrdLulDDDrUlldddrUluurrdLuuurrdLulDD
+
+ #######
+## .   #
+# $*$  #
+#  .@###
+#    #
+######
+Title: 16
+(level2558)
+lURurrdLulDldlluRuRRdrruLdlLulDldRurrruLdllddrrUdlluurRurrdLL
+
+  ####
+  #  ###
+###.$. #
+#  $.$ #
+#   @###
+#    #
+######
+Title: 17
+(level2325.xml)
+uLuurDDldlluRdrUrurrdLLLddrUluRuulDDrdLruurrdLullddrUluRldddlluuRlddrruUddlUluRR
+
+  ####
+  #  #
+  #  #
+###$.#
+# @.$##
+# #$. #
+#     #
+#######
+Title: 18
+(level2790.xml)
+rUruulDrdDlllddrrUdlluurRUruulDDDllddrrUdrruLUUdddllluurRurDuluurDlddllddrrU
+
+  ####
+  #  #
+###  #
+#  * #
+#@.*$##
+## *  #
+ #    #
+ ######
+Title: 19
+(level2815.xml)
+rddrruUULrdddlluuRlddrruLuurDuluurDDldlluRdrUdddlUrdrruLLuurDlddrruLuullldRurruulDrddddllU
+
+ ####
+ #  #
+ #  #
+ #  ####
+###$$  #
+#   .*@#
+#   .###
+######
+Title: 20
+(level2230.xml)
+
+ ####
+ #  ###
+ # ...#
+##$   #
+# $ ###
+# $ #
+#  @#
+#####
+Title: 21
+(level2822.xml)
+lluuRlddrruUlURuulDDrdddlluuRurDuurrdLullddrUluRRllddlddrrUUUluRlddldRdrUUU
+
+ #######
+##  .  #
+# *$$  #
+# #@ ###
+# .  #
+######
+Title: 22
+(level2516.xml)
+URurrdLulDlddlluuRuRRdrruLdlLddlluuRurDrruLdlllddrrrUdllluurrRurrdLLddllluuruRldlddrrruuLDrdL
+
+#####
+#   #
+#   ####
+##$$ $ #
+ #+. . #
+ #  ####
+ #  #
+ ####
+Title: 24
+(level2780.xml)
+UdrruLuulldRurDDDlddrUluUrrdrruLLLDlddrUluRRuluulldRurDDulD
+
+########
+#  #   #
+#      #
+#$$$####
+#+. .#
+######
+Title: 25
+(level2310.xml)
+UdrrUdlluRuulDDruRRurrdLLLDldRulluurDD
+
+#######
+#   ..#
+# $ @.#
+##$$  #
+ #  ###
+ #  #
+ ####
+Title: 26
+(level2565.xml)
+ullldRRRdrUlllDRddlUUUluRRdrrdLullddrUluRR
+
+  ####
+  #  #
+###  ###
+# $ *$ #
+# .@ . #
+##   ###
+ #####
+Title: 27
+(level2850.xml)
+lluRdrrULuurDDldlluRdrUruulDDlddrrUUdrruLLLuurDldRdrruLLddlluRRuulDrddlluluRRlddrruL
+
+####
+#  #
+#  #####
+# $$ $ #
+#@.. . #
+##  ####
+ #  #
+ ####
+Title: 28
+(level2485.xml)
+uurDDrruLrdrruLLdllluurDldRRRurrdLulLdlUrdRlddlUruulldRuluurDD
+
+#######
+#   .@###
+#  ***  #
+#   $   #
+######  #
+     ####
+Title: 29
+(level2665.xml)
+lllddrRRllluurrrDulllddrrULrrrrddlUruLLrdLLLuullddRRRRurrddlUruLdllllluR

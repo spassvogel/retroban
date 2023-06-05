@@ -18,6 +18,7 @@ const CompledState = ({ gotoNextLevel }: Props) => {
   const [dismissed, setDismissed] = useState(true)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const moves = useSelector<SokobanStoreState, number>(state => state.userAction.actions.length)
+  const actions = useSelector<SokobanStoreState, string>(state => state.userAction.actions)
 
   const handleClose = () => {
     setDismissed(true)
@@ -44,6 +45,10 @@ const CompledState = ({ gotoNextLevel }: Props) => {
   // if (status !== GameStatus.IS_SOLVED) {
   //   return null
   // }
+
+  if (status === GameStatus.IS_SOLVED) { // delete this
+    console.log(actions)
+  }
 
   return (
     <div className='completed-state'>
