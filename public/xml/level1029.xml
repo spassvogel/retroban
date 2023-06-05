@@ -1,0 +1,122 @@
+<puzzle type="Sokoban" width="10" created="2023-06-05T21:45:31.744Z" name="" level="1" source="Cookie #02 - Cokiee collection by jhogloria" author="Jhogloria" >
+  <tiles>
+    <static>
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+    </static>
+    <objects>
+      <object tileIndex="68" type="player" />
+     <object tileIndex="23" type="box" />
+     <object tileIndex="32" type="box" />
+     <object tileIndex="43" type="box" />
+     <object tileIndex="52" type="box" />
+     <object tileIndex="62" type="box" />
+     <object tileIndex="64" type="box" />
+     <object tileIndex="67" type="box" />
+     <object tileIndex="72" type="box" />
+     <object tileIndex="76" type="box" />
+     <object tileIndex="77" type="box" />
+    </objects>
+  </tiles>
+  <solutions>
+    <solution>ddlllluUUUUUddddddllluuuuuuurdRRRRRurDDulllllllddrUluRRRRRurDDulllllddRllddddrrruuuUUdlluurRRRurDlllddddddrrrruuLLLrrrddlllluUUUUdlluurRRRRurDlllllllddddRRllddrrruUUUUdlluurRRRRlllddddddrrUdrruulLLrddlluUUUUdlluurRRRllddddddrrrUruLLLrddlluUUUUdlluurRRlluRRRRlllllldddddrUUUUluRRRRRlldddddddllUUUUUUluRRRR</solution>
+  </solutions>
+</puzzle>

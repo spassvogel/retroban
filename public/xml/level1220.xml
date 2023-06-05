@@ -1,0 +1,220 @@
+<puzzle type="Sokoban" width="14" created="2023-06-05T22:14:18.406Z" name="" level="2" source="Cookie #06 - Cokiee collection by jhogloria" author="Jhogloria" >
+  <tiles>
+    <static>
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+    </static>
+    <objects>
+      <object tileIndex="116" type="player" />
+      <object tileIndex="30" type="box" />
+      <object tileIndex="31" type="box" />
+      <object tileIndex="32" type="box" />
+      <object tileIndex="36" type="box" />
+      <object tileIndex="38" type="box" />
+      <object tileIndex="44" type="box" />
+      <object tileIndex="51" type="box" />
+      <object tileIndex="58" type="box" />
+      <object tileIndex="59" type="box" />
+      <object tileIndex="60" type="box" />
+      <object tileIndex="64" type="box" />
+      <object tileIndex="66" type="box" />
+    </objects>
+  </tiles>
+  <solutions>
+    <solution>rdddrrrrrruuuuuulluRurDDDDDDDrdLLLLLLdlUUUluRRRRurDlllldddrrrrrruuuuuuuuuulDDDldRurDDDDDDrdLLLLLLdlUUUluRRRurDllldddrrrrrruuuuuuuuullDDullddrRRurDDDDDDrdLLLLLLdlUUUluRRRRllldddrrrrrruuuuuuuulllldRRRurDDDDDDDrdLLLLLLdlUUUluRRurDlldddrrrrrruuuuuuulllluuRRRurDDDDDDDDDrdLLLLLLdlUUUluRRRlldddrrrrrruuuuuulllluullddlllluuRRRRRRRRRurDDDDDDDDrdLLLLLLdlUUUluRRldddrrrrrruuuuuuullllullddlUdllluurrRRRRRRRurDDDDDDDDrdLLLLLLdlUUUUluRRRRlllddddrrrrrruuuuuuuulllllllddlUdlluurRRRRRRRRurDDDDDDDDrdLLLLLLdlUUUUluRRRllddddrrrrrruuuuuuullllulluulDulllddrrRRRRRRRurDDDDDDDDrdLLLLLLdlUUUUluRRlddddrrrrrruuuuuuullllulllllldRRRdrUluRRRRRRurDDDDDDDDrdLLLLLLdlUUUUluRddddrrrrrruuuuuuuullllllluulDullddrRRRRRRRRurDDDDDDDDrdLLLLLLdlUUUluRdddrrrrrruuuuuuuulllllllluulDldRRRRRRRRRurDDDDDDDDrdLLLLLLdlUUUluurDldR</solution>
+  </solutions>
+</puzzle>

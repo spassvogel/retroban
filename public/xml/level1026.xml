@@ -1,0 +1,74 @@
+<puzzle type="Sokoban" width="7" created="2023-06-01T22:54:58.382Z" name="" level="1" source="Level 3 A.K.K. Informatika - These levels were created by Péter Asztalos, Budapest, Hungary" sourceURL="http://m-forum.hu/sokoban.php" author="Péter Asztalos" authorEmail="m-forum@m-forum.hu" >
+  <tiles>
+    <static>
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+    </static>
+    <objects>
+      <object tileIndex="26" type="player" />
+     <object tileIndex="16" type="box" />
+     <object tileIndex="18" type="box" />
+     <object tileIndex="23" type="box" />
+     <object tileIndex="25" type="box" />
+     <object tileIndex="30" type="box" />
+     <object tileIndex="31" type="box" />
+    </objects>
+  </tiles>
+  <solutions>
+    <solution>uLDDDldRuuulDruuulllddddrRRllluRRurDDuuuulDDDDulluRluurrdDDulluRRurDDD</solution>
+  </solutions>
+</puzzle>
