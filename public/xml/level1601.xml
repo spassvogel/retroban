@@ -1,0 +1,63 @@
+<puzzle type="Sokoban" width="7" created="2023-06-06T13:56:38.313Z" name="Level 3" level="1" source="Jacques Duthen, creator of the &quot;Dimitri &amp; Yorick&quot; level set for young children, has created a new set of Sokoban puzzles called &quot;sokogen-990602&quot;. It contains 78 levels and is slightly more difficult than the Dimitry &amp; Yorick set." sourceURL="http://perso.club-internet.fr/duthen/SOKOBAN-HTML/sokogen-990602.skm" author="Jacques Duthen " authorEmail="duthen@club-internet.fr" >
+  <tiles>
+    <static>
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+    </static>
+    <objects>
+      <object tileIndex="15" type="player" />
+       <object tileIndex="18" type="box" />
+       <object tileIndex="25" type="box" />
+    </objects>
+  </tiles>
+  <solutions>
+    <solution>rrddrruLdldlluuurrurDDrddlluUddrruL</solution>
+  </solutions>
+</puzzle>
