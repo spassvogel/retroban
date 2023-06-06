@@ -19,15 +19,32 @@ const getTileType = (input: string) => {
   }
 }
 const Converter = () => {
-const [input, setInput] = useState("")
-const [name, setName] = useState("")
-const [source, setSource] = useState("")
-const [sourceURL, setSourceURL] = useState("")
-const [author, setAuthor] = useState("")
-const [authorEmail, setAuthorEmail] = useState("")
-const [level, setLevel] = useState("1")
-const [solution, setSolution] = useState("")
-const [output, setOutput] = useState("")
+  const [input, setInput] = useState("")
+  const [name, setName] = useState("")
+  const [source, setSource] = useState("")
+  const [sourceURL, setSourceURL] = useState("")
+  const [author, setAuthor] = useState("")
+  const [authorEmail, setAuthorEmail] = useState("")
+  const [level, setLevel] = useState("1")
+  const [solution, setSolution] = useState("")
+  const [output, setOutput] = useState("")
+
+  const handleInputChange = (map: string) => {
+    setInput(map)
+    setSolution('')
+  }
+
+  const escapeXML = (unsafe: string) => {
+    return unsafe.replace(/[<>&'"]/g, (c) => {
+      switch (c) {
+        case '<': return '&lt;'
+        case '>': return '&gt;'
+        case '&': return '&amp;'
+        case '\'': return '&apos;'
+        case '"': return '&quot;'
+      }
+    })
+  }
 
   const handleConvert = () => {
     const split = input.trimEnd().split('\n')
@@ -37,18 +54,17 @@ const [output, setOutput] = useState("")
       }
       return acc
     }, 0)
-
     const attributes = [
       `width="${columns}"`,
       `created="${new Date().toISOString()}"`,
       `name="${name}"`,
       `level="${level}"`,
-      ...(source ? [`source="${source}"`] : []),
+      ...(source ? [`source="${escapeXML(source)}"`] : []),
       ...(sourceURL ? [`sourceURL="${sourceURL}"`] : []),
-      ...(author ? [`author="${author}"`] : []),
+      ...(author ? [`author="${escapeXML(author)}"`] : []),
       ...(authorEmail ? [`authorEmail="${authorEmail}"`] : []),
     ]
-
+console.log(attributes.join(' '))
     const result = [
       `<puzzle type="Sokoban" ${attributes.join(' ')} >`,
       `  <tiles>`,
@@ -110,31 +126,32 @@ const [output, setOutput] = useState("")
     }
     result.push(...tiles.map((tT, index) => {
       if (tT == TileType.empty && floor.has(index)) {
-        return `    <tile type="floor" />`
+        return `      <tile type="floor" />`
       }
-      return `    <tile type="${TileType[tT]}" />`
+      return `      <tile type="${TileType[tT]}" />`
     }))
-    result.push(`  </static>`)
-    result.push(`  <objects>`)
-    result.push(`    <object tileIndex="${playerIndex}" type="player" />`)
-    result.push(...boxIndices.map((i) => `     <object tileIndex="${i}" type="box" />`))
-    result.push(`  </objects>`)
-    result.push(`</tiles>`)
+    result.push(`    </static>`)
+    result.push(`    <objects>`)
+    result.push(`      <object tileIndex="${playerIndex}" type="player" />`)
+    result.push(...boxIndices.map((i) => `       <object tileIndex="${i}" type="box" />`))
+    result.push(`    </objects>`)
+    result.push(`  </tiles>`)
     if (solution) {
-      result.push(`<solutions>`)
-      result.push(`<solution>${solution}</solution>`)
-      result.push(`</solutions>`)
+      result.push(`  <solutions>`)
+      result.push(`    <solution>${solution}</solution>`)
+      result.push(`  </solutions>`)
     }
     result.push(`</puzzle>`)
 
     setOutput(result.join(' \n'))
+    console.log(result.join('\n'))
   }
   return (
     <div className="converter">
       <div>
         <label>Input (in <a href="http://www.sokobano.de/wiki/index.php?title=Level_format">Sokoban standard notation</a>).
         <br/>Make sure the area where the player is is fully walled in.</label>
-        <textarea name="" id="" rows={10} value={input} onChange={(e) => setInput(e.target.value)}></textarea>
+        <textarea name="" id="" rows={10} value={input} onChange={(e) => handleInputChange(e.target.value)}></textarea>
         <div className="properties">
           <div className="form-control">
             <label>Name</label>
