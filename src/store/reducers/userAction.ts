@@ -37,7 +37,7 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
       return {
         ...state,
         actions: state.actions + direction,
-        time: new Date().getTime(),
+        time: Date.now(),
         playhead: state.actions.length + 1
       }
     }
@@ -57,15 +57,14 @@ const userActionReducer: Reducer<UserActionState, SokobanAction> = (state = init
       }
     }
 
-
     case SOLVE_PUZZLE: {
       return {
         ...state,
         playhead: action.payload.solution.length,
-        actions: action.payload.solution
+        actions: action.payload.solution,
+        time: Date.now(),
       }
     }
-
 
     case RESET_PUZZLE: {
       return {

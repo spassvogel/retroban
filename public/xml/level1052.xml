@@ -1,57 +1,57 @@
-<puzzle type="Sokoban" width="6" created="2023-06-08T21:22:22.136Z" name="Level 17" level="1" source="David Skinner, author of the &quot;Sasquatch&quot; and &quot;Mas Sasquatch&quot; collections, released his latest set of sokoban levels in February, 2000 and revised them in April, 2000. He describes them this way: Microban is a set of very small puzzles which have been slowly developing in-between creating puzzles for my regular sets.  ; This is a good set for beginners and children. Most of the puzzles illustrate a particular concept. More experienced players should also find them interesting, since they are as different from each other as I could make them given their size. Sokoholics could perhaps time themselves on completing the whole set." sourceURL="http://users.bentonrea.com/~sasquatch/sokoban/" author="David Skinner" authorEmail="sasquatch@bentonrea.com" > 
-  <tiles> 
-    <static> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="empty" /> 
-      <tile type="wall" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="wall" /> 
-      <tile type="empty" /> 
-      <tile type="wall" /> 
-      <tile type="dropzone" /> 
-      <tile type="dropzone" /> 
-      <tile type="dropzone" /> 
-      <tile type="wall" /> 
-      <tile type="empty" /> 
-      <tile type="wall" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="floor" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-      <tile type="wall" /> 
-    </static> 
-    <objects> 
-      <object tileIndex="8" type="player" /> 
-       <object tileIndex="19" type="box" /> 
-       <object tileIndex="20" type="box" /> 
-       <object tileIndex="21" type="box" /> 
-    </objects> 
-  </tiles> 
-  <solutions> 
-    <solution>ldDurrDulldRddrruLdlUUdrUlddlUU</solution> 
-  </solutions> 
+<puzzle type="Sokoban" width="6" created="2023-06-08T21:22:22.136Z" name="Level 17" level="1" source="Microban - David Skinner, author of the &quot;Sasquatch&quot; and &quot;Mas Sasquatch&quot; collections, released his latest set of sokoban levels in February, 2000 and revised them in April, 2000. He describes them this way: Microban is a set of very small puzzles which have been slowly developing in-between creating puzzles for my regular sets.  This is a good set for beginners and children. Most of the puzzles illustrate a particular concept. More experienced players should also find them interesting, since they are as different from each other as I could make them given their size. Sokoholics could perhaps time themselves on completing the whole set." sourceURL="http://users.bentonrea.com/~sasquatch/sokoban/" author="David Skinner" authorEmail="sasquatch@bentonrea.com" >
+  <tiles>
+    <static>
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+    </static>
+    <objects>
+      <object tileIndex="8" type="player" />
+       <object tileIndex="19" type="box" />
+       <object tileIndex="20" type="box" />
+       <object tileIndex="21" type="box" />
+    </objects>
+  </tiles>
+  <solutions>
+    <solution>ldDurrDulldRddrruLdlUUdrUlddlUU</solution>
+  </solutions>
 </puzzle>
