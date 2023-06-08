@@ -91,6 +91,7 @@ const Converter = () => {
         a.click();
         window.URL.revokeObjectURL(url);
 
+        setOutput(`${output}\nWrote file ${a.download} name: ${lD.name}`)
         console.log(`Downloaded level ${a.download}`)
       }
     })
