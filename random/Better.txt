@@ -1,9 +1,0 @@
-Title: Smaller, thinner, easier, better
-Description: This compilation includes the tiniest, easy, thin levels, and entertaining of
-             resolving. Enjoy them!  Ed: Removed many duplicates.
-Author: Martí Homs Caussa
-Email: homz70@gmail.com
-Website: http://sapiens.ya.com/sokobanhomz
-
-(level=2)
-

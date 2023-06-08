@@ -6,45 +6,19 @@ Author: Péter Asztalos
 Email: m-forum@m-forum.hu
 Website: http://m-forum.hu/sokoban.php
 
+
+<puzzle type="Sokoban" width="13" created="2023-06-04T22:50:00.174Z" name="" level="1" source="Level 8 A.K.K. Informatika - These levels were created by Péter Asztalos, Budapest, Hungary" sourceURL="http://m-forum.hu/sokoban.php" author="Péter Asztalos" authorEmail="m-forum@m-forum.hu" >
+
 Title: Level 1
 
-########
-#  #   #
-#   $  #
-#  #$$ #
-## #   #
-#.. $# #
-#..   @#
-########
+
 Title: Level 2
 
-#######
-#     #
-# $ $ #
-# $ $@#
-# $$ ##
-#  ...#
-###...#
-  #####
 Title: Level 3
 
- ########
- # @#   #
- # $  $ #
- #$ #######
-## $#     #
-#. . .    #
-#.  #######
-#####
 Title: Level 4
 
-#########
-#   #@  #
-# # #  $##
-#   $    #
-## $ # # #
-#...##   #
-##########
+
 Title: Level 5
 
 ###########
@@ -73,17 +47,7 @@ Title: Level 6
           #####
 Title: Level 7
 
- #####
- #.  #
- # $@#
- #. ##
-### #########
-# $ $ $ $   #
-#      $    #
-# ####### ###
-#.   $   ..#
-######## ..#
-       #####
+
 Title: Level 8
 
    ########
