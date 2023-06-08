@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="9" created="2023-05-24T15:16:34.862Z" name="" level="2" source="Albizia 13 - Handmade levels. Feel free to comment." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Thomas Reinke" authorEmail="thoms545@yahoo.com" >
+<puzzle type="Sokoban" width="9" created="2023-05-24T15:16:34.862Z" name="Albizia 13" level="2" source="Handmade levels. Feel free to comment." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Thomas Reinke" authorEmail="thoms545@yahoo.com" >
  <tiles>
    <static>
      <tile type="empty" />
@@ -112,4 +112,7 @@
      <object tileIndex="68" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>dlluUUdddrruUULULUdrRUUddlluUddrruurrddLruulldDDDuulluuRRluurDDDDlUUddddlUUrddrUUluuruulDDDDrdLrurruuLLulDDDuulllddRluurrrddrddllddrrUdlluurUrurruullldDuulllddrRUdlluurRdrUruulDrdrrddlldDllddrrUUllUUlluurrDDDuurUruulDulDDurrdrrddllLrrruullDldRuuulldllddrRdDrrddllUdrruuUULDuuUruLdlllddrRdrUUUrrrddLLrruullldDuuruulDDuulDrrdrrddlllllluurRllddrrrrddddlluUUdddrruuuurruullulldllddrR</solution>
+ </solutions>
 </puzzle>

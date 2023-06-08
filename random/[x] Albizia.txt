@@ -28,6 +28,7 @@ Solver: Festival 3.1
 Solver time: 00:00:02
 Solver date: 2023-06-06  01:05:05
 
+(public/xml/level2501.xml)
 
 2
 
@@ -50,6 +51,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:05:06
 
+(public/xml/level2504.xml)
 
 3
 
@@ -72,6 +74,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:05:07
 
+(public/xml/level2510.xml)
 
 4
 
@@ -94,6 +97,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:05:08
 
+(public/xml/level2511.xml)
 
 5
 
@@ -117,6 +121,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:05:09
 
+(public/xml/level2514.xml)
 
 6
 
@@ -147,6 +152,7 @@ Solver: Festival 3.1
 Solver time: 00:03:29
 Solver date: 2023-06-06  01:08:39
 
+(public/xml/level3261.xml)
 
 7
 
@@ -165,6 +171,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:40
 
+(public/xml/level2517.xml)
 
 8
 
@@ -190,6 +197,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:41
 
+(public/xml/level2521.xml)
 
 9
 
@@ -214,6 +222,7 @@ Solver: Festival 3.1
 Solver time: 00:00:02
 Solver date: 2023-06-06  01:08:43
 
+(public/xml/level3204.xml)
 
 10
 
@@ -238,6 +247,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:44
 
+(public/xml/level2552.xml)
 
 11
 
@@ -261,6 +271,8 @@ Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:45
 
 
+(public/xml/level2652.xml)
+
 12
 
  #######
@@ -282,6 +294,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:46
 
+(public/xml/level2555.xml)
 
 13
 
@@ -304,6 +317,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:47
 
+(public/xml/level2110.xml)
 
 14
 
@@ -325,6 +339,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:48
 
+(public/xml/level2385.xml)
 
 15
 
@@ -345,6 +360,8 @@ Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:49
 
 
+(public/xml/level2390.xml)
+
 16
 
   #####
@@ -364,6 +381,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:50
 
+(public/xml/level2771.xml)
 
 17
 
@@ -384,6 +402,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:51
 
+(public/xml/level2557.xml)
 
 18
 
@@ -404,6 +423,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:52
 
+(public/xml/level2241.xml)
 
 19
 
@@ -426,6 +446,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:53
 
+(public/xml/level2519.xml)
 
 20
 
@@ -447,6 +468,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:54
 
+(public/xml/level2553.xml)
 
 21
 
@@ -467,6 +489,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:55
 
+(public/xml/level2561.xml)
 
 22
 
@@ -487,6 +510,8 @@ Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:56
 
 
+(public/xml/level2781.xml)
+
 23
 
  #######
@@ -505,6 +530,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:57
 
+(public/xml/level2471.xml)
 
 24
 
@@ -525,6 +551,7 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:58
 
+(public/xml/level2816.xml)
 
 25
 
@@ -545,4 +572,4 @@ Solver: Festival 3.1
 Solver time: 00:00:01
 Solver date: 2023-06-06  01:08:59
 
-
+(public/xml/level2881.xml)
