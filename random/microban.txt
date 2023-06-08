@@ -16,16 +16,31 @@
 
 ; This file downloaded from the Sokoban levels page at http://sneezingtiger.com/sokoban/levels.html.
 
+
+Festival 3.1 solution file
+===========================
+Collection: microban.txt
+
 Level 1
-####
-# .#
+
+####  
+# .#  
 #  ###
 #*@  #
 #  $ #
 #  ###
-####
+####  
+
+Solution
+dlUrrrdLullddrUluRuulDrddrruLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:42
+
 
 Level 2
+
 ######
 #    #
 # #@ #
@@ -34,15 +49,33 @@ Level 2
 #    #
 ######
 
+Solution
+rddLruulDuullddR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:43
+
+
 Level 3
-  ####
+
+  ####   
 ###  ####
 #     $ #
 # #  #$ #
 # . .#@ #
 #########
 
+Solution
+ruuLLLdldlluurRurDrrrddlUruLLLulDllddrrrUdllluurrDrdLuuurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:44
+
+
 Level 4
+
 ########
 #      #
 # .**$@#
@@ -50,7 +83,16 @@ Level 4
 #####  #
     ####
 
+Solution
+ullDullddrRuLrurrdLLrrddlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:45
+
+
 Level 5
+
  #######
  #     #
  # .$. #
@@ -59,15 +101,33 @@ Level 5
 #      #
 ########
 
+Solution
+LulDrddlluRdrUUddrruUlldRurruullDurrddlLLruulldDrddlluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:46
+
+
 Level 6
+
 ###### #####
 #    ###   #
 # $$     #@#
 # $ #...   #
 #   ########
-#####
+#####       
+
+Solution
+ulldllllulDulldRRRRRRdrrruullDurrddlLLLulllllddrUluRRRRRRdrrruullDurrddlLLulllllddrUluRRRRRdrrruullDurrddlL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:47
+
 
 Level 7
+
 #######
 #     #
 # .$. #
@@ -77,22 +137,40 @@ Level 7
 #  @  #
 #######
 
+Solution
+rruuuulLrrdddLdllluuuuRurrrdddlUdddllluurUdRurruullDulldddddrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:48
+
+
 Level 8
+
   ######
   # ..@#
   # $$ #
   ## ###
-   # #
-   # #
-#### #
-#    ##
-# #   #
-#   # #
-###   #
-  #####
+   # #  
+   # #  
+#### #  
+#    ## 
+# #   # 
+#   # # 
+###   # 
+  ##### 
+
+Solution
+llDDDDDDldddrruuLuuuuuuurrdLulDDDDDDlllddrrUdlluurRdddrruuLrddlluUrUUUUUUluRdddddddldlluurRdrUUUUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:49
+
 
 Level 9
-#####
+
+##### 
 #.  ##
 #@$$ #
 ##   #
@@ -100,57 +178,111 @@ Level 9
   ##.#
    ###
 
+Solution
+urrDulldRdRluurDrDDlUruLdlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:50
+
+
 Level 10
+
       #####
       #.  #
       #.# #
 #######.# #
 # @ $ $ $ #
 # # # # ###
-#       #
-#########
+#       #  
+#########  
+
+Solution
+rddrruuLLrrddrruuuuurrdddLruuullddDLLddlluuRRllddlluuRRddrrrrUUUUddddlluuRlddrruUUdllddlluuRRRlddrruU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:51
+
 
 Level 11
-  ######
-  #    #
+
+  ###### 
+  #    # 
   # ##@##
 ### # $ #
 # ..# $ #
 #       #
 #  ######
-####
+####     
+
+Solution
+ulllddddrrrruLdllluuuurrrdDDrdLLLLullddrUluRdrUUddrrruulDrdLLLullddrUrrrruuuulllDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:52
+
 
 Level 12
-#####
-#   ##
-# $  #
+
+#####    
+#   ##   
+# $  #   
 ## $ ####
  ###@.  #
   #  .# #
   #     #
   #######
 
+Solution
+uululldRdRluurDrDDrddlluRuuulldRurDDrrrddllUdlluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:53
+
+
 Level 13
-####
-#. ##
-#.@ #
-#. $#
+
+####   
+#. ##  
+#.@ #  
+#. $#  
 ##$ ###
  # $  #
  #    #
  #  ###
- ####
+ ####  
+
+Solution
+rDlDDRddlUUUUruLdlUrdddrdrruLLdlUUUruLrdDDrdLdlUUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:54
+
 
 Level 14
+
 #######
 #     #
 # # # #
 #. $*@#
 #   ###
-#####
+#####  
+
+Solution
+uullllddrdrUlluurrrrddLLLdlUrrrruullDurrddlLdlluRRuullD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:55
+
 
 Level 15
-     ###
+
+     ### 
 ######@##
 #    .* #
 #   #   #
@@ -158,66 +290,129 @@ Level 15
     #   #
     #####
 
+Solution
+DrdddllUUddrruuulLLLdlluRRRRdddrruuLrddlluU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:56
+
+
 Level 16
- ####
- #  ####
- #     ##
-## ##   #
+
+ ####     
+ #  ####  
+ #     ## 
+## ##   # 
 #. .# @$##
 #   # $$ #
 #  .#    #
 ##########
 
+Solution
+lddrUUddrruLLuluurDrDulldRddlUUUruLLLulDDDrdLdlUruuurrrrddddrruLLdlUUUruLLLulDDDrddlluRdrUluuurrrrdrDlddrruLLdlUUUruLLLulDDDDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-06-08  23:14:56
+
+
 Level 17
-#####
-# @ #
-#...#
+
+##### 
+# @ # 
+#...# 
 #$$$##
 #    #
 #    #
 ######
 
+Solution
+ldDurrDulldRddrruLdlUUdrUlddlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:57
+
+
 Level 18
+
 #######
 #     #
 #. .  #
 # ## ##
-#  $ #
-###$ #
-  #@ #
-  #  #
-  ####
+#  $ # 
+###$ # 
+  #@ # 
+  #  # 
+  #### 
+
+Solution
+ruuuulllddrRDrddlUruUUdllluurrurrdLLrddddlUruuuullldddrRdrUUdllluuurrdLrurrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:58
+
 
 Level 19
+
 ########
 #   .. #
 #  @$$ #
 ##### ##
-   #  #
-   #  #
-   #  #
-   ####
+   #  # 
+   #  # 
+   #  # 
+   #### 
+
+Solution
+urrDDDlddrUUUUruLLLdlluRdrRurDDDlddrUUUUllluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:14:59
+
 
 Level 20
-#######
+
+#######  
 #     ###
 #  @$$..#
 #### ## #
   #     #
   #  ####
-  #  #
-  ####
+  #  #   
+  ####   
+
+Solution
+urDDDlddrUUrrruulLLLrrrrddlllUdrrruullulldRRRlulllldRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:00
+
 
 Level 21
-####
+
+####   
 #  ####
 # . . #
 # $$#@#
 ##    #
  ######
 
+Solution
+dlllUdrUlluurDRddlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:01
+
+
 Level 22
-#####
+
+#####  
 #   ###
 #. .  #
 #   # #
@@ -225,18 +420,36 @@ Level 22
  #@$$ #
  #    #
  #  ###
- ####
+ ####  
+
+Solution
+drrruulDrdLLdlUUUUluRRlddddrruLdlUUUruLdddrrruuuL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:02
+
 
 Level 23
+
 #######
 #  *  #
 #     #
 ## # ##
- #$@.#
- #   #
- #####
+ #$@.# 
+ #   # 
+ ##### 
+
+Solution
+dlUrruulluRdrddllUdrruululldRddrruuruLLrdddlluuRurDDullluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:03
+
 
 Level 24
+
 # #####
   #   #
 ###$$@#
@@ -245,16 +458,34 @@ Level 24
 # . . #
 #######
 
+Solution
+ullDDDrdLuuuurrdLulDDldRdrruLLullddRRuulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:04
+
+
 Level 25
- ####
+
+ ####  
  #  ###
  # $$ #
 ##... #
 #  @$ #
 #   ###
-#####
+#####  
+
+Solution
+urrdLullddrUluRluurDlddrrruuLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:05
+
 
 Level 26
+
  #####
  # @ #
  #   #
@@ -264,63 +495,126 @@ Level 26
 ###  #
   ####
 
+Solution
+rdddlUrdddlUUlldRurrddlUruLruuulldRurDDulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:06
+
+
 Level 27
-######
-#   .#
+
+###### 
+#   .# 
 # ## ##
 #  $$@#
 # #   #
 #.  ###
-#####
+#####  
+
+Solution
+dlULddlluuuurrrDulllddddrruuLrdrruLuullldDDurRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:07
+
 
 Level 28
-#####
-#   #
-# @ #
+
+#####  
+#   #  
+# @ #  
 # $$###
 ##. . #
  #    #
  ######
 
+Solution
+rDulldRddrruLdlUUluurrdDldRuuulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:08
+
+
 Level 29
-     #####
+
+     ##### 
      #   ##
      #    #
  ######   #
 ##     #. #
 # $ $ @  ##
-# ######.#
-#        #
-##########
+# ######.# 
+#        # 
+########## 
+
+Solution
+ullldRurrdrrddllllllluuRurrdRRRlulllldlddrrrrrrruUUUruLdddllulllldRRRRRllllllddrrrrrrruUUruulDDDuuuulldRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:09
+
 
 Level 30
-####
+
+####  
 #  ###
 # $$ #
 #... #
 # @$ #
 #   ##
-#####
+##### 
+
+Solution
+uluurDlddrdrUruuLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:10
+
 
 Level 31
-  ####
- ##  #
+
+  #### 
+ ##  # 
 ##@$.##
 # $$  #
 # . . #
 ###   #
   #####
 
+Solution
+RlDldRRdrruulLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:11
+
+
 Level 32
- ####
+
+ ####  
 ##  ###
 #     #
 #.**$@#
 #   ###
-##  #
- ####
+##  #  
+ ####  
+
+Solution
+ullllddrrUdlluururDDullddrUrurrdLLLddrUluRurrdLululD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:12
+
 
 Level 33
+
 #######
 #. #  #
 #  $  #
@@ -329,34 +623,70 @@ Level 33
 #. #  #
 #######
 
+Solution
+ulLLdlUrrrrddlLrruulllldddrUluurrDurrddlLLruulldDrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:13
+
+
 Level 34
-  ####
+
+  ####   
 ###  ####
 #       #
 #@$***. #
 #       #
 #########
 
+Solution
+drrrURldllluurrurDrddllURuulDrddllUluRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:14
+
+
 Level 35
-  ####
- ##  #
- #. $#
- #.$ #
- #.$ #
- #.$ #
+
+  #### 
+ ##  # 
+ #. $# 
+ #.$ # 
+ #.$ # 
+ #.$ # 
  #. $##
  #   @#
  ##   #
   #####
 
+Solution
+lluluuRDrDululuurDrDDllddrUluuurrddLdlUUdrruLddddrruLdlUUUruulDrdLrDlddrruLdlUruLuuuuurDDDDDlddrruLdlUUUUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:15
+
+
 Level 36
-####
+
+####           
 #  ############
 # $ $ $ $ $ @ #
 # .....       #
 ###############
 
+Solution
+ldlllllllllluurDldRRRRRRRRRRurrdLLLLLLLLLLulldRRRRuLLdlluurDldRRurrdRRRRRRurrdLLLLLLuLLdRRRRRRurrdLLLLuLLdlluLLrrdrrRRRRllllllulldRRRRuLLdlllluurDldRRRRuLLdlluurDldRRurrrrrrdrruLLLLLLLLdlluurDrrrdLrurrdLLrrurrdLLLrrrrrurrdLLLLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:16
+
+
 Level 37
+
       ###
 ##### #.#
 #   ###.#
@@ -366,7 +696,16 @@ Level 37
     #   #
     #####
 
+Solution
+drruulLuLLulldRRdRRRlddrruUUUddllllulldRRRRRlddrruUUdlluLLulDldRRRRRlddrruU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:17
+
+
 Level 38
+
 ##########
 #        #
 # ##.### #
@@ -375,34 +714,70 @@ Level 38
 #####    #
     ######
 
+Solution
+UldlluuurrrDDuurrrrddllLrrrddlllULLrURR
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-06-08  23:15:17
+
+
 Level 39
-#####
-#   ####
-# # # .#
+
+#####     
+#   ####  
+# # # .#  
 #    $ ###
 ### #$.  #
 #   #@   #
 # # ######
-#   #
-#####
+#   #     
+#####     
+
+Solution
+ruuLLLuullddRluurrdDrrrddlUruLLLuullddRRRRurDldRulllDDllddrrUUUUlluurrDullddrRRRdrUddrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:18
+
 
 Level 40
- #####
- #   #
+
+ ##### 
+ #   # 
 ##   ##
 # $$$ #
 # .+. #
 #######
 
+Solution
+UdrruLuulldRurDDullDurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:19
+
+
 Level 41
-#######
-#     #
+
+####### 
+#     # 
 #@$$$ ##
 #  #...#
 ##    ##
- ######
+ ###### 
+
+Solution
+urDurrDulldRurrdddlllUluurrdRulllddrdrrUdlluluurrrrDullllddrdrruRuulDullldRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:20
+
 
 Level 42
+
    ####
    #  #
    #@ #
@@ -410,9 +785,18 @@ Level 42
 #   $.#
 # # $.#
 #    ##
-######
+###### 
+
+Solution
+rddLrdLdllluurRRUruulDDDlllddrrrUrUUluurDldDlllddrrUdlluurRRldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:21
+
 
 Level 43
+
      ####
      # @#
      #  #
@@ -420,16 +804,33 @@ Level 43
 #   $  .#
 #  $$# .#
 #    ####
-###  #
-  ####
+###  #   
+  ####   
 
-Level 44
+Solution
+ldddlLLrDLddrUllluuRRRRRdrUUldlllddlUluRRRRRurDuluurDlddlllddrUluRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:22
+
+
 'Duh!'
+
 #####
 #@$.#
 #####
 
-Level 45
+Solution
+R
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:23
+
+
+'Duh!'
+
 ######
 #... #
 #  $ #
@@ -438,49 +839,94 @@ Level 45
 #  @ #
 ######
 
-Level 46
+Solution
+luluururrdLulldddrdrruLUUruLdLrdddlluuUddRdrUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:24
+
+
+'Duh!'
+
  ######
 ##    #
 #  ## #
 # # $ #
 #  * .#
 ## #@##
- #   #
- #####
+ #   # 
+ ##### 
 
-Level 47
-  #######
-###     #
-# $ $   #
+Solution
+uLrruuullldlddRRuRDrUlldlddrrUdlluururrdLddlluuluururrrDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:25
+
+
+'Duh!'
+
+  #######  
+###     #  
+# $ $   #  
 # ### #####
 # @ . .   #
 #   ###   #
 ##### #####
 
-Level 48
-######
-#  @ #
-#  # ##
+Solution
+rrruuulldRRddlllluuRRRurDDullllddrrrRRRdrruLLLLLLrruuurrdLulDDulllldddrrurRlldlluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:26
+
+
+'Duh!'
+
+######  
+#  @ #  
+#  # ## 
 # .#  ##
 # .$$$ #
 # .#   #
 ####   #
    #####
 
-Level 49
-######
-# @  #
-# $# #
-# $  #
-# $ ##
+Solution
+rddDLrurDrddllUdrruulLuuulllddddrUUluurrrdddLruuulllddrDuluurDurrdddddrUruLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:27
+
+
+'Duh!'
+
+######  
+# @  #  
+# $# #  
+# $  #  
+# $ ##  
 ### ####
  #  #  #
  #...  #
  #     #
  #######
 
-Level 50
-  ####
+Solution
+ldddRluuurrrddlDDDldRuuulluRdrdddRluuululuurDDldRuuurrddLruullldddrUrDDDlddrruLrdrruLdlluuuuuruullDDldRurDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:28
+
+
+'Duh!'
+
+  ####    
 ###  #####
 #  $  @..#
 # $    # #
@@ -488,16 +934,34 @@ Level 50
   #      #
   ########
 
-Level 51
-####
-#  ###
+Solution
+llulDDulldRRurrrrrdddlllllUUluRRldddrrrrruuulldlLrrurrdddllllluUruRRRllldlluRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:29
+
+
+'Duh!'
+
+####    
+#  ###  
 #    ###
 #  $*@ #
 ### .# #
   #    #
   ######
 
-Level 52
+Solution
+rddllulURuLdlluurDldRRurDlddrrruuL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:30
+
+
+'Duh!'
+
   ####
 ### @#
 #  $ #
@@ -507,66 +971,129 @@ Level 52
 ###  #
   ####
 
-Level 53
- #####
+Solution
+ddLruulDllddrUluRRurDlldddRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:31
+
+
+'Duh!'
+
+ ##### 
 ##. .##
 # * * #
 #  #  #
 # $ $ #
 ## @ ##
- #####
+ ##### 
 
-Level 54
+Solution
+lUluuRurrDLrrddLUUdddlluRlluuRDldRdrrUruulLulDlddrUUrrrddlUruLLrdddlluRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:32
+
+
+'Duh!'
+
       ######
       #    #
   ##### .  #
 ###  ###.  #
 # $  $  . ##
-# @$$ # . #
-##    #####
- ######
+# @$$ # . # 
+##    ##### 
+ ######     
 
-Level 55
-########
-# @ #  #
-#      #
-#####$ #
+Solution
+drURuulDrRRRdrUUdllllddlluRdrUluRRRRRdrUUldllllddrUluRRRdrruulDruruulDrdLdlllllldlluRRRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:33
+
+
+'Duh!'
+
+########  
+# @ #  #  
+#      #  
+#####$ #  
     #  ###
  ## #$ ..#
  ## #  ###
-    ####
+    ####  
 
-Level 56
-#####
+Solution
+rdrrrddlUrdddlUUruuLLLulldRRRRurDDDldRRlulUruLLLulldRRRRurDDDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:34
+
+
+'Duh!'
+
+#####  
 #   ###
 #  $  #
 ##* . #
  #   @#
  ######
 
-Level 57
-  ####
-  #  #
-  #@ #
-  #  #
+Solution
+uulLulldRurDrddllURuulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:35
+
+
+'Duh!'
+
+  ####  
+  #  #  
+  #@ #  
+  #  #  
 ### ####
 #    * #
 #  $   #
 #####. #
     ####
 
-Level 58
-####
+Solution
+dddrdrruLdlLrruLdlUUUddlldRRRuluuruulDDDDldRurrrddlUruLLLdlluRdrRurDllluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:36
+
+
+'Duh!'
+
+####   
 #  ####
 #.*$  #
 # .$# #
 ## @  #
  #   ##
- #####
+ ##### 
 
-Level 59
-############
-#          #
+Solution
+luluurDRDulldRddrruruuLLLrrrddlLdlUUdrrruullDurrddlLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:37
+
+
+'Duh!'
+
+############ 
+#          # 
 # ####### @##
 # #         #
 # #  $   #  #
@@ -575,7 +1102,16 @@ Level 59
   #### #    #
        ######
 
-Level 60
+Solution
+ldllldLulldRRlddlUrururrrruullllllllddddRRdrUllluuuurrrrrrrrddllllllDurrdRullldRdLruurrdLullddrUluRRRRRRurDDDrddlluRdrUUluulldLLLullddrUluRRRRRRurDDDrdLuuurDDuuluulllllllllddddRRdrUUluRRRRRRurDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:38
+
+
+'Duh!'
+
  #########
  #       #
 ##@##### #
@@ -585,62 +1121,116 @@ Level 60
 ##$##  #.#
 #   $  #.#
 #   #  ###
-########
+########  
 
-Level 61
-########
-#      #
-# #### #
-# #...@#
+Solution
+urrrrrrdddLLulldRRRllDDrddlUUUddLLdlluRRRllUUluurDDuuuurrrrrrddDDDuullulldRRRllddrddlUUUddlllUUluurDDuuuurrrrrrddDDullulldRRRlldddlllUUluurDDuuuurrrrrrddDuuullllllddddDuuuuurrrrrrdddllldddlldlluRRRlluuuuuurrrrrrdddlllddrddlUUUddllluuuuuurrrrrrdddllulldRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:39
+
+
+'Duh!'
+
+######## 
+#      # 
+# #### # 
+# #...@# 
 # ###$###
 # #     #
 #  $$ $ #
 ####   ##
-   #.###
-   ###
+   #.### 
+   ###   
 
-Level 62
+Solution
+lDDlDDrrUruLLrddlluRuuuruullllldddddrRRdrUUrrdLdlluluRRUdlldlluuuuurrrrrddLLrddlddrUUUdlldlluuuuurrrrrddLdddrruLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:40
+
+
+'Duh!'
+
    ##########
 ####    ##  #
 #  $$$....$@#
 #      ###  #
 #   #### ####
-#####
+#####        
 
-Level 63
-#####   ####
-#   ##### .#
+Solution
+LLLLullDRRRlldLLLrruulDLddlluuRRRRRRllllddlUluRRRRRldLLdlUluRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:41
+
+
+'Duh!'
+
+#####   ####       
+#   ##### .#       
 #       $  ########
 ###  #### .$    @ #
   #  #  #  ####   #
   ####  ####  #####
 
-Level 64
- ######
-##    #
-#   $ #
-#  $$ #
+Solution
+llllLLulLLLLLLulldRurDrrrrrrrddlUruLLLLLLLulldRRRRRRRRurDldRRRRRRlllllullllllddlUruLulldRRRRRRRRdrUdrrrrrdrruLLLLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:42
+
+
+'Duh!'
+
+ ######   
+##    #   
+#   $ #   
+#  $$ #   
 ### .#####
   ##.# @ #
    #.  $ #
    #. ####
-   ####
+   ####   
 
-Level 65
-  ######
-  #    #
-  #  $ #
- ####$ #
-## $ $ #
+Solution
+ldlluulUluurrrddLLrruulDrdLdddrrurrdLLLdlUUUUruulDDDDDuuuuulldRurDDDDulUruulldRurDDDuullldRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:43
+
+
+'Duh!'
+
+  ###### 
+  #    # 
+  #  $ # 
+ ####$ # 
+## $ $ # 
 #....# ##
 #     @ #
 ##  #   #
  ########
 
-Level 66
-   ###
-   #@#
- ###$###
+Solution
+uuuuLrddddlluuRUruulDrdDDullddrdrruLLLrruuuulDuulldRurrdddddllLdlUruLrruRurDDullddrdrruLLLullddrUluRluRRRurDDulllddrrdrruLLLrruulllldddrUrrruuuuulldRurDDDDullllddrrrdrruLLLLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:44
+
+
+'Duh!'
+
+   ###   
+   #@#   
+ ###$### 
 ##  .  ##
 #  # #  #
 # #   # #
@@ -648,54 +1238,99 @@ Level 66
 # #   # #
 #  # #  #
 ## $ $ ##
- ##. .##
-  #   #
-  #   #
-  #####
+ ##. .## 
+  #   #  
+  #   #  
+  #####  
 
-Level 67
-#####
-#   ##
-# #  #
+Solution
+DDDDDDDDDldRdrUluuuuuuuulldlddddrdRdrUUUUUddddlluluuuururrrrdrddddldLruruuuululllldlddddrdrdrUUUruulDDDDDlddrruLdlUruuuuuuU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:45
+
+
+'Duh!'
+
+#####  
+#   ## 
+# #  # 
 #@$*.##
 ##  . #
  # $# #
  ##   #
   #####
 
-Level 68
- ####
+Solution
+uurrdrddrddllUluRddrruuLLruulDDuuullddRRdrrddllUlURuuullddR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:46
+
+
+'Duh!'
+
+ ####     
  #  ######
 ##    $  #
 # .# $   #
 # .#$#####
-# .@ #
-######
+# .@ #    
+######    
 
-Level 69
-####  ####
-#  ####  #
-#  #  #  #
+Solution
+luuurrrRdrruLLLLLulDDlddrrrUUddllluururRRRdLullldlddrrruUddllluurDuurRdrruLLLulDDurrrrdrruLLLLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:47
+
+
+'Duh!'
+
+####  #### 
+#  ####  # 
+#  #  #  # 
 #  #    $##
 #  . .#$  #
 #@ ## # $ #
 #   . #   #
 ###########
 
-Level 70
-#####
+Solution
+rurrrurrDrrddllUUrULLLulDrrruurDDldddrruuLrddlluUruLLLdLLrrddllluUUdrrruulDrdLLrrddllluluurDrrrurrrdrdLdlUUruLLLulDrdddlllluurrRlluluurDDldRDldRR
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-06-08  23:15:47
+
+
+'Duh!'
+
+#####   
 # @ ####
 #      #
 # $ $$ #
 ##$##  #
 #   ####
-# ..  #
-##..  #
- ###  #
-   ####
+# ..  # 
+##..  # 
+ ###  # 
+   #### 
 
-Level 71
-###########
+Solution
+rdrrrddlUruLLLdRulullddRDDDuuuluurDDDDldRurDuluuurrdLulDDDldRuuurrurrdLLLulDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:48
+
+
+'Duh!'
+
+###########  
 #     #   ###
 # $@$ # .  .#
 # ## ### ## #
@@ -705,83 +1340,155 @@ Level 71
 #           #
 #############
 
-Level 72
-  ####
+Solution
+urDDuulllddddddrrrrrrrrrruuuuulllddllldlluRRRRdrUUdlllluuulllddddddrrrrrrrrrruuuuullulldRRlddlllluuullldRRurDDullldddddrrrrrrrrrruuuuuLLulldRRRllddllldlluRRRRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:49
+
+
+'Duh!'
+
+  ####    
  ##  #####
  #  $  @ #
  #  $#   #
 #### #####
-#  #   #
-#    $ #
-# ..#  #
-#  .####
-#  ##
-####
+#  #   #  
+#    $ #  
+# ..#  #  
+#  .####  
+#  ##     
+####      
 
-Level 73
-####
+Solution
+llLDDDuulluRRdddrrddlUruLdLLdlluurDrrUUUluurDDDDrdLLddlluuRRRuuuuRRdrruLLLLdlluRdrdddllDrururrdLLLdlluurDldRurDuruuuluurDDDDrdLLdlluurDldRlddrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:50
+
+
+'Duh!'
+
+####    
 #  #####
 # $$ $ #
 #      #
 ## ## ##
-#...#@#
+#...#@# 
 # ### ##
 #      #
 #  #   #
 ########
 
-Level 74
- ####
+Solution
+uulllluurDDDurruLrdrruLLrdddddlllluuRuuluurDldRRRurDDDDuuulllddlddrrrdrruLLLLdlUUdrrrruuuuulLdlluurDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:51
+
+
+'Duh!'
+
+ ####      
  #  #######
  #$ @#   .#
 ## #$$   .#
 #  $  ##..#
 #   # #####
-###   #
-  #####
+###   #    
+  #####    
 
-Level 75
- #######
-## ....##
+Solution
+lulDDDRRlluurrDRRRurrddlUruLdllllullddrddrruUddlluuluurrdRRRRurDllluRRlldldddlluuRlddrruUluRRRRlllldllldRurrrddllUluRRlddrruUluRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:52
+
+
+'Duh!'
+
+ #######  
+## ....## 
 #   ######
 #   $ $ @#
 ###  $ $ #
   ###    #
     ######
 
-Level 76
- #####
-##   #
+Solution
+ddlluLuLLulldRRdRRuLdlUrrddrrruulLLdlluUluRRRlldddrruLdlUUluRRlddrrddrUdrruulLLLdlUUluRddrrrddrUruLLLLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:53
+
+
+'Duh!'
+
+ #####    
+##   #    
 #    #####
 #  #.#   #
 #@ #.# $ #
 #  #.#  ##
-#    #  #
-##  ##$$#
- ##     #
-  #  ####
-  ####
+#    #  # 
+##  ##$$# 
+ ##     # 
+  #  #### 
+  ####    
 
-Level 77
-##########
-# @ .... #
+Solution
+rddrddrrrrUUluuurrdLDldDrdLLLdlUUluuuuurrddddLdlUrddrrruuuruulDDDDrdLLLdlUUdrrruuurDlddllluluUUUluRurrdLrddddLdlUUUddrddrrrrUUUluurrdLulDDDDrdLLLdlUUluuuluuRurrdLrddddLdlUluuuuRRurDDDuulllddrUluRRurDDulllddddrUUUluRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:54
+
+
+'Duh!'
+
+########## 
+# @ .... # 
 #   ####$##
 ## #  $ $ #
  # $      #
  #   ######
- #####
+ #####     
 
-Level 78
- #######
-##     ##
-#  $ $  #
-# $ $ $ #
+Solution
+ddddrruLdlUUUddrrrrruLrdrruLdlllllluururrrrrDDrdLLLLLrruRldlldlluuururrrrrdDrdLLruuullllldldddrruuRRRlllddlluuururrrrrdDuullllldlluRRRRRllllddddrruLdlUUUluRRRRllldddrrrurrdLLLLdlUUUluRRRlldddrrrrrurrdLLLLLLdlUUUluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:55
+
+
+'Duh!'
+
+ #######   
+##     ##  
+#  $ $  #  
+# $ $ $ #  
 ## ### ####
  #@  .....#
  ##     ###
-  #######
+  #######  
 
-Level 79
+Solution
+uUrRuurrdDDuuullddllddrrrRRRlluuuulldRurDDDuulldllddrrrRRluuulldRurDDullllddrrrdrruLLruuuullllDldRRRRurDDullllddrdrruRuulllluRRRurDDDullllddrR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:56
+
+
+'Duh!'
+
  #########
  #    #  #
 ## $#$#  #
@@ -789,8 +1496,17 @@ Level 79
 #  .#    #
 ##########
 
-Level 80
-####
+Solution
+lLLdlluRRRRRdrUllllluurrrDulllddrrRdrruLLLLrruullldDldRurrrrrruulDrdLLLuulllddrRlluurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:57
+
+
+'Duh!'
+
+####      
 #  #######
 #  . ## .#
 # $#    .#
@@ -798,11 +1514,20 @@ Level 80
  #    #  #
  #### #  #
   # @$ ###
-  # $$ #
-  #    #
-  ######
+  # $$ #  
+  #    #  
+  ######  
 
-Level 81
+Solution
+lddrrruuLrddlUUddlluRdrruulUUUdllluUluurDrrdRRRurDDulllddddrdLdlluuRlddrruUUUUdllluUluurDrrdRRRdrUldddrUluullddddlldRdrUUUUUdllluUluurDrrdRRRllddllluUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:58
+
+
+'Duh!'
+
  #####
  #   #
  # . #
@@ -813,19 +1538,37 @@ Level 81
  #   #
  #####
 
-Level 82
-#####
-#   ###
+Solution
+luuurrdLDldddrruLdlUUdrUUUruulDDDDlluRdrUUruulldDrddlluRdrUldddrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:15:59
+
+
+'Duh!'
+
+#####   
+#   ### 
 # .   ##
 ##*#$  #
 # .# $ #
 # @## ##
-#     #
-#######
+#     # 
+####### 
 
-Level 83
-######
-#    ##
+Solution
+drrruUlUdrruLuLLulldRRlDDlddrUdrrruuuuLLulDrrrddlUruLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:00
+
+
+'Duh!'
+
+######  
+#    ## 
 # $ $ ##
 ## $$  #
  # #   #
@@ -833,98 +1576,179 @@ Level 83
  #  . .#
  # @. .#
  #  ####
- ####
+ ####   
 
-Level 84
-########
-#  ... #
-#  ### ##
-#  # $  #
-## #@$  #
- # # $  #
+Solution
+rruuuuuLullDDDDDuuuuurrdLrrddlUrdddllluuuRRdrddllddlUUUUddrrruululuurDrDLuullldRurrdrdDuululldDDDDrddlUUUUURRuulDrddrDDuuluurDDuulullDDDDDrddlUUUUURurrddlUlldddrrrrdLLulluuurrrdDDrdLuuuulluurDldRurDDDuullldddrrRlllddrUluuuurrrddddLruuuuulullldRRurDldRurDDDDldRuuuullldddRldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:01
+
+
+'Duh!'
+
+########    
+#  ... #    
+#  ### ##   
+#  # $  #   
+## #@$  #   
+ # # $  #   
  # ### #####
  #         #
  #   ###   #
  ##### #####
 
-Level 85
+Solution
+uRlddRUrrdLddlllluuuuuurrrrdDDDDuuuuullllddddddrrrRRRdrruLLLLLLLdlUUUUUluurrrrrdddlluRdrdddlllluuuuluurrrrrdDDDDuuuuulllllddrddddrrrRRRdrruLLLLLLrruuulldRurDDuuuuulllllddrdddddrrurRRRlllldlluuuuuUluRRRlldddddddrruLdlUUUUUUluRRlddddddrrrrrrdrruLLLLLLLdlUUUUUUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:02
+
+
+'Duh!'
+
        ####
  #######  #
  # $      #
  #   $ $  #
  # ########
-## # .  #
-#  # #  #
-#  @ . ##
-## # # #
- #   . #
- #######
+## # .  #  
+#  # #  #  
+#  @ . ##  
+## # # #   
+ #   . #   
+ #######   
 
-Level 86
-    ####
+Solution
+luuuurrurrdRullldlluRdrRurrdLLLLulDDDDldRRluuuurrrrrurrdLLLLLLulDDDDldRuuuurrruLdllddddddrrrruuuulldDrrddlllluuRRRlllddrrrruUUruLddlllluuuuuRRRRRdrruulDrdLLLLLLulDDDDldRRRDullddrR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:03
+
+
+'Duh!'
+
+    #### 
   ###  ##
  ## $   #
 ## $  # #
 # @#$$  #
 # ..  ###
-# ..###
-#####
+# ..###  
+#####    
 
-Level 87
+Solution
+uRlddrrrUrruullDLDururrddlLdLLdlluuruRRDrdLrurruullDllldDldRuuurrddLruulldDrruururrddlLulDrdLLruuluRdrdrruululDDurrddlLulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:04
+
+
+'Duh!'
+
      ####
 ######  #
 #       #
 #  ... .#
 ##$######
-# $  #
-#   $###
-##  $  #
- ## @  #
-  ######
+# $  #   
+#   $### 
+##  $  # 
+ ## @  # 
+  ###### 
 
-Level 88
-     ####
- # ###  #
- # #    #
- # #  # #
- # #$ #.#
+Solution
+luRluurDllluRUUluRRlddddrruLdddrUlulUUUddrddrdrruLLdlUluurrDLuluuruRRlldlluRRldddrdddrUluuluurrrrruulDrdLLLLulldRurRRdrruulDrdLLullldddrddlUUUUluRRRRdrruulDrdLulllldddrrDlddrruLdlUUruLdlUUUluRRRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:05
+
+
+'Duh!'
+
+     ####  
+ # ###  #  
+ # #    #  
+ # #  # #  
+ # #$ #.#  
  # #  # # #
  # #$ #.# #
    #  # # #
 ####$ #.# #
 # @     # #
 #   #  ## #
-########
+########   
 
-Level 89
+Solution
+rrruuuulUrdddlDrdLLdlluRRRuruuuuuurrdddddddldlUUUddrruuuuuuullddldDDDrdLLdlluRRRuuuuruuurrdddddddldlUluurUUUldddddrUUddrruuuuuuulllDDDDDDrdLLdlluRRRuuuuuuurrrdddddddldlUluuuuruUluRRurDDDDDDuuuuullldddddrUUUUluRRurDDDDuuullldddddddrUUUUUUluRRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:06
+
+
+'Duh!'
+
 ##########
 #   ##   #
 # $  $@# #
 #### # $ #
    #.#  ##
- # #.# $#
- # #.   #
- # #.   #
-   ######
+ # #.# $# 
+ # #.   # 
+ # #.   # 
+   ###### 
 
-Level 90
- ########
- #  @   #
- # $  $ #
+Solution
+ddddrUluuuurrddLruulldDDDDrdLulluuuuRlddddrruuurruullDDDDuuullddddrRuuuulllulldRRRRlddddrruuurruullDllddddrrurUldddrUUldlldRuluuuurrDDDrdLLdlUUdrruuuuurrddLruulldDDDrdLLdlUrrruUluuurrddLruulldDDDrdLLrrdLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:07
+
+
+'Duh!'
+
+ ######## 
+ #  @   # 
+ # $  $ # 
 ### ## ###
 #  $..$  #
 #   ..   #
 ##########
 
-Level 91
+Solution
+lldRdDrrdrruLdllulldRRRRlluluuurrdLulDDurrurrdLLLrrdddlllluRdrrruuuulllDDDldRuuurrrddrrdLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:08
+
+
+'Duh!'
+
 ###########
 #    .##  #
 # $$@..$$ #
 #   ##.   #
 ###########
 
-Level 92
-  ####
+Solution
+rrdrrruulDrdLLruLLLullllddrrUdlluurRRldRRlullldRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:09
+
+
+'Duh!'
+
+  ####         
   #  #    #####
   #  #    #   #
   #  ######.# #
@@ -932,11 +1756,20 @@ Level 92
 #   $$# ###.# #
 #   #   # #   #
 ######### #@ ##
-          #  #
-          ####
+          #  # 
+          #### 
 
-Level 93
- #########
+Solution
+uuullllLLrrddllULLdlluRRRUUluurDDDRRRRRRRuurrddLruulldDDDuullllddllULLdlluRRRuRRRRRRRuurrddLrddlluUddrddlUUrruullllllddllUluRRRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:10
+
+
+'Duh!'
+
+ ######### 
 ##   #   ##
 #    #    #
 #  $ # $  #
@@ -946,9 +1779,18 @@ Level 93
 #  $ # $  #
 #    #    #
 ##   #   ##
- #########
+ ######### 
 
-Level 94
+Solution
+lUUdlluururDllddrrdDllddrrUUruuRdDrrddllUUllddlUluRRRRddrruuLLLuuruRurrddlUruLdlldDldRddrruuLLrrdLdlUUUUUrruullDDDDuuuurDlddlllUdrrruurrdLulDDurrdLLLLLulldRRRRlluluurDDldRRluurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:11
+
+
+'Duh!'
+
 #########
 # @ #   #
 # $ $   #
@@ -958,7 +1800,16 @@ Level 94
 ######  #
      ####
 
-Level 95
+Solution
+rdRRurDlllulldRRRRlllDurrrurrdLLrDDrddlUUllldlluRuurRRurrdLLLLrrrDDrddlUruLLruulllulldRRRRurDDDrddlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:12
+
+
+'Duh!'
+
 ########
 #@     #
 # .$$. #
@@ -968,82 +1819,144 @@ Level 95
 #      #
 ########
 
-Level 96
-  ######
-  #    #
-  #    #
-#####  #
+Solution
+rrDDulldddrdrrUrruuLuullllddRururrdLulllddddrUUdddrrruUUddldlluRRlluuluurDDDuuurrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:13
+
+
+'Duh!'
+
+  ######   
+  #    #   
+  #    #   
+#####  #   
 #   #.#####
 #   $@$   #
 #####.#   #
    ## ## ##
-   #   $.#
-   #   ###
-   #####
+   #   $.# 
+   #   ### 
+   #####   
 
-Level 97
-   ####
+Solution
+RRdrruLLLrrdddLLdlluRRluuUUUruLdddLLulldRRRRRRdrruLLLrrdddLLdlluRRRlluuUUUruulDDDDuuuulldRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:14
+
+
+'Duh!'
+
+   ####       
    #  ########
 #### $ $.....#
 #   $   ######
-#@### ###
-#  $  #
-# $ # #
-## #  #
- #    #
- ######
+#@### ###     
+#  $  #       
+# $ # #       
+## #  #       
+ #    #       
+ ######       
 
-Level 98
-#####
-#   ## ####
-#  $ ### .#
-# $   $  .#
+Solution
+drDuluurrRRddlLrruuluurDDurRRRRRllllllldllldddrrurrUUluRRRRRRllldLulldllldddrrurruUluRRRRRllllldlllddRRlluurrrrddddldllUUruRldlddrrruuUUUluRRRRlllldlllddRRRlldddrrruuUUUluRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:15
+
+
+'Duh!'
+
+#####           
+#   ## ####     
+#  $ ### .#     
+# $   $  .#     
 ## $#####.# ####
 # $  # # .###  #
 #    # # .#  @ #
 ###  # #       #
   #### ##     ##
-        #######
+        ####### 
 
-Level 99
-               #####
-               #   #
-#######  ####### # #
-#     #  #  #      #
+Solution
+lldlluuuullLLLuLulldRDRRRRRRurDDDDldRRRdrUllluuuullllluLdDDrddlUUUUlluurrDullddrRRRRRRurDDDDldRRRRdrUlllluuuulllllldddlluRdrUUUlluurrDullddrRRRRRRurDDDDldRRRlluuuulllllululDldRRRRRRRurDDDDldRuuuullllllddlUruulldRRRRRRRurDDDlddrUUUUdddddrruLdlUUUUdddrrdrruLLLdlUUUddrrrrruulDrdLLLLdlUUdrruRdrruulDrdLLLLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:16
+
+
+'Duh!'
+
+               #####  
+               #   #  
+#######  ####### # #  
+#     #  #  #      #  
 #  @  ####  #     ####
 #  #    ....## ####  #
 #    ##### ## $$ $ $ #
 ######   #           #
          #  ##########
-         ####
+         ####         
 
-Level 100
-#######
-# @#  #
-#.$   #
+Solution
+rrdrrrrrddrrrrUUUdddrrrrrruulDrdLLLLLLLLLdlUUUruulDrdLLLLLLulllddrrUruLLulDrrrdrrrrrddrrrruuuluRRdrruruulldDrdLLulDDDldRRRRRurrdLLLLLLLLLdlUUUruulDrdLLLLLLullllddrrrUruLLrrdrrrrrddrrrrrruLdlUUUluRRdrruruulldDrdLLulDDDrdLLLLdlUUUruulDrdLLLLLLuulllldddrrrUrrrrrrddrrrrrruRRdrruulDrdLLLLLLLLLdlUUUruulDrdLLLLLLuulldRullldddrrrUdllluuurrrrDulllldddrrruRRRRRRllllluulldRurDldRRRRRlllluulllldRRRurDldRRRRlllldllUluRRRurDldRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:17
+
+
+'Duh!'
+
+####### 
+# @#  # 
+#.$   # 
 #. # $##
 #.$#   #
 #. # $ #
 #  #   #
 ########
 
-Level 101
+Solution
+lddrDuluurDrrrDldddrruuLrddlluUrrdLuuullllddrUluRRRurDDDuullllddddrUUluurrrrddlUruLLLulDDDuurrrrddrddllUUrrdLuuullllddrUluRRRurDDDlUruLLLulDDrurrrddrddllUUUruLLLulDrrrrddrdLdlUUUruLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:18
+
+
 'Lockdown'
-  #####
-  #   #
+
+  #####      
+  #   #      
   # # #######
   #  *  #   #
   ## ##   # #
   #     #*  #
 ### # # # ###
-#  *#$+   #
-# #   ## ##
-#   #  *  #
-####### # #
-      #   #
-      #####
+#  *#$+   #  
+# #   ## ##  
+#   #  *  #  
+####### # #  
+      #   #  
+      #####  
 
-Level 102
+Solution
+ruuuulLrrddddrruUddlluulllldDllddrrUrrUUdrruuuulluullddRddRRlddrrrruurruullDllDDullddddrRddrruuLuuL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:19
+
+
+'Lockdown'
+
 ###########
 #....#    #
 #  #   $$ #
@@ -1053,17 +1966,35 @@ Level 102
      #    #
      ######
 
-Level 103
-  #####
+Solution
+rrururrrddddLruulDruuulDLLLrrrrddlUrdddlUUruuullldldllluurrDrdLLdlUrrrurrurrdLLLLdlllluurrrDrdLLrrurrrrddlUruLLLLdlldlluuurrrDrddlluLUluRdddlUUrdrdrruLLdlUUdrrrurrrddddlluRdrUUUruLLLLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:20
+
+
+'Lockdown'
+
+  ##### 
   # . ##
 ### $  #
 # . $#@#
 # #$ . #
 #  $ ###
-## . #
- #####
+## . #  
+ #####  
 
-Level 104
+Solution
+dlldLrurruulullddllddRRlluurrDullddrdrrUdlluluurrdRlDuuuurrdLulDDllddrrruUUdddlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:21
+
+
+'Lockdown'
+
     #####
 #####   #
 #    $  #
@@ -1071,34 +2002,61 @@ Level 104
 ### #   #
   # ... #
   ###  ##
-    #  #
-    ####
+    #  # 
+    #### 
 
-Level 105
- #### ####
+Solution
+ulLLLDurrDDDuuulldlluRRRRurrdLrddlldllUUddrrrruuuullDlLdddrrrddlUruruuulllldddrRurDruuullDDrdLddrUluuuulldlluRRRRurrdLulDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:22
+
+
+'Lockdown'
+
+ #### #### 
 ##  ###  ##
 #   # #   #
 #  *. .*  #
 ###$   $###
- #   @   #
+ #   @   # 
 ###$   $###
 #  *. .*  #
 #   # #   #
 ##  ###  ##
- #### ####
+ #### #### 
 
-Level 106
- ########
- #      #
- #@   $ #
-## ###$ #
+Solution
+uulLrrrRurrdLLLdlldddLrrrRluurUldddrUllldldlluRRRuulDrdLruuuulDDuuulldRurDrddlUUrRllluurDldRdrdddlUUUrrrdddLullddlluRdrUUruulDDrrrrddrruLLuluurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:23
+
+
+'Lockdown'
+
+ ######## 
+ #      # 
+ #@   $ # 
+## ###$ # 
 # .....###
 # $ $ $  #
 ###### # #
      #   #
      #####
 
-Level 107
+Solution
+ddrrrdRullldRulluurrrurrdLLLulldddrrrrUruullldLulDrrrurrdLLrdddddrruuLrddlluUUUdlldRRullllldRRurrruruullllldDururrdLLulDrrrurrdLLrdddddrruuLrddlluUUUdllldlluRRRldRRRuuruullllldDururrrrddlddllllluRRluururrdLLulDDurrrurrddlddllllluRuurrrurrdLLLLulDDurrrrdddddrruuLrddlluUUUruulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:24
+
+
+'Lockdown'
+
 ########
 #      #
 # $*** #
@@ -1108,17 +2066,35 @@ Level 107
 #     @#
 ########
 
-Level 108
-####     #####
+Solution
+llllluuRRlluuurrrrrddLDrddllllluurruRldRllluuurrDDrdLuuulldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:25
+
+
+'Lockdown'
+
+####     ##### 
 #  ###   #   ##
 #    #   #$ $ #
 #..# ##### #  #
 #  @    # $ $ #
 #..#         ##
-##   #########
- #####
+##   ######### 
+ #####         
 
-Level 109
+Solution
+rrrrdrruRdrrUruuLullDDDuuurrdrddldlLLLLLLrrrrrrruLdlUUdrrruulDuullDDDrdLLruuuurrdLulDrrrddLdlluRdrUUdllldLLulllllddrrUdlluurRRdRRRRurrdLLLLLLulllddrrUruLLrddlluUUluRddrrrdrrrrrrruruuLulldRlDDrdLLLLLLulllddrrUruLLrddlluUrrrdrrrrrrruruuLLulDDDrdLLLLLLulllddrrUruLddlluuUdddrruuLrddlluluurDrrrdrruLLLLLulDuuurDlddrrruuLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:26
+
+
+'Lockdown'
+
   #######
 # #     #
 # # # # #
@@ -1133,19 +2109,37 @@ Level 109
 ### #   #
 ### #####
 
-Level 110
-  ####
-  #  #
+Solution
+ldddrdrdDlUlUUddrrrrdddllUUluRlluurDulUUUrruullDDDDuurruurrddddddddddlluuuulllUdrrrdRlulldRRullUUUUrruullDDDDDldRurDullluRdrUUUrruullDDDDlddrruLrdrddlUluuuuurruurrddddddDuuuuuLLuulldddddddrrdddrruUUUUUUUddddddddlluuuRllluuuuuuurrddrrddddDDulllluurDldRRRlululuuuuurrddrrddddDuuuuulluurrDDDDDuuuuullllddRRRluurrdDDDuullllddlldRurDldRurDldRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:27
+
+
+'Lockdown'
+
+  ####   
+  #  #   
   # $####
 ###. .  #
 # $ # $ #
 #  . .###
-####$ #
-   # @#
-   ####
+####$ #  
+   # @#  
+   ####  
 
-Level 111
-######
+Solution
+uuuulluurDldddrruuLrddlluUddlluRdrrruullDurrddlLrruurrdLulllddrrUdlluurRddddlUruuullddRlulldRururuulDrdrdrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:28
+
+
+'Lockdown'
+
+######   
 #    ####
 #    ...#
 #    ...#
@@ -1158,68 +2152,122 @@ Level 111
    #    #
    ######
 
-Level 112
- #####
-##   ####
-#  $$$  #
-# #   $ #
+Solution
+DRluluurDRllddrrUrUUUUruLLLLrrrdddddldlluurRdrUUUruLLLLrrrdddlddlUluRRdrUUUUruLLrdddddrdddlllUUUluRRdrUUUruulldRddddrdLLrrddllluUUluRRdrUUUUluRldlluRdrrddddrdddllUUUluRdrUUUUlluullldRRurDldRRlullldRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:29
+
+
+'Lockdown'
+
+ #####    
+##   #### 
+#  $$$  # 
+# #   $ # 
 #   $## ##
 ###  #.  #
   #  #   #
  ##### ###
- #   # ##
- # @....#
- #      #
- #   #  #
- ########
+ #   # ## 
+ # @....# 
+ #      # 
+ #   #  # 
+ ######## 
 
-Level 113
-   #####
-  ##   #
-###  # #
-#    . #
-#  ## #####
-#  . . #  ##
+Solution
+rrruuuruuuLLLDlddrUlulluururrDulldRllddrrURRRurDlllldlluururDurDRdrruLrdDDrdLulDDDDrdLuuuuruuuulLLulldRllddrrURRRurDDDrdLulDDDDrddlUruLLLulDrrruuuruuullllddrUluRRRurDDDrdLulDDDDrddlUruLLLulldRurDrruuuruuulllldlluururDDullddrRdrUluRRRurDDDrdLulDDDDrddlUruLuuuruuulllluurDldRRRurDDDrdLulDDDDrddlUUUUUdddLLulldRRRlllddrUluRRlddrURRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:30
+
+
+'Lockdown'
+
+   #####      
+  ##   #      
+###  # #      
+#    . #      
+#  ## #####   
+#  . . #  ##  
 #  # @ $   ###
 #####. #  $  #
     ####  $  #
        ## $ ##
-        #  ##
-        #  #
-        ####
+        #  ## 
+        #  #  
+        ####  
 
-Level 114
-######
-#    ###
-#  # $ #
-#  $ @ #
+Solution
+rRRurDlddrRDulluurrDullddrUddrrUruLLuLLLLdlUUUdllluurruurrddLddrdrrddrUruLLLLdlUruLLLrruuruulldldlldddrUrrrrdrrrrdrdLdlUUruLLLLdlUUrdrrrdddddrUUUruLLdlUruLLLulDulllluurDldRuurururrddlDuruulldldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:31
+
+
+'Lockdown'
+
+######     
+#    ###   
+#  # $ #   
+#  $ @ #   
 ## ## #####
 #  #......#
 # $ $ $ $ #
 ##   ######
- #####
+ #####     
 
-Level 115
-    #####
+Solution
+ruLddddLdllUUUURRllluurrrDrDLuulllddrddddrruruUdrrdLrurrdLullllddlluuuuluurrrdrDDuululllddrddddrruLruRuuululllddrRRuullDldRddldRdrruLrurRRRlllldldlUUUUdddrrurrdLLrrurrdLLullddlluuuuluurrrddLrurDDuululllddRRRuullDldRddddrruuRRRllldLdlUUUUluurDDDDuuuurrddLrurDDuululllddRRRllddldRdrruLruRRlldldlUUUUluurDldRdddrrurrdLLdlluuuuuurrdrDDuulullddddddrruuRuuulullddRRurDDullldddRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:32
+
+
+'Lockdown'
+
+    #####   
 #####   ####
 #     #    #
 #  #.....  #
 ##  ## # ###
- #$$@$$$ #
- #     ###
- #######
+ #$$@$$$ #  
+ #     ###  
+ #######    
 
-Level 116
+Solution
+dllUUUluRRRdrrruullDurrddlLulllddddrrrrUUddlllluuuurrrdRRldddlluLrdrruLLrruurRddLLdlluRdrUUdrruuulullddRddlldllUUUluRRRllddddrrrrurruuulullDurrdrrrdLullulldllldddRRRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:33
+
+
+'Lockdown'
+
      #####
    ###   #
 ####.....#
 # @$$$$$ #
 #     # ##
-#####   #
-    #####
+#####   # 
+    ##### 
 
-Level 117
- #### ####
+Solution
+drrrdrruUruulldllDurrurrddlddlluUlLdlluRdrRurRuurrddLruulldRdddllUluuRRllddrUluRlddlluRdrUrddrruuLrddlluU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:34
+
+
+'Lockdown'
+
+ #### #### 
  #  ###  ##
  #      @ #
 ##..###   #
@@ -1227,23 +2275,41 @@ Level 117
 #...#$  # #
 # ## $$ $ #
 #  $    ###
-####  ###
-   ####
+####  ###  
+   ####    
 
-Level 118
- #####
-##   ##
-#  $  ##
-# $ $  ##
+Solution
+llllllddldddrRRllluurrurrrdrddlUdLLuRUddrruuLuLLLdlluRdrUUluRddrrrdrddlluUruLLLdlluRdrUUldldddrRRdrUUUruLLLulDrdLulDrrurrrdrdLdlUUruLLLulDldRurrrddldlllUdrrrruuulluluurDRRRRdrruLLLLrrrrddddLLLdlUUruLLLUluurDldDuurRRRRdrruLLLLLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:35
+
+
+'Lockdown'
+
+ #####    
+##   ##   
+#  $  ##  
+# $ $  ## 
 ###$# . ##
   # # .  #
  ## ##.  #
  # @  . ##
- #   #  #
- ########
+ #   #  # 
+ ######## 
 
-Level 119
-  ######
+Solution
+rrruuuulululldRdRluurDrDrddddllluuUUddddrrruuuulLuulldRDDDDuuurruLulldldRuurrdLrrdrddlUruLrddddlldlluRRRRdrUUruLulDDuuulullDDDDuuuurrdLulDlluRdrrrrdrddddlUUUddlldlluRRRRdrUluurrdLulDuluullDDDuuuruulDrrdddrrdddlUUdlldlluRRRlluuuUruulDDDDDuuurrddRdrruLdddlUlldlluRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-06-08  23:16:35
+
+
+'Lockdown'
+
+  ###### 
   #    ##
  ## ##  #
  # $$ # #
@@ -1251,28 +2317,46 @@ Level 119
  #    # #
 #### #  #
 #  ... ##
-#     ##
-#######
+#     ## 
+#######  
 
-Level 120
-      ####
-#######  #
+Solution
+drddrruruuuulullldDDuuurrrdrddddldlluuruLdddrruruuuululllddlddRluuruurrrdrddddldlluUruuLDDlluuRldRdrDuluuuurrrdrddddldlLLruuruuLrddlddrruruuuulullldDrDDDuuuluurrrdrddddldldlluRldlluRdrruuulluRurDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:36
+
+
+'Lockdown'
+
+      #### 
+#######  # 
 # $      ##
 # $#####  #
 #  @#  #  #
 ## ##..   #
 #  # ..####
-# $  ###
-# $###
-#  #
-####
+# $  ###   
+# $###     
+#  #       
+####       
 
-Level 121
- ######
- # .  #
-##$.# #
-#  *  #
-# ..###
+Solution
+lluuRRRRRRurDDDrdLLLrruuulllllllddrUdddldRuuuuluRRRRRRurDDullllllddddldddrUUUUUluurrrrrrrdrddllldlldLrurrurrruululllllllddrddDrrurruulDrrrruululllllllddrdddrruRurrrruulDrdLLLulDrrruuulllllllddrUluRRRRRRurDDDrdLLLrruuullllllddddldddrUUUUUUluRRRRRRurDDDrdLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:37
+
+
+'Lockdown'
+
+ ######    
+ # .  #    
+##$.# #    
+#  *  #    
+# ..###    
 ##$ # #####
 ## ## #   #
 #  #### # #
@@ -1280,34 +2364,61 @@ Level 121
 ##  #     #
  ##########
 
-Level 122
-#####
-#   ###
-# #$  #
-# $   #
-# $ $ #
-# $#  #
-#  @###
+Solution
+lluuUdddrrrRdrUllllluuuruUrruullDDlDDDDldRRRRdrruLLLLdlUUUUUluRRuulDDDDDDldRRRRdrruLLLLdlUUUUrUUlDuuurrrddLLrruullldDrUldldRDDDldRRRRdrruLLLLdlUUUUrUUlldRddddrrrrrdrruLLLLLLdlUUUUUluRdddddrrrrrrruullDurrddlLLLLLdlUUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:38
+
+
+'Lockdown'
+
+#####      
+#   ###    
+# #$  #    
+# $   #    
+# $ $ #    
+# $#  #    
+#  @###    
 ## ########
 #      ...#
 #         #
 ########..#
        ####
 
-Level 123
-########
-#      #
+Solution
+lluuRDDuuluuurrDrrdddlULrruullDuullddRDRllddrDDldRRRRRRurrddlUruLLLLLdlluuuluurDDDDldRRRRRRurrddlUruLLLdlllluuuuuuluurrdrrddLLrruullullddrDDDDDldRRRRRRurrddlUruLdlllllluuuuuuluurrdDurrddlLulDDDDDldRRRRRRRurDllluRRlldlllluuuuuruurDrdLLulDDDDDldRRRRRRurDlllluRRRllldlluRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:39
+
+
+'Lockdown'
+
+########       
+#      #       
 # $ $$ ########
 ##### @##. .  #
     #$  # .   #
     #   #. . ##
-    #$# ## # #
-    #        #
-    #  ###  ##
-    #  # ####
-    ####
+    #$# ## # # 
+    #        # 
+    #  ###  ## 
+    #  # ####  
+    ####       
 
-Level 124
+Solution
+ddlDDuuruulDDruuuulDulldRRurDDDlUruLrddrdddllUURurDDullddrRuuuluuullldRRurDDlDDrrddllUUUUruLdddrrddRRRuurrddLdlUUUluRurDldddllluulluuuulldRurDDrDrdddlluuRurDDullddrRRRRuuurrdddLdlUUUluurrdLulDrdddllluullUUruulldRurDDDldRurDDullddrRRRRuuurrdddLdlUUUddrruuuullldRdddllluuuluuullllldRRRRurDDDldRurDDullddrRRRRuuuurrddddLdlUUUUdddrruuuulLdRldddrruuUruLdlldddllllddlUUUUUUruulldRurDDDldRurDDullddrRRRRuuurrdddLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:40
+
+
+'Lockdown'
+
 ##############
 #      #     #
 # $@$$ # . ..#
@@ -1318,57 +2429,111 @@ Level 124
  #           #
  #############
 
-Level 125
-      #####
-      #   ##
-      # $  #
+Solution
+urrDDuulldRullldRdddddrrrrrrrrrruuuuulllddllldlluRRRRdrruLLruurrrdddddlllllllllluuuuuurrdLrurrdLddrRRdrUUdlllluuulldRullldRdddddrrrrrrrrrruuuuuulllldRurrrddddddlllllllllluuuuuurrrDDuulllddddddrrrrrrrrrruuuuuullldddllldlluRRluuulllddddddrrrrrrrrrruuuuuullldRlddlLLdlluRRRRdrUUdlllluuullldRRurDDullldddddrrrrrrrrrruuuuuulldRullldRRlddllldlluRRRRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:41
+
+
+'Lockdown'
+
+      #####  
+      #   ## 
+      # $  # 
 ######## #@##
 # .  # $ $  #
 #        $# #
 #...#####   #
 #####   #####
 
-Level 126
+Solution
+ululDDDuurrddLrrddllULLLrrUUddlluRdrrdrruuluululldRdDRddrruuLuuLrddrddlluLulldLLLrrrurrdLLrrrdrruulLruululldRdDrruuLrddlllldLLulllddrrUdlluurDrrrrrurrdLLLLLLLulDrrruLrdrrrrruruululDDDrdLLLLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:42
+
+
+'Lockdown'
+
  ###########
 ##.......  #
 # $$$$$$$@ #
 #   # # # ##
-# # #     #
-#   #######
-#####
+# # #     # 
+#   ####### 
+#####       
 
-Level 127
-## ####
+Solution
+ullllllDDuurrrrrrdddlllluUddrrrruuulllLLLrrrrDRullldddrrrruUruLLrdddlllluuulldRldllddrrUdlluuuRRurrDRRlullldlldddrruUURurrdLrrRurrdLulLLLrrrrdddllllUdrrUUddrruuLuLrrdddlluUddlluULLdlluRRRRRRRlddrruUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:43
+
+
+'Lockdown'
+
+## ####   
 ####  ####
  # $ $.  #
 ## #  .$ #
 #   ##.###
-#  $  . #
-# @ #   #
-#  ######
-####
+#  $  . # 
+# @ #   # 
+#  ###### 
+####      
 
-Level 128
+Solution
+uRRRdrruLLLLulDrrrruulluurDrdddllluluuRRdRluurDrDDuullllddrdrrdrruLLLLrrruuurrdLulllllddrdrrruUddllluluurrdRulllddldRRRRdrUlllllddrUluRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:44
+
+
+'Lockdown'
+
   #########
 ###   #   #
 # * $ . . #
 #   $ ## ##
-####*#   #
- #  @  ###
- #   ###
- #####
+####*#   # 
+ #  @  ### 
+ #   ###   
+ #####     
 
-Level 129
+Solution
+rrurruulllulldRRRRurrdLLLLulldRRRRlllldlluRRurrddLDururrurrdLLrddlldlLuuLulldRRuurrdLLrrRRurrdLLrddlldlluUruRRllulldRRlddddlluRdrUUUruulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:45
+
+
+'Lockdown'
+
   #########
 ### @ #   #
 # * $ *.. #
 #   $ #   #
 ####*#  ###
- #     ##
- #   ###
- #####
+ #     ##  
+ #   ###   
+ #####     
 
-Level 130
+Solution
+rdRRurDlllulldRRRRlllldlluRRurrddLLrDururrddldlLuululldRRuurrdLLrrrrddldlluUrurrurrddLruulldlldlddrrurUdldlluuluRRlddddlluRdrUUUruulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:46
+
+
+'Lockdown'
+
 #####  #####
 #   ####.. #
 # $$$      #
@@ -1377,40 +2542,76 @@ Level 130
   #  ##    #
   ##########
 
-Level 131
-#####
-#   #
-# . #
+Solution
+lulluurrDRRRllDLrurrRlllldddrUUluRRRdrrruulDrrdddllluuluRllllullddRluurrdrddlUrurrrdddrrruulLrrddllluluurDrruulDlllldllluurrDullddrRdrUluRRRRRurrddlUlldRulllllulldRRRRRRdrUrrdddlllUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:47
+
+
+'Lockdown'
+
+#####  
+#   #  
+# . #  
 #.@.###
 ##.#  #
 #  $  #
 # $   #
 ##$$  #
  #  ###
- #  #
- ####
+ #  #  
+ ####  
 
-Level 132
-####
-# @###
+Solution
+ddRlldRDRUrruulDrdLLdlUUUUluRurDlddddrdddlUUUUUUluurrdLulDrddddrruLdlUUUddrrrddLLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:48
+
+
+'Lockdown'
+
+####      
+# @###    
 #.*  #####
 #..#$$ $ #
 ##       #
  # # ##  #
  #   #####
- #####
+ #####    
 
-Level 133
- #######
+Solution
+DDDrrddllUUUluurDrrDDllUdrrrruLrdrruLLdllllddrrUdlluurRRRlllluluurDrrDDllUdrruulLulDrrrddrruLdllluurrDullddrRRlllddrrUUlluurrDrdLLrddlluUUdrruulLrrdrrrrddlUruLLLdllluurrDrdLLrddlluUUdrrrurrdLLLLrddlluU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:49
+
+
+'Lockdown'
+
+ #######  
  #  . .###
  # . . . #
 ### #### #
 #  @$  $ #
 #  $$  $ #
 ####   ###
-   #####
+   #####  
 
-Level 134
+Solution
+uurrrrrdddLLulLrrddllULUUddrdrrurruuullulllldRdddrRRlllulldRRRdrruLuLLuuurrrdrrddLLrruullulllddddlluRdrUdRdrruLLrrurruullullldRurrdrrddlldllulUdrdrrurruullulldRRulllldRRlddldRRdrruLruLLLdlluRdrUUUluRRRlldddrrddlUruLdlUUUluRdddrrrrrdLLLdlUruLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:50
+
+
+'Lockdown'
+
         ####
 #########  #
 #   ## $   #
@@ -1420,10 +2621,19 @@ Level 134
   # #   #  #
   # @ $    #
   #  #######
-  ####
+  ####      
 
-Level 135
-#######
+Solution
+rurrdrruUUUddddlluuulullLrrrdrdddLLrrrruuuuruulDDDDDrdLLLuuuluuRRlldlllulldRRRRdrrdddrruuuuruulDDDDDuuuulllDDldRlddLdlUUUUdddrruuuulLrrrdddrdLLLdlUUUddrrruuuuurrrddddrdLLLuluuulllulldRRRRdrddrdrruuuuulllDldRldddlluuUdddrruuuulLulldRRRRdrddrdrruuuuulllDDDuuurrrdddddlluLuuulllddddrrUUrdrdLLLdlUUUUdddrrruuuullLulldRRRRllddddrrrrrruuuuulllDDDlddrruLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:51
+
+
+'Lockdown'
+
+#######    
 #     #####
 # $$#@##..#
 # #       #
@@ -1431,67 +2641,121 @@ Level 135
 #### $  ..#
    ########
 
-Level 136
- #######
- #     #
+Solution
+dlddRRRluuluulllldddrRurrrddllUluRRRRRllluullDDuulldddrRurrrddllUdrruurrdrdLLLrruuurDDulllluullddRRRRlddrruUllllddRRRlllullluuRurDDullddrRurrrddllUluRRRRRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:52
+
+
+'Lockdown'
+
+ ####### 
+ #     # 
 ## ###$##
 #.$   @ #
 # .. #$ #
 #.##  $ #
 #    ####
-######
+######   
 
-Level 137
-       ####
+Solution
+rddLLrruulllldllddrrrUdllluuuRldddrrrurrruulllDlluuurrrrDulllldddrruLdllddrrrUrrruuLLLrrrddllldllluurUldddrrrurrruulllLrrrrddlllUluRldlluRdrrdrrruuluullllDDldddrrruulLrruLrddrrruuluulllldDrrRllllDRurrddrrruuLLLLLrrddrrUruLLLLrrruulllldD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:53
+
+
+'Lockdown'
+
+       ####  
       ##  ###
 ####  #  $  #
 #  #### $ $ #
 #   ..# #$  #
 #  #   @  ###
-## #..# ###
- # ## # #
- #      #
- ########
+## #..# ###  
+ # ## # #    
+ #      #    
+ ########    
 
-Level 138
-  ####
-###  #
-#    ###
-# # . .#
-# @ ...####
+Solution
+rrUrruulLDLruulDlDDDlldddrruUUUdrrUrruullllDDuurrrrddlldlLLrdddlluuluurDDurrrruULulDDurrddlLLLdlUruLLrrdrrrrurruLLLulDDurrddlLLrdddllllluuuluurDDurrddrUrrdddllllluUUdddrrrrruuuuuruurDrdLLulDDurrddlLLLrrdddllUdllluuuluurDDurrDrrrdddllllluUUluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:54
+
+
+'Lockdown'
+
+  ####      
+###  #      
+#    ###    
+# # . .#    
+# @ ...#### 
 # # # #   ##
 #   # $$   #
 #####  $ $ #
     ##$ # ##
-     #    #
-     ######
+     #    # 
+     ###### 
 
-Level 139
- ####
-##  ####
-#   ...#
-#   ...#
-#   # ##
+Solution
+rrrdddrRddrruUruLullDLdlUUUruLLulDrdLrrddrrDuurrddddlllUUruLdlUUUruLLdlUruLrdrdddrrdRluurrdDuulDldRullluullddlluuuuRRdrrdddrdddrUUruLLdlUUUruLLdlddlluuuurrDDrrddrrrrrdLLLdlUruLdlUUUruLdlluullddRRRRuLrdddrrdddrrUUruLLLLdlUUUluRldllluurrurDlDullddrRRlllddrrUdlluurR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:55
+
+
+'Lockdown'
+
+ ####           
+##  ####        
+#   ...#        
+#   ...#        
+#   # ##        
 #   #@ #### ####
 ##### $   ###  #
     #  ##$ $   #
    ###     $$  #
    # $  ##   ###
-   #    ######
-   ######
+   #    ######  
+   ######       
 
-Level 140
+Solution
+ddrdrrrruRRllddrrUdllulllluluurDDDrrrrdrruLdlUlllluurrrDulllddrrRRlllddlUUUdrrruullLdlUUUUruLLLulDDrrrddrdrrrddrdrruLLLLLdlUUdrrruullLdlUUUUruLLLulDldRRurrdddrdrrrddrruLdlllluurrrDrdLLLdlUUdrrruullLdlUUUUruLLLulDldRurDurrdddrdrrrdrrdrrruulDrdLLLLLLLdlUUdrrruullLdlUUUUruLLLdlluRdrRRddrdrrrdrrRdrruulDrdLLLLLLLdlUUdrrruullLdlUUUUluRldlluRdrrddrdddddlluRdrUUUdrrruullLdlUUUUllllddrUluRRRllddrUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:56
+
+
+'Lockdown'
+
 ######## #####
 #  #   ###   #
 #      ## $  #
 #.# @ ## $  ##
-#.#   # $  ##
-#.#    $  ##
-#. ## #####
-##    #
- ######
+#.#   # $  ## 
+#.#    $  ##  
+#. ## #####   
+##    #       
+ ######       
 
-Level 141
+Solution
+rddrRuRuRuRurrdLdLdLdLLLLulldRuuulllddddrdrrruUUUluurrdLulDDrddrrrrururuulDlDlDururrdLdLdLLLLuullddRluuullddddrdrrruUUUluurrdLulDrdddrrrruruulDlDurrdLdLLLLuuulldddRluuullddddrdrrruUUUddlluuururrdLdddrrrruulDrdLLLLddllluluuuurrdddRluuullddddrdrrruUUdlluuuRurrdLLLLulDDDDuuurrdddrruUddlluuururrdLLLLulDDDuurrrrdLrddlluUruLLulDDurrdddrUUruLLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:57
+
+
+'Lockdown'
+
   ########
   #  # . #
   #   .*.#
@@ -1502,63 +2766,108 @@ Level 141
 #   @#   #
 ##########
 
-Level 142
-  ####
-  #  #
+Solution
+luurrrddrruuLrdLuLLLLddlluuRRRRlUUluurDDurrRDDDrddlUUUUUdddLLLLddlluuRRRRRllUUluurDDurrrddDrddlUUUUddlllUUluRRldddrrrddlUruLLLLddlluuRRRRRdrUUdllllddlUluRRRRRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:58
+
+
+'Lockdown'
+
+  ####   
+  #  #   
   #  ####
 ###$.$  #
 #  .@.  #
 #  $.$###
-####  #
-   #  #
-   ####
+####  #  
+   #  #  
+   ####  
 
-Level 143
-####
-#  ####
-# $   #
-# .#  #
-# $# ##
-# .  #
-#### #
-   # #
- ### ###
- #  $  #
+Solution
+lUdldRuruuulDDrdLdlluRRurRdrruLdlDLddrUluUluurDRdrruLLdDlddrUluLulldRurRUrrdLDlddrUUlLulldRururDRddlULulldRRuurrdLrurrdLullluurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:16:59
+
+
+'Lockdown'
+
+####     
+#  ####  
+# $   #  
+# .#  #  
+# $# ##  
+# .  #   
+#### #   
+   # #   
+ ### ### 
+ #  $  # 
 ## #$# ##
 # $ @ $ #
 # ..#.. #
 ###   ###
-  #####
+  #####  
 
-Level 144
-   ####
- ###  #####
- # $$ #   #
+Solution
+ldlluRRluurRllddrddrruuLLdlUrrUUUUUUllluurDuluurDrrdDDDDDDllDDuurrDullddrddrruuLuullddldRuuurruuuuuuullDurrdddddddddLruulldDrruuuuuuuuullldddRRlluururrddDDDDDllddrrUUUUUUUUruLLrdddddddddrdrruLLLrruuLrddlluUUUUUddddllddRRRluurrdDrdLuuulluuuullluurDuluurDrrdDDDDDDDullddrRRluurrdD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:00
+
+
+'Lockdown'
+
+   ####     
+ ###  ##### 
+ # $$ #   # 
  # $ . .$$##
  # .. #. $ #
 ### #** .  #
 #  . **# ###
-# $ .# .. #
-##$$.@. $ #
- #   # $$ #
- #####  ###
-     ####
+# $ .# .. # 
+##$$.@. $ # 
+ #   # $$ # 
+ #####  ### 
+     ####   
 
-Level 145
-   #####
-   # @ #
-  ##   ##
+Solution
+rddrUUllluuluurrurrdrdrruLLdddrddLLullluuluurruuulDDrrrurrDDldddrddllullluuluuluuRRllddrddrdddlUruuluuUrrrrRddddDlllllUUUdlldRRddlUUluRdrdrrrrddlUruLLrrrrdLLdlUrruuuuurrdLulDDuuuurDDrdLuullllluurDldRRlllluRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:01
+
+
+'Lockdown'
+
+   #####   
+   # @ #   
+  ##   ##  
 ###.$$$.###
 #  $...$  #
 #  $.#.$  #
 #  $...$  #
 ###.$$$.###
-  ##   ##
-   #   #
-   #####
+  ##   ##  
+   #   #   
+   #####   
 
-Level 146
- #######
+Solution
+ldDDrrRlddRllDurrdLuuurDldllDurruuUddddLLrrddlUUruuullDurrrdrruLdlluurDldRullldLruulDrrrdddrUluurrrddLLdlUUUlUdrruLdlluuurrDDDDDDlddrUluRurrUruLLulDrrddlldllUUUrruuulldDldRRluuurrddLruulldDldRlllddrRlluurrrurrrdrddlldllUUUluRuurrddLLdllDldRRluurrurrrdrddlldllUlluurruuRurDldRlldllddrUluRddrdrddlUUrrurruulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-08  23:17:03
+
+
+'Lockdown'
+
+ ####### 
 ##  .  ##
 # .$$$. #
 # $. .$ #
@@ -1566,97 +2875,161 @@ Level 146
 # $. .$ #
 # .$$$. #
 ##  .  ##
- #######
+ ####### 
 
-Level 147
+Solution
+ldDldRulluuuururrrrdrddddldlLUluurrdLdRlllluuuururrrrdrdddLruuululDullDllddddrrruulLrrddlldRuruullDurrrRlluUddllUdrrrrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:04
+
+
 'reduction of (Mas Sasquatch 8)'
+
        #####
 ########   #
 #.   .  @#.#
 #  ###     #
 ## $  #    #
  # $   #####
- # $#  #
- ## #  #
-  #   ##
-  #####
+ # $#  #    
+ ## #  #    
+  #   ##    
+  #####     
 
-Level 148
+Solution
+lllllldddRRurDrddlUruLLLDlUUUluRRRRRRdrrruullDlllllldddrruLdlUUluRRRRRRlllllddrrrddddllUUUruLdlUUluRRRRRdrdrruLrruullDLLLLLLrrrrrrurrddldllUdrrruuulldLLrdRRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:05
+
+
 'from (Original 18)'
-###########
-#  .  #   #
-# #.  @   #
+
+###########    
+#  .  #   #    
+# #.  @   #    
 #  #..# #######
 ##  ## $$ $ $ #
  ##           #
   #############
 
-Level 149
+Solution
+lullllddrdrdrrrrUUdldlllululuurrrrdrRurrdLLLLdlUruLLrrdrrdddrruLdlUUdldlllululuuRRdrruLLrrdrRurrdLLLLulldRurDrrddrrdrruLLLdlUUdldlllululuuRRdrruLLrrdrRurrdLLLLulDrrrddrrrrdrruLLLLLdlUUdldlllululuuRRdrruLrdrRurrdLLLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:06
+
+
 'from (Boxxle 43)'
- ####
-##  ###
-#@$   #
-### $ #
+
+ ####     
+##  ###   
+#@$   #   
+### $ #   
  #  ######
  #  $....#
  #  # ####
- ## # #
- # $# #
- #    #
- #  ###
- ####
+ ## # #   
+ # $# #   
+ #    #   
+ #  ###   
+ ####     
 
-Level 150
+Solution
+RurDDDlddrdDldRuuuluurDDDDuuuRRRRlllldddlddrUUUUluRRRRllluuurrdLulDDldRRRddddLruuuulldddlddrUUUUluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:07
+
+
 'from (Original 47)'
-     ####
- #####  #
+
+     ####      
+ #####  #      
  #     $#######
 ## ## ..#  ...#
 # $ $$#$  @   #
 #        ###  #
 #######  # ####
-      ####
+      ####     
 
-Level 151
+Solution
+lldlllUUruLLrrdrDullddrRdrUluRRRRurrddlUruLLdlllldlllluRdrrruullDldRRRdrUluRRRRurrddlUllluRldlluluurDDDullddrRdrUluRRRRRdrUlllllldlllllluRRRdrUllluuRRRlllddrrrdrruuuulDrdddlluUdllluurrRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:08
+
+
 'from (Original 47)'
-   ####
-   #  #
- ###  #
-##  $ #
-#   # #
+
+   ####     
+   #  #     
+ ###  #     
+##  $ #     
+#   # #     
 # #$$ ######
 # #   #   .#
 #  $  @   .#
 ###  ####..#
   ####  ####
 
-Level 152
+Solution
+lullUdrruuuLrdddlluRdrUUUluurDDDDldddlUlluuuruRRlldldddrrruuruUddllDruruullldldddrRRRRRRurrddlUruLdllllluuruullDDDuulldddrRRRRRRRurDlllllluurDldRRRRRlluRRlldlluuuuluurDDDDDldRRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:09
+
+
 'reduced (Mas Sasquatch 23)'
-###### ####
-#     #    #
-#.##  #$##  #
-#   #     #  #
+
+###### ####    
+#     #    #   
+#.##  #$##  #  
+#   #     #  # 
 #$  # ###  #  #
 # #      #  # #
 # # ####  # # #
 #. @    $ * . #
 ###############
 
-Level 153
+Solution
+lluuUUrrddrruuuullllDurrrrddddrrrdrdLLLLLLuurruurrrrdrdrddrruuululululllDurrrdrdrdrdddllLLululllllddrrrrRRRRllululllllulldddRRRRRRlllluurruuuulllldDrrddrrrrrdrdrruulululLLrrrdrdrddllulullllluulluurrrrdDDuuullllddrrddddlluuUUrrddddrrrrRRulullLLrrrrddllllllluuurrDDurrrrrddllllLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:10
+
+
 'reduction of (Revenge 306)'
+
 #############
 #.# @#  #   #
 #.#$$   # $ #
 #.#  # $#   #
 #.# $#  # $##
-#.#  # $#  #
-#.# $#  # $#
-#..  # $   #
-#..  #  #  #
-############
+#.#  # $#  # 
+#.# $#  # $# 
+#..  # $   # 
+#..  #  #  # 
+############ 
 
-Level 154
+Solution
+lDDDDDDrdLuuurDuluurDuluurDrrddrUldddrUldddrUrruurUluuurrddLdlUddddrUUluurruullDDDDrUluuurrddLruulldDrruLdddddlllluurDldRRRdrUUUUUddddllluuluurDDlddrrrruulDrdLLLdlUUUddrrrruuuulDDrddlllluurDldRRRdrUUUddllluuuuluurDDDDlUrdDuuuullllddrUluRRRurDDDuullllddddrUUlddddrUUldlldRuruuuuurrrrddlUruLLLulDDDDDrdLLdlUUUUUUdddddrruuuuurrrddddrUldddrUrrruuluurDldDrdLLLdlUUUUUruLLLulDDDDDrdLLdlUUUUUddddrruuuuurrrdddddrrruuururuullDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLLdlUUUUdddrruuuuurrrdddddrrruuururuLulDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLLdlUUUddrruuuuurrrdddddrrrruUUUruLulDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLLdlUUdrruuuuurrrdddrDldRRRdrUUUUUruLulDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLLdlUrrrdLLruuuuuurrrrdDDDldRRRdrUUUUUruLulDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLLruuurUluRRRurDDDDDldRRRdrUUUUUruLulDDDDDrdLLLdlUUUUUruLLLulDDDDDrdLruUUUluRRRurDDDDDldRRRdrUUUUUruLulDDDDDrdLLLdlUUUUUruLLLulDDDDDDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:06
+Solver date: 2023-06-08  23:17:16
+
+
 'Take the long way home.'
+
  ############################
  #                          #
  # ######################## #
@@ -1675,9 +3048,17 @@ Level 154
 #. @ #                      #
 #############################
 
-Level 155
+Solution
+ruuuuuuuuuuuurrrrrrrrrrrrrrrrrrrrrddddddddddllllllllllllllllluuuuuurrrrrrrrrrrrrddlllllllllllddrrrrrrrrrrrrruuuuuulllllllllllllllllddddddddddrrrrrrrrrrrrrrrrrrrrruuuuuuuuuuuuuulllllllllllllllllllllllllddddddddddddDuuuuuuuuuuuuurrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddllllllllllllllllllllluuuuuuuuuurrrrrrrrrrrrrrrrrddddddllllllllllllluurrrrrrrrrrruulllllllllllllddddddrrrrrrrrrrrrrrrrruuuuuuuuuulllllllllllllllllllllddddddddddddlL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:17
+
+
 'The Dungeon'
-    ######               ####
+
+    ######               #### 
 #####*#  #################  ##
 #   ###                      #
 #        ########  ####  ##  #
@@ -1688,12 +3069,17 @@ Level 155
  #   # #*#      #     # #    #
  #   # ###  #####  #### #    #
  #####   #####  ####### ######
- #   # # #**#               #
-## # #   #**#  #######  ##  #
+ #   # # #**#               # 
+## # #   #**#  #######  ##  # 
 #    #########  #    ##### ###
 # #             # $        #*#
 #   #########  ### @#####  #*#
 #####       #### ####   ######
 
+Solution
+uulldRRRRRRRRdrUUUruLLLLLLLLLLLLulDDDrdLLLLLLLLLLLulllddrrUdlluurRluurrdDldRRRRRRRRRRdrUUUluRRRRRRRRRdrUUUUUUruLLLulDDDrdLLLdlUUUruLLLulDDDrdLLLLdlUUUUdrruulLLrddlluUUluRRRRRRRRRRRRRRRRRRRurDDDDDDlddrUUUUUUruLLLLLLLLLLLLLLLLLLLLulDrdLLLLLulldRurDDDDDrddlluRdrUluRRurDDDDrrddllUUUUUU
 
-Return to Sokoban levels page
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-08  23:17:18
+
