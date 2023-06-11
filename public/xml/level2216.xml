@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="10" created="2023-05-24T15:58:57.390Z" name="" level="1" source="Four Boxes 12 - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
+<puzzle type="Sokoban" width="10" created="2023-05-24T15:58:57.390Z" name="Four Boxes 12" level="2" source=" - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
  <tiles>
    <static>
      <tile type="wall" />

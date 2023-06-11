@@ -4,5 +4,9 @@
   svg {
     display: block;
     width: 100%;
+
+    .grid-zoombox {
+      transition: transform 0.25s ease; // movement speed
+    }
   }
 }

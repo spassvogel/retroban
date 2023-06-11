@@ -5,28 +5,31 @@ import Tile from './Tile'
 import ObjectsLayer from './objects/ObjectsLayer'
 import ShadowLayer from './shadows/ShadowLayer'
 import { useEffect, useRef } from 'react'
+import { useDimensions } from '../hooks/useDimensions'
 
 import './grid.scss'
 
 const Grid = () => {
-  const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
   const staticTiles = useSelector<SokobanStoreState, TileType[]>(state => state.tiles.static)
-  const tileSize = 100 / columns
-  const viewBoxHeight = Math.floor(staticTiles.length / columns) * tileSize
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     ref.current?.focus()
   }, [])
 
+  const { viewBox, tileSize, zoomBoxTransform } = useDimensions()
+console.log(zoomBoxTransform  )
   return (
     <div className="grid" ref={ref} tabIndex={0}>
-      <svg viewBox={`0 0 100 ${isNaN(viewBoxHeight) ? 100 : viewBoxHeight}`} xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg">
+        <g className="grid-zoombox" style={{ transform: zoomBoxTransform}}>
         {staticTiles.map((tt, i) => (
           <Tile type={tt} index={i} tileSize={tileSize} key={i}/>
-        ))}
+          ))}
         <ObjectsLayer tileSize={tileSize}/>
         <ShadowLayer tileSize={tileSize}/>
+
+          </g>
       </svg>
     </div>
   )
