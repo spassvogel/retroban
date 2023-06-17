@@ -8,6 +8,7 @@ import { SokobanStoreState } from "../store/store"
 import { Dispatch } from "@reduxjs/toolkit"
 import { DOWN, LEFT, RIGHT, UP } from "../store/utils/moves"
 import { TilesStoreState } from "../store/reducers/tiles"
+import { zoomIn, zoomOut } from "../store/actions/settings"
 
 const COOLDOWN_TIME = 100
 const useGameActions = () => {
@@ -62,13 +63,23 @@ const useGameActions = () => {
     dispatch(resetPuzzle())
   }, [dispatch])
 
+  const zoomInAction = useCallback(() => {
+    dispatch(zoomIn())
+  }, [dispatch])
+
+  const zoomOutAction = useCallback(() => {
+    dispatch(zoomOut())
+  }, [dispatch])
+
   return {
     goUpAction,
     goRightAction,
     goDownAction,
     goLeftAction,
     undoAction,
-    resetAction
+    resetAction,
+    zoomInAction,
+    zoomOutAction
   }
 }
 

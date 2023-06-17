@@ -7,9 +7,9 @@ import { loadGameData as loadGameData, parseXML, startGame } from './api/gameDat
 import useSwipeableActions from './hooks/useSwipeableActions'
 import { LEVEL_PREVIEW } from './App'
 import CompledState from './ui/completed/CompletedState'
+import { solvePuzzle } from './store/actions/game'
 
 import './game.scss'
-import { solvePuzzle } from './store/actions/game'
 
 type Props = {
   path: string

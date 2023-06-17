@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../../store/store"
-import { getPosition, peekNeighor } from "../utils/grid"
+import { getPosition, peekNeighor } from "../../utils/grid"
 
 import './player.scss'
 import { CSSProperties, useEffect, useMemo, useRef } from "react"

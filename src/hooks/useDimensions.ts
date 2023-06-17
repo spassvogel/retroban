@@ -2,21 +2,26 @@ import { useSelector } from "react-redux"
 import { ObjectType, TileObject, TileType } from "../store/reducers/tiles"
 import { SokobanStoreState } from "../store/store"
 import { useMemo } from "react"
-import { getPosition } from "../grid/utils/grid"
+import { getPosition } from "../utils/grid"
+import { ZOOMLEVEL_MAX } from "../store/reducers/settings"
+import { lerp } from "../utils/lerp"
+
+
+const BASE_HORIZONTAL_TILES_IN_VIEWPORT = 8 // max amount of horizontal tiles visible at zoomLevel 0
 
 export const useDimensions = () => {
   const columns = useSelector<SokobanStoreState, number>(state => state.tiles.columns)
   const staticTiles = useSelector<SokobanStoreState, TileType[]>(state => state.tiles.static)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
+  const zoomLevel = useSelector<SokobanStoreState, number>(state => state.settings.zoomLevel)
   const tileSize = 100 / columns
-
 
   const player = useMemo(() => {
     return objects.find(o => o.objectType === ObjectType.player)
   }, [objects])
 
-
-  const maxHorizontalTilesInViewport = 10
+  // interpolate between BASE_HORIZONTAL_TILES_IN_VIEWPORT and the actual width of the puzzle, based on zoomLevel
+  const maxHorizontalTilesInViewport = lerp(BASE_HORIZONTAL_TILES_IN_VIEWPORT, columns, zoomLevel / ZOOMLEVEL_MAX)
   const zoomedIn = columns > maxHorizontalTilesInViewport
   const playerPosition = getPosition(player?.tileIndex ?? 1, columns)
 

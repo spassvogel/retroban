@@ -17,14 +17,18 @@ const ButtonBar = () => {
     goDownAction,
     goLeftAction,
     undoAction,
-    resetAction
+    resetAction,
+    zoomInAction,
+    zoomOutAction
   } = useGameActions()
 
   useKeyPress('ArrowUp', goUpAction)
   useKeyPress('ArrowRight', goRightAction)
   useKeyPress('ArrowDown', goDownAction)
   useKeyPress('ArrowLeft', goLeftAction)
-  useKeyPress('z', undoAction);
+  useKeyPress('z', undoAction)
+  useKeyPress('9', zoomOutAction)
+  useKeyPress('0', zoomInAction)
 
   if (status !== GameStatus.IS_PLAYING) {
     return (

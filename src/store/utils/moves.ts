@@ -1,4 +1,4 @@
-import { peekNeighor } from "../../grid/utils/grid"
+import { peekNeighor } from "../../utils/grid"
 import { ObjectType, TileObject, TilesStoreState, TileType } from "../reducers/tiles"
 
 export const UP = 'u'

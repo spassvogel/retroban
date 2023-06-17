@@ -3,7 +3,7 @@ import { INIT_GAME_DATA, RESET_PUZZLE, SOLVE_PUZZLE } from "../actions/game";
 import { MOVE } from "../actions/tiles";
 import { GameAction, ReplayAction, TilesAction } from "../actions/types";
 import { SET_PLAYHEAD } from "../actions/replay";
-import { peekNeighor } from "../../grid/utils/grid";
+import { peekNeighor } from "../../utils/grid";
 import { DIRECTION, Direction } from "../utils/moves";
 
 export enum TileType { empty, wall,  floor,  dropzone }

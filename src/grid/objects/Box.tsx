@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../../store/store"
-import { getPosition } from "../utils/grid"
+import { getPosition } from "../../utils/grid"
 
 import './box.scss'
 import { CSSProperties } from "react"

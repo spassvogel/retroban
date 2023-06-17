@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux"
 import { TileType } from "../store/reducers/tiles"
 import { SokobanStoreState } from "../store/store"
-import { getPosition } from "./utils/grid"
+import { getPosition } from "../utils/grid"
 
 import './tile.scss'
 

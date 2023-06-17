@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { TileType } from '../../store/reducers/tiles'
 import { SokobanStoreState } from '../../store/store'
 import { useMemo } from 'react'
-import { getPosition, peekNeighor } from '../utils/grid'
+import { getPosition, peekNeighor } from '../../utils/grid'
 import Shadow from './Shadow'
 
 import './shadows.scss'

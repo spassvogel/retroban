@@ -2,6 +2,7 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import tiles from './reducers/tiles'
 import gameStatus from './reducers/gameStatus'
 import undo from './reducers/undo'
+import settings from './reducers/settings'
 import gamestatusMiddleware from './middlewares/gameStatusMiddleware'
 import undoMiddleware from './middlewares/undoMiddleware'
 import userAction from './reducers/userAction'
@@ -17,6 +18,7 @@ const configureStoreAndPersistor = (path: string) => {
     tiles,
     userAction,
     gameStatus,
+    settings,
     undo
   }))
 

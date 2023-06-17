@@ -1,4 +1,4 @@
-import { peekNeighor } from "../grid/utils/grid"
+import { peekNeighor } from "../utils/grid"
 import { TileType } from "../store/reducers/tiles"
 
 const escapeXML = (unsafe: string) => {
