@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="13" created="2023-05-11T18:40:21.789Z" name="" level="2" source="Cave Sokoban Level 8" source-url="https://lagged.com.br/pt/g/cave-sokoban">
+<puzzle type="Sokoban" width="13" created="2023-05-11T18:40:21.789Z" name="Cave Sokoban Level 8" level="2" author="Anderson Antonello" source="Cave Sokoban Level 8" source-url="https://lagged.com.br/pt/g/cave-sokoban">
  <tiles>
    <static>
      <tile type="empty" />
@@ -128,4 +128,7 @@
      <object tileIndex="74" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>lruuulDllLdllUUUUddddrrurrruuuullllLLrrrdLurrrrddddllldlluuuUruLdddrUUluRdddlddrUUUUdddrrrrrddlUruLLLLLdlUUUU</solution>
+</solutions>
 </puzzle>

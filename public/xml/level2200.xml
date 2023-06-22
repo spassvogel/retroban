@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="22" created="2023-04-13T19:59:02.023Z" name="" level="2" source="Begoon Maze 1" sourceURL="https://github.com/begoon/sokoban-maps" verified="true">
+<puzzle type="Sokoban" width="22" created="2023-04-13T19:59:02.023Z" name="Begoon Maze 1" level="2" author="Alexander Demin" authorEmail="ademin@gmail.com" source="This project contains 60 maps (levels or mazes) for the Sokoban game. The maps have been extracted from the binary file of a Sokoban implementation for DOS called pusher." sourceURL="https://github.com/begoon/sokoban-maps" verified="true">
  <tiles>
    <static>
      <tile type="empty" />
@@ -253,5 +253,8 @@
      <object tileIndex="156" type="box" />
      <object tileIndex="159" type="box" />
    </objects>
- </tiles>
+  </tiles>
+  <solutions>
+    <solution>ullluuuLLUdrrdddlllLrrrruuullullDDDDuuulldddRRRRRRRRRRRRRRRRlllllllllddlllllUdrrrrruuluuullulldlldddrRRRRRRRRRRRRRRdrUluRldllllllllluuullLulDDDuulldddrRRRRRRRRRRRRRRurDldRllulllllllluuullluuulDDDDDuulldddrRRRRRRRRRRRRRRdrUlllllllllluuullluuurDDllddddrrrruuulLLulDDDuulldddrRRRRRRRRRRRRRRlllllllllllllllulldRRRRRRRRRRRRRRRRurDldR</solution>
+  </solutions>
 </puzzle>
