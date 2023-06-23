@@ -7,17 +7,18 @@ import Game from './Game'
 import LevelSelector from './ui/level-selector/LevelSelector'
 import configureStoreAndPersistor from './store/store'
 import levelJSON from '../levels.json'
-import useLevels from './hooks/useLevels'
+import useLevels, { type LevelDefinition } from './hooks/useLevels'
+import TopBarButtons from './ui/top-bar/TopBarButtons'
 
 type Props = {
-  gameData?: string
+  gameData?: string // gamedata provided as a prop (used in the converters)
 }
 
 export const LEVEL_PREVIEW = 'preview'
 
 
 const App = ({ gameData }: Props) => {
-  const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : levelJSON.levels[0].path
+  const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : localStorage.getItem('currentLevel') ?? levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
 
   const levels = useLevels(selectedLevel)
@@ -27,7 +28,8 @@ const App = ({ gameData }: Props) => {
   }
 
   const gotoNextLevel = useCallback(() => {
-    const nextLevel = levels.find((l) => !l.completed && l.path !== selectedLevel)
+    const orderedLevels = orderLevels(levels, selectedLevel)
+    const nextLevel = orderedLevels.find((l) => !l.completed)
     if (nextLevel) {
       setSelectedLevel(nextLevel.path)
     }
@@ -56,23 +58,42 @@ const App = ({ gameData }: Props) => {
     document.title = `Sokoban - ${name}`
   }, [levels, selectedLevel])
 
+  useEffect(() => {
+    localStorage.setItem('currentLevel', selectedLevel)
+  }, [selectedLevel])
+
+  if (selectedLevel && store && persistor) {
+    return (
+      <Provider store={store}>
+        <PersistGate loading={<div>loading</div>} persistor={persistor}>
+          <div className="top-bar">
+            {!gameData && <LevelSelector selectedLevel={selectedLevel} onLevelChange={handleLevelChange} levels={levels} /> }
+            <TopBarButtons />
+          </div>
+          <Game
+            gameData={gameData}
+            path={selectedLevel}
+            gotoNextLevel={gotoNextLevel}
+          />
+        </PersistGate>
+      </Provider>
+    )
+  }
   return (
-    <>
+    <div className="top-bar">
       {!gameData && <LevelSelector selectedLevel={selectedLevel} onLevelChange={handleLevelChange} levels={levels} /> }
-      {selectedLevel && store && persistor && (
-        <Provider store={store}>
-          <PersistGate loading={<div>loading</div>} persistor={persistor}>
-            <Game
-              gameData={gameData}
-              path={selectedLevel}
-              gotoNextLevel={gotoNextLevel}
-            />
-          </PersistGate>
-        </Provider>
-        )}
-    </>
+    </div>
   )
 }
 
+// orders the levels such that the first level is the level *after* the current level
+// so when we try to find the next available uncompleted level we always search forwards!
+const orderLevels = (levels: LevelDefinition[], selectedLevel: string) => {
+  const selectedLevelsIndex = levels.findIndex((l) => l.path === selectedLevel)
+  return [
+    ...levels.slice(selectedLevelsIndex + 1),
+    ...levels.slice(0, selectedLevelsIndex),
+  ]
+}
 
 export default App

@@ -45,16 +45,15 @@ export const useDimensions = () => {
     viewBoxHeight *= scale
   }
 
+  const canZoomIn = zoomLevel > 0
+  const canZoomOut = maxHorizontalTilesInViewport < columns
 
-
-  // console.log(playerPosition)
   return {
+    zoomedIn,
+    canZoomIn,
+    canZoomOut,
     tileSize,
-    zoomBoxTransform: `scale(${scale}) translate(${zoomBoxX}px  , 0)`,
+    zoomBoxTransform: `scale(${scale}) translate(${zoomBoxX}px , 0)`,
     viewBox: `0 0 100 ${isNaN(viewBoxHeight) ? 100 : viewBoxHeight}`
-    // viewBox: `${viewBoxMinX} 0 ${viewBoxWidth} 100`
   }
 }
-
-// todo: we cant animate the viewbox. set transform instead?
-// https://codepen.io/gc-nomade/pen/vYZwqr

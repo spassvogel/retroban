@@ -35,15 +35,13 @@ const LevelSelector = ({ levels, selectedLevel, onLevelChange }: Props) => {
   }, [levels])
 
   return (
-    <div className="top-bar">
-      <select className="level-selector" value={selectedLevel} onChange={onLevelChange}>
-        {[...groupedLevels.keys()].map((level) => (
-          <optgroup label={`${levelNames[level]} (${levelDescription[level]})`} key={level}>
-            {groupedLevels.get(level)?.map((l) => <option key={`${l.path}`} value={`${l.path}`} >{`${formatName(l)}`}</option>)}
-          </optgroup>
-        ))}
-      </select>
-    </div>
+    <select className="level-selector" value={selectedLevel} onChange={onLevelChange}>
+      {[...groupedLevels.keys()].map((level) => (
+        <optgroup label={`${levelNames[level]} (${levelDescription[level]})`} key={level}>
+          {groupedLevels.get(level)?.map((l) => <option key={`${l.path}`} value={`${l.path}`} >{`${formatName(l)}`}</option>)}
+        </optgroup>
+      ))}
+    </select>
   )
 }
 

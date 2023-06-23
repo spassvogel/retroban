@@ -7,7 +7,6 @@ import { loadGameData as loadGameData, parseXML, startGame } from './api/gameDat
 import useSwipeableActions from './hooks/useSwipeableActions'
 import { LEVEL_PREVIEW } from './App'
 import CompledState from './ui/completed/CompletedState'
-import { solvePuzzle } from './store/actions/game'
 
 import './game.scss'
 
@@ -36,12 +35,7 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
       }
     }
   }, [dispatch, gameData, isInitialized, path, rehydrated])
-  const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
-  const canSolve = solutions?.length > 0
 
-  const handleSolve = () => {
-    dispatch(solvePuzzle(solutions[0]))
-  }
 
   if (!isInitialized) {
     return (
@@ -53,8 +47,6 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
 
   return (
     <>
-    { canSolve && <button onClick={handleSolve}>solve</button> }
-
       <div className="game" {...handlers}>
         <Grid />
         <ButtonRow />
