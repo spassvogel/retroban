@@ -76,8 +76,6 @@ const Converter = () => {
       const levelNumber = findAvailableLevelNumber(unallowedLevelNumbers, +level)
       unallowedLevelNumbers.push(levelNumber)
 
-
-      // console.log(converted)
       if (converted) {
         const a = document.createElement('a')
         document.body.appendChild(a)

@@ -1,5 +1,5 @@
 import createIdbStorage from '@piotr-cz/redux-persist-idb-storage'
-import { openDB, deleteDB, DBSchema } from 'idb'
+import { openDB, DBSchema } from 'idb'
 import { SokobanStoreState } from './store'
 import { KEY_PREFIX } from 'redux-persist'
 import { GameStatusType } from './reducers/gameStatus'
@@ -41,6 +41,14 @@ const checkLevels = async (paths: string[]) => {
   return map
 }
 
+const deleteLevel = async (path: string) => {
+  try {
+    const db = await openDB<PersistDB>(`${DATABASE_NAME}`, 1)
+    await db.delete(STORE_NAME, `${KEY_PREFIX}${path}`)
+  }
+  catch (e) { /* empty */ }
+}
+
 const getPersistConfig = (path: string) => ({
   key: path,
   storage: createIdbStorage({name: `${DATABASE_NAME}`, storeName: STORE_NAME}),
@@ -50,5 +58,6 @@ const getPersistConfig = (path: string) => ({
 
 export {
   checkLevels,
-  getPersistConfig
+  getPersistConfig,
+  deleteLevel
 }

@@ -11,6 +11,12 @@
     &:first-child {
       justify-content: space-between;
     }
+
+    &--debug {
+      .button {
+        color: red;
+      }
+    }
   }
 
   &__bigger-button {

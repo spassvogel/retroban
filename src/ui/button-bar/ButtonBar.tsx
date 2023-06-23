@@ -6,6 +6,7 @@ import { SokobanStoreState } from "../../store/store"
 import Button from "./Button"
 
 import "./buttonBar.scss"
+import DebugRow from "./DebugRow"
 
 const ButtonBar = () => {
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
@@ -32,11 +33,14 @@ const ButtonBar = () => {
 
   if (status !== GameStatus.IS_PLAYING) {
     return (
-      <div className="button-bar"></div>
+      <div className="button-bar">
+        <DebugRow />
+      </div>
     )
   }
   return (
     <div className="button-bar">
+      <DebugRow />
       <div className="button-bar__row">
         <Button
           className="button-bar__bigger-button"

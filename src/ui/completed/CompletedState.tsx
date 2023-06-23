@@ -18,7 +18,6 @@ const CompledState = ({ gotoNextLevel }: Props) => {
   const [dismissed, setDismissed] = useState(true)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const moves = useSelector<SokobanStoreState, number>(state => state.userAction.actions.length)
-  const actions = useSelector<SokobanStoreState, string>(state => state.userAction.actions)
   const time = useSelector<SokobanStoreState, number>(state => state.userAction.time ?? 0)
 
   const handleClose = () => {
@@ -43,10 +42,6 @@ const CompledState = ({ gotoNextLevel }: Props) => {
     }
     return () => clearTimeout(timeout)
   }, [status, time])
-
-  if (status === GameStatus.IS_SOLVED) { // delete this
-    console.log(actions)
-  }
 
   if (status !== GameStatus.IS_SOLVED) {
     return null

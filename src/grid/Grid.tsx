@@ -18,7 +18,6 @@ const Grid = () => {
   }, [])
 
   const { viewBox, tileSize, zoomBoxTransform } = useDimensions()
-console.log(zoomBoxTransform  )
   return (
     <div className="grid" ref={ref} tabIndex={0}>
       <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg">

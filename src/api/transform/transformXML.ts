@@ -16,7 +16,6 @@ const transformSokobanXML = (xmlData: xmlJs.ElementCompact): GameDataSokoban => 
   const tiles = transformTiles(xmlData)
   const name = `${xmlData.puzzle._attributes?.name ?? "unnamed"}`
   const solutions = transformSolutions(xmlData)
-console.log(solutions)
   return {
     name,
     tiles,
