@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="13" created="2023-05-24T15:40:34.441Z" name="" level="1" source="Two Boxes 15 Rabbit - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
+<puzzle type="Sokoban" width="13" created="2023-05-24T15:40:34.441Z" name="Two Boxes 15 Rabbit" level="3" source="C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
  <tiles>
    <static>
      <tile type="empty" />
@@ -177,4 +177,7 @@
      <object tileIndex="71" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>RRdrdrruLuLrddlUlUUddrdddrrddrruuuuuuuullllulldRRRRRurDDDDDDDDuuuuuuullllldddrdddrdrdrRdrruLLLLdlUUruLLuuuruLdlUUddrdddrrddrruuuuuuuullllulldRRRRRlllldddrdddLLullddrUluRRRdrUUruulldRurDldRuulluurrrrurDDDDDDDDuuuuuuullllldddrdddrrddrRdrruLLLLdlUUruLLLLullddrUluRRRdrUUruulldRurD</solution>
+  </solutions>
 </puzzle>
