@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react"
 import { CheckLevelResult, checkLevels } from "../store/indexedDB"
-import levelJSON from '../../levels.json'
+import levelJSON from '../levels.json'
 
 export type LevelDefinition = {
   name: string

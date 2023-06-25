@@ -44,7 +44,7 @@ const TopBarButtons = () => {
               +
           </button>
         </>
-        )}
+      )}
       { canSolve && <button onClick={handleSolve} className="button-small">solve</button> }
     </>
   )
