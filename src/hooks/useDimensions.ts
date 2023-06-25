@@ -21,7 +21,7 @@ export const useDimensions = () => {
   }, [objects])
 
   // interpolate between BASE_HORIZONTAL_TILES_IN_VIEWPORT and the actual width of the puzzle, based on zoomLevel
-  const maxHorizontalTilesInViewport = lerp(BASE_HORIZONTAL_TILES_IN_VIEWPORT, columns, zoomLevel / ZOOMLEVEL_MAX)
+  const maxHorizontalTilesInViewport = Math.ceil(lerp(BASE_HORIZONTAL_TILES_IN_VIEWPORT, columns, zoomLevel / ZOOMLEVEL_MAX))
   const zoomedIn = columns > maxHorizontalTilesInViewport
   const playerPosition = getPosition(player?.tileIndex ?? 1, columns)
 
@@ -37,16 +37,16 @@ export const useDimensions = () => {
     if (tileStartX > columns - Math.ceil((maxHorizontalTilesInViewport))) {
       tileStartX = columns - Math.ceil((maxHorizontalTilesInViewport))
     }
-
     zoomBoxX = -tileStartX * tileSize
-
 
     scale = columns / maxHorizontalTilesInViewport
     viewBoxHeight *= scale
   }
 
   const canZoomIn = zoomLevel > 0
-  const canZoomOut = maxHorizontalTilesInViewport < columns
+  // the second condition is in case the `columns` = BASE_HORIZONTAL_TILES_IN_VIEWPORT + 1
+  // in which case zooming in to level 1 and level 2 would be the same
+  const canZoomOut = maxHorizontalTilesInViewport < columns && (zoomLevel === 0 || columns - maxHorizontalTilesInViewport > 0)
 
   return {
     zoomedIn,

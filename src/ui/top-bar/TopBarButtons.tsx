@@ -14,6 +14,7 @@ const TopBarButtons = () => {
   }
 
   const { canZoomIn, canZoomOut } = useDimensions()
+  const canZoom = canZoomIn || canZoomOut
 
   const handleZoomIn = () => {
     dispatch(zoomIn())
@@ -26,20 +27,24 @@ const TopBarButtons = () => {
 
   return (
     <>
-      <button
-        className="button-small"
-        disabled={!canZoomOut}
-        onClick={handleZoomOut}
-      >
-          -
-      </button>
-      <button
-        className="button-small"
-        disabled={!canZoomIn}
-        onClick={handleZoomIn}
-      >
-          +
-      </button>
+      { canZoom && (
+        <>
+          <button
+            className="button-small"
+            disabled={!canZoomOut}
+            onClick={handleZoomOut}
+          >
+              -
+          </button>
+          <button
+            className="button-small"
+            disabled={!canZoomIn}
+            onClick={handleZoomIn}
+          >
+              +
+          </button>
+        </>
+        )}
       { canSolve && <button onClick={handleSolve} className="button-small">solve</button> }
     </>
   )
