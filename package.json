@@ -8,7 +8,7 @@
     "dev": "npm run prebuild && vite --host",
     "build": "npm run prebuild && tsc && vite build",
     "preview": "vite preview",
-    "report": "npm run scripts/reportLevels.mjs"
+    "report": "node scripts/reportLevels.mjs"
   },
   "dependencies": {
     "@piotr-cz/redux-persist-idb-storage": "^1.1.3",
