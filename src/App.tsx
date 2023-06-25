@@ -6,7 +6,7 @@ import { Persistor } from 'redux-persist'
 import Game from './Game'
 import LevelSelector from './ui/level-selector/LevelSelector'
 import configureStoreAndPersistor from './store/store'
-import levelJSON from '../levels.json'
+import levelJSON from './levels.json'
 import useLevels, { type LevelDefinition } from './hooks/useLevels'
 import TopBarButtons from './ui/top-bar/TopBarButtons'
 
