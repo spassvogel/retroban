@@ -1,5 +1,5 @@
 Title: Cookie
-Description: Cokiee collection by jhogloria
+Description:  Cookiecollection by jhogloria
 Author: jhogloria
 
 ##########

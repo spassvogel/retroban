@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="14" created="2023-06-05T22:14:18.406Z" name="" level="2" source="Cookie #06 - Cokiee collection by jhogloria" author="Jhogloria" >
+<puzzle type="Sokoban" width="14" created="2023-06-05T22:14:18.406Z" level="2" name="Cookie #06" source="Cookiecollection by jhogloria" author="Jhogloria" >
   <tiles>
     <static>
       <tile type="wall" />
