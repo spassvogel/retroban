@@ -26,4 +26,4 @@ dist-ssr
 *.sw?
 
 # Automatically generated when app is built
-levels.json
+src/levels.json

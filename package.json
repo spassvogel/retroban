@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "node buildLevels.mjs",
+    "prebuild": "node scripts/buildLevels.mjs",
     "dev": "npm run prebuild && vite --host",
     "build": "npm run prebuild && tsc && vite build",
     "preview": "vite preview"

@@ -2,15 +2,17 @@ import fs from 'fs'
 import xmlJs from 'xml-js'
 import path from 'path'
 import {fileURLToPath} from 'url'
-import cities from './src/cities.json' assert {
+import cities from '../src/cities.json' assert {
   type: 'json'
 }
 
-const __dirname = path.dirname( fileURLToPath(import.meta.url))
-const files = fs.readdirSync(`${__dirname}/public/xml`)
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const xmlDir = path.resolve(__dirname, '../public/xml')
+const levelsJsonPath = path.resolve(__dirname, '../src/levels.json')
+const files = fs.readdirSync(xmlDir)
 const levels = files.map((f, i) => {
   try {
-    const contents = fs.readFileSync(`${__dirname}/public/xml/${f}`)
+    const contents = fs.readFileSync(`${xmlDir}/${f}`)
     const xml = xmlJs.xml2js(contents.toString(), { compact: true })
     const level = xml.puzzle._attributes.level
     const index = ++f.match(/(level)(\d\d\d\d).xml/)[2]
@@ -22,7 +24,7 @@ const levels = files.map((f, i) => {
       path: `xml/${f}`
     }
   } catch(e) {
-    console.log(`Error reading ${__dirname}/public/xml/${f}. \n${e}`,)
+    console.log(`Error reading ${xmlDir}/${f}. \n${e}`,)
   }
 })
 const json = JSON.stringify({
@@ -30,7 +32,7 @@ const json = JSON.stringify({
   levels
 }, null, 2)
 try {
-  fs.writeFileSync(`${__dirname}/levels.json`, json);
+  fs.writeFileSync(levelsJsonPath, json);
   // file written successfully
   console.log(`Succesfully written ${levels.length} levels to levels.json file!`)
 } catch (err) {
