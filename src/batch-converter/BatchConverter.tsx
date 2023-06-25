@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./../converter/converter.scss"
 import App from "../App"
-import storedLevels from "../../levels.json"
+import storedLevels from "../levels.json"
 import { convertToXML } from "../converter/utils"
 
 const Converter = () => {
