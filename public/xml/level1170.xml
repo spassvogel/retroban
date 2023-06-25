@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="13" created="2023-05-10T21:18:30.943Z" level="1" name="Cave Sokoban Level 5" author="Anderson Antonello" source="Cave Sokoban Level 5" source-url="https://lagged.com.br/pt/g/cave-sokoban">
+<puzzle type="Sokoban" width="13" created="2023-05-10T21:18:30.943Z" level="1" name="Cave Sokoban Level 5" author="Anderson Antonello" source="Cave Sokoban Level 5" sourceURL="https://lagged.com.br/pt/g/cave-sokoban">
  <tiles>
    <static>
      <tile type="empty" />
