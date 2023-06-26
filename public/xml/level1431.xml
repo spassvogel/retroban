@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="7" created="2023-05-24T15:37:33.484Z" name="" level="1" source="Two Boxes 8 - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
+<puzzle type="Sokoban" width="7" created="2023-05-24T15:37:33.484Z" name="Two Boxes 8" level="1" source="C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
  <tiles>
    <static>
      <tile type="empty" />
@@ -57,4 +57,7 @@
      <object tileIndex="24" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>lullDRddlUUrurrdLulDlluRRRdrUldllddrUUluRdrU</solution>
+ </solutions>
 </puzzle>
