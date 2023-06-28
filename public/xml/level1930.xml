@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="9" created="2023-05-24T15:59:28.634Z" name="" level="2" source="Four Boxes 13 - Devilish Level - C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
+<puzzle type="Sokoban" width="9" created="2023-05-24T15:59:28.634Z" name="Four Boxes 13 - Devilish Level" level="2" source="C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv" >
  <tiles>
    <static>
      <tile type="empty" />
@@ -64,4 +64,7 @@
      <object tileIndex="38" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>RRRRuuLrddlUrurrddLUruLdlldRuruullDurrddlUlulldRRRdrruLuLLdRurDlllluRRdrddlUruLrrrddLLuululldRRdrdrruuluLLddrRuulDldR</solution>
+ </solutions>
 </puzzle>
