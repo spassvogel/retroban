@@ -136,8 +136,8 @@
      <object tileIndex="90" type="box" />
      <object tileIndex="92" type="box" />
    </objects>
+ </tiles>
   <solutions>
     <solution>lllddlddRRRRRllllldlUrrrddrrUdlluulluuruurrrddrDuluulllddlddrrrDlLuluurrDullddrdrruLuullddldRRluuurrddLdlUrrrdLuuulllDurrrddllUluRdddlUrrrddddlluRldlluRRlUdrdrrUUULullDDuurrdLulDruuulDrdrdrruLLdlUUdrrddddlluRdrUUUruLdddlldlluRRdrruuulllDuruulDDrrruLdlUrrddddlluRdrUUUddlldlluRRdrruuulllDurrrdddlluLuurrrrrdLullllddrdrruUddlluluurrRdrU</solution>
   </solutions>
- </tiles>
 </puzzle>

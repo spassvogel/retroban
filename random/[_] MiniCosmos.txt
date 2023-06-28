@@ -1,0 +1,788 @@
+Festival 3.1 solution file
+===========================
+Collection: MiniCosmos.txt
+
+ Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html
+
+
+
+
+MINICOSMOS 01
+
+  ##### 
+###   # 
+# $ # ##
+# #  . #
+#    # #
+## #   #
+ #@  ###
+ #####  
+
+Solution
+uuluuRlddrrruruullDDullddrRlddrruUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:08
+Solver date: 2023-06-26  09:55:04
+
+
+MINICOSMOS 02
+
+  ##### 
+###   # 
+# $ # ##
+# #  . #
+#    # #
+##$#.  #
+ #@  ###
+ #####  
+
+Solution
+rruullluuRlddrrruruullDDullddrRurrrddllUluRdddllUdrruuulullddRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:03
+Solver date: 2023-06-26  09:55:07
+
+
+MINICOSMOS 03
+
+  ##### 
+###   # 
+# $ # ##
+# #  . #
+# .  # #
+##$#.$ #
+ #@  ###
+ #####  
+
+Solution
+rruullluuRlddrrruruullDurrddldddllUdrruuuruulldllddRRlddrruUllluurrDullddrddrruuLuuurrddrddLruuluullddR
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:09
+
+
+MINICOSMOS 04
+
+    ####
+#####  #
+#   $  #
+#  .#  #
+## ## ##
+#      #
+# @#   #
+#  #####
+####    
+
+Solution
+uuuruRlldddrrruuruulDDDuullldddrrdrruLLLrruuulllddDlddrUUUdrrruuulllldR
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:11
+
+
+MINICOSMOS 05
+
+    ####
+#####  #
+#   $  #
+# *.#  #
+## ## ##
+#      #
+# @#   #
+#  #####
+####    
+
+Solution
+uuUruRldlddrrruuruulDDDuulldlddrrdrruLLLrruuulldldDlddrUUrrruuulldlluRRRlldDDlddrUUUdrrruuruulDDulllldRurrrdDuullldddrrdrruLLLrruuulllddDlddrUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:12
+
+
+MINICOSMOS 06
+
+    ####
+#####  #
+#   *  #
+# *.#  #
+## ## ##
+# $    #
+# @#   #
+#  #####
+####    
+
+Solution
+luRuUruRldlluRRldddRRdrruLLLrruuruulDDDuuLLdlluRRRllddDlddrUUUdrrdrruLLLrruuruulDDulllldRdDlddrUUUdrrrUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:14
+
+
+MINICOSMOS 07
+
+ #####  
+ #   ## 
+## #$ ##
+# $    #
+#. .#  #
+### @ ##
+  # # # 
+  #   # 
+  ##### 
+
+Solution
+lulluRRRlluurrDrDLLruulldDldRurDDrrddllUdrruuUruLLLruulldDrdLrDrrddllUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:15
+
+
+MINICOSMOS 08
+
+ #####  
+ #   ## 
+##.#$ ##
+# $    #
+#. .#$ #
+### @ ##
+  # # # 
+  #   # 
+  ##### 
+
+Solution
+luurrDDllulluRRRlluurrDrDLLruulldDrddrrUruLddllddrrUUlluulldRurDDuuluurrdrdLLruulldDrdLrdrrUruLLLdlUrrrddddllUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:17
+
+
+MINICOSMOS 09
+
+ #####  
+ #   #  
+##$# ###
+#   $@ #
+# #  # #
+# #. . #
+#   ####
+#####   
+
+Solution
+LdlddlluuurRRuullDurrddldddlluuuRuurrddddrruuLrddllldlluuuruurrdDDurrddlLuuuullddldddrrUdlluuurRluurrdDDullldddrruRuulD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:19
+
+
+MINICOSMOS 10
+
+ #####  
+ #   #  
+##$# ###
+#  .$@ #
+# #  # #
+# #..$ #
+#   ####
+#####   
+
+Solution
+rddLLululldddrrUdlluuurrRuullDurrddddldlluuuRuurrddddrruuLrddllldlluuuruurrdDDuuullddldddrruRuuuullddRluurrdDllldddrruUddlluuuruurrddrrddLLrruullD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:20
+
+
+MINICOSMOS 11
+
+ #####   
+##   ### 
+# . .  # 
+# # ## ##
+#    $$@#
+### #   #
+  #   ###
+  #####  
+
+Solution
+dlUdldlluuuurrrDDLLrddlluUUdlluurRRlddrrrrdLulllddrrUruLLrddlluUUdlluururrdLddrrruuL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:21
+
+
+MINICOSMOS 12
+
+ #####   
+##   ### 
+# . . .# 
+# # ## ##
+#    $$@#
+### # $ #
+  #   ###
+  #####  
+
+Solution
+dLULLLuurrrDDlllddrrUdlluuuurrrddLLrddlluUUdrrruullulldRRlllddRRddrruuLrddlluUUdlluururrdLddrrruuLrddrdLulllddrrUdlluurRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:23
+
+
+MINICOSMOS 13
+
+    #### 
+ ####  # 
+## $   # 
+#  # #$# 
+#.@.   ##
+## # #  #
+ #      #
+ #  #####
+ ####    
+
+Solution
+rrrrUdlluururDDDlllluuRRddrrDrdLLLLdlUUUrruullDldRRlddrruUlluurrRurDDDDrdLLLLdlUUdrruulLuurrDurrddlL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:24
+
+
+MINICOSMOS 14
+
+    #### 
+ ####  # 
+## $   # 
+#  # #$# 
+#.@..  ##
+## # #  #
+ #   $  #
+ #  #####
+ ####    
+
+Solution
+rrrrUdddLLuuuururDDDlllluuRRddddLdlUUUrrrrDrdLLLLdlUrruuuullDldRRRddllUUrruullDldRRlddrruUlluurrRurDDDDrdLLLLdlUUdrruulLuurrrrddLLrruullD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:26
+
+
+MINICOSMOS 15
+
+   #### 
+####  # 
+# $   # 
+#  .# ##
+## #.  #
+# @  $ #
+#   ####
+#####   
+
+Solution
+uuluRRRurDllldddrrurrdLLLdlUUUrurrDulldlddrrrruLuulldlluRRRurDDDrdLLLdlUUdrrruuulllldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:27
+
+
+MINICOSMOS 16
+
+   #### 
+####  # 
+# $ $ # 
+#  .# ##
+## #.  #
+# @  $ #
+#.  ####
+#####   
+
+Solution
+uuruRldlddrrurrdLLLdlluRuurururDDDldLruruulldldDrdLuuuluRRldddrrurrdLLLdlUUUruRurDDulldlddrrrruLuulldlluRRRurDDDrdLLLdlUUdrrruuulllldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:28
+
+
+MINICOSMOS 17
+
+    ##### 
+   ##   ##
+  ## .#  #
+ ##   @  #
+##    #  #
+#  $ #####
+# * ##    
+#  ##     
+####      
+
+Solution
+llldldlddrUrUdlluRuRlddrUrUdlluRuRRRluurrdrddlUlldLulDrdLulDrruruuurrDrdLLLdlluRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:30
+
+
+MINICOSMOS 18
+
+    ##### 
+   ##   ##
+  ## .#  #
+ ##   @  #
+##  * #  #
+#  $ #####
+# * ##    
+#  ##     
+####      
+
+Solution
+llldldlddrUrUrUdldlluRuRuRRRllldlddrUrUdlluRuRRdLulDrdLulDrruruuurrdrddlULLulDrdLruuurrDrdLLruulldlddrUlddlluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:31
+
+
+MINICOSMOS 19
+
+####    
+#  #### 
+#     # 
+#     # 
+### ### 
+# $$  ##
+# . .@ #
+####   #
+   #####
+
+Solution
+llUUUluRddddlluRRuurruLLdlluurDldRurDDDldRRdrruLLLrruLdlUUUruLdddlldRRRuluulluurDldRurDDDrdLrdrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:32
+
+
+MINICOSMOS 20
+
+####    
+#  #### 
+#     # 
+#     # 
+### ### 
+# $$$ ##
+# ...@ #
+####   #
+   #####
+
+Solution
+llUUUluRdrruLLddddlluRdrUUUlluurDldRuRDDDldRRdrruLLLuuurruLLddddrruLdlUUUlluurDRdddlldRRRuluuulldRurDDDrdLuuurruLLdlluurDldRurDDDrddrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:33
+
+
+MINICOSMOS 21
+
+#####  
+#   ###
+#     #
+##    #
+####$##
+#  $ ##
+# @   #
+###. .#
+  #####
+
+Solution
+rruUUruLdlluurDldRurDDDLdlluRRddrruLLrUUUruLdlluurDldRurDDDDldRuullldRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:35
+
+
+MINICOSMOS 22
+
+#####  
+#   ###
+# .   #
+## $  #
+####$##
+#  $ ##
+# @   #
+###. .#
+  #####
+
+Solution
+rruUUruLLulldRdRluurDrDDDLdlluRRddrruLLrUUUruLLulldRdRluurDrDDDDldRuuuuulldRurDDDlddrUUUUruLLrdddllldRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:36
+
+
+MINICOSMOS 23
+
+      #### 
+#######  # 
+#        # 
+#  $ #.# # 
+#  $## # ##
+###   @   #
+  ###  #  #
+    ##.  ##
+     ##### 
+
+Solution
+uuulldLrurrdddlllUUdlluurRRRRRurDDDDllddrrUruLLLLruuulllddlUluRRRRRRurDDDDllddrrUruLLruuullddDDuuuullldddRRdrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:38
+
+
+MINICOSMOS 24
+
+      #### 
+#######  # 
+#        # 
+#  $ #.# # 
+# $$## # ##
+### . @   #
+  ###  #  #
+    ##.  ##
+     ##### 
+
+Solution
+uuulldLrurrdddlllUdrrruuulllllddRUluRRRRRdddrruuuLLLLdLrurrdddlllUlluurRRRRRurDDDDllddrrUruLLrddlluUUdlllulUluRRRRRRurDDDDllddrrUruLLLLrrruuullllllddrUluRRRRRurDDDDllddrrUruLuuullDDDDuuuullldddRRdrUUdllluururrrrdddLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:39
+
+
+MINICOSMOS 25
+
+     ####
+   ###  #
+ ### .. #
+ # $$#  #
+## # #@##
+#       #
+#   #   #
+######  #
+     ####
+
+Solution
+uullDDuurrdddlLLdlluRRRRdrUUUruLdddlluuuRldddrruuruulDDDDrddlUruLuuulldddlluuRlddrrRdrruLLruuullDllddrRRdrUUUruLdddlllluurrDullddrRRdrUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:41
+
+
+MINICOSMOS 26
+
+     ####
+   ###  #
+ ### .. #
+ # $$#  #
+## # #@##
+#  *    #
+#   #   #
+######  #
+     ####
+
+Solution
+dllLdlluRRRRdrUUUruulDDDDuuullDDuurrdddlLLrrrrddlUUllldlluRRRRllluuRlddrrrdrruLLLLdlUrrrrUUruulDDDDuuullDDuurrdddrddlUUUUruLdddlLLdlluRRRRdrUUUddlluullDurrddldlluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:42
+
+
+MINICOSMOS 27
+
+ ####   
+ #  ####
+ #     #
+ # #.  #
+##*##$##
+#      #
+# # @  #
+#    ###
+######  
+
+Solution
+ruUUlulldDuurrdrddllddlluuRRRdrUllluuurrdrruLLLulDDDuurrrdDDrdLullddrUluRdrUUdllddlluuRuuurrrrdLullldddRRdrUUUruLLLulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:44
+
+
+MINICOSMOS 28
+
+ ####   
+ #  ####
+ #     #
+ # #.  #
+##*##$##
+#    * #
+# # @  #
+#    ###
+######  
+
+Solution
+rruLUUlulldDuurrdrdddlluRlddlluuRRluuurrdrdDrdLLdllluurrRlluuurrdrdDuuruLLLulDDDuurrrdddlddllluuRuuurrrdddrdLuuuullldddRRlllddrrrUrUUddldllluuruuurrrrdLullldddrRdrUUUruLLLulDDurrrdddlddlUdlluurRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:45
+
+
+MINICOSMOS 29
+
+########
+#   #  #
+#      #
+## #.  #
+#    ###
+# # . # 
+# $$# # 
+###  @# 
+  ##### 
+
+Solution
+llUUruuullddRdrUUruLLulDrrddlllddRluurrrdrddllUUdlluurRdrUUruLLulldRRRdrruulDrdLulDDllUdrruululldRRRdrruulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:47
+
+
+MINICOSMOS 30
+
+########
+#   #  #
+#      #
+## #. .#
+#    ###
+# # * # 
+# $$# # 
+###  @# 
+  ##### 
+
+Solution
+llUUddrruuLuuullddRDrrddllUUrUUruLLulldRRRllddlddRluuruurrdddrddllUdrruuluurruLLLulDrrdddrddllulluurRllddrrdrruulUUruLLulldRRRdddrddlluUdlluurRdrUUrruulDrdLuLLulldRRRDDllUdrrurruulDrdLullulldRRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:48
+
+
+MINICOSMOS 31
+
+#####  
+#   ## 
+# #  ##
+#. #$ #
+#  @  #
+#.##$##
+#    # 
+###### 
+
+Solution
+luluurrdrDrdLuululldddddrrrUULLuluurrdrDrdLddllluUUdddrrruuLLulDrrruulullD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:50
+
+
+MINICOSMOS 32
+
+####   
+#  ### 
+#    ##
+# .#$ #
+## @  #
+ #.#$##
+ #   # 
+ ##### 
+
+Solution
+luurrDrdLuullddddrrUULrddlluUUluurDrrDrdLddlluuUluRddddrruuLrddlluUUluurDDDrruuLrddlluluurD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:52
+
+
+MINICOSMOS 33
+
+ ####### 
+ #  #  ##
+## **$. #
+#   #   #
+#   @ ###
+#  ####  
+####     
+
+Solution
+luluurDlddrrruruulDLLulDDlddrUrUdrrUruulDlLddrrUdlluurRllddlluRdrrruullulDDurrrddllUluRldlddrUluRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:53
+
+
+MINICOSMOS 34
+
+ ####### 
+##  #  # 
+#  **$.##
+#   #   #
+### @   #
+  ####  #
+     ####
+
+Solution
+rruuulDrddllluluurDRRurDDrddlUlUdllUluurDrRddllUdrruulLrrddrruLdllluurrurDDullldlluRdrdrrUruLrdrddlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:55
+
+
+MINICOSMOS 35
+
+  ####  
+###  ###
+#   *$ #
+# #  #@#
+# # *. #
+#   ####
+#####   
+
+Solution
+dlLululldddrrUdlluuurrurDllldddrrurrruuLLLrrrddlllUdrrruullDldRuuulDrddldlluuuRRurDDullldddrruUddlluuurR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:56
+
+
+MINICOSMOS 36
+
+#####   
+#   ##  
+# #  ###
+#   *$ #
+###  #@#
+  # *. #
+  #  ###
+  ####  
+
+Solution
+dlLdlUUUlluurrDrDLddrrruuLLDldRuuulDuullddRRDrddlUUUlluurrDrDDuulullddrR
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:55:58
+
+
+MINICOSMOS 37
+
+  #### 
+ ##  # 
+##   ##
+#  *$ #
+# # #@#
+#  *. #
+###  ##
+  #  # 
+  #### 
+
+Solution
+dlLuUluRldlddRluurrdDrruuLLddlluuRurDDurrddlLuuuurDldddrruuLrddlluUddrddlUUrruullllddRRlluurrDuruulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:55:59
+
+
+MINICOSMOS 38
+
+  ####  
+  #  ###
+ ## .  #
+##@$$$ #
+# . . ##
+#   ### 
+#  ##   
+####    
+
+Solution
+drrrUruLLDrdLLdlluRuRRdLulDrruuulDrddlluRdrrUdlluurDrruLdllldlddrU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:56:01
+
+
+MINICOSMOS 39
+
+  ##### 
+###   # 
+#     # 
+#  #.###
+##@$$$ #
+ #.#.# #
+ #     #
+ #  ####
+ ####   
+
+Solution
+ddrruULrddlluUUluRRurrdLLrDDlluluRRurDllddddrrrruuLLLrrrddlllluUUluRRlddrrDurrddlLLdlUrruulluururrdLDDlluuRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-06-26  09:56:02
+
+
+MINICOSMOS 40
+
+  #### 
+ ##  # 
+## . ##
+#@$$$ #
+#. .# #
+# #   #
+#   ###
+#####  
+
+Solution
+drrUdlluRuRDlldddrrurruuLLulDrrrddllUdrruulLuurDlddLruulDrddrruuLrddlluUllDRurrrddlldllU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-06-26  09:56:04
+

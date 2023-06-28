@@ -37,7 +37,7 @@ const table = levelJson.levels
       const contents = fs.readFileSync(`${publicDir}/${l.path}`)
       const xml = xmlJs.xml2js(contents.toString(), { compact: true })
       const {
-        sourceName = name,
+        name: sourceName,
         source,
         sourceURL,
         author,
