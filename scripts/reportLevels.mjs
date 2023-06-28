@@ -32,34 +32,41 @@ const table = levelJson.levels
       path,
       level
     } = l
-    const contents = fs.readFileSync(`${publicDir}/${l.path}`)
-    const xml = xmlJs.xml2js(contents.toString(), { compact: true })
-    const {
-      sourceName = name,
-      source,
-      sourceURL,
-      author,
-      authorEmail
-    } = xml.puzzle._attributes
+    try {
 
-    let solution
-    if (xml.puzzle.solutions?.solution?._text) {
-      solution = xml.puzzle.solutions?.solution?._text
+      const contents = fs.readFileSync(`${publicDir}/${l.path}`)
+      const xml = xmlJs.xml2js(contents.toString(), { compact: true })
+      const {
+        name: sourceName,
+        source,
+        sourceURL,
+        author,
+        authorEmail
+      } = xml.puzzle._attributes
+      
+      let solution
+      if (xml.puzzle.solutions?.solution?._text) {
+        solution = xml.puzzle.solutions?.solution?._text
+      }
+      
+      return {
+        name: name.substring(0, (1 / 7) * availableChars),
+        path,
+        lvl: level,
+        sourceName: sourceName?.substring(0, (1 / 7) * availableChars),
+        source: source?.substring(0, (1 / 7) * availableChars),
+        sourceURL: sourceURL?.substring(0, (1 / 7) * availableChars),
+        author: author?.substring(0, (1 / 7) * availableChars),
+        authorEmail: authorEmail?.substring(0, (1 / 7) * availableChars),
+        solution: solution?.substring(0, (1 / 7) * availableChars),
+      }
     }
-
-    return {
-      name: name.substring(0, (1 / 7) * availableChars),
-      path,
-      lvl: level,
-      sourceName: sourceName?.substring(0, (1 / 7) * availableChars),
-      source: source?.substring(0, (1 / 7) * availableChars),
-      sourceURL: sourceURL?.substring(0, (1 / 7) * availableChars),
-      author: author?.substring(0, (1 / 7) * availableChars),
-      authorEmail: authorEmail?.substring(0, (1 / 7) * availableChars),
-      solution: solution?.substring(0, (1 / 7) * availableChars),
+    catch (e) {
+      console.error(`Error parsing ${publicDir}/${l.path}`)
+      console.error(e)
     }
   })
-
+  
 console.table(table, columns)
 
 

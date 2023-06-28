@@ -156,4 +156,7 @@
      <object tileIndex="109" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>rdrRdddrruuLUUruulLulllldDuurrrrdrrddldlllulLLLLLdlUUUddrrrrruuurrdLulDDuurrrrdrrddldlllulLLLLLdlUUdrrrrruuurrrrdLLLulDDurrrrrrddldlllulLLLLLdlUrrrrruurrrrrrddlUruLLLLLulDDurrrrrdddlllulLLLLLrrrrddddllluRRdrUUUUrrdrrruuulllllDurrrrrdddlllulLLLLulDrdLurrrrrrdrrrdrddlllluLLdlluRdrUUUddrrdrrrruululllulLLLLdlUUUddrrrrdddrrdrruLLLLdlluRdrUUUddrrrrdrruululllulLLLLdlUUdrrrrrrdrDurrdrddlluLLLLdlluRdrUUUddrrruululLLLLdlUrrrrrrdrrrdLulDrdLLLLdlluRdrUUUddrrruululLLLulDrdLurrrdddrrrrurrdLLLLLLdlluRdrUUUddrrruululLLLL</solution>
+ </solutions>
 </puzzle>
