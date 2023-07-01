@@ -2,6 +2,9 @@
   transition: transform 0.25s ease; // movement speed
   transform: translate(var(--x), var(--y));
 
+  &--cancel-anim {
+    transition: none;
+  }
 
   &--type-player {
     #body {

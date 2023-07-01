@@ -1,16 +1,16 @@
 import { useSelector } from "react-redux"
 import { SokobanStoreState } from "../../store/store"
-import { getPosition, peekNeighor } from "../../utils/grid"
+import { peekNeighor } from "../../utils/grid"
 
-import './player.scss'
 import { CSSProperties, useEffect, useMemo, useRef } from "react"
-import usePrevious from "../../hooks/usePrevious"
 import { ReactComponent as PlayerImage } from './player.svg'
 import { ObjectType, TileObject, TilesStoreState } from "../../store/reducers/tiles"
-import { DIRECTION, DOWN, Direction, LEFT, RIGHT, UP } from "../../store/utils/moves"
+import { DIRECTION, DOWN, LEFT, RIGHT, UP } from "../../store/utils/moves"
 
-import { UserActionState } from "../../store/reducers/userAction"
 import { usePlayerOrientation } from "../../hooks/usePlayerOrientation"
+import useAnimatedPosition from "../../hooks/useAnimatedPosition"
+
+import './player.scss'
 
 type Props = {
   index: number
@@ -28,11 +28,11 @@ const Player = ({ index, tileSize }: Props) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
   const time = useSelector<SokobanStoreState, number>(state => state.userAction.time ?? Date.now())
-  const { x, y } = getPosition(index, columns)
   const orientation = usePlayerOrientation()
   const direction = DIRECTIONMAP[orientation]
-
   const ref = useRef<SVGGElement>(null)
+
+  const { x, y } = useAnimatedPosition(index, ref)
 
   const isAtBox = useMemo(() => {
     const rows = staticTiles.length / columns
@@ -54,6 +54,7 @@ const Player = ({ index, tileSize }: Props) => {
       clearTimeout(timeout)
     }
   }, [time])
+
 
   const className = [
     `object`,
@@ -92,23 +93,6 @@ const Player = ({ index, tileSize }: Props) => {
       height={tileSize}
 
     />
-     {/* <image href={`/img/player.svg`}
-          x={x * tileSize}
-          y={y * tileSize}
-          width={tileSize}
-          height={tileSize}
-        /> */}
-    {/* <circle
-      data-index={index}
-      cx={x * tileSize + tileSize / 2}
-      cy={y * tileSize + tileSize / 2}
-      r={tileSize / 2}
-      className={`object object--type-player`}
-      >
-    </circle> */}
-      {/* <text x={x * tileSize + tileSize / 2} y={y * tileSize + tileSize / 1.5}       textAnchor="middle" fill="white" fontSize="0.5rem">
-        {index}
-      </text> */}
     </g>
   )
 }
