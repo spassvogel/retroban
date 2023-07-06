@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="8" created="2023-05-12T08:28:16.088Z" name="MINICOSMOS 20" level="3" source="Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr" >
+<puzzle type="Sokoban" width="8" created="2023-05-12T08:28:16.088Z" name="MINICOSMOS 20" level="2" source="Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr" >
  <tiles>
    <static>
      <tile type="wall" />
@@ -81,4 +81,7 @@
      <object tileIndex="44" type="box" />
    </objects>
  </tiles>
+ <solutions>
+  <solution>llUUUruLddddlluRdrUUUlluurDRlldRurDDDldRRdrruLuLLdRluuurruLLddddlluRdrUUUlluurDRlldRurDDDrdLuuurruLLdlluurDldRurDDDrddrruL</solution>
+ </solutions>
 </puzzle>
