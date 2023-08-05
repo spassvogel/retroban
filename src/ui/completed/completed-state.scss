@@ -3,5 +3,10 @@
 
   &__modal-subtext {
     color: #808080;
+
+    @media (prefers-color-scheme: light) {
+      color: hsl(0, 0%, 45%);
+    }
+
   }
 }

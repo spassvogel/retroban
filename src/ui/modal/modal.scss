@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  }  
 
   &-body {
     width: 100%;
@@ -19,7 +19,12 @@
     gap: 0.5rem;
     background-color: #242424;
     border-radius: 0.5rem;
+
+    @media (prefers-color-scheme: light) {
+      background-color: hsl(0, 0%, 80%);
+    }
   }
+
 
   &-content {
     flex: 1;
@@ -29,7 +34,7 @@
   &-footer {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
 
