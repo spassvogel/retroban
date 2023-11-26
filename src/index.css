@@ -38,7 +38,7 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -54,7 +54,7 @@ button:not(disabled)button:hover {
 }
 
 button.button-small {
-  padding: 0 .6em;
+  padding: 0.3rem .6rem;
 }
 
 button:not(disabled)button:focus[],
@@ -71,6 +71,6 @@ button:not(disabled)button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #e6e6e6;
   }
 }
