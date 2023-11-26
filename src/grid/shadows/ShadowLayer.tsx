@@ -66,7 +66,7 @@ const ShadowLayer = ({ tileSize }: Props) => {
 
           return (
             <Shadow
-              key={`${x}${y}`}
+              key={`${x}${y}${i}`}
               x={x}
               y={y}
               tileSize={tileSize}

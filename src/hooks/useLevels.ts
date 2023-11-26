@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react"
+import { useState, useEffect, useMemo, useCallback } from "react"
 import { CheckLevelResult, checkLevels } from "../store/indexedDB"
 import levelJSON from '../levels.json'
 
@@ -10,8 +10,14 @@ export type LevelDefinition = {
   completed?: boolean
 }
 
-const useLevels = (currentLevel: string): LevelDefinition[] => {
+
+const useLevels = (currentLevel: string) => {
   const [cacheMap, setCacheMap] = useState<Map<string, CheckLevelResult>>()
+  const [justCompleted, setJustCompleted] = useState<string>()  // this will allow us to directly update the completed state
+                                                                // in the level selector, even before the redux store is persisted!
+  const completeLevel = useCallback((level: string) => {
+    setJustCompleted(level)
+  }, [])
 
   useEffect(() => {
     (async() => {
@@ -33,8 +39,16 @@ const useLevels = (currentLevel: string): LevelDefinition[] => {
     if (!cacheMap) {
       return levelJSON.levels
     }
+
     return levelJSON.levels.map((l) => {
       const cache = cacheMap.get(l.path)
+      if (l.path === justCompleted) {
+        return {
+          ...l,
+          cached: true,
+          completed: true
+        }
+      }
       if (!cache?.cached) {
         return l
       }
@@ -44,9 +58,9 @@ const useLevels = (currentLevel: string): LevelDefinition[] => {
         completed: cache.status === 'IS_SOLVED'
       }
     })
-  }, [cacheMap])
+  }, [cacheMap, justCompleted])
 
-  return levels
+  return { levels, completeLevel }
 }
 
 export default useLevels

@@ -21,7 +21,7 @@ const App = ({ gameData }: Props) => {
   const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : localStorage.getItem('currentLevel') ?? levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
 
-  const levels = useLevels(selectedLevel)
+  const { levels, completeLevel } = useLevels(selectedLevel)
 
   const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLevel(e.target.value)
@@ -74,6 +74,7 @@ const App = ({ gameData }: Props) => {
             gameData={gameData}
             path={selectedLevel}
             gotoNextLevel={gotoNextLevel}
+            completeLevel={() => completeLevel(selectedLevel)}
           />
         </PersistGate>
       </Provider>
