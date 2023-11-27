@@ -61,7 +61,7 @@ const App = ({ gameData }: Props) => {
     }
     const { name } = level
     const displayLevel = levelDescription[level.level]
-    document.title = `Sokoban - ${name} (${levelDescription})`
+    document.title = `Sokoban - ${name} (${displayLevel})`
   }, [levels, selectedLevel])
 
   useEffect(() => {
