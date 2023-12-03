@@ -9,6 +9,23 @@ Author: Marcus Hof
 Email: mhof1@freenet.de
 
 
+1
+
+##########
+#        #
+# $##$$  #
+#  ..$ # #
+####+ .###
+    ####  
+
+Solution
+uRlllluurrrrDRulllllddrrrdrrUdllullluurrrrdDrdLuuurDDuullllDldRuurrrrrrdLLulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:12
+
+
 2
 
 #####    #####
@@ -20,14 +37,14 @@ Email: mhof1@freenet.de
    #######    
 
 Solution
-dllllddrUluRRRRRlldLullddrUluRlddlluluRRlldlluuurrDDrdLrdrrruuLLrrdrruruurrdLulDrddLLLLrruRdrUUluRlddldlluRRRdrUUldlllddllluluRRRRRRdrUUdllllllluulldddRRurrrrddlllUluRRRRRRRdrUluRldllllllldlluRRRRRRRRdrUllllllluulDldRRRRRRRRRdrUllllddllUluRRRRRRlllddlUluRRRR
+dllllddrUluRRRRRluRldldLLrrurrdLulllddllluluRRRRRRRdrUUluRlddlllddlUdlluurRRRRRdrUUldllllddlUluRRRRRRdrUlllllllldlluuurrDDuulldddrRRRRdrUluRRRRdLLLdlUluRRRRdrUUdllllllluulldRurDDullddrRRRRdrUluRRRdrUlllllllulldRRRRRRRR
 
 Solver: Festival 3.1
-Solver time: 00:00:09
-Solver date: 2023-06-28  22:45:58
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:13
 
 
-7
+3
 
 #####       
 #   ####    
@@ -44,8 +61,94 @@ Solution
 uuluLLrrdrdddllllddlluuuuuuurrDDDuurrddDldRRRuuulullldRRurDrdddddllUdrruulLulDruuuullulldRlddddddrrrrrruuuRDuluulullLulldRRRdrddldlUUUruLullddddRRRluurrdDldRulllluuuRurDDDuulldddrRRdrUUddddrruuuuuluLLLulldRurDDDuulldddrRlluRdrU
 
 Solver: Festival 3.1
-Solver time: 00:00:05
-Solver date: 2023-06-28  22:46:03
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:06:15
+
+
+4
+
+   ######     
+####    ##    
+#    $*  ##   
+##  $ **  ##  
+ #@ #  $*  ## 
+ #..##  *$  # 
+##.  ##  $* ##
+#.*.. #   *  #
+# ... # $ *$ #
+#######$$  * #
+      #      #
+      ########
+
+Solution
+ruururrrdrdrdrdrddrdddlluluulldRurDululululuLulDldddDldRuuuuurDDDldRurDuluuuruurDurrdrdrdrdrddrdddllllUUddrrrruuuluululululLLLrrrrdrdrdrddrdddlllluuluuululUllluRdrrdrdrdddrddrrrruuuluulululululllDurrrdrdrdrdrddrdddlllluuluuululuLLulDDDDDruuuuruurrdLulDrdLulDDDDldRuuuurrdrUluurrdLLulDrdLLulDDDDrdLruuuurrrurrdLLLLLulDDDDruuurrrddrUluurrdLLLLLulDDDruurrrrdddddrruLdlUUUUluurrdLLLLLulDDrurrrrdddrddddrruLdlUUruLdlUUUUluurrdLLLLulDDDDuuurrrrdddrddddlUUUUUUluurrdLrrdLulDDDDDuuuuuulDldRRRDDDldRurDlddrrrruuuluuluLrdLrrddrdddlluLdlUUruLdlUUUUluurrdLrrddDDDlddrruLdlUUUruLdlUUUUruLLLulDrdLulDDurrurrrdrdrdrddrddLLLdlUUUruLdlUUUUruLrdrdrdrddDrddlllllUUUUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:16
+
+
+5
+
+########        
+#...   #        
+#...   #######  
+#...         ###
+#### $ $ #$#$#@#
+   # #$# $ $ $ #
+   # # $ #     #
+   #          ##
+   ############ 
+
+Solution
+ddlllldlluuuurrrrDDuullllddddrrrrruLdlluuUdddrruuuulLddddlluuuulldLrurrddddlllluuUruLddddrruUUdddrruuuulLLdlUruLLulDrrrrdrrdLLLrdddlluuUUruLLLulDrrrrrdrrddddrruuuuLLLLLdlUruLLLrrrrdrrdddLdlUUUruLLdlUruLLrrrdrrrrddLrddlluUUdrruulLLLLdlUruLrrdrrrrrrddLLLrddlluUUdrruulLLLLdlUUruLLLrrrrddrrrrrrdddrruLLLLLrddlluUUdrruulLLLLdlUUruLLrrrddrrrrrrdddLdlUUUdrruulLLLLLLdlUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:17
+
+
+6
+
+#######         
+#...#.#         
+#...  ########  
+#...         ###
+#### $ $ #$#$#@#
+   # #$# $ $ $ #
+   # # $ # $   #
+   #          ##
+   ############ 
+
+Solution
+ddlldlllluuuulldLrurrddddlllluuUruLLLrrrrrrdLLLrrrdddlllluuUUruLLdlUruLrdrdddddrruUUruLLdlUruLLdlUrrrdrrrdddLdlUUUruLLLLrrrrrddddrruuLrddllulluurrDuurrDDllullddrdrUUUdrruulLLLLdlUruLdlUrrdrrrddddrrrruuLLLrrrddlllluUUdrruulLLLdlUUdrrrddddrrUdrruulLLrddlluUUdrruulLLLLdlUruLLLrrrdrrrrrddrrdrruLLLLLrddlluUUdrruulLLLLdlUruLLrrdrrrrrrrDDrddlUruLLLLrddlluUUdrruulLLLLdlUruLrdrrrrrrrdddLdlUUUdrruulLLLLLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:18
+
+
+7
+
+#################
+# *         *   #
+# **  *@$* ** $ #
+#  *$  *  **  ###
+##  *  #  $  .#  
+ #. **   **   #  
+ #$  **$**   ##  
+ #    * *  ###   
+ ###$     $#     
+   # .#....#     
+   #  .    #     
+   #########     
+
+Solution
+ullddrddrDDDuuululLDlddrrRdrUdrddlUruLulllluururuulDrrddrrurRRdrruLLddldldllulllluuluuRRllddrUdrUrruRuullldDururrddldlLdlluRdddrUdrrrdLulluluuRuururrddldLrdDLdlluRRdDrruRldlluulluuRuururrddldLrdrruruLddDDDlddllluUruulldRurDldRRRddrruuLulDDurrddlLuuruuuurRRdrruLLddlLUluurDldllulDrrrDrrdDuullullulUluurDDDrdrrdrrddlllllulllUrrdrdrrrrruulDDuuluurRRdrruulDrdLulDrdLLruullldlluuluurrrDDDDurrrrruuurrdLulDDldlllldlDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:06:20
 
 
 8
@@ -63,7 +166,7 @@ ullLLLLLLulDrddlluRdrrdrrrrUUruLLLLLrrrrrrrdLLulDulllldddrrrrrUdllllluuurrrrdRul
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:04
+Solver date: 2023-12-03  16:06:21
 
 
 9
@@ -77,11 +180,11 @@ Solver date: 2023-06-28  22:46:04
    ########  
 
 Solution
-ullLLLLLLddlluRRuulDDrdrdrrrrUUruLLLLLLrrrrrrrrdLLullllllddrdrrrruUddllllululldRRuuulDrddlluRurrrrrRdrruLLLLLLLulDDldRuurrrrrrdddrUUruLLLLLLLulD
+ullLLLLLLddlluRRuulDrddrdrrrrUUruLLLLLLrrrrrrrrdLLulDulllllddrdrrrrrUdllllluluurrrrrdRullllllddlluRdrrdrrrrruuullllllulDDldRRluurrrrrrrdddlUUruLLLLLLulDDldRuurrrrrrrrrdLLdlUruLLLLLLulD
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:06
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:22
 
 
 10
@@ -103,8 +206,8 @@ Solution
 uuuuurrDulldddddddrruuurULddddlluuuuuuurrdrDDldRulUdddddlluuuuRRdrUluRRlldlluuurrDDuulldddrRdrUluRldlldlluuuuuurrrrDDDDuulldddrRdrUluuullLrddddlluuuUUdrrdRurDDullddrRlldlluRRdddRdrUU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:08
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:23
 
 
 11
@@ -121,11 +224,161 @@ Solver date: 2023-06-28  22:46:08
 ####      
 
 Solution
-lllddDDrdrrrUldlluuuluurrrrddlDDrdLuuurDuuullllddddlddrUUruuluurrrrddldddLLrruururrdLLulDruuullllddrdddrrrUdllluuuluurrrrddldRddllluuuUdddlUdlddrUluRdrUUddrrruulDrdLLLullddrUluRdrUdrrruuurrdLLulDDrdLLLullddrUluR
+rddlDruuullllddrdddrrrUdllluuuluurrrrddldDrdLLLrruuurDurrdLLulDruuullllddrdddrrrUdllluuuluurrrrddldRddllluuuUdddlUdlddrUluRdrUUddrrruulDrdLLLullddrUluRdrUdrrruuurrdLLulDDrdLLLullddrUluR
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:10
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:24
+
+
+12
+
+###########
+#.........#
+######  ###
+ ###   $ # 
+ # $$$$$ # 
+ # $ $ $ # 
+ #@      # 
+ ######### 
+
+Solution
+rrrruUUUruLLLLLrrrrdddddrruuuLrdddlluuUUruLLLLrrrrddrdLrddlluUUUruLLLrrdddddlluRdrUUUUruLLrddlDrddlluRdrUUUUruLddlddldlluRRRdrUUluRdrUUluRRllddllDrddlluRRdrUUluRdrUUluRlddllddlluRRRdrUUUddddrUUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:25
+
+
+13
+
+#####      
+# . ###    
+#   . ##   
+##... .####
+#   #### @#
+## ##    ##
+##  $ $$ # 
+#  $ $   # 
+###  $ ### 
+  #  ###   
+  ####     
+
+Solution
+ldllldLLDlUUUUruulldRRlddddrrdddlUUruLdlUUUUruulldRurDldRRRllldddrrrurrrddllLLdlUruLdlUUUUruulldRurDldRldddrrrurDurrddlLLLdlUruLdlUUUUruulldRurDlddddrrrrurrdLLLLLdlUUUUUddddrrrrddLLdlUUruLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:26
+
+
+14
+
+##########
+#        #
+# $ $ $$ #
+### ###  #
+#. $ ## ##
+#... ## ##
+#..###   #
+# .# $$@##
+#  #    # 
+####   ## 
+   #####  
+
+Solution
+uuuuruulllllddDrdLLulDDruruuuulldRurDDDrdLullddrUdddlUruuruLruuurrrrrddldddlDrdLruuuuuruullldLulDDDrdLulDDuruuurrurrDDDDDuuuuLLLulDDDrdLLruuurrrrddddlddrUUUUUruLLLLulDDDrdLulDruuurrrrddddldddlluuRRdrUUUUUruLLLLulDDDrdLuuurrrrddddldddlUluRRdrUUUUUruLLLLulDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:27
+
+
+15
+
+      ####  
+   ####  #  
+####    *#  
+# $   ##.## 
+# $$$ .. .##
+#@$   # *..#
+# $$$ #...##
+# $   ##.## 
+#####  $ #  
+    ##   #  
+     #####  
+
+Solution
+uuRRRurDDDurrrDldRdddlluRdrUUUluRRulllluurrurDDDrdLulDrdddllluUUUUluRRRurDDDldRulllullllddddRRRllluuuurrrrdrrrddddlllUUUUUluRRRurDDulllddrrRllldlUrdddlllluuuurrRurDldRRlldlUrrdddlllluuuurRRurDldRulllldRRRdrUUluRRRurDDDDDuuuulllldlllddRRRlllddrrrruUUUluRRRurDDDDuuullldddddllUUUluRRdrUluRRRurDDDuulllldlddddlUUUluRRRdrUluRRRurDlllldldddRdrUUUUluRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:28
+
+
+16
+
+#########
+#       #
+# ##$## #
+# $  .  #
+###.$####
+  #. * # 
+  #  * # 
+  #  @ # 
+  ###### 
+
+Solution
+luuluurrrruullllllddRRRDDuullluurrrrrrddlLLLddddrrruuLLrrddllluUddrUdrruulLuurrruulllDDDDrrddlUdlluRuuuuulllddRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:29
+
+
+17
+
+####     
+#  ######
+# $ $ $ #
+#       #
+##@##.###
+ # .  . #
+ # .$ $ #
+ #$..$. #
+ #      #
+ ########
+
+Solution
+uluurDldRRlddrrruuuLrdddllluurRurDllluRldddrrrrrddlLuLulDuluurrrDDrrddllUdrruulLLrrDuluuuLLdlluurDldRRRurDDullldddrruRuurruLLLLdlluurDldRRRurDDDldRddrruuLLLrddlllUUUUUluurDldRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:30
+
+
+18
+
+######## 
+#....  # 
+# ##.# # 
+#... $ # 
+#### ### 
+#  $ #   
+# $  ####
+# $$#   #
+# $   $ #
+# #@#####
+# $ #    
+#   #    
+#####    
+
+Solution
+ddlluuuuuurRdrUUUllluurrrrrddLLLLrrrruullDurrddlLLrddlllddddddrruuuUUdddddlluuuuuurRdrUUUUdrruulLLLrrddddllldRldddddrruuuuUluRdrUUUUdrruulLLrddddlllddRlddddrruuuUUluRdrUUUUdrruulLddddllldddRldddrruuUUUluRdrUUUrruullDurrddlLddldddrrurrdLLLLulldRldddrruuUUUluRdrUUUUdddllldddddRdrUUUUUluRdrUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:31
 
 
 19
@@ -145,8 +398,8 @@ Solution
 rrdDDDDuuuuulllddddddrrRRRRRRurrdLLLdlUUUluuurrddLruulldDDrddllluulDruuuuulllddddddrRRRRRRRurrdLLLdlUUUluuurrddLruulldDuurDrdLdddlllllluullllddRRRRRRRRRRRRurrdLLLdlUUUUruulldRurDlddddllluuuuuullllldDDuuurrddddddlllluurRRluuuurrdddDDullllddrrrRRRRRRRRRurrdLLLdlUUUUUruLdddddlllllluulluulDrdrrddlllluuRRRluuuurrdddDDullllddrrrRRRRRRRRRurrdLLLdlUUUUUddddlllllluuuuLrddlluUdRurDDDullllddrrrRRRRRRRRRurrdLLLdlUUUUdddllluuuuuulllllDDDldRRurDDullllddrrrRRRRRRRRRurrdLLLdlUUUddllluuuuuullllllDDDrrrdddlllluuRRRurDDullllddrrrRRRRRRRRRurrdLLLdlUUdlllllluuuulluRurDDDDDullllddrrrRRRRRRRRRurrdLLLdlUllluuuulDDDruuuuulllddddddrRRRRRRR
 
 Solver: Festival 3.1
-Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:11
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:06:33
 
 
 20
@@ -162,11 +415,31 @@ Solver date: 2023-06-28  22:46:11
 ####     ####     
 
 Solution
-rrrrddlllDDrdLLLdlUUUruLLruulllDDDDrdLLLLLullddrUluRdrUUruulDDulDDlddrUrUUluRurDldRlddlluRdrUUluRdrUldddrrrruuuuurrrddlLrruullldDDDrdLLLLLullddrUluRdrUUluRRldddrrrruuurrrdddrrruuurrruulllDDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUUluRdddrrrruuurrrdddrrruuuuurDurrddlLulDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUUddrrrruuurrrdddrrruuurrruLLulDDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUluRddrrrruuurrrdddrrrruUUruLulDDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUUrdrrrruuurrrdddrrrruuurrdLLulDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrU
+rrrrddlllDDrdLLLdlUUUruLLruulllDDDDrdLLLLLullddrUluRdrUUruulDlDDrUluRdrUllddlddrUluRdrUUluRRldddrrrruuuuurrrddlLrruullldDDDrdLLLLLullddrUluRdrUUluRdddrrrruuurrrdddrrruuurrruulllDDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUUddrrrruuurrrdddrrrruUluuurrrddlLrruullldDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUluRRlddrrrruuurrrdddrrruuuuurDurrddlLulDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrUluRddrrrruuurrrdddrrrruuurruLLulDDDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUUrdrrrruuurrrdddrrrruuurrdLLulDDrdLLLdlUUUruLLLrruullldDDDrdLLLLLullddrUluRdrU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:13
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:34
+
+
+21
+
+  #####
+  #.*.#
+###$ .#
+#   #.#
+#  $#.#
+#   #.#
+# $$$$#
+#    @#
+#######
+
+Solution
+lllluuruurUdllddddrrrrUUddlllluurrUlldddrrUdlUUUddrdrruuUUUddddLLdlUluurrDullddrRdrruuuuullDurrdddddllulUrddrruLLdlUrrruuuulldDDuuurrddddlLdlluuuuRlddddrrrruuuuullDlldddRRRdrUUUUdddlllluuurrDDuulldddrRRdrUUUddlllluuRurDDullddrRRdrUUdlluulDldRRRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:35
 
 
 22
@@ -185,10 +458,10 @@ uuRRRRRRRurrdLulDDDrdLdlUruuulllllllddrUluRRRRRRRurrdLulDDDrddlluRuuulllldLulldd
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:14
+Solver date: 2023-12-03  16:06:36
 
 
-24
+23
 
           ######### 
      ######   # . ##
@@ -203,11 +476,32 @@ Solver date: 2023-06-28  22:46:14
 ########            
 
 Solution
-ullDrddllldldllUdrrurrurUdlldlLdldddllllluuuurrrururrDLullddlllddddrrrrruuuUUdddddllllluuuurrruurRdddrruruLddlluuuurrDulldllddRllllddddrrrrruulULuuurrdDuulldddrdrruLuuuurrdLLddddddllllluuuurrruuRlddlllddddrrrrruuuuuLrddrruUrrrruuulDDrdLLdlluRRllddlluuRldddddllllluuuurrrRurruurrDullddllullDurrdrruLLddldDrrddllUUddllluurRllddrrrrruuuUluurrurrRRurrdLulDllllldlddrdrUUUluRRRRRRRRRurDllllllllldddlddddllllluuuurRRRRdrUUUluRRRRRRRllllllldlddllllddrrUdlluurRRRRdrUUUluRRRRRurrdLLLLLrrrrdddLLLLdlluluurrdDrrruRUruulDDrurRRRurDDulDullllllldLLddlluuRlddrddddlluRdrUUUdldldllluurruurruuruRRRRRRRRRRurDldRurDDuulllllllllllldRllddllddlUluRRRlllddddrrrrruurUUUUluRRRlldddrrrrrUUluRRRRRurDldRurDulllllldddllllluuurrdLruRRRRRRRurDldRullllllllllldldRuurrrrrrdddlllUUluRRRRRRRurrddlUlllllllllldRRurrrrdddllulUluRRRRRRRlllllldddlldldldldllluurruuuuRRRRRurrrrdddllulUluRllldlllddrUluRRRRurrddrdrUU
+ldldlldldllUdrrurrurruuulDrddllldlLrrrurUdlldlldldddllllluuuurrrururrDLullddlllddddrrrrruuuUUdddddllllluuuurrruurRdddrruruLddlluuuurrDulldllddRllllddddrrrrruulULuuurrdDuulldddrdrruLuuuurrdLLddddddllllluuuurrruuRlddlllddddrrrrruuuuuLrddrruUrrrruuulDDrdLLdlluRRllddlluuRldddddllllluuuurrrRurruurrDullddllullDurrdrruLLddldDrrddllUUddllluurRllddrrrrruuuUluurrurrRRurrdLulDllllldlddrdrUUUluRRRRRRRRRurDllllllllldddlddddllllluuuurRRRRdrUUUluRRRRRRRllllllldlddllllddrrUdlluurRRRRdrUUUluRRRRRurrdLLLLLrrrrdddLLLLdlluluurrdDrrruRUruulDDrurRRRurDDulDullllllldLLddlluuRlddrddddlluRdrUUUdldldllluurruurruuruRRRRRRRRRRurDldRurDDuulllllllllllldRllddllddlUluRRRlllddddrrrrruurUUUUluRRRlldddrrrrrUUluRRRRRurDldRurDulllllldddllllluuurrdLruRRRRRRRurDldRullllllllllldldRuurrrrrrdddlllUUluRRRRRRRurrddlUlllllllllldRRurrrrdddllulUluRRRRRRRlllllldddlldldldldllluurruuuuRRRRRurrrrdddllulUluRllldlllddrUluRRRRurrddrdrUU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:16
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:37
+
+
+24
+
+########### 
+#.....#. .##
+#  .       #
+#  . #  #  #
+######### ##
+#@$        #
+# $ $ $ $  #
+# $#$#$#$# #
+#          #
+############
+
+Solution
+dddrrrrrrrrruuullldRurrdddllUUluRdddrruuLUUUruLLLLLLdlUluRRdrrrrrdddrdddlluUluRdrUUUruLLLLLLdlUluRdrrrrrrdddlllldRRurrrdddlluUluRdrUUUruLLLLLLdlluRRRRdrUrrdddlllllldRRRRurrrdddlluUluRdrUUUruLLLLLLdlluurDrrrrrrdddldddllUUluRRRdrUUUruLLLLLLLullddrUrrdLrurrrrrdddllldddllllluuuRRRRRRRdrUUUruLLLLLLdlUlldRurrrrrrrdddlllllllldRRRRRRlddrruUluRdrUUUruLLLLLLLLdlUrrrrrrrrdddllldddllllUUluRRRRRRRdrUUUUdddllldddllUUluRRRRRdrUUUruLLLLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:38
 
 
 25
@@ -226,8 +520,8 @@ Solution
 rdRRuRlddrddLruuluurDlllddlUrdddlUrdrruruUddldllllluRRdrUdrruruululldlDururrdrddldlluLuururrurDDullluRlddlddrUddrruUUruLLrddddllllluRRdrUdrruuuulullDDDuuurrdrddddlluLrdrruuuruuLLrrdrrruulDrdLLLLruRllddddrUUluurrdLdldddlluluuuuRRRRlDDDruurrruulDrdLLLulDruRdrruulDrdLLLulllldddddlluRR
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:18
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:39
 
 
 26
@@ -244,11 +538,32 @@ Solver date: 2023-06-28  22:46:18
  ####            
 
 Solution
-urrddddddlluuulldDuurrdddlLLLLLLLdlUUUUUluRurDldddddrrrrrrrrrrruuuuuullllDDDDDuurrdddlLLLLLLLdlUUUUUluRdddddrrrrruuuRldddrrrrrruuuuuullllddDDDuurrdddlLLLLLLLdlUUUUUUdddddrrrrrrrrrrruuLrddlllluuurrDDurrddlLLLLLLLLLdlUUUUUddddrrrrrrrrrrrrruuLLLrddlllluuurrDDurrddlLLLLLLLLLdlUUUUdddrrrrrrruuuuuurrdRurDDDDDurrddlLLLLLLLLLLLdlUUUddrrrrrrrrruLruulldDrdLLLLLLLdlUU
+urrddddddllllUdrruuullDDuurrdddlLLLLLLLdlUUUUUddddrrrrruuuRRdddrrrruuuuuullllDDDDDuuuuurrrrddddddlllLuuulldddllllluuuuluRurDldddddrrrrruuurrdddrruuuLrdddlluuUUddddLLLLLLdlUUUUUUdddddrrrrrrrrrrruuLrddlllluuurrDDurrddlLLLLLLLLLdlUUUUUluRdddddrrrrrrrrrrruuuuuullllDDDDDuurrdddlLLLLLLLdlUUUUUddddrrrrrrrrrrrrruuLLLrddlllluuurrDDurrddlLLLLLLLLLdlUUUUdddrrrrrrruuuuuurrdRurDDDDDurrddlLLLLLLLLLLLdlUUUddrrrrrrrrruLruulldDrdLLLLLLLdlUU
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:19
+Solver date: 2023-12-03  16:06:40
+
+
+27
+
+######  #############
+#    ## #           #
+# $@$ ###  $ $  $   #
+#  #        #$#$#####
+# $#  $$$$       $  #
+#  #  $   #.#*$$  $ #
+# $#$#### .$...#### #
+# $................ #
+#                   #
+#####################
+
+Solution
+ulldddddddrrrrrrrruuuUruulDDDDrddlluRRuluurrrrrDDldRRRRllllldlluuRRRlluurrrdDldRRRlllldllllllllllluRRRRRRRRdrUdrrrruuuurrdLulDDlddrruLLdlUrruuulDDrddlluRRRluuullluluurrrrrdDDrdLulDDldRuuruuuullldRRurDDDrdLLulDDrdLuuullulllllllddDuruurrrrddddlllldlluRRRRRdrUUUUdddllllluuruurrrRurDldRRRRRllluluurrrrrddDrdLLulDDruruuullDurrddlLLLLulDDDuuulllllddddrrrrRlllllllluurDldRRRRRRRdrUUUUdddllllluuruurrrRurDldRRRluluurrrddDDulllldddllllllluuluurDDDldRRRRRRdrruuuuruuRRurDDDlllldllLLulDDurrrrrdddlllllluRRRdrrruuuuulDrdLLLLulDDurrrrrdddlllllluRRdrrrrrrrrrrrrrruuuLLLLrrrrdddllllluuUruLLLLLLulDrdLLLLulDDurrrrrdddlllluLLdlUUUluuuurrrDDDDDurrrrrdddlllllluRlluuluurDDDldRdrrrrrrrrrrrruuurrrruLLLLLLLLulDDDuurrrrrruuurrdLulDDDrdLulDDuulllullllllulullldRRurDDDDDurrUluRRRRRurDDullllldRRRRRRRRluurrdDrdLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:06:42
 
 
 28
@@ -265,11 +580,11 @@ Solver date: 2023-06-28  22:46:19
      #####
 
 Solution
-DDlLLLLdlUrrrruulllUUluRdRRRRllllddrrrddlllUUUluRRRRlllddddrUdrruulLdlUUluRRRllddrrrdLLdlUUUUddrrrddrrrddllUdrruulLLLLdlUUUUluRRlddrrdddRurrrddllUdrruulLLLLdlUUUUluRddrrrddrddrUruLLLLLdlUUUU
+DDlLLLLdlUrrrruulllUUluRdRRRRllllddrrrddlllUUUluRRRRlllddrrrddrrrddllUdrruulLLLLdlUUUUluRRRllddddrUdrruulLdlUUUddrrrdLLdlUUUluRRlddrrdddRurrrddllUdrruulLLLLdlUUUUluRddrrrddrddrUruLLLLLdlUUUU
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:20
+Solver date: 2023-12-03  16:06:43
 
 
 29
@@ -285,11 +600,11 @@ Solver date: 2023-06-28  22:46:20
        ####
 
 Solution
-urrddddlluRdrUrruuulldDDDurrddlLrrdrUUUllllldlluRRRRRlddrruUUdlluuulldDuurrdddldlluRRRRlddrruUllllddRRRluurrrdddlUlluuuuulllldRurDDDldRRdrUluRRllluuRurDDullddrRllllUdrruuullldRRRRurDDDDldRRRdrUU
+urrddddlluRRRlddrruUUdlllldlluRRRRRlddrruUdddrUUUllluuulldRurDDDDldRRluurrrdddlUlluuuuulllldRRRurDDDlddrUluRRlllllUdrrrruuullllldRRRRurDDDlddrUluRuullDDldRRurDldRRRdrUU
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:21
+Solver date: 2023-12-03  16:06:44
 
 
 30
@@ -305,11 +620,11 @@ Solver date: 2023-06-28  22:46:21
 ###########
 
 Solution
-lllululDrdLLLrruuuuruulDDrDDlddrUUUUdddrdrruLLruuurruullDDDDrddlluRdrUlldlluRRluuululluRdrdrddlddlluRRRuuulDDDldRRRRlluuuululldRurDDDDldRR
+lllululDrdLLLrruuuuruulDDDDrUUddddlUUrdrdrruLLruuurruullDDDDrddlluRdrUlldlluRRluuululluRdrdrddlddlluRRRuuulDDDldRRRRlluuuululldRurDDDDldRR
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:22
+Solver date: 2023-12-03  16:06:45
 
 
 31
@@ -332,8 +647,8 @@ Solution
 drddllllllluLulDDDDldRRRRRurDldRRRdrUUldllullllluuuuuuurDDDrdLulDDDldRRRRRurDldRRRdrUlllullllluuuruuurDDuuluurrrrrrrrrrdddddllllllllLLulDDDldRRRRRurDldRRdrUUdllullllluuurrrruLLLulDDDDldRRRRRurDldRRdrUllullllluuuruuuuurrdDDDrdLLLulDDDldRRRRRurDldRRRRRRdrUUldlllllullllluuurrruuurDDuuluurrrrrrrrdddddllllllLLLLulDDDldRRRRRurDldRRRRRRdrUllllllullllluuurrrrrrrrruullLLLLLLulDDDDDldRRRRRurDldRRRRRRlllllullluLdlUUUruulDDDDldRRRRRurDldRRRRRdrUUdlllllulllulluuruuuuurDDDDrdLLulDDDldRRRRRurDldRRRRRdrUlllllulllulluurrrrrruLLLLLulDDDDldRRRRRurDldRRRRRllllulllulluurrruuuuurDDDDrdLLLLulDDDldRRRRRurDDldRRRRRRlullllulllulluurrrrrruuuLLLLLulDDDDDDldRRRRRurDDldRRRRRullllulllulluurrrrrruurrDrdLLLLLLLLulDDDldRRRRRurDldRRlulllulluurrrrrrrruuuLLLLLLLulDDDDDDldRRRRRurDlddrruLdlUUllulluurrrrruuuuurDDrdLLLLLLulDDDDDldRRRRRdrUlllulluurrrrrrrrrrruLLulDrdLLLLLLLLulDDDldRRRRRdrrdrruLdllulullulluurrrrrruuruuurrdDDDrdLLLLLLLLLulDDDldRRRRlulluurrrrrruuruuurDDDDrdLLLLLLLLulDDDldRRRulluurrrrrrrrrrruuuuLLLLLLLLLulDDDDrdLulDDDldRRuluurrrrrrrrrrruuLLLLLLLLLLulDDDDDldR
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:24
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:46
 
 
 32
@@ -355,7 +670,7 @@ drrrrrruuuuulllluRdrUluRRlldldlluRRdrruulDrdLLrrdRRRlddrruUUUruulDrdLddllulluurD
 
 Solver: Festival 3.1
 Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:26
+Solver date: 2023-12-03  16:06:48
 
 
 33
@@ -373,8 +688,8 @@ Solution
 RurrdLLLrddddrrURurrdLulLLrddlluUUluRddrrdLrurrdLullluuurrdrrDDrdLulllluuRRllddrddlUUUluRurrdLLddrrrruuLLrrddlllddrUluRlluuurrdrrdddLLdlUruR
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:28
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:49
 
 
 34
@@ -391,11 +706,11 @@ Solver date: 2023-06-28  22:46:28
  #####           
 
 Solution
-drrrruuRRRRllllddlluURRllluurDDDurrddlLLLLrrrrrurruLLrrrrdrruLLLLdlldlllllLdlUUUUUruLdddddrrrrrrruuLrddlluUluurDDDurrddlLLLLLdlUUUUluRddddrrrrrrrurruLLLrddlluUluurDDDurrddlLLLLLdlUUUUUddddrrrrruuuuluurrrddDDllddrrUruLLruuuulllddrdDDurrddlLLLLLdlUUUUdddrrrrruuuuRlluurrrdDDDllddrrUruLLruulldDDurrddlLLLLLdlUUUruLdddrrrrrrruuuuuulDullddrRurDDDllddrrUruLLruulldDDurrddlLLLLLdlUUU
+drruUluuuurrrddLruulllddddrddrruuRRllUdddlluuluuRDDDuRRdrruLLLrrrRRdrruLLLLdlldlLLLLrrruUluurDldRuuluurrrdDuulllddrddddlllLdlUUUUUruLdddddrrrrrrruuLrddlluUluurDDDurrddlLLLLLdlUUUUluRddddrrrrrrrurruLLLrddlluUluurDDDurrddlLLLLLdlUUUUUddddrrrrruuuuluurrrddDDllddrrUruLLruuuulllddrdDDurrddlLLLLLdlUUUUdddrrrrruuuuRlluurrrdDDDllddrrUruLLruulldDDurrddlLLLLLdlUUUruLdddrrrrrrruuuuuulDullddrRurDDDllddrrUruLLruulldDDurrddlLLLLLdlUUU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:30
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:50
 
 
 35
@@ -415,7 +730,7 @@ lddRluurDDldRRRRRdrruLdlluuulLrrddRdrruuulLLddllluluurDlddrrrrrdrrrruuLrddllllul
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:31
+Solver date: 2023-12-03  16:06:51
 
 
 36
@@ -435,8 +750,8 @@ Solution
 UUlluurrDullddrRRRRurDDDDuuullddddrRdrUluRdrUUdlluuulllldRurDDDuuulllllddddrrrrRRRdrUluRdrUlluuullllddRurDDuuulllllddddrrrrRRRdrUluRldlllUUUluRRRlddddrruuuUluRRRurDllllldllddlUruuullddRRRRRlddddrruuuUluRRllldllllldRRRRdrUluRRlddddrruuuUruLdlllddddllUUUluRRRRRluurrdDDDDrddlUllllllluuRRRRdrUUluRRRlllllddddlUUUluRRRRRRluurrdDDulluRldlddddlUUUluRRRR
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:33
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:52
 
 
 37
@@ -451,11 +766,11 @@ Solver date: 2023-06-28  22:46:33
 ########  
 
 Solution
-dlluuurrrrurRDrUllldRllllldddrrrrrUUdldlllluuurrrrurrrddLULulldRRllllldddrrrrruUrruuLLLrrrddllUdrruulLdRdrUluldddldlluRRdrUUdllldlluuurrrrRurDldRullllllddRRRRdrUUUddllllUluRRRRRdrU
+dlluuurrrrurRDrUllldRllllldddrrrrrUUdldlllluuurrrrurrrddLULulldRRDrruuLrddllullllldddrruRldlluRUddrruLrdrrUUrruulLLrrrddllUdrruulLdRdrUlulddddllllluuuRRRRRurDldRlddllllUUluRRRRlllddrrdrruuUddLLLdlUUluRRRRRdrU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:35
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:53
 
 
 38
@@ -476,11 +791,11 @@ Solution
 ruuluuurRlldddllluuuuurDlddddrrrrddlUruLLLLdlluRdrUUUUUruLdddddrrrrrrdLLdlUruLLLLdlluRdrUUUUUddddrrrrrrdrddlUruLLLdlUruLLLLrrruuurrdrDDDrddlUruLLLulllluurUUldddddlluRdrUUUluRdrUldddrrrrddlUruLLLLdlluRdrUUUUdddrrruuurruurrdLDDDDDrddlUruLLullddrUluRdrruuuuuulDrdddddlluluuurRurDDDDDrddlUruLLLulDuuuuuRdrruulDrdLLulDDDuurrrddddlluLLLLdlluRdrUUUluRdddrrrrdrruLLLLLL
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:37
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:54
 
 
-43
+39
 
 ###########
 #       +.#
@@ -498,7 +813,106 @@ lllllllddddrrrrrrrrUUddlluRdrUlldlllllDrurruRRRllldlluRRRllldlluRRRllluurDDDrrrr
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:38
+Solver date: 2023-12-03  16:06:55
+
+
+40
+
+#######  ####  
+#  #  #  #..#  
+# $#$ #  #..###
+#  #  ####..  #
+# $#$ #@ #  # #
+#    $ $ #  . #
+## #$# # ## ###
+ #           # 
+ ########    # 
+        ###### 
+
+Solution
+rdddlluuLLrrRurDDullddrRRRdrUUUUdrruulLdlUUrdddddllllllllluuRRRRRurDDullddrRRRdrUUUUdrruulLdlUrddddllluullluulDrdrddlllluurRRRRurDDullddrRRRdrUUUUdrruulLddddllluullllllluurDldRRRRRRurDDullddrRRRdrUUUUUUdddddllluulllllluuluurDDDldRRRRRRurDDullddrRRRdrUUUUUddddllluullluuuulDDDrdrddlllluurRRRRurDDullddrRRRdrUUUrruullDldRddllluullllDullddrRRRRRRRdrUUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:56
+
+
+41
+
+##########
+# ...  $@#
+#   *$$$##
+####* $  #
+  ##.#   #
+  #.* #  #
+  ###  # #
+    #    #
+    ######
+
+Solution
+LLLDLLrrurrDDrddddlluluLrdrdrruuuuluulldlDDuururrdLrdrddlUlULrdrruLuullDRurDDullllulldRurRRldDuulldRurrdrruLLrrddrddlUUdlULuuLLrrrrDLdlUruLLrrdddrruLdlUUruLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:57
+
+
+42
+
+######### 
+#@$...  # 
+# $ **$ ##
+####*    #
+   #.#$  #
+   #*#   #
+   ##  # #
+    #    #
+    ######
+
+Solution
+RRRRDulldRDRRDDrruuLuuLLDRurDDDlUruulldRlldRRulllulldRRRdrruLuLrrdddrruLLLruurDlddrruLdlUUruLLrrddrddddllUUUUUruLrddrddLrddlluUUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:58
+
+
+43
+
+   #####
+####.  #
+#@*..  #
+## $$$##
+ ###   #
+   #   #
+   ##  #
+    ####
+
+Solution
+RRRDulldRururrdLLLrrDDrddlUUUUruLdlldRurDDrddlUlUUruLdddrruLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:06:59
+
+
+44
+
+  #### 
+###. # 
+#@.* # 
+#  $ ##
+### $ #
+  #   #
+  ##  #
+   ####
+
+Solution
+rRDrDrddlUlUdrruLuLuurDDDrddlUlUUUlldRurrdDrddlUluUruLdddrruLdlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:07:00
 
 
 45
@@ -522,11 +936,11 @@ Solution
 dllUUUUUUrruullDDDDDDDldRRdrUUdlluuuullUdrrddddrruruuLLulDDDldRRluuurrrddlDlluuuulluRdrUUrruullDDDDrdrrddldlluuUruLuurUluRldddlldRurDrdrrddldlluuUUUUruulDlDurDDDrdrrddldlluuUUUUluRdrUldddlUUrddrdrrddlUruLLrdddlluuUUUluRurrdLLrruruulDrdLdlluuRDrruulDrdLullddddddddrddrUUUUruLLrdddlluuUUU
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:40
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:07:01
 
 
-47
+46
 
 ########  
 #  #   ###
@@ -538,14 +952,33 @@ Solver date: 2023-06-28  22:46:40
 ##########
 
 Solution
-ruurrURuLulldRRRlddllddrrUUUruLulldRRllDDrrddllllluurUldddrrrrruulUluRdrdddllllluuruRRurDldRurDullllluurDldRRRdrruLdlUllldddrUUluRRRdrUllldddrrrUdlUrdrUdrruL
+ruurrURuLulldRRRlddllddrrUUUruLulldRRllDDrrddllllluurUldddrrrrruulUluRdrdddllllluuruRRurDldRurDullllluurDldRRRdrruLdlUllldddrUUluRRRdrUllldddrrUdrUdrUdrruL
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:42
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:07:02
 
 
-49
+47
+
+   ### 
+  ##@# 
+### $##
+# $$  #
+#..   #
+# .*# #
+##    #
+ ######
+
+Solution
+DDrdLLruulDrrdddllluluuRRllddrUddrrruulLuurDrdddllluluuRRdLddrrruuLLulDruurDrdLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:07:03
+
+
+48
 
  #######       
  #     #       
@@ -563,7 +996,27 @@ lllldllulllldDruurrruullllDDDrddddlluuRlddrruUUUluRRRllluurrrrdDldRRRlllddrrrruU
 
 Solver: Festival 3.1
 Solver time: 00:00:01
-Solver date: 2023-06-28  22:46:43
+Solver date: 2023-12-03  16:07:04
+
+
+49
+
+#########  
+#       ###
+# *.**.**@#
+# $.*.$ * #
+# *#* $ $ #
+# $ $ * * #
+# *.* *.# #
+#         #
+###########
+
+Solution
+dddddlllllllluuuuuurrddRluullddddddrruuRlddrruLdllluuuuuurrddrDDuuluullddddddrrrrrruuuLLrrdddlllllluuuuuurrrrrdDuulllddrRlluullddRluurrrDurrdLLulllddddddrrrruUUUddddlllluuuuuurrrrrdLdddddrruuuLrdddlluuUUdrUrddddrruuuLLulldRurDDulldddlllluuRRRlllddrrrruUU
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:07:06
 
 
 50
@@ -584,6 +1037,6 @@ Solution
 dddddRRuuuRldddlluuuRldddrrdrrrRllllulldddrrrrrrruUUUUUddddlllllulldRRRRRRllllllddrrrrrrruUUdddlllllUdlluurRRRRllluuurrrRluRldlluRldlddlluuurRllddRluurrdDDDuuuulDDrurruLLrrdrruLLdlllldddddrrrrrrruuuruuuLrdddldddllllllluurruuuuRldlluRluurDDDrruLdlluurDrrdrruLLLddddlluuuuururDDDDuuuurDlddrruLdlUruLullddRRdrUlllddddrrUUUruLddddllddrrrrrrruuuruuLLLLLuluullddddddrruuUUddddrrruUddlllllddrrrrrrruuuruullLLLulDDDuurrrdddllLrrruuurrrddldddllllllluuuuuuuurrrrrrrDDrdLLLLrrrrddlUruL
 
 Solver: Festival 3.1
-Solver time: 00:00:02
-Solver date: 2023-06-28  22:46:45
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:07:07
 
