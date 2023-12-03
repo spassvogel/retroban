@@ -299,7 +299,7 @@ Solver time: 00:00:01
 Solver date: 2023-06-26  09:55:27
 
 
-MINICOSMOS 16
+MINICOSMOS 16 level3430
 
    #### 
 ####  # 
