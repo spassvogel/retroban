@@ -183,7 +183,7 @@ Solver time: 00:00:02
 Solver date: 2023-06-26  09:55:19
 
 
-MINICOSMOS 10
+MINICOSMOS 10 level3565
 
  #####  
  #   #  
