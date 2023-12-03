@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="16" created="2023-05-11T21:55:41.626Z" name="" level="3" source="Revenge Collection 08: Level 6 - The eighth part of the Revenge-Collection. All levels are handmade and solvable.  Level 45 and 46 were inspired by Microban-levels from David W. Skinner. Enjoy, have fun and keep thinking like a sokoban." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Marcus Hof" authorEmail="mhof1@freenet.de" sourceURL="https://www.sourcecode.se/sokoban/levels" >
+<puzzle type="Sokoban" width="16" created="2023-05-11T21:55:41.626Z" name="Revenge Collection 08: Level 6" level="3" source="The eighth part of the Revenge-Collection. All levels are handmade and solvable.  Level 45 and 46 were inspired by Microban-levels from David W. Skinner. Enjoy, have fun and keep thinking like a sokoban." sourceURL="https://www.sourcecode.se/sokoban/levels" author="Marcus Hof" authorEmail="mhof1@freenet.de" sourceURL="https://www.sourcecode.se/sokoban/levels" >
  <tiles>
    <static>
      <tile type="wall" />
@@ -160,4 +160,8 @@
      <object tileIndex="107" type="box" />
    </objects>
  </tiles>
-</puzzle>
+
+  <solutions>
+    <solution>ddlldlllluuuulldLrurrddddlllluuUruLLLrrrrrrdLLLrrrdddlllluuUUruLLdlUruLrdrdddddrruUUruLLdlUruLLdlUrrrdrrrdddLdlUUUruLLLLrrrrrddddrruuLrddllulluurrDuurrDDllullddrdrUUUdrruulLLLLdlUruLdlUrrdrrrddddrrrruuLLLrrrddlllluUUdrruulLLLdlUUdrrrddddrrUdrruulLLrddlluUUdrruulLLLLdlUruLLLrrrdrrrrrddrrdrruLLLLLrddlluUUdrruulLLLLdlUruLLrrdrrrrrrrDDrddlUruLLLLrddlluUUdrruulLLLLdlUruLrdrrrrrrrdddLdlUUUdrruulLLLLLLL</solution>
+   </solutions>
+   </puzzle>
