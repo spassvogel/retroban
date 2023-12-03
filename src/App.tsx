@@ -4,7 +4,7 @@ import { ChangeEvent, useCallback, useEffect, useMemo, useState } from 'react'
 import usePrevious from './hooks/usePrevious'
 import { Persistor } from 'redux-persist'
 import Game from './Game'
-import LevelSelector from './ui/level-selector/LevelSelector'
+import LevelSelector, { levelDescription } from './ui/level-selector/LevelSelector'
 import configureStoreAndPersistor from './store/store'
 import levelJSON from './levels.json'
 import useLevels, { type LevelDefinition } from './hooks/useLevels'
@@ -21,7 +21,7 @@ const App = ({ gameData }: Props) => {
   const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : localStorage.getItem('currentLevel') ?? levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
 
-  const levels = useLevels(selectedLevel)
+  const { levels, completeLevel } = useLevels(selectedLevel)
 
   const handleLevelChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLevel(e.target.value)
@@ -54,8 +54,14 @@ const App = ({ gameData }: Props) => {
   previousPersistor = usePrevious(persistor)
 
   useEffect(() => {
-    const name = levels.find((l) => l.path === selectedLevel)?.name
-    document.title = `Sokoban - ${name}`
+    const level = levels.find((l) => l.path === selectedLevel)
+    if (!level) {
+      document.title = 'Sokoban'
+      return
+    }
+    const { name } = level
+    const displayLevel = levelDescription[level.level]
+    document.title = `Sokoban - ${name} (${displayLevel})`
   }, [levels, selectedLevel])
 
   useEffect(() => {
@@ -68,12 +74,13 @@ const App = ({ gameData }: Props) => {
         <PersistGate loading={<div>loading</div>} persistor={persistor}>
           <div className="top-bar">
             {!gameData && <LevelSelector selectedLevel={selectedLevel} onLevelChange={handleLevelChange} levels={levels} /> }
-            <TopBarButtons />
+            <TopBarButtons gotoNextLevel={gotoNextLevel}/>
           </div>
           <Game
             gameData={gameData}
             path={selectedLevel}
             gotoNextLevel={gotoNextLevel}
+            completeLevel={() => completeLevel(selectedLevel)}
           />
         </PersistGate>
       </Provider>

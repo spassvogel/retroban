@@ -14,9 +14,10 @@ type Props = {
   path: string
   gameData?: string
   gotoNextLevel: () => void
+  completeLevel: () => void
 }
 
-const Game = ({ gameData, path, gotoNextLevel }: Props) => {
+const Game = ({ gameData, path, gotoNextLevel, completeLevel }: Props) => {
   const dispatch = useDispatch<AppDispatch>()
   const isInitialized = useSelector<SokobanStoreState, boolean>((store) => store.puzzleInfo.isInitialized)
   const rehydrated = useSelector<SokobanStoreState, boolean>((store) => store._persist.rehydrated)
@@ -50,7 +51,7 @@ const Game = ({ gameData, path, gotoNextLevel }: Props) => {
       <div className="game" {...handlers}>
         <Grid />
         <ButtonRow />
-        <CompledState gotoNextLevel={gotoNextLevel} />
+        <CompledState gotoNextLevel={gotoNextLevel} completeLevel={completeLevel} />
       </div>
     </>
   )

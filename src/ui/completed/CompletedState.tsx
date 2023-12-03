@@ -10,11 +10,12 @@ import './completed-state.scss'
 
 type Props = {
   gotoNextLevel: () => void
+  completeLevel: () => void
 }
 
 const SHOW_DELAY = 500
 
-const CompledState = ({ gotoNextLevel }: Props) => {
+const CompledState = ({ gotoNextLevel, completeLevel }: Props) => {
   const [dismissed, setDismissed] = useState(true)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const moves = useSelector<SokobanStoreState, number>(state => state.userAction.actions.length)
@@ -34,6 +35,9 @@ const CompledState = ({ gotoNextLevel }: Props) => {
     if (status === GameStatus.IS_SOLVED) {
       timeout = setTimeout(() => {
         const wasFinishedBefore = Date.now() - time > 1000 // finished in the last second
+        if (!wasFinishedBefore) {
+          completeLevel()
+        }
         setDismissed(wasFinishedBefore)
       }, SHOW_DELAY)
     }

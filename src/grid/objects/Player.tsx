@@ -28,7 +28,7 @@ const Player = ({ index, tileSize }: Props) => {
   const ref = useRef<SVGGElement>(null)
 
   const { x, y } = useAnimatedPosition(index, ref)
-  const isAtBox = useIsAtBox(x, y, index, orientation)
+  const isAtBox = useIsAtBox(index, orientation)
 
   useEffect(() => {
     if (Date.now() - time < ANIMATION_TIME) {

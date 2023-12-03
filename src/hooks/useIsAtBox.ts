@@ -7,7 +7,7 @@ import { DIRECTION, Direction } from "../store/utils/moves"
 
 
 // Will return a value indicating whether the player is currently right next to a box
-const useIsAtBox = (x: number, y: number, index: number, orientation: Direction) => {
+const useIsAtBox = (index: number, orientation: Direction) => {
   const { columns, static: staticTiles } = useSelector<SokobanStoreState, TilesStoreState>(state => state.tiles)
   const objects = useSelector<SokobanStoreState, TileObject[]>(state => state.tiles.objects)
 

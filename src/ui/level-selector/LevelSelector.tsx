@@ -17,7 +17,7 @@ const levelNames: { [key: number]: string } = {
   3: "Logistic complex"
 }
 
-const levelDescription: { [key: number]: string } = {
+export const levelDescription: { [key: number]: string } = {
   1: "easy",
   2: "medium",
   3: "hard"
