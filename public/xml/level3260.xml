@@ -1,84 +1,88 @@
-<puzzle type="Sokoban" width="8" created="2023-05-12T08:32:43.638Z" name="" level="3" source="MINICOSMOS 30 - Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr" >
- <tiles>
-   <static>
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="dropzone" />
-     <tile type="floor" />
-     <tile type="dropzone" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="dropzone" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="empty" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="empty" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="floor" />
-     <tile type="wall" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="empty" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="wall" />
-     <tile type="empty" />
-   </static>
-   <objects>
-     <object tileIndex="61" type="player" />
-     <object tileIndex="44" type="box" />
-     <object tileIndex="50" type="box" />
-     <object tileIndex="51" type="box" />
-   </objects>
- </tiles>
+<puzzle type="Sokoban" width="8" created="2023-05-12T08:32:43.638Z" name="MINICOSMOS 30" level="3" source="Minicosmos Levels, created by Aymeric du Peloux. Aymeric has created another level set in the tradition of Microcosmos. He says this set is for beginners because the levels have only 2 or 3 stones. But I still found them interesting, even though I'm an experienced player. Many of the levels come in pairs: a relatively easy level with 2 stones, followed by a more challenging level with the same layout and an extra stone. This is a nice way of providing hints. Original level website: http://www.multimania.com/nabokos/minicosmos.html" sourceURL="http://sneezingtiger.com/sokoban/levels.html" author="Aymeric du Peloux" authorEmail="aymeric.dupeloux@smile.fr">
+  <tiles>
+    <static>
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="dropzone" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="dropzone" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="floor" />
+      <tile type="wall" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="empty" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="wall" />
+      <tile type="empty" />
+    </static>
+    <objects>
+      <object tileIndex="61" type="player" />
+      <object tileIndex="44" type="box" />
+      <object tileIndex="50" type="box" />
+      <object tileIndex="51" type="box" />
+    </objects>
+  </tiles>
+
+  <solutions>
+    <solution>llUUddrruuLuuullddRDrrddllUUrUUruLLulldRRRllddlddRluuruurrdddrddllUdrruuluurruLLLulDrrdddrddllulluurRllddrrdrruulUUruLLulldRRRdddrddlluUdlluurRdrUUrruulDrdLuLLulldRRRDDllUdrrurruulDrdLullulldRRRRurD</solution>
+  </solutions>
 </puzzle>
