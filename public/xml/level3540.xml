@@ -104,4 +104,8 @@
      <object tileIndex="54" type="box" />
    </objects>
  </tiles>
+ 
+  <solutions>
+    <solution>LLLDLLrrurrDDrddddlluluLrdrdrruuuuluulldlDDuururrdLrdrddlUlULrdrruLuullDRurDDullllulldRurRRldDuulldRurrdrruLLrrddrddlUUdlULuuLLrrrrDLdlUruLLrrdddrruLdlUUruLL</solution>
+   </solutions>
 </puzzle>
