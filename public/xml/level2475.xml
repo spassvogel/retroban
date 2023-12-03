@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="8" created="2023-05-18T20:50:02.242Z" name="" level="2" source="Better 2 - This compilation includes the tiniest, easy, thin levels, and entertaining of resolving. Enjoy them" sourceURL="http://sapiens.ya.com/sokobanhomz" author="Martí Homs Caussa" authorEmail="homz70@gmail.com" >
+<puzzle type="Sokoban" width="8" created="2023-05-18T20:50:02.242Z" level="2" name="Better 2" source="This compilation includes the tiniest, easy, thin levels, and entertaining of resolving. Enjoy them" sourceURL="http://sapiens.ya.com/sokobanhomz" author="Martí Homs Caussa" authorEmail="homz70@gmail.com" >
  <tiles>
    <static>
      <tile type="empty" />

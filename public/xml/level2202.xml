@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="14" created="2023-05-24T15:29:41.989Z" name="AC easy AC_Easy_020" level="2" source=" - AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
+<puzzle type="Sokoban" width="14" created="2023-05-24T15:29:41.989Z" name="AC easy AC_Easy_020" level="2" source="AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
  <tiles>
    <static>
      <tile type="empty" />
