@@ -7,3 +7,4 @@
       - https://wildermuth.com/2023/02/09/vite-plugin-for-progressive-web-apps/
 - [ ] sound: https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
 - [ ] solver: https://healeycodes.com/building-and-solving-sokoban
+- [x] directly mark level as completed
