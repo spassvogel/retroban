@@ -709,7 +709,7 @@ Solver time: 00:00:02
 Solver date: 2023-06-26  09:55:58
 
 
-MINICOSMOS 37
+MINICOSMOS 37 level3270
 
   #### 
  ##  # 
@@ -729,7 +729,7 @@ Solver time: 00:00:01
 Solver date: 2023-06-26  09:55:59
 
 
-MINICOSMOS 38
+MINICOSMOS 38 level3370
 
   ####  
   #  ###
