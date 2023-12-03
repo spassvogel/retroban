@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="17" created="2023-05-02T14:00:27.896Z" source="This project contains 60 maps (levels or mazes) for the Sokoban game. The maps have been extracted from the binary file of a Sokoban implementation for DOS called pusher. " level="2" name="Begoon Maze 5" sourceURL="https://github.com/begoon/sokoban-maps">
+<puzzle type="Sokoban" width="17" created="2023-05-02T14:00:27.896Z" source="This project contains 60 maps (levels or mazes) for the Sokoban game. The maps have been extracted from the binary file of a Sokoban implementation for DOS called pusher. " level="2" name="Begoon Maze 5" sourceURL="https://github.com/begoon/sokoban-maps" name="Begoon Maze 4" level="2"  author="Alexander Demin" authorEmail="ademin@gmail.com">
   <tiles>
     <static>
       <tile type="empty" />
