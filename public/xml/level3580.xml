@@ -90,4 +90,8 @@
      <object tileIndex="59" type="box" />
    </objects>
  </tiles>
+
+  <solutions>
+    <solution>rrrrUdddLLuuuururDDDlllluuRRddddLdlUUUrrrrDrdLLLLdlUrruuuullDldRRRddllUUrruullDldRRlddrruUlluurrRurDDDDrdLLLLdlUUdrruulLuurrrrddLLrruullD</solution>
+   </solutions>
 </puzzle>

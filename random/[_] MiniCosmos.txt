@@ -260,7 +260,7 @@ Solver time: 00:00:01
 Solver date: 2023-06-26  09:55:24
 
 
-MINICOSMOS 14
+MINICOSMOS 14 level3580
 
     #### 
  ####  # 
