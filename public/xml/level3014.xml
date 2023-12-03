@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="7" created="2023-05-24T15:48:10.587Z" name="Four Boxes 2" level="3" source="C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv">
+<puzzle type="Sokoban" width="7" created="2023-05-24T15:48:10.587Z" name="Four Boxes 3" level="3" source="C-Soko level collection" sourceURL="http://mb13.allalla.com/csoko" author="MB" authorEmail="mb13@inbox.lv">
   <tiles>
     <static>
       <tile type="wall" />
@@ -60,6 +60,6 @@
     </objects>
   </tiles>
   <solutions>
-    <!-- <solution></solution> -->
+    <solution>DLrDrddlUULuullddRdRUrrddlUruLdlluluurrrDDrdLuuulllddrUdRUrDrddlUruLullddRUruLdlrrrddlUruLdlU</solution>
   </solutions>
 </puzzle>

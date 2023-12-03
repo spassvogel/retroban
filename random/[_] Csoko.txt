@@ -1,0 +1,1031 @@
+Title: C-Soko
+Description: C-Soko level collection (Collection license: WTFPL
+             [http://www.wtfpl.net/txt/copying/])
+Author: MB
+Email: mb13@inbox.lv
+Website: http://mb13.allalla.com/csoko
+
+Two Boxes 2
+
+#####
+#.$@#
+##$##
+ #.# 
+ ### 
+
+Solution
+LD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:15:13
+
+
+Two Boxes 3
+
+##### 
+#   ##
+#  $@#
+##$ .#
+ #  .#
+ #####
+
+Solution
+LulldRurDrddllURuulldRurDDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:14
+
+
+Two Boxes 4
+
+ #####
+##@..#
+# $$##
+#    #
+##   #
+ #####
+
+Solution
+DldRdrruLdlUrUdlluRuRlddrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:15
+
+
+Two Boxes 5
+
+########
+# @#   #
+# *$   #
+#  #  ##
+#. #  # 
+####### 
+
+Solution
+DRRurDllllddrUluRRRurrdLLLLulDDrurrddrUluurrdLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:16
+
+
+Two Boxes 6
+
+      ####
+ ######  #
+ #@$   $ #
+ #.#     #
+##    ####
+# .  ##   
+#   ##    
+#####     
+
+Solution
+ddrrrurrruulDrdLLLulDrdLdlluuuRRddLruulldDrruuRRdrruulDrdLLLulDrdLLddlluRUrrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:17
+
+
+Two Boxes 7
+
+#####   
+# . ####
+#  $@  #
+##*    #
+ #  ####
+ ####   
+
+Solution
+LulldRRddlUruulldRurDRdrruLLLulldRdRRurrdLulLdlUrrrdLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:18
+
+
+Two Boxes 8
+
+ ###### 
+ # .  ##
+##$  $@#
+#  .#  #
+#   #  #
+########
+
+Solution
+LLullDRRurDllddlluRdrUUluRdrrrddlUruLLLulDrddlluRurrruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:19
+
+
+Two Boxes 9
+
+#######
+#     #
+# @   #
+##$#  #
+## .* #
+#  ####
+#    # 
+#    # 
+###### 
+
+Solution
+rrrddLuullDDDldRuuuurrddLruulldDDlddrUUUUdrruuullldRRldddddrruLdlUUUUdrrruuulDDrdLuuullldRRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:20
+
+
+Two Boxes 10
+
+   ####
+####..#
+#     #
+# $$ @#
+##  ###
+ #  #  
+ ####  
+
+Solution
+ulllDRddlUUrurrdLulDlddrUluluRRRdrUlllddrUluRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:21
+
+
+Two Boxes 11
+
+ ##### 
+ #   # 
+ # $ # 
+## ####
+#.@   #
+## #  #
+ # $. #
+ ###  #
+   ####
+
+Solution
+ddRluurrrdddlUlluuuuurrdLulDDDrrrddlllUdrrruullLrrD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:22
+
+
+Two Boxes 12
+
+#####  
+#   ## 
+#    # 
+## .@# 
+## .$##
+#  #  #
+#  $  #
+#  #  #
+#######
+
+Solution
+DDrddlUUUddLruulldlddrUUUUruulldRurDDurDDDrdLLruuullddlddrUUUUruulldRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-12-03  16:15:22
+
+
+Two Boxes 13
+
+######
+#  #.#
+#    #
+#. # #
+## $ #
+# $ ##
+# @ # 
+##### 
+
+Solution
+UUUluurDDDuurrddLddlluRUUluRRlddrruUllddddrUluuurrddLdlUUdrruulLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:23
+
+
+Two Boxes 14
+
+########
+#   #  #
+#      #
+####   #
+ # $$###
+ #  +.# 
+ ###### 
+
+Solution
+UUruLLulldRRRdddlluRdrUUrruulDrdLuLLrDDldRuuululldRRRdrruulDrdLulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:24
+
+
+Two Boxes 15
+
+ ######
+ #    #
+ #$   #
+ #@. ##
+##$. ##
+#     #
+#  #  #
+#  #  #
+#######
+
+Solution
+DDlddrUluRRurDrddlUUUUluurrdLulDDuulDDDDlddrUluRRluurrdDrddlUUUUluurrdLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:25
+
+
+Two Boxes 16 - Rabbit
+
+ ######
+ # . .#
+##$#  #
+#     #
+# $#  #
+# @#  #
+#######
+
+Solution
+UluRRRdrUluullDDlddrUluRRluurrdDrddlUUlluurrrDulllddrrUruLdddrUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:26
+
+
+Three Boxes 1
+
+  #########  
+  #   ##  #  
+  #       ## 
+ ### ###   ##
+ #@$   ##   #
+ ###  $ # # #
+##### ..#   #
+#     ### ###
+#       # #  
+#  ###  # ###
+#### #      #
+     #  #   #
+     ########
+
+Solution
+RRdrdrruLuLrddlUlUUddrdddrrddrruuuuuuuullllulldRRRRRurDDDDDDDDuuuuuuullllldddrdddrrddrRdrruLLLLdlUUruLLuuruuLdlUUdrddddLLullddrUluRRRdrUUruulldRurDldRlddrrddrruuuuuuuullllulldRRRRRurDDDDDDDDuuuuuuulllllddrddddrrddrRdrruLLLLdlUUruLLLLullddrUluRRRdrUUruulldRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  16:15:28
+
+
+Three Boxes 2
+
+#### 
+#..# 
+#$$##
+#@$.#
+#####
+
+Solution
+UdRU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:29
+
+
+Three Boxes 3
+
+ ###      
+##+#######
+#  ..    #
+# $  $$  #
+######   #
+     #####
+
+Solution
+drrrrrddlULulldRRRdrruLuLLdlluRllldRRurRdRdrruLuLLLLdlUrrrrrddlUruLLLLdlluRdrRRRdrUruLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:30
+
+
+Three Boxes 4
+
+########
+#   .*@#
+#  $.$ #
+#   ####
+#####   
+
+Solution
+LLdLrurrdLulLddlluuRRRlddlUluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:31
+
+
+Three Boxes 5
+
+ ######
+##+#  #
+# $   #
+#   $ #
+#### ##
+#     #
+#  * .#
+#  #  #
+#######
+
+Solution
+DrrDDDrddlUUUUdddLruuuruulDDDDrdLuuuullldRRurDDDrddlUUUUruLLrdddlllddrURurrddlUUUUruLdllUdrrddldlluRRdrUUUruulDDDDrdLLruuulluRdrruulDDDDldRullldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:32
+
+
+Three Boxes 6
+
+###### 
+#.#  # 
+#.#  # 
+#.  $# 
+#  #@# 
+#   $##
+## $  #
+ ##   #
+  #####
+
+Solution
+UlldddRdrruLdlUluuurrdDLdlUUdrruulLdlUUdrddrddrruLdlUruLdlUUdrruulLdlUrruurDDDDlddrruLdlUruLdlUUdrruulL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:33
+
+
+Three Boxes 7
+
+#####  
+#...## 
+#    # 
+#  # # 
+##  $##
+#@$   #
+###$  #
+  #   #
+  #####
+
+Solution
+RuuurrdDDrddlUUUlldRurDrddllUUruLdlUUUluRdrrDDldddrruuLrddlluUruLdlUUdrruulLdlUrrrdddrdLdlUUruLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:34
+
+
+Three Boxes 8
+
+######  
+#    ###
+#  $ $ #
+# # $+ #
+#   #..#
+########
+
+Solution
+LuLulldddrrUrrruLdlldlluuurrrDulDulldRRllddrrURRurDllldlluururrDullldddrruRurDululldRurDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:35
+
+
+Three Boxes 9
+
+####### 
+#...  # 
+# $@$ ##
+## ##  #
+ #  $  #
+ #  #  #
+ #######
+
+Solution
+urrdddLLdlUrrruuulldRurDDuulllldRRurrddrddlUlllUUrurrdDrdLuuulldRurDDulllluRRdrrdrddlULLdlUUUruLrdrruLrdDrdLLLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:36
+
+
+Three Boxes 10
+
+  #####
+###@  #
+# $$$ #
+#... ##
+#    # 
+###### 
+
+Solution
+DurrdLdLruulDrddllluuRRurDlllddrrUdlluurRdLruurrdLulDlddrrULuurrdLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:37
+
+
+Three Boxes 11
+
+##### ####
+#   ###  #
+#     $@ #
+## $#$   #
+#...#   ##
+######### 
+
+Solution
+LLLLulldRRRRRdrruulDrdLdllUdrruulLLLulldRRRRRllllddrUluRRRddrruLrruulDrdLuLLLLulDDrdLruurrrrddllUdrruulLLLulDDrurrddrUruLLLLulldRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-12-03  16:15:37
+
+
+Three Boxes 12
+
+#####  
+#.  ###
+#.#   #
+#.    #
+# # ###
+# $ $@#
+##  $ #
+ ###  #
+   ####
+
+Solution
+LrddlUlUUUlluurrDullddrRdddrruLdlUUUlluurrDDDDuullddRluurrurrdLLuullddddrdRluluuuurrdddDuuLrddlluUrrddrrddlUruLLuullddRluuUdddrdRUUdlluurRurrdLLLrddlluUrrddrrddlUruLdlUUdlluurRurrdLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:38
+
+
+Three Boxes 13
+
+   ####
+ ###  #
+## $$ #
+# ..$@#
+#  .  #
+#######
+
+Solution
+LLrruulDDldlluRuRlddrUrruulDrddLLuluRddrruLruulDlldldRuurrrddlULrruulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:39
+
+
+Three Boxes 14
+
+      #### 
+      #  # 
+####### .##
+#  ##   ..#
+#@$   $$  #
+####   ####
+   #####   
+
+Solution
+RRRdrrURldlluRuRlddrUrUrrdLLLdlluRRluRRRdLLrruuulDrddlluRdrUllddlluRdrUluRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:40
+
+
+Three Boxes 15
+
+ #######  
+##  #  ###
+#    $ $ #
+#  # ..*@#
+#  #  #  #
+##########
+
+Solution
+LLLruLLLulDrrrrdrruLdlluurDldRulllllddrUluRRRRurDlddlUruLLulDrrrrrrddlUruLLulDlddrURuulDllllddrUluRRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:41
+
+
+Three Boxes 16
+
+  ##### 
+  #   # 
+### # ##
+#  ... #
+# $$ $ #
+# @#####
+####    
+
+Solution
+UluRRuurrddLdLUrrrdLLulllddrUluRRRdrruLdlLrruuullDDRdrUllllddrUluRRRdrruLdlLuuurrDullddllddrUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:42
+
+
+Four Boxes 1
+
+ #### 
+##  # 
+# $+##
+#  $.#
+# $  #
+#. ###
+#  #  
+####  
+
+Solution
+ulDrDLDlddrUUUruulDlDDrddlUruUluRdddlUrurrdLuluurDldRlDlddrUUruullDDrUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:43
+
+
+Four Boxes 2
+
+#####  ###
+#   ####.#
+# $ #  #.#
+#  $#$  .#
+#     $@.#
+#####  ###
+    ####  
+
+Solution
+LLLLUlldRRRRRuulDrdLLLrrrurrdLullddrUluRRdrUUdllldllulldRRRRdrUluRRdrUllldllulluurDDldRRRRdrUluRRlldlluluurDDldRRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:44
+
+
+Four Boxes 3
+
+###### 
+# ..@# 
+# .*$##
+#  $  #
+## $  #
+ ###  #
+   ####
+
+Solution
+DLrDrddlUULuullddRdRUrrddlUruLdlluluurrrDDrdLuuulllddrUdRUrDrddlUruLullddRUruLdlrrrddlUruLdlU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:45
+
+
+Four Boxes 4
+
+###### 
+#.. +##
+# #$$ #
+#  $  #
+#   * #
+#######
+
+Solution
+DrddLULLrUdldlUUdrdRurruLuLDrdLdlluRRurrddLLrUUldlldRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:46
+
+
+Four Boxes 5
+
+#######
+#. . .#
+# $# ##
+#  $$ #
+#.  $@#
+#######
+
+Solution
+LULLUluRRRlldddlUrrrdLuluurrDullddrdrruLuullddldRRluuulDrurrddLdlUUluRdddlUUrdrrrdLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:47
+
+
+Four Boxes 6
+
+###### 
+#... # 
+# #. ##
+#   $ #
+#$$$  #
+#@ #  #
+#######
+
+Solution
+UUrrurDrddlUUlllddrURuuullDDRdrUrrdLullluurrrDDllddlUUUdrrrrddlULuUruLdddrruLdlUUdllddrUluRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:48
+
+
+Four Boxes 7
+
+##########
+#   ##   #
+#  $#  . #
+#   # $.##
+##   $ *@#
+ #  ## .##
+ ######## 
+
+Solution
+LuLrddlULLLdlUUluurDurDDulldRdRRRRlllUdrrrUruulDlDurrdLddrUUldLLLdlUUluurDurDDulldRdRRRRdrUllllUdrrruulDrdLLLrrruuurrdLulDlddrrUdlllldlUUluurDurDDulldRdRRRRdrUlluururrdLDDlluuRlddllluurDldRRRRluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:49
+
+
+Four Boxes 8
+
+ ###### 
+ #.   ##
+#### $.#
+#@$  #.#
+# $$   #
+#. #   #
+########
+
+Solution
+RRllddrUluRdRRdrruLLLLulDrrrUUdLrdrruuLuLLrDDldlluRRdRdrruLLLrrruullDldRRdrUUdllullldRRRRdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:50
+
+
+Four Boxes 9
+
+#########
+#  ..#  #
+# #..$  #
+#  $ #  #
+##  ## ##
+ # $@$  #
+ ####   #
+    #####
+
+Solution
+RdrUUUruulDDuLLulllddrddRRRllululuurrrddLruulDDuullddRddrrrdrruLLrUUruLLLulllddrddrRRdrUUUruLdddlllluuluurrrddLDldRRRdrUllluuruulDDDldRRRlluuuullddRdrUUdlluurRddddrrdrruLLLrrUUruulDDuLLdlUdlddRRRdrruLLLrrUUruLLLdllddRRRdrUUUruLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:51
+
+
+Four Boxes 10
+
+########  
+# .... #  
+#  $@$ #  
+##### ####
+ ###     #
+ #     $ #
+ #   ##$ #
+ ######  #
+      ####
+
+Solution
+LrurrdLddrrrdLrddlUUruLLrdLLLdlluRRRRurDllluRRluuulldRurDDDuuulllldRRurrdddrdrruLLdLLdlluRRRUUUddrrrdddlUUruLLrdLLLdlluRRRRurDllluRRluuruLLLdRurDDDrdrruLLdLLdlluRRRUUUruLLrdddrrrdddlUUruLLrdLLLdlluRRRRurDllUUUruLdddrrrdddlUUruLLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:52
+
+
+Four Boxes 11
+
+####  
+#  #  
+#@ ###
+#* $ #
+#.*  #
+# * ##
+#   # 
+#  ## 
+####  
+
+Solution
+DDDRddlUUUUruulDDrDDurruLdlUddlddrUrUdlluRuuluurDDDDlddrUluUUrrrdLLDlddrUrUdlluRuulDDruurrdLullddrdrUlluuruulDrdDurrdLddldlUU
+
+Solver: Festival 3.1
+Solver time: 00:00:00
+Solver date: 2023-12-03  16:15:52
+
+
+Four Boxes 12
+
+######
+#@#  #
+#$#  #
+# $  #
+#.*  #
+# * ##
+# .  #
+##   #
+ #####
+
+Solution
+DDDRDrddlUruUUdlluRdrddllURuulDrrDuruLruulDDDlluRdrUldddlUrddrruLUluurrdLulDrruuulDDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:53
+
+
+Four Boxes 13 - Devilish Level
+
+########  
+#  ##  ###
+#   ..   #
+#  $#.$$ #
+###  .$@##
+  ####### 
+
+Solution
+UruLLLLLrrddllUlluurDRRlddrruRurrdLdLLuRdrUluulDllddRRUdlluurRlllldRurrrddllUdrrurrdLLuuurDlddrruLullLdlluRRddRRUruulDrdrruLLrddL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:54
+
+
+Five Boxes 1
+
+ ####### 
+ # .   ##
+ #  $   #
+####$ *.#
+#@$ .   #
+#########
+
+Solution
+RRRRuuLrddlUrurrddLUruLdlldRuruullDurrddlUlulldRRRdrruLuLLdRurDlllluRRdrddlUruLrrrddLLuululldRRdrdrruuluLLddrRuulDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:55
+
+
+Five Boxes 2
+
+######
+#..$@#
+# .**#
+#$$  #
+#    #
+######
+
+Solution
+LrDLddllUUdRdrUdrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:56
+
+
+Five Boxes 3
+
+######
+#+ ..#
+#$$$$#
+#   .#
+#  $.#
+######
+
+Solution
+rrDullDurrrDullldRddlUUrurrdLulDlddrUdRUUdlluRuRlddrU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:57
+
+
+Five Boxes 4
+
+    #####
+#####@  #
+#   $$$ #
+#..**. ##
+#      # 
+######## 
+
+Solution
+DLLrrurrdLddllULrdrruLruulDrddllluuRRurDlllddrrUdlluurRllddlluuRRdLrdrruLruurrdLulDLddlluuRlddrruLrdrrULuurDlddlluuRRdLruurrdLulDlddrrULuurrdLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:58
+
+
+Five Boxes 5
+
+########
+#  #   #
+#  $$# #
+#@$    #
+###$  ##
+# $ #  #
+#..... #
+########
+
+Solution
+RRDrruLrruullDLrurrddldllUdrruruulldDllluurDldRRRuurrddLdddllUURUrruullDLrurrddlDDrdLuullUdrruruulldDllluurDldRRRuurrddLruulldLddddlluRdrUUURuurrddLdddLLLruuuRldddrruuLulDDurrddlLuuruuurrddLruulldDldRurDDrdLuuulllluurDldRRdrruruulldDrdLulDDuuluRdrrruullDDldRurDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:15:59
+
+
+Five Boxes 6
+
+###########
+#.. @#    #
+##  $$  $ #
+###  $$ # #
+#...  #   #
+###########
+
+Solution
+DRRurDurrdLLLLLrrrrrddllUdrruuullldRlllulldRddrrURururrdddllUlldlluRluurDRllddrrUrrdrruuulllDLLrrurDlllDrurrurrdLLLrrrddllUdrruuullldRdLLLrdLLLrruuulldRurDDrdLLUUruLLrrddrruLLdlUruLrdrrrurrdLLLLLulDD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:00
+
+
+Five Boxes 7
+
+#######
+#. $. #
+##    #
+#.  ###
+### * #
+#@$ $ #
+# $ . #
+#  ####
+#  #   
+####   
+
+Solution
+RDrrruuLDLUUluuRlddrdddlluRRurrddLLuuuluurDrruLLLrdDDrrddllUUUluurrdLulDrdLrdddrUllldRRllddrUUluRdrUUUUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:01
+
+
+Five Boxes 8
+
+  #######  
+  #  .*@#  
+###  $$ #  
+#  $ # ####
+#    # $ .#
+####..  ###
+   ######  
+
+Solution
+LDDuLLuRlddLruulDrrrruLLdldddrrUUddlluuururrdLdddlluuuluRRldddlUrddrruuuLrdddllullluRRdrdrruuulullDDuurrdrdddlluLrdrruuuruLLrdddRRlldlluluuRRurDDDrdLuuullluRRlldddrUUluRlddlldRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:02
+
+
+Five Boxes 9
+
+#######
+# .$  #
+#.    #
+#.  ###
+#.# ###
+#.# $@#
+#  $$ #
+##$#  #
+ #    #
+ ######
+
+Solution
+LDLUUUluuRDDDuurruLLdllddddRRUUdrrdLuluUluRurrdLLdddrdLuuulluuRRddddrrdddlUUruLdlUUUlluurrDDlldddRRurrddldllUdrrruuullUUlluurrDDurruLdldlluurDrruLdllddddRddrrruuullUUddrrddldlluuluuuurRurrdLLdddrrddldlluuluuuuuRldddddrddrruUddlluuRuuuuLulDDDuurrruLddLulDrrdddlddrrruuuLrddldlluurUUUluRurrdLLdlluuRDrdLruruLddddrrddlUruLdlUUUluRurrdLLL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:03
+
+
+Five Boxes 10 - Puppy
+
+    ######
+    #@#  #
+  ###$   #
+###   $$ #
+#.   $  ##
+#.. $#  # 
+#.#  #### 
+#.####    
+###       
+
+Solution
+DrDLrurrdLLrddlULLLdlluRRRRRdrUUruulDDullDRdLLLrrruurrdLullddrUluRlddlluRdrruulDrrruLdlddrUUllldRllddrUluRldlluRdrruulDrdLruurrrddlULulDrrruLLrrruulDrdLdlluuRDldRllluRdrruulDrrruLdlddrUUllldRlldLulDDurrdrUluurrdLulDrdLLulDrrrururrdLLLLLrrrrruruulDDlluRdrruulDrdLLulDrdLLulDrdLLrrurrdrUluurrdLLulDrdLLulDrdL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:04
+
+
+Five Boxes 10 - Puppy
+
+   ####   
+####  #   
+# $.*.#   
+# ## .#   
+#    .####
+### $$   #
+  #$     #
+  #@###  #
+  ### ####
+
+Solution
+UrURRluulDruuulDrddlllluuRRRDrdddllUdrruuuluurDDDDLUruullllddrRRUdllluurrRddddlUruLrdrrdrruLLLLdRRulluurDDldRuuululllddRRlluurrrdrddlUllluurrrurDDullllddrrrddlUruLrUruulDDDDuuulllddRRdrUUruLdddrUUddrrrddlUruLLLdRurrddlUruLLdlUUlldRRdrruLdlUlldRRRurrddlUruLLLdlUUU
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:05
+
+
+Five Boxes 10 - Puppy
+
+ #######  
+##  #  ###
+#    $ $ #
+#  # ..*@#
+#  #  #  #
+##########
+
+Solution
+LLLruLLLulDrrrrdrruLdlluurDldRulllllddrUluRRRRurDlddlUruLLulDrrrrrrddlUruLLulDlddrURuulDllllddrUluRRRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  16:16:06
+
