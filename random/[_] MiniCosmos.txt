@@ -617,7 +617,7 @@ Solver time: 00:00:02
 Solver date: 2023-06-26  09:55:50
 
 
-MINICOSMOS 32
+MINICOSMOS 32 level3555
 
 ####   
 #  ### 
