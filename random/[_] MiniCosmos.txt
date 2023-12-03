@@ -538,7 +538,7 @@ Solver time: 00:00:02
 Solver date: 2023-06-26  09:55:44
 
 
-MINICOSMOS 28
+MINICOSMOS 28 level3545
 
  ####   
  #  ####
