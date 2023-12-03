@@ -1,0 +1,279 @@
+Festival 3.1 solution file
+===========================
+Collection: begoon-sokoban-maps-60-plain.txt
+
+Level 1
+
+    #####             
+    #   #             
+    #$  #             
+  ###  $###           
+  #  $  $ #           
+### # ### #     ######
+#   # ### #######  ..#
+# $  $             ..#
+##### #### #@####  ..#
+    #      ###  ######
+    ########          
+
+Solution
+ullllllLrrrruuuLLUllDuruurDldldRRlllldddRRRRRRRRRRRRRRRRlllllllllllllllluuurrDDuulldddrRRRRRRRRRRRRRRllllllllllllluuuruuulDDDDDuulldddrRRRRRRRRRRRRRurDldRRlullllllllluuuLLLulDDDuulldddrRRRRRRRRRRRRRdrUluRRlldlllllllluuullluurDllddddrrrruuulLLulDDDuulldddrRRRRRRRRRRRRRdrUluRldllllllllllllllulldRRRRRRRRRRRRRRRRurDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  14:58:44
+
+
+Level 2
+
+############  
+#..  #     ###
+#..  # $  $  #
+#..  #$####  #
+#..    @ ##  #
+#..  # #  $ ##
+###### ##$ $ #
+  # $  $ $ $ #
+  #    #     #
+  ############
+
+Solution
+rdrRdddlluRdrrruuLUUruulLulllldDuurrrrdrrddldlllulLLLLrrruuurrdLulDDurrurrdrrddldlllulLLLdlUUluRdrdrruurrurrdLLLulDDurrrrrrddldlllulLLLrrrrdrrruUruLLrddddrddllluUddrrruuluuuululllldddrrdRRldddrrruulUUddLrrddllluUrruuruullulllldddrrdRlullllulDrdLLrrurrdddldlluRRdrUUUUrrdrdrruuruullulllldDurrurrdrrddlddllululLLLulDrdLrurruurrurrdLLLulDDurrrrrrddlddllululLLLdlUruLLulDrrrdrrrrdrddlLLdlluRdrUUUddrrruululLLLdlUruLuurDDldRRRdddrrruuluLLLLdlUUruLLulDrrrddrrrrdrdrruuUruLLLLLulDDurrrrrddddllululLLLdlUUruLLrrddrrrrdrdddrUdrruulLdlllluuurrdrDrdLLLLdlluRdrUUUddrrruululLLLdlUUUruLLrrdddrrrrdrRdrUUUruLLLLLulDDurrrrrdddlllulLLLdlUUUruLrdddrrrrdrrrdrdLLLLLLdlluRdrUUUddrrruululLLLdlUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:45
+
+
+Level 3
+
+        ######## 
+        #     @# 
+        # $#$ ## 
+        # $  $#  
+        ##$ $ #  
+######### $ # ###
+#....  ## $  $  #
+##...    $  $   #
+#....  ##########
+########         
+
+Solution
+ldDDullddddlLLLLLLLulDrdLrrrrurrrrrurRdLLLLLLLLLLdlUruLrrrrdrrrrruuuurrdLulDDDrdLLLLLLLLLrrrrrrrruuurruuulDDrdLulDDDrdLLLLLLLLrrrrrrruuuruuulllddRRdrruulDrdLulDDDrdLLLLLLLrrrruuRlddrruUUruuulllddrRdrruulDrdLulDDDrdLLLLLLulDrdLLLrrrurrrrrrrrruLLLdllluurrDrdLLLLLLulDrdLLrrurrruurDrdLLLLLulDrdLrurrrrruuuruuullDldRRluurrdDrdLulDDDrdLLLLLLdlUruLLLrrrdrrrrruuuulDDDrdLLLLLdlUruLLrrdrrrrruuurrDDrdLLLLLLLLdlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:46
+
+
+Level 4
+
+              ########
+              #  ....#
+   ############  ....#
+   #    #  $ $   ....#
+   # $$$#$  $ #  ....#
+   #  $     $ #  ....#
+   # $$ #$ $ $########
+####  $ #     #       
+#   # #########       
+#    $  ##            
+# $$#$$ @#            
+#   #   ##            
+#########             
+
+Solution
+lulLLLrruuluurRRRRRurRuRRRRurDllllldlluRRRRRRllllllddddrruUUluRRRRdrUluRRurDllldlllddrUluRRRdrUluRRRurDDrdLuulllldlllddddrUUUluRRRdrUluRRRurDDulllldlllllddRRdrUUluRRRdrUluRRRurDlllldlllllddllllllddrUluRRRRRRRRdrUUluRRRdrUluRRRRurDDullllldlllllddlllllddddrrddllUUUUUluRRRRRRRRdrUUluRRRdrUluRRRRurDllllldlllllddlllllddddllulldRRRRddrruuLrddlluUUUUluRRRRRRRRdrUUluRRRdrUluRRRRlllldlllddddlUUUluRRRRRdrUluRRRllldlllllddlllllluurrrDulllddrrRRRRRRdrUUluRRRdrUluRRlldlllllddllluulDullddrRRRRRRRdrUUluRRRdrUluRldlllllddllluullDldRRRRRRRRdrUUluRRRurDDldRRRRllluullllllddllldLullddrUluRRRRRRRRdrUUluRRRurDDldRRRlluulllllllDrdLLLulldRRRRRRRdrUUluRRRurDDldRRluullllllddddlUruLLLulldRRRRRRRdrUUluRRRdrUUluRRRRllllddllllllddllllddddllllddrrUdlluurRRRddrruuLrddlluUUUUluRRRRRRRRdrUUluRRRdrUUluRRRlllddllllllddllddLulDDDrrddllUUUUUluRRRRRRRRdrUUluRRRdrUUluRRllddllllllddllllddddllddlUluRRRRddrruuLrddlluUUUUluRRRRRRRRdrUUluRRRdrUUluRlddllllllddllllddddrrdLdlUUUUUluRRRRRRRRdrUUluRRRurDDldR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:47
+
+
+Level 5
+
+        #####    
+        #   #####
+        # #$##  #
+        #     $ #
+######### ###   #
+#....  ## $  $###
+#....    $ $$ ## 
+#....  ##$  $ @# 
+#########  $  ## 
+        # $ $  # 
+        ### ## # 
+          #    # 
+          ###### 
+
+Solution
+luUUdllDlLLLLLLLLrrrrrrrrddlUruLLLLLLLrrrrrrrrurrdLLLLLLLLLrrrrrrrrrddlUruLLLLLLLLrrrrrrrdLLdlUruLLLLulDrdLLLLrrrrurrrrrrrdddrddllluuUUruLLLLLLulDrdLLLrrrurrrdddRurrrdrddllluUUUruLLLLLLulDrdLLrrurrrrrrrdddLrrddllluUUUruLLLLLLulDrdLrurrruRRdrruurruulDLrrdLulDDDDDlldddrrruuLLrrddllluUUUruLLLLLLdlUruLLLLrrrrdrrruuurrRRdrruulDrdLulDDDDDlldddrrruuLLrrddllluUUUruLLLLLLdlUruLLLrrrdrrruuuuurrDullddddrrdrruuulLLruulldDDDrdLLLLdlUruLLrrdrrrrrrruLLLrrruulllldDrdLLLLdlUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  14:58:49
+
+
+Level 6
+
+######  ### 
+#..  # ##@##
+#..  ###   #
+#..     $$ #
+#..  # # $ #
+#..### # $ #
+#### $ #$  #
+   #  $# $ #
+   # $  $  #
+   #  ##   #
+   #########
+
+Solution
+drddddlDruuuLDruuulDLLLLLLulDDrrurrrrrrddllUdrruulLLLLLLulDrrrrrrddrUruLLLLLLLrrrrrrrddddllUUUruLLLLLdlUruLLulDDDuurrrdrrrrrrddddddllUUUUUruLLLLLdlUruLLulDDurrrdrrrrdddddllUUUUddddrruuuuulLLLdlUruLLulDrrrdrrddddlluRdrUUUddddrruuuuulLLLdlUruLLrrdrrrrddddrUUUruLLLLLLdlUruLrdrrdddlldddrUUluRdrUUUddddrruuuuulLLLdlUUruLLrrddrrrrddddddrUUUUUruLLLLLLdlUUruL
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:50
+
+
+Level 7
+
+       ##### 
+ #######   ##
+## # @## $$ #
+#    $      #
+#  $  ###   #
+### #####$###
+# $  ### ..# 
+# $ $ $ ...# 
+#    ###...# 
+# $$ # #...# 
+#  ### ##### 
+####         
+
+Solution
+lddLruRRRRRdrruLLLLLLulDrrrrrdDDDDuuuuuluurDDDDDDuuurruuLulDDDDDldRurDDulllLrrruuuulllllldddddlluRdrUUdlldddrUUrrdLuuurDRRRRRurDlllllllddrUluRRRRRRlllllldlluRRRRRRRuruuulllllldDDrddlluRRRRRllluluuurrrrrrdddlDDulllluluuulldRurDDDrddlUUUUluRRRRRRurDDDuulllllldddrdrrrruRuuulllldLulDDDrddlluRRRRRllluluurrurrrrdddlDllllllluRdrUUUluRRRRRRurDDDuulllllldddllddddrUUluRRRRRR
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:51
+
+
+Level 8
+
+  ####          
+  #  ###########
+  #    $   $ $ #
+  # $# $ #  $  #
+  #  $ $  #    #
+### $# #  #### #
+#@#$ $ $  ##   #
+#    $ #$#   # #
+##  $    $ $ $ #
+ ####  #########
+  ###  ###      
+  #      #      
+  #      #      
+  #......#      
+  #......#      
+  #......#      
+  ########      
+
+Solution
+drrdRRdrUUUUUddddrrUUddlluuuuLLDDDldRRluuuurrdddDDDDDuuuuuuuullUluurDDDDDDldRRluuuurrdddDDDDrdLulDDldRuuruuuurruuruuluurrdrdrrrddlldlldLLLLLLulldRRRluuuurrdddDDDDrdLulDruuuurruuruuluuLLLrrrddrddlddlluuuulluluurDDDDDDldRRluuuurrdddDDDDrdLLulDDldRuuruuuuluuuuuurrDDDDDDDDDrdLLulDDDldRuuuruuuuluuulDDldRRRluuuurrdddDDDDrdLLulDDDuurruuuurrrrurrdLLLLLruuruuluulldddddDDDDrdLLulDDuruuuuluRluuurrddDDDDDldRurDDDrdLuuuuluuuuuLLulDDldRRurDDDDrdLulDrruuuurruuLLLLulDDldRRRurDDDDldRurDDDuuuluuurruuruulLruulldDDDDDDDDldRurDDuuluuuuuuurrDrdLLruulldDDDDDDldRurDuluuurruuuuuLulDDDDDDDDDldRRurDDDuuulluuuuuuullulDDDDldRRRurDDDDldRRurDDuulluuurrrrrruurrddLLLLLLLLulDDDDldRRRurDulluuurruuuuuurrdrRuLLLLLLLLulDDDDDDldRRurDDDDrdLLulDDDuurrruuuurrrrrrrruuuuuuLLLLLLLLLLulDDDDDDldRRurDDDDrdLLulDDurrruuuurrrrrrrruuuulUruLLLLLLLLLLulDDDDDDldRRurDDDDrdLLulD
+
+Solver: Festival 3.1
+Solver time: 00:00:01
+Solver date: 2023-12-03  14:58:52
+
+
+Level 9
+
+          #######
+          #  ...#
+      #####  ...#
+      #      ...#
+      #  ##  ...#
+      ## ##  ...#
+     ### ########
+     # $$$ ##    
+ #####  $ $ #####
+##   #$ $   #   #
+#@ $  $    $  $ #
+###### $$ $ #####
+     # $    #    
+     #### ###    
+        #  #     
+        #  #     
+        #  #     
+        ####     
+
+Solution
+rurrdrRRRRlllddRRlluurrrdDDDuuuuurrDulldlluulDDrrruuLUUUUluRRRRRurDllllldddddrddlluluuRlddrdrruulUUUUluRRRRRllllddddllddrUluRdrUUUUluRRRRdrUluRRurDDullldllldddddrdrruLLLrddlluUluRdrUUUUluRRRRdrUluRRurDllldllldddddrruLdlUUUUluRRRRdrUluRRRurDDulllldlllddddrdddlUUUUUUluRRRRdrUluRRRurDlllldlllddddrdddddlUUUUUUUUluRRRRdrUluRRRllldlllddddrrdrddLLdlUUUUUUUluRRRRdrUluRRlldlllddddlldddllulldRRRRRurrddlUUUUUUUluRRRRdrUluRldlllddddrrdrddrrurrdLLLLLLdlUUUUUUUluRRRRurDDldRRRlluulllldddddddddlUUUUluRdrUUUUluRRRRurDDldRRluullllddddrdddddrUUUruLLdlUUUUUluRRRRurDDldRuullllddddrdddddddrddlUUUUUUUUruLdlUUUUluRRRRdrUUluRRRlllddlllddddldddddlUruLLLulldRRRRRdrUUUUUUUluRRRRdrUUluRRllddlllddddrrdddddrUluRRRurrdLLLLLLdlUUUUUUUluRRRRdrUUluR
+
+Solver: Festival 3.1
+Solver time: 00:00:02
+Solver date: 2023-12-03  14:58:54
+
+
+Level 10
+
+              ####   
+         ######  #   
+         #       #   
+         #  #### ### 
+ ###  ##### ###    # 
+##@####   $$$ #    # 
+# $$   $$ $   #....##
+#  $$$#    $  #.....#
+# $   # $$ $$ #.....#
+###   #  $    #.....#
+  #   # $ $ $ #.....#
+  # ####### ###.....#
+  #   #  $ $  #.....#
+  ### # $$ $ $#######
+    # #  $      #    
+    # # $$$ $$$ #    
+    # #       # #    
+    # ######### #    
+    #           #    
+    #############    
+
+Solution
+DlddRRlluurRRRDDuullllddrrddddrrddddddrrrrrrrrrruuuullllluuLrddrddlllluurRRRRRllluulDrdLrrruuLuuurruuullUUUluRRRRRurDDDDuuulllllddddrrdddllluuluuRlddrddrrruuullUUUluRRRRRurDDDldRurDDrdLuuuluulllllddddrruLdlUUUluRRRRRurDDDldRurDDDrdLuuuuluullllldddllddrUluRdrUUUluRRRRRurDDDldRurDDDDrdLuuuuuluullllldddrddLrrddllluUUluRdrUUUluRRRRRurDDDldRurDDDDDrdLuuuuuuluullllldddlddddrUUUUUUluRRRRRurDDDldRurDDDDuuuuluulllllddddddddddrddlUUUUUUUUUUUluRRRRRurDDDldRRurDDDDDDrdLLruuuuuuulluullllldddllddllddrRRurDDDDrddlUUUUUUUUUUUluRRRRRurDDDldRRurDDDDDrdLuuuuuulluullllldddlllDrrdddllluuRRRdrUUUUUluRRRRRurDDDldRRurDDDDDDDrdLLruuuuuuuulluullllldddlddddldRurDDDrddlUUUUUUUUUUUluRRRRRurDDDldRRurDDDDDDrdLuuuuuuulluullllldddddddddddlluRdrUUUUUUUUUUluRRRRRurDDDldRRurDDDDDDDrdLuuuuuuuulluullllldddrrdddLdlUUUUUUluRRRRRurDDDldRRurDDDldRurDDDDuuuuluuulluullllldddlddddlUUUluRRdrUUUluRRRRRurDDDldRRurDDDldRurDDDuuuluuulluullllldddlllddldRRRdrUUUUUUluRRRRRurDDDldRRurDDDldRurDDuuluuulluullllldddrrdddddLulDDDrddlUUUUUUUUUUUluRRRRRurDDDldRRurDDDldRurDuluuulluullllldddlllddldddRRRurDDDrddlUUUUUUUUUUUluRRRRRurDDDldRRurDDDldRuuuulluulllllddddddddddddddlllluuuuRRRdrUUUUUUUUUUluRRRRRurDDDldRurDDDuuuluulllllddddddddddlllldRRRdrUUUUUUUUUUUluRRRRRurDDDldRRurDDldRuuulluulllllddddddddddddddlUUUluRdrUUUUUUUUUUluRRRRRurDDDldRurDDuuluulllllddddddddddllllddRRRdrUUUUUUUUUUUUluRRRRRurDDDldRurDuluulllllddddddddddlddddlUUUluRRdrUUUUUUUUUUluRRRRRurDDDrdLulDDDDDDDuuuuuuruuulllllddddddddddlllldddRRRdrUUUUUUUUUUUUUluRRRRRurDDDrdLulDDDDDDuuuuuruuullllldddllllDDDuuLLLLDDlluuRRRRRRRRRdrUUUUluRRRRRurDDDrdLulDDDDDuuuuruuullllldddllldddddlUUUruLLLLLddlluuRRRRRRRRRdrUUUUluRRRRRurDDDrdLulDDDDuuuruuullllldddlllldlldLulllddrrUdlluurRRRRRRRRdrUUUUluRRRRRurDDDrdLulDDDuuruuullllldddlllldllllddlUluRRRRRRRRRdrUUUUluRRRRRurDDDrdLulDDuruuullllldddlllldllddLLrddlddrrddddddrrrrrrrrrruuuuLLLullddrUUUUUUUUUUUUluRRRRRurDDDrdLulDruuulllllddddddddddddddrrUdlluuuuuuuuuulllllllddddlddrrddddddrrrrrrrrrruuuulLLrddlluUUUUUUUUUUUUluRRRRRurDDDldRRurDDDDDDDuuuuuuulluullllldddlllldlllddddrUUUluRRRRRRdrUUUUluRRRRRurDDDldRRurDDDDDDuuuuuulluullllldddlllldlllddddlUUUluRRRRRRRRdrUUUUluRRRRRurDDDldRRurDDDDDuuuuulluulllllddddddddddrrDulluuuuuullllllllddddddrrddddddrrrrrrrrrruuuulLLrddlluUUUUUUUUUUUUluRRRRRurDDDldRRurDDDDuuuulluullllldddlllldllllllddRRRdrUUluRRRRRRdrUUUUluRRRRRurDDDldRRurDDDuuulluulllllddddddddddrrdddLdlUUUUUUUUUUUUUluRRRRRurDDDldRRurDDuulluulllllddddddddddrrddrrdLLLdlUUUUUUUUUUUUUluRRRRRurDDDldRRurD
+
+Solver: Festival 3.1
+Solver time: 00:00:04
+Solver date: 2023-12-03  14:58:58
+
+
+Level 11
+
+          ####     
+     #### #  #     
+   ###  ###$ #     
+  ##   @  $  #     
+ ##  $ $$## ##     
+ #  #$##     #     
+ # # $ $$ # ###    
+ #   $ #  # $ #####
+####    #  $$ #   #
+#### ## $         #
+#.    ###  ########
+#.. ..# ####       
+#...#.#            
+#.....#            
+#######            
+
+Solution
+llldldlddrrdrrrdRRdrUluuuurrddDuuullddddrRRRRRlllluuuuuuruulDDDDllddddllulllulluurururrrrrRlllllldldlddrrdrrrdrruuuurruUddlllUdrddddllulllulluurururrrRddrddlUUrddddlluluuRRllddlluRdrrdrruulullDurrdrddlluLLulDDDldRurDuluuuuRRlldlluurururrdLDDDrdLulDDDrdLLLdlUrrruuuulluuruRurDDDDrdLulDDDrdLulDDldRRluuruuurrrdrruuluLLdlllluururrdDDrdLulDDDrdLulDDldRuuruuuruuuururrDDuLLulDDDDrdLulDDDrdLulDDuruuuruuuurrrdrrruulLLLulDrdLulDDDDrdLulDDDrdLLulDrdLulDrruruuurrrdrruulUUUdrrruullLLulDrdLulDDDDrdLulDDDrdLLulDrdLruruuurrrdrruuUluuurrrddlLrruullldDrdLLLrruullldDDrdLulDDDrdLulDruuurrrdrrrruLdlUUUluuurrrddlLrruullldDrdLLLrruullldDDrdLulDDDrdLLulDDurruuurrrdrrrrrrrrurrdLLLLLLLdlUUUUluuurrrddlLrruullldDrdLLLrruullldDDrdLulDDDrdLLLrruuurruurrrurruuruulDrdLLLLLulDrdLulDDDDrdLulDDDrdLLulDrruuurrrdrrrruuUUUUruulDrdLLLLLulDrdLulDDDDrdLulDDDrdLLruuurrrdrrrrrruuLrddlluUUUUUruulDrdLLLLLulDrdLulDDDDrdLulDDDldRuuurrrdrrrrrUruLdlUUUUUruulDrdLLLLLulDrdLulDDDDrdLulDDD
+
+Solver: Festival 3.1
+Solver time: 00:00:03
+Solver date: 2023-12-03  14:59:01
+
+
+Level 12
+
+  #########  
+
