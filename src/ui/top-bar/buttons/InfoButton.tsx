@@ -1,5 +1,12 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Modal from "../../modal/Modal"
+import { DemoStore, Store, configureDemoStore } from "../../../store/store"
+import { Provider } from "react-redux"
+import Game from "../../../Game"
+import { LEVEL_PREVIEW } from "../../../App"
+import DemoGame from "../../info/DemoGame"
+import InfoModal from "../../info/InfoModal"
+
 
 const InfoButton = () => {
   const [open, setOpen] = useState(false)
@@ -12,23 +19,17 @@ const InfoButton = () => {
     setOpen(false)
   }
 
+
   return (
     <>
       <button
-        className="button-small"
+        className="button-small button-info"
         onClick={handleClick}
       >
         ⓘ
       </button>
       { open && (
-        <Modal onClose={handleClose}>
-          <h2>Well done!</h2>
-          <section>
-            <div>
-              {`You completed this level in moves.`}
-            </div>
-          </section>
-        </Modal>
+        <InfoModal onClose={handleClose} />
       )}
     </>
   )

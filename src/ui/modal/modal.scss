@@ -7,13 +7,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
+    flex-direction: column;
   }  
 
   &-body {
     width: 100%;
     max-width: 24rem;
     min-height: 12rem;
-    padding: 1rem;
+    padding: 1rem 0.2rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -23,12 +25,19 @@
     @media (prefers-color-scheme: light) {
       background-color: hsl(0, 0%, 96%);
     }
+
+    > * {
+      // place for the scrollbar
+      padding-right: 0.8rem;
+    }
   }
 
 
   &-content {
     flex: 1;
     text-align: center;
+    height: 100%;
+    overflow: auto;
   }
 
   &-footer {

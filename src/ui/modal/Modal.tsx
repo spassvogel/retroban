@@ -1,12 +1,13 @@
-import { PropsWithChildren, useEffect, useRef } from "react"
+import { PropsWithChildren } from "react"
 import "./modal.scss"
-import ReactDOM, { createPortal } from "react-dom"
+import { createPortal } from "react-dom"
 
 type Props = PropsWithChildren<{
   onProceed?: () => void
   onClose?: () => void
   before?: React.ReactNode
   footer?: React.ReactNode
+  bodyClassName?: string
 }>
 
 const Modal = ({
@@ -14,15 +15,14 @@ const Modal = ({
   children,
   before,
   footer,
+  bodyClassName
 }: Props) => {
-  const ref = useRef<HTMLDialogElement>(null)
-
   const preventAutoClose = (e: React.MouseEvent) => e.stopPropagation();
 
   return createPortal(
     <div onClick={onClose} className="modal-backdrop">
       {before}
-      <div onClick={preventAutoClose} className="modal-body">
+      <div onClick={preventAutoClose} className={`modal-body ${bodyClassName}`}>
         <div className="modal-content">
           {children}
         </div>

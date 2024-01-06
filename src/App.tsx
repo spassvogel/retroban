@@ -18,6 +18,7 @@ export const LEVEL_PREVIEW = 'preview'
 
 
 const App = ({ gameData }: Props) => {
+  console.log(gameData)
   const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : localStorage.getItem('currentLevel') ?? levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
 

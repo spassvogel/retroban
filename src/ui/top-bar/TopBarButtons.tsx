@@ -51,9 +51,9 @@ const TopBarButtons = ({ gotoNextLevel }: Props) => {
           >
               +
           </button>
-          <InfoButton />
         </>
       )}
+      <InfoButton />
       { canGoToNext && <button onClick={gotoNextLevel} className="button-small">next</button> }
       { canSolve && <button onClick={handleSolve} className="button-small">solve</button> }
     </>

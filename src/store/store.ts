@@ -45,6 +45,26 @@ const configureStoreAndPersistor = (path: string) => {
 }
 export default configureStoreAndPersistor
 
+export const configureDemoStore = () => {
+  const reducer = combineReducers({
+    puzzleInfo,
+    tiles,
+    userAction,
+    gameStatus,
+    settings,
+    undo
+  })
+
+  const store = configureStore({
+    reducer,
+    devTools: true
+  })
+
+  return store
+}
+
+
+export type DemoStore = ReturnType<typeof configureDemoStore>
 type Store = ReturnType<typeof configureStoreAndPersistor>['store']
 export type SokobanStoreState = ReturnType<Store['getState']>
 export type AppDispatch = Store['dispatch']
