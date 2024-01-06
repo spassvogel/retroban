@@ -4,6 +4,7 @@ import { solvePuzzle } from "../../store/actions/game"
 import { useDimensions } from "../../hooks/useDimensions"
 import { zoomIn, zoomOut } from "../../store/actions/settings"
 import { GameStatusType } from "../../store/reducers/gameStatus"
+import InfoButton from "./buttons/InfoButton"
 
 type Props = {
   gotoNextLevel: () => void
@@ -11,7 +12,7 @@ type Props = {
 const TopBarButtons = ({ gotoNextLevel }: Props) => {
   const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
-  const canSolve = solutions?.length > 0
+  const canSolve = solutions?.length > 0 && status !== "IS_SOLVED"
   const canGoToNext = status === "IS_SOLVED"
   const dispatch = useDispatch<AppDispatch>()
 
@@ -50,6 +51,7 @@ const TopBarButtons = ({ gotoNextLevel }: Props) => {
           >
               +
           </button>
+          <InfoButton />
         </>
       )}
       { canGoToNext && <button onClick={gotoNextLevel} className="button-small">next</button> }

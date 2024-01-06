@@ -1,14 +1,13 @@
-import { useEffect, useRef } from "react"
+import { PropsWithChildren, useEffect, useRef } from "react"
 import "./modal.scss"
 import ReactDOM, { createPortal } from "react-dom"
 
-type Props = {
+type Props = PropsWithChildren<{
   onProceed?: () => void
   onClose?: () => void
-  children?: React.ReactNode
   before?: React.ReactNode
   footer?: React.ReactNode
-}
+}>
 
 const Modal = ({
   onClose,

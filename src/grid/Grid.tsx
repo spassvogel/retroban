@@ -22,13 +22,12 @@ const Grid = () => {
     <div className="grid" ref={ref} tabIndex={0}>
       <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg">
         <g className="grid-zoombox" style={{ transform: zoomBoxTransform}}>
-        {staticTiles.map((tt, i) => (
-          <Tile type={tt} index={i} tileSize={tileSize} key={i}/>
+          {staticTiles.map((tt, i) => (
+            <Tile type={tt} index={i} tileSize={tileSize} key={i} />
           ))}
-        <ObjectsLayer tileSize={tileSize}/>
-        <ShadowLayer tileSize={tileSize}/>
-
-          </g>
+          <ObjectsLayer tileSize={tileSize} />
+          <ShadowLayer tileSize={tileSize} />
+        </g>
       </svg>
     </div>
   )
