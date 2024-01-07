@@ -79,13 +79,18 @@ button:not(disabled)button:focus-visible {
 html.theme-karmatha {
   background-color: transparent !important;
   color-scheme: normal;
+  color: #ffffff;
 }
 
 .theme-karmatha body {
   min-height: inherit;
 }
 
-.theme-karmatha  button {
+.theme-karmatha button {
   background-color: #e6e6e6;
+}
+
+.fullscreen {
+  overflow: hidden;
 }
 

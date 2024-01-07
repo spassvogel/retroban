@@ -41,6 +41,10 @@
       background-color: hsl(0, 0%, 96%);
     }
 
+    @at-root .theme-karmatha & {
+      background-color: #242424;
+    }
+
     > * {
       // place for the scrollbar
       padding-right: 0.8rem;

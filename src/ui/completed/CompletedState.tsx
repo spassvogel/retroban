@@ -45,7 +45,7 @@ const CompledState = ({ gotoNextLevel, completeLevel }: Props) => {
       setDismissed(true)
     }
     return () => clearTimeout(timeout)
-  }, [status, time])
+  }, [completeLevel, status, time])
 
   if (status !== GameStatus.IS_SOLVED) {
     return null

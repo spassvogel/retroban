@@ -82,6 +82,20 @@ const App = ({ gameData }: Props) => {
     window.parent.postMessage({ levelCount: levels.length}, "*")
   }, [levels.length])
 
+  useEffect(() => {
+    const listener = (e: MessageEvent) => {
+      if (e.data.fullscreen === true) {
+        document.documentElement.classList.add('fullscreen')
+      } if (e.data.fullscreen === false) {
+        document.documentElement.classList.remove('fullscreen')
+      }
+    }
+    window.addEventListener("message", listener)
+    return () => {
+      window.removeEventListener("message", listener)
+    }
+  }, [])
+
   if (selectedLevel && store && persistor) {
     return (
       <Provider store={store}>

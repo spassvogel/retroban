@@ -16,7 +16,6 @@ const DebugRow = () => {
   const printSolution = () => {
     console.log(actions)
   }
-
   if (import.meta.env.PROD) {
     return null
   }
