@@ -14,8 +14,14 @@
       & {
         background-color: transparent;
       }
-      #root {
+
+      /** This is because we cant select previous siblings */
+      body > div {
         filter: blur(4px);
+      }
+
+      body div:last-of-type, .modal-backdrop {
+        filter: none;
       }
     }
   }
