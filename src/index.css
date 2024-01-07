@@ -55,6 +55,7 @@ button:not(disabled)button:hover {
 
 button.button-small {
   padding: 0.3rem .6rem;
+  height: 2rem;
 }
 
 button:not(disabled)button:focus,
@@ -80,8 +81,11 @@ html.theme-karmatha {
   color-scheme: normal;
 }
 
-.theme-karmatha {
-  button {
-    background-color: #e6e6e6;
-  }
+.theme-karmatha body {
+  min-height: inherit;
 }
+
+.theme-karmatha  button {
+  background-color: #e6e6e6;
+}
+
