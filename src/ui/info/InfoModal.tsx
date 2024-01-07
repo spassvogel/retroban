@@ -46,7 +46,7 @@ const InfoModal = ({ onClose }: Props) => {
         </div>
         <h3>Tips</h3>
         <p>
-          Plan your moves in advance. Take a moment to observe the entire puzzle and plan your strategy. Avoid potential bottlenects where a box might get stuck against a wall or corner.
+          Plan your moves in advance. Take a moment to observe the entire puzzle and plan your strategy. Avoid potential bottlenecks where a box might get stuck against a wall or corner.
           If you find yourself stuck or in a seemingly unwinnable situation, don't hesitate to use the 'undo' feature or restart the level. There is also the 'Solve' button, but use this as a last resort!
         </p>
         <p>
