@@ -1,8 +1,9 @@
-import { Provider } from "react-redux"
+import { Provider, useSelector } from "react-redux"
 import Modal from "../modal/Modal"
 import DemoGame from "./DemoGame"
 import { useEffect, useState } from "react"
-import { type DemoStore, configureDemoStore } from "../../store/store"
+import { type DemoStore, configureDemoStore, SokobanStoreState } from "../../store/store"
+import { type PuzzleInfoState } from "../../store/reducers/puzzleInfo"
 import { BrowserView, MobileView } from "react-device-detect"
 import useKeyPress from "../../hooks/useKeyPress"
 
@@ -13,7 +14,7 @@ type Props = {
 }
 
 const InfoModal = ({ onClose }: Props) => {
-
+  const puzzleInfo = useSelector<SokobanStoreState, PuzzleInfoState>(state => state.puzzleInfo)
   const [store, setStore] = useState<DemoStore>()
   useKeyPress('Escape', onClose)
 
@@ -51,6 +52,22 @@ const InfoModal = ({ onClose }: Props) => {
           By planning your moves in advance, you'll develop a better understanding of the puzzle dynamics and improve your problem-solving skills in Sokoban. \
           As you gain experience, you'll become more adept at quickly assessing puzzles and devising efficient solutions.
         </p>
+        <h3>About this level</h3>
+        <h4>{puzzleInfo.name}</h4>
+        <p>{puzzleInfo.source}</p>
+        <div>
+          <a href={puzzleInfo.sourceURL} target='_blank' rel="noreferrer">
+            {puzzleInfo.sourceURL}
+          </a>
+        </div>
+        { puzzleInfo.author && (
+          <div>
+            By 
+            <a href={`mailto:${puzzleInfo.authorEmail}`}>
+              {` ${puzzleInfo.author}`}
+            </a>
+          </div>
+        )}
       </section>
     </Modal>
   )

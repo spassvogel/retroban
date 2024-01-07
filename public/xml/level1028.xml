@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="11" created="2023-06-01T22:58:42.686Z" name="" level="1" source="Level 4 A.K.K. Informatika - These levels were created by Péter Asztalos, Budapest, Hungary" sourceURL="http://m-forum.hu/sokoban.php" author="Péter Asztalos" authorEmail="m-forum@m-forum.hu" >
+<puzzle type="Sokoban" width="11" created="2023-06-01T22:58:42.686Z" name="Level 4 A.K.K. Informatika" level="1" source="These levels were created by Péter Asztalos, Budapest, Hungary" sourceURL="http://m-forum.hu/sokoban.php" author="Péter Asztalos" authorEmail="m-forum@m-forum.hu" >
   <tiles>
     <static>
       <tile type="empty" />

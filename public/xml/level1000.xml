@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="7" created="2023-04-15T14:56:25.574Z" name="Push down #1" level="1" author="Jacques Duthen " authorEmail="duthen@club-internet.fr" source="'Dimitri and Yorick' levels were made by Jacques Duthen, who also made the Sokoban font. He suggests that the levels are best for kids ages 4-9." sourceURL="https://www.sokobanonline.com/play/web-archive/jacques-duthen/dimitri-and-yorick" >
+<puzzle type="Sokoban" width="7" created="2023-04-15T14:56:25.574Z" name="Push down #1" level="1" author="Jacques Duthen" authorEmail="duthen@club-internet.fr" source="'Dimitri and Yorick' levels were made by Jacques Duthen, who also made the Sokoban font. He suggests that the levels are best for kids ages 4-9." sourceURL="https://www.sokobanonline.com/play/web-archive/jacques-duthen/dimitri-and-yorick" >
  <tiles>
    <static>
      <tile type="wall" />

@@ -1,4 +1,4 @@
-<puzzle type="Sokoban" width="10" created="2023-05-24T15:28:07.407Z" name="" level="1" source="AC easy Warming Up - AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
+<puzzle type="Sokoban" width="10" created="2023-05-24T15:28:07.407Z" name="AC easy Warming Up" level="1" source="AC Easy collection by Andrej Cerjak" sourceURL="https://www.sourcecode.se/sokoban/levels" author="Andrej Cerjak" authorEmail="ACSokoban@Yandex.com" >
  <tiles>
    <static>
      <tile type="wall" />
