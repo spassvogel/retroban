@@ -69,12 +69,18 @@ const App = ({ gameData }: Props) => {
   }, [selectedLevel])
 
   useEffect(() => {
+    // add theme className to root element if provided by querystring
     const urlParams = new URLSearchParams(window.location.search)
     const theme = urlParams.get('theme')
     if (theme) {
       document.documentElement.classList.add(`theme-${theme}`)
     }
   }, [])
+
+  useEffect(() => {
+    // Update the parent (which could be karmatha.nl) about the amount of levels
+    window.parent.postMessage({ levelCount: levels.length}, "*")
+  }, [levels.length])
 
   if (selectedLevel && store && persistor) {
     return (
