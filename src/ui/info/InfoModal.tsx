@@ -69,6 +69,9 @@ const InfoModal = ({ onClose }: Props) => {
             </a>
           </div>
         )}
+        <div onClick={onClose} className="info-modal-body__button-close">
+          close window
+        </div>
       </section>
     </Modal>
   )

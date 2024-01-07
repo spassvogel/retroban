@@ -17,4 +17,11 @@
   .demo-game {
     max-width: 16rem;
   }
+
+  &__button-close {
+    margin-top: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
