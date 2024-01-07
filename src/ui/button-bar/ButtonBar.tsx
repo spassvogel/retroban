@@ -43,7 +43,7 @@ const ButtonBar = () => {
       <DebugRow />
       <div className="button-bar__row">
         <Button
-          className="button-bar__bigger-button"
+          className="button-bar__secondary-button"
           disabled={!canUndo}
           onClick={undoAction}
         >
@@ -53,7 +53,7 @@ const ButtonBar = () => {
         <Button onClick={goUpAction}>↑</Button>
 
         <Button
-          className="button-bar__bigger-button"
+          className="button-bar__secondary-button"
           onClick={resetAction}
         >
           ↻ <span>Reset</span>

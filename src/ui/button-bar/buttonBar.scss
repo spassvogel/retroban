@@ -4,13 +4,12 @@
 
   &__row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 0.25rem;
     margin-top: 0.25rem;
 
-    &:first-child {
-      justify-content: space-between;
-    }
+
 
     &--debug {
       .button {
@@ -24,9 +23,14 @@
         min-width: 4rem;
       }
     }
+
+    &:last-child {
+      justify-content: center;
+    }
+
   }
 
-  &__bigger-button {
+  &__secondary-button {
     width: 7rem;
 
     @media only screen and (max-width: 370px) {

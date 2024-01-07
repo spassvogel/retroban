@@ -1,7 +1,7 @@
 .modal {
 
   &-backdrop {
-    background: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     inset: 0;
     position: absolute;
     display: flex;
@@ -9,7 +9,16 @@
     align-items: center;
     padding: 1.25rem;
     flex-direction: column;
-  }  
+
+    @at-root .theme-karmatha {
+      & {
+        background-color: transparent;
+      }
+      #root {
+        filter: blur(4px);
+      }
+    }
+  }
 
   &-body {
     width: 100%;
@@ -45,5 +54,6 @@
     justify-content: flex-end;
     gap: 0.5rem;
   }
+
 }
 
