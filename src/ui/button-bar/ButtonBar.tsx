@@ -3,10 +3,10 @@ import useGameActions from "../../hooks/useGameActions"
 import useKeyPress from "../../hooks/useKeyPress"
 import { GameStatus, GameStatusType } from "../../store/reducers/gameStatus"
 import { SokobanStoreState } from "../../store/store"
-import Button from "./Button"
+import Button from "../button/Button"
+import DebugRow from "./DebugRow"
 
 import "./buttonBar.scss"
-import DebugRow from "./DebugRow"
 
 const ButtonBar = () => {
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
@@ -47,7 +47,7 @@ const ButtonBar = () => {
           disabled={!canUndo}
           onClick={undoAction}
         >
-          ⎌ <span>Undo</span>
+          ↩ <span>Undo</span>
         </Button>
 
         <Button onClick={goUpAction}>↑</Button>

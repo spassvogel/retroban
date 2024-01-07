@@ -1,6 +1,6 @@
-import Button from "./Button"
-import { deleteLevel } from "../../store/indexedDB"
 import { useSelector } from "react-redux"
+import Button from "../button/Button"
+import { deleteLevel } from "../../store/indexedDB"
 import { SokobanStoreState } from "../../store/store"
 
 const DebugRow = () => {
