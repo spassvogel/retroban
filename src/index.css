@@ -74,3 +74,14 @@ button:not(disabled)button:focus-visible {
     background-color: #e6e6e6;
   }
 }
+
+html.theme-karmatha {
+  background-color: transparent !important;
+  color-scheme: normal;
+}
+
+.theme-karmatha {
+  button {
+    background-color: #e6e6e6;
+  }
+}

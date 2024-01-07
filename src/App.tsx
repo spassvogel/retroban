@@ -68,6 +68,16 @@ const App = ({ gameData }: Props) => {
     localStorage.setItem('currentLevel', selectedLevel)
   }, [selectedLevel])
 
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search)
+    const theme = urlParams.get('theme')
+    console.log(`theme`, theme)
+    console.log(`urlParams`, urlParams)
+    if (theme) {
+      document.documentElement.classList.add(`theme-${theme}`)
+    }
+  }, [])
+
   if (selectedLevel && store && persistor) {
     return (
       <Provider store={store}>
