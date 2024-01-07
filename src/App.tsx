@@ -71,8 +71,6 @@ const App = ({ gameData }: Props) => {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search)
     const theme = urlParams.get('theme')
-    console.log(`theme`, theme)
-    console.log(`urlParams`, urlParams)
     if (theme) {
       document.documentElement.classList.add(`theme-${theme}`)
     }
