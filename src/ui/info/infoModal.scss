@@ -1,9 +1,20 @@
 .info-modal-body {
+  max-width: 46rem;
+
   h2 {
     text-align: center;
   }
 
   .modal-content {
     text-align: left;
+  }
+
+  &__demo-game-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .demo-game {
+    max-width: 16rem;
   }
 }

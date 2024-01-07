@@ -57,7 +57,7 @@ button.button-small {
   padding: 0.3rem .6rem;
 }
 
-button:not(disabled)button:focus[],
+button:not(disabled)button:focus,
 button:not(disabled)button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }

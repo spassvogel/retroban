@@ -17,6 +17,13 @@
         color: red;
       }
     }
+
+    &:not(.button-bar__row--debug) {
+      .button {
+        height: 4rem;
+        min-width: 4rem;
+      }
+    }
   }
 
   &__bigger-button {

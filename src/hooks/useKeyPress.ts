@@ -1,4 +1,4 @@
-import { DependencyList, useEffect } from 'react';
+import { useEffect } from 'react';
 /**
  * useKeyPress
  * @param {string} key - the name of the key to respond to, compared against event.key

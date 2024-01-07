@@ -8,7 +8,9 @@ import InfoButton from "./buttons/InfoButton"
 
 type Props = {
   gotoNextLevel: () => void
+  selectedLevel: string
 }
+
 const TopBarButtons = ({ gotoNextLevel }: Props) => {
   const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
@@ -30,8 +32,6 @@ const TopBarButtons = ({ gotoNextLevel }: Props) => {
   const handleZoomOut = () => {
     dispatch(zoomOut())
   }
-
-
 
   return (
     <>

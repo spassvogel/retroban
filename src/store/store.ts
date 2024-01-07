@@ -6,9 +6,8 @@ import settings from './reducers/settings'
 import gamestatusMiddleware from './middlewares/gameStatusMiddleware'
 import undoMiddleware from './middlewares/undoMiddleware'
 import userAction from './reducers/userAction'
-import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE, persistReducer, persistStore } from 'redux-persist'
-
 import puzzleInfo from './reducers/puzzleInfo'
+import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE, persistReducer, persistStore } from 'redux-persist'
 import { getPersistConfig } from './indexedDB'
 
 const configureStoreAndPersistor = (path: string) => {

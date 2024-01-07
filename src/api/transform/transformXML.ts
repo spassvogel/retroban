@@ -1,9 +1,14 @@
 import xmlJs from 'xml-js'
-import { ObjectType, TilesStoreState, TileType } from '../../store/reducers/tiles'
-import { SokobanStoreState } from '../../store/store'
+import { ObjectType, type TilesStoreState, TileType } from '../../store/reducers/tiles'
+import { type SokobanStoreState } from '../../store/store'
 
 type Metadata = {
   name: string
+  level: number
+  source: string
+  sourceURL: string
+  author: string
+  authorEmail: string
 }
 
 type Solutions = {
@@ -15,11 +20,22 @@ export type GameDataSokoban = Pick<SokobanStoreState, 'tiles'> & Metadata & Solu
 const transformSokobanXML = (xmlData: xmlJs.ElementCompact): GameDataSokoban => {
   const tiles = transformTiles(xmlData)
   const name = `${xmlData.puzzle._attributes?.name ?? "unnamed"}`
+  const level = +xmlData.puzzle._attributes?.level
+  const source = `${xmlData.puzzle._attributes?.source ?? "uknown"}`
+  const sourceURL = xmlData.puzzle._attributes?.sourceURL
+  const author = `${xmlData.puzzle._attributes?.author ?? "unknown"}`
+  const authorEmail = xmlData.puzzle._attributes?.authorEmail
   const solutions = transformSolutions(xmlData)
+  
   return {
-    name,
     tiles,
-    solutions
+    solutions,
+    name,
+    level,
+    source,
+    sourceURL,
+    author,
+    authorEmail
   }
 }
 

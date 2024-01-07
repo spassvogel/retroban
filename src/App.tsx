@@ -18,7 +18,6 @@ export const LEVEL_PREVIEW = 'preview'
 
 
 const App = ({ gameData }: Props) => {
-  console.log(gameData)
   const defaultSelectedLevel = gameData ? LEVEL_PREVIEW : localStorage.getItem('currentLevel') ?? levelJSON.levels[0].path
   const [selectedLevel, setSelectedLevel] = useState<string>(defaultSelectedLevel)
 
@@ -75,7 +74,7 @@ const App = ({ gameData }: Props) => {
         <PersistGate loading={<div>loading</div>} persistor={persistor}>
           <div className="top-bar">
             {!gameData && <LevelSelector selectedLevel={selectedLevel} onLevelChange={handleLevelChange} levels={levels} /> }
-            <TopBarButtons gotoNextLevel={gotoNextLevel}/>
+            <TopBarButtons gotoNextLevel={gotoNextLevel} selectedLevel={selectedLevel} />
           </div>
           <Game
             gameData={gameData}
