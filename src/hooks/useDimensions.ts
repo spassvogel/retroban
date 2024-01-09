@@ -64,6 +64,8 @@ export const useDimensions = () => {
   const centerVertical = Math.max(Math.ceil((maxHorizontalTilesInViewport - maxVerticalTilesInViewport) / 2), 0)
   const centerHorizontal = Math.max(Math.ceil((maxVerticalTilesInViewport - maxHorizontalTilesInViewport) / 2), 0)
 
+
+  // todo: a bug at persist:xml/level1440.xml
   return {
     zoomedIn,
     canZoomIn,

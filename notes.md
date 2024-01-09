@@ -9,3 +9,4 @@
 - [ ] solver: https://healeycodes.com/building-and-solving-sokoban
 - [x] directly mark level as completed
 - [ ] more easy levels
+- [ ] fix zoom bug at persist:xml/level1440.xml
