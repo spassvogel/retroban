@@ -83,6 +83,7 @@ const App = ({ gameData }: Props) => {
   }, [levels.length])
 
   useEffect(() => {
+    // When a parent (which could be karmatha.nl) sends a message requesting fullscreen
     const listener = (e: MessageEvent) => {
       if (e.data.fullscreen === true) {
         document.documentElement.classList.add('fullscreen')
