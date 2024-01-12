@@ -20,6 +20,7 @@ const CompledState = ({ gotoNextLevel, completeLevel }: Props) => {
   const status = useSelector<SokobanStoreState, GameStatusType>(state => state.gameStatus.status)
   const moves = useSelector<SokobanStoreState, number>(state => state.userAction.actions.length)
   const time = useSelector<SokobanStoreState, number>(state => state.userAction.time ?? 0)
+  const solutions = useSelector<SokobanStoreState, string[]>((store) => store.userAction.solutions)
 
   const handleClose = () => {
     setDismissed(true)
@@ -51,6 +52,7 @@ const CompledState = ({ gotoNextLevel, completeLevel }: Props) => {
     return null
   }
 
+  const par = solutions[0]?.length ?? '?'
 
   return (
     <div className='completed-state'>
@@ -68,7 +70,7 @@ const CompledState = ({ gotoNextLevel, completeLevel }: Props) => {
           <h2>Well done!</h2>
           <section>
             <div>
-              {`You completed this level in ${moves} moves.`}
+              {`You completed this level in ${moves} moves. Par: ${par}.`}
             </div>
             <div className="completed-state__modal-subtext">
               Play the next level or replay your solution.
