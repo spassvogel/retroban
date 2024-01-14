@@ -43,12 +43,12 @@ const table = levelJson.levels
         author,
         authorEmail
       } = xml.puzzle._attributes
-      
+
       let solution
       if (xml.puzzle.solutions?.solution?._text) {
         solution = xml.puzzle.solutions?.solution?._text
       }
-      
+
       return {
         name: name.substring(0, (1 / 7) * availableChars),
         path,
@@ -66,7 +66,10 @@ const table = levelJson.levels
       console.error(e)
     }
   })
-  
+
+console.log(`# easy levels ${levelJson.levels.filter((l => l.level === 1)).length}`)
+console.log(`# medium levels ${levelJson.levels.filter((l => l.level === 2)).length}`)
+console.log(`# hard levels ${levelJson.levels.filter((l => l.level === 3)).length}`)
 console.table(table, columns)
 
 
@@ -98,11 +101,11 @@ function parseArgs() {
     let key = args[i];
     if (!/^--([a-z]+-)*[a-z]+$/g.test(key))
       throw new Error('Invalid argument name');
-      
+
     key = key
     .replace(/^--/, '')
     .replace(/-([a-z])/g, g => g[1].toUpperCase());
-    
+
     argMap[key] = args[i + 1];
   }
   return argMap
