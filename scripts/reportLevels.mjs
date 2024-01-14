@@ -67,9 +67,15 @@ const table = levelJson.levels
     }
   })
 
+  // summary
 console.log(`# easy levels ${levelJson.levels.filter((l => l.level === 1)).length}`)
 console.log(`# medium levels ${levelJson.levels.filter((l => l.level === 2)).length}`)
 console.log(`# hard levels ${levelJson.levels.filter((l => l.level === 3)).length}`)
+const lvlsWithoutSolution = table.filter(l => !l.solution).map(l => `- ${l.path}\n`)
+if (lvlsWithoutSolution.length) {
+  console.log(`\n Levels without solution (${lvlsWithoutSolution.length}):\n ${lvlsWithoutSolution}`)
+}
+
 console.table(table, columns)
 
 
