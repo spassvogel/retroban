@@ -1,0 +1,195 @@
+
+<puzzle type="Sokoban" width="14" created="2024-01-14T12:59:02.691Z" name="Level 1" level="3" source="XSokoban -  There are 90 tricky levels to solve, and xsokoban lets you compete with hundreds of skilled sokoban players from all over the world" sourceURL=" http://www.cs.cornell.edu/andru/xsokoban.html" author="Andrew Myers" authorEmail="andru@cs.cornell.edu" > 
+  <tiles> 
+    <static> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="empty" /> 
+    </static> 
+    <objects> 
+      <object tileIndex="138" type="player" /> 
+       <object tileIndex="31" type="box" /> 
+       <object tileIndex="33" type="box" /> 
+       <object tileIndex="34" type="box" /> 
+       <object tileIndex="36" type="box" /> 
+       <object tileIndex="49" type="box" /> 
+       <object tileIndex="62" type="box" /> 
+       <object tileIndex="63" type="box" /> 
+       <object tileIndex="78" type="box" /> 
+       <object tileIndex="89" type="box" /> 
+       <object tileIndex="104" type="box" /> 
+       <object tileIndex="108" type="box" /> 
+       <object tileIndex="116" type="box" /> 
+       <object tileIndex="120" type="box" /> 
+       <object tileIndex="132" type="box" /> 
+    </objects> 
+  </tiles> 
+  <solutions> 
+    <solution>ullluuuLuuLuullllldRddrrdrdLLrddLLulDDurrruuuulluuurrrrddrddrdddLLLLLLulDrrruuuulluuurrDurrddrddLLdlddrUUddrrruuuluuluulllldddrrDDrdLLLLdlUUUddrrrrrdrrruuullLrruuluulllldddrrDDrdLLLLdlUUdrrrrrdrrrrddllllUUUUddrrruuullLrruuluulllldddrrDDrdLLLLdlUrrrruuulluuurrdDDDDDrdLLLLulDDurrrrruuurruulLruulldDDDDDrdLLLLulDrrrruuuuuuLrdrDurrddlLulDDrdLLLLrrrruuuuruLulDDDDDrdLLLrrruurruLLulDDDrdLLruuuuuullldRRurDDDDDDrdLLLLrrrruuuruuuurDDDllddddrrruuuLLLulDDDrdLLLrrrrrrrruLdlllluuurrrdDrdLLLLLL</solution> 
+  </solutions> 
+</puzzle>

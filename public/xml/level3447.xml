@@ -1,0 +1,281 @@
+<puzzle type="Sokoban" width="21" created="2024-01-14T12:59:02.858Z" name="Level 25" level="3" source="XSokoban -  There are 90 tricky levels to solve, and xsokoban lets you compete with hundreds of skilled sokoban players from all over the world" sourceURL=" http://www.cs.cornell.edu/andru/xsokoban.html" author="Andrew Myers" authorEmail="andru@cs.cornell.edu" > 
+  <tiles> 
+    <static> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="dropzone" /> 
+      <tile type="dropzone" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="floor" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="wall" /> 
+      <tile type="empty" /> 
+    </static> 
+    <objects> 
+      <object tileIndex="39" type="player" /> 
+       <object tileIndex="46" type="box" /> 
+       <object tileIndex="49" type="box" /> 
+       <object tileIndex="57" type="box" /> 
+       <object tileIndex="65" type="box" /> 
+       <object tileIndex="68" type="box" /> 
+       <object tileIndex="78" type="box" /> 
+       <object tileIndex="79" type="box" /> 
+       <object tileIndex="98" type="box" /> 
+       <object tileIndex="100" type="box" /> 
+       <object tileIndex="109" type="box" /> 
+       <object tileIndex="128" type="box" /> 
+       <object tileIndex="149" type="box" /> 
+       <object tileIndex="160" type="box" /> 
+       <object tileIndex="161" type="box" /> 
+       <object tileIndex="163" type="box" /> 
+       <object tileIndex="192" type="box" /> 
+       <object tileIndex="202" type="box" /> 
+    </objects> 
+  </tiles> 
+  <solutions> 
+    <solution>dddlLULLLLdlUruulldRlllLulldRRRRllllLLulldRRRRlllDDuurrrurrdrrurrddrrrrrdrrdddlLrruuullullllluulldllulldlllddlddRDDuuluuruurrrurrdrrurrddrrrrrdrrdddllulllDurrrdrruuullullllluurDDuullldRRllllulldRRRRlllllllddlddrdrruUUUddddlluluuruurRRldddddlluRdrUllluurDldRddlddrUUUUdddRRRRRRRdrUUluRddrrdrruLLLLdlUUUruLLLulDrrrdddllllllluuuluuruurrrurrdrrurrddrrrrrdrrdddllullldDuurrrdrruuullullllluulldllulldlllddlddrdddrrrrrrrrrrdrruLLLLdlUUUruLdlUruLdlUrrddddllllllluuuluurDDDDldRRRRRRRRdrruLdlUUUruLLLrrdddllllllluurruUUUddddllddrrrrrrrrrrruuurrrdrruuullullllluulldllulldLLulDDDDDDDldRRRRRRRRdrruLdlUUUruLLrdddllllllluurruuuuururrdLLLLulDDDDDDDldRRRRRRRRdrruLdlUUUruLdlUruLLrrddddllllllluurruLdlUluurDDDDldRRRRRRRRdrruLdlUUUruLdlUruLrddddllllllluurruuuuurrrrrurrdLLLLLLLLulDDDDDDDldRRRRRRRRdrruLdlUUUruLdlUrdddllllllluurruuurUluRurrdLLLLulDDDDDDDldRRRRRRRRdrruLdlUUUruLrdddrrruuurrrddlULulDDurrrrruuullulllllullllllllldddddddrrrrrrrrrrdrruLLLdlUUUddrrruurrrrruuullullDDDuuurrdrrdddlllLulDDuruuuulllullllllllldddddddrrrrrrrrrrdrruLLLLdlUUruLrddrrruuruuuurrdLulDDDuurrrrdddlllLulDDuruuuulllullllllllldddddddrrrrrrrrrrdrruLLLdlUUdrrruurrruLrdrruuulllldDrdLulDDuruuuulllullllllllldddddddrrrrrrrrrrdrruLLLdlUrrruuruuuuuurDDrdLulDDDrdLulDDuruuuulllullllllllldddddddrrrrrrrrrrdrruLLLLdlUUUUdddrrrruuruuuullluurDldRRRurDrdLulDDDrdLulDDuruuuullulllllllllldddddddrrrrrrrrrrdrruLLLLdlUUUddrrrruuruuuruuurDDlldddrrdrruuulLLulDDDrdLulDDuruuuullulllllllllldddddddrrrrrrrrrrdrruLLLLdlUUdrrrruuruuuulllddrUluRRRurrdLLLLdlUruLLLLLLLLLulDDDDDDDldRRRRRRRRdrruLdlU</solution> 
+  </solutions> 
+</puzzle>
