@@ -108,7 +108,8 @@ const Converter = () => {
     <div className="converter">
       <div>
         <label>Input SOK level format with solutions.
-        <br/>Make sure the area where the player is is fully walled in.</label>
+        <br/>Make sure the area where the player is is fully walled in.
+        <br/> The converter will create a number of XML files and download them</label>
         <textarea name="" id="" rows={10} value={input} onChange={(e) => handleInputChange(e.target.value)}></textarea>
         <div className="properties">
           <div className="form-control">
@@ -159,7 +160,7 @@ export default Converter
 function findAvailableLevelNumber(unallowedLevelNumbers: number[], level: number) {
   // eslint-disable-next-line no-constant-condition
   while (true) {
-    const candidate = Math.floor(Math.random() * (level * 1000) + (level * 1000))
+    const candidate = Math.floor(Math.random() * 1000 + (level * 1000))
     if (!unallowedLevelNumbers.includes(candidate)) {
       return candidate
     }
